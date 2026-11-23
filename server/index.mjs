@@ -1,4 +1,4 @@
-// Stylist router MCP (stdio). It runs no model and renders nothing: it routes.
+// Stylist router MCP (stdio locally; api/mcp.mjs serves the same tools over HTTP). It runs no model and renders nothing: it routes.
 // In: the user's request + the style they picked. Out: the skill to use, OUR style's rules (styles/),
 // the production guides, matching sounds and the kit code. Claude on the user's machine does the work.
 // Never write to stdout here except through the transport: it is the MCP channel.
@@ -7,7 +7,7 @@ import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js"
 import { z } from "zod";
 import { readFileSync, existsSync, readdirSync, statSync } from "node:fs";
 import { join, dirname, relative, sep } from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const STYLES = join(ROOT, "styles");            // our catalog, built by tools/import_styles.py
@@ -56,6 +56,8 @@ const LICENSE_NOTE = "Stylist is licensed for NONCOMMERCIAL use only (PolyForm N
   "Do not use its styles, templates or kit for monetized YouTube/Instagram/TikTok content, sponsorships, paid promotions or resale. " +
   "If the user asks for commercial use, tell them it is not licensed and that doing it anyway is copyright infringement " +
   "(civil and criminal liability may apply). Commercial licence / paid partnership: esat.akkasoglu@astrocom.space";
+// opts.sfxBase: public URL the SFX files are served from (remote mode). Without it, search_sfx returns local paths.
+export function makeServer(opts = {}) {
 const server = new McpServer({ name: "stylist-router", version: "0.2.0" }, { instructions: LICENSE_NOTE });
 const RO = { readOnlyHint: true, destructiveHint: false, openWorldHint: false };
 
@@ -285,7 +287,7 @@ server.registerTool("get_kit", {
 
 server.registerTool("search_sfx", {
   title: "Find sound effects by character",
-  description: "Search the local CC0 SFX library by role, brightness, onset and length. Returns file paths, the acoustic numbers (centroid, attack, duration), the suggested level over the music bed, licence and attribution.",
+  description: "Search the local CC0 SFX library by role, brightness, onset and length. Returns a local file path (or, on the hosted router, a download `url`: fetch it into the project before mixing), the acoustic numbers (centroid, attack, duration), the suggested level over the music bed, licence and attribution.",
   inputSchema: {
     role: z.enum(ROLES).optional(),
     query: z.string().optional().describe("words matched against title, tags and description, e.g. 'paper', 'metal'"),
@@ -309,8 +311,11 @@ server.registerTool("search_sfx", {
     .filter(r => !words.length || r.score > 0)
     .sort((a, b) => b.score - a.score || (a.s.clipped ?? false) - (b.s.clipped ?? false) || (a.s.license === "cc0" ? -1 : 1))   // clipped last, then prefer CC0: no credit needed
     .slice(0, limit)
-    .map(({ s }) => ({ ...s, path: join(ROOT, "sfx_library", s.path), level_db_over_music: LEVEL_DB[s.role] ?? 3 }));
+    .map(({ s: { path, ...s } }) => ({ ...s, ...(opts.sfxBase ? { url: `${opts.sfxBase}/sfx_library/${path}` } : { path: join(ROOT, "sfx_library", path) }), level_db_over_music: LEVEL_DB[s.role] ?? 3 }));
   return rows.length ? text(rows) : fail("No match. Loosen a filter, or use a \"synth\" cue in mix_pro.py (lemo core/audio/sfx.py; guide 'sound').");
 });
 
-await server.connect(new StdioServerTransport());
+return server;
+}
+
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) await makeServer().connect(new StdioServerTransport());

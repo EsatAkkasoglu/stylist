@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [{ "source": "/mcp", "destination": "/api/mcp" }],
+  "functions": { "api/mcp.mjs": { "includeFiles": "{styles,guides,kit,sfx_library}/**/*.{json,md,py,js,mjs,sh,txt}", "maxDuration": 30 } },
+  "headers": [{ "source": "/(.*)", "headers": [
+    { "key": "X-Content-Type-Options", "value": "nosniff" },
+    { "key": "Referrer-Policy", "value": "no-referrer" },
+    { "key": "X-Frame-Options", "value": "DENY" }
+  ] }]
+}

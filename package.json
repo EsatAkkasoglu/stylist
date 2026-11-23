@@ -4,7 +4,7 @@
   "main": "server/index.mjs",
   "scripts": {
     "start": "node server/index.mjs",
-    "test": "node test/roundtrip.mjs && node test/test_kit.mjs && uv run --no-project python test/test_sfx_library.py && uv run --no-project python test/test_kit.py",
+    "test": "node test/roundtrip.mjs && node test/http.mjs && node test/test_kit.mjs && uv run --no-project python test/test_sfx_library.py && uv run --no-project python test/test_kit.py",
     "import-styles": "uv run --no-project python tools/import_styles.py",
     "fetch-sfx": "uv run --no-project python tools/sfx_library.py fetch"
   },

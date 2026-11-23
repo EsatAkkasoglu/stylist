@@ -15,4 +15,5 @@ jobs:
         with: { node-version: 22, cache: npm }
       - run: npm ci
       - run: node test/roundtrip.mjs
+      - run: node test/http.mjs
       - run: node test/test_kit.mjs
