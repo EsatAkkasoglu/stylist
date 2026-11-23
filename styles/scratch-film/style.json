@@ -1,0 +1,170 @@
+{
+ "slug": "scratch-film",
+ "num": "65",
+ "en": "Scratch Film",
+ "cn": "胶片直刻",
+ "category_en": "Film & Tape",
+ "category_cn": "胶片录像",
+ "film": "The Night Climb",
+ "film_cn": "夜里往上游",
+ "line": "A finger-long lanternfish climbs half a kilometre in the dark, hides its shadow with its own lights, and turns out to be one of countless animals rising every night.",
+ "line_cn": "一条手指长的灯笼鱼摸黑往上游半公里，用自己的光藏起影子；镜头拉远，原来每晚有无数动物和它一起升起。",
+ "uses": [
+  "Things that happen in the dark",
+  "One mark to a whole system",
+  "Small adventures told in light and shadow"
+ ],
+ "frame_sec": 39.2,
+ "dur": 52.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "scratch-film",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Film Üstü Kazıma",
+ "category_tr": "Film & Kaset",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "UI/CLICK",
+    "query": "tick"
+   }
+  ],
+  "motion": {
+   "cuts": "slide / whip pan, period grammar",
+   "rig": "editorial",
+   "move_frames": [
+    8,
+    12
+   ],
+   "ease": "accelExit",
+   "reveal": "focus",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "minimal-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "a mark cut live, the camera still",
+     "expresses": "something being made",
+     "serves": "a first line, a title, a signature, a correction"
+    },
+    {
+     "move": "one continuous log-scale pull from one mark to a whole place",
+     "expresses": "scale; \"all of this from that\"",
+     "serves": "a reveal, a system, a crowd"
+    },
+    {
+     "move": "a descent or climb past a scratched ruler",
+     "expresses": "distance, depth, time",
+     "serves": "a journey, a countdown, a timeline"
+    },
+    {
+     "move": "tracking alongside, specks streaming in parallax",
+     "expresses": "travel, effort",
+     "serves": "a climb, a chase, a commute"
+    },
+    {
+     "move": "from below into hatched light, the subject a black silhouette",
+     "expresses": "exposure, being seen",
+     "serves": "danger, a reveal, a spotlight"
+    },
+    {
+     "move": "split screen, two views on one beat",
+     "expresses": "cause and effect",
+     "serves": "action and its result, plan and outcome"
+    }
+   ],
+   "transitions": [
+    "Transitions happen inside the medium: a cut line that becomes a divider, a push into a point of light, a pull to a wide shot.",
+    "No wipes, no page turns, no white flashes."
+   ],
+   "labels": [
+    "Words belong to the drawing: a depth figure beside a scratched ruler, a title cut into the dark. No boxes, no outlines, no drop shadows.",
+    "Faces (all OFL): a heavy geometric sans filled with diagonal cuts for titles (Jost 800), a sturdy mono for numbers (IBM Plex Mono SemiBold), a marker-like Chinese face (LXGW Marker Gothic). These are references; any face with the same roles works.",
+    "Subtitles sit low left, Chinese above English, cream on the black ground, revealed left to right in about 0.3 s. Cap height ≥ 30 px for anything the viewer must read."
+   ],
+   "motion": [
+    "Everything steps on twos: 15 drawings a second at 30 fps. Each drawing reseeds the tremble.",
+    "Camera moves and characters move on the same steps; a stepped camera is part of the look, but keep it smooth in time (eased), not jerky in position.",
+    "Cuts appear progressively behind the hot point; dye sweeps in behind a brush edge; lights switch on with a short bloom.",
+    "Characters: anticipation, a flick, follow-through (2–4 drawing anticipation, big poses held 4–6 drawings)."
+   ],
+   "native_moves": [
+    {
+     "name": "Scratch-in",
+     "does": "A line or a whole character cut live behind the hot point.",
+     "fits": "a title; a first diagram line; a character being born; a correction."
+    },
+    {
+     "name": "Hatching is light",
+     "does": "A light source is a field of hatching; an uncut shape inside it is a shadow; hatching that fills the shape makes the shadow vanish.",
+     "fits": "a searchlight; being seen; switching something on."
+    },
+    {
+     "name": "One mark to a whole place",
+     "does": "A single drawn subject becomes one of thousands of glowing points in one continuous pull, each level of detail appearing only while it suits the frame.",
+     "fits": "a city's population; crowds; networks; \"you are not alone\"."
+    },
+    {
+     "name": "Lights on, one by one",
+     "does": "A row of dots each switching on with a bloom and a note.",
+     "fits": "a sequence; a count; a signal; a city at dusk."
+    },
+    {
+     "name": "A cut across the horizon",
+     "does": "The scene's key line (a horizon, a road, a timeline) cut from one edge to the other, opening and closing a film.",
+     "fits": ""
+    }
+   ]
+  },
+  "score": {
+   "genre": "minimal-pulse",
+   "pad": "vibraphone",
+   "lead": "vibraphone_bowed",
+   "sparkle": "glockenspiel",
+   "bass": "contrabass_pizz",
+   "drums": "wood",
+   "avoid": [
+    "piano",
+    "violins"
+   ],
+   "note": "hand-made: struck and bowed vibraphone, pizzicato bass, log drum",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "vibraphone_bowed",
+      "gm": 11
+     },
+     "pad": {
+      "voice": "vibraphone",
+      "gm": 11
+     },
+     "pulse": {
+      "voice": "glockenspiel",
+      "gm": 9
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {
+     "woodblock": 115
+    }
+   }
+  }
+ }
+}

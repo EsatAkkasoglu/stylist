@@ -1,0 +1,185 @@
+{
+ "slug": "stick-explainer",
+ "num": "18",
+ "en": "Stick-figure Explainer",
+ "cn": "火柴人讲解",
+ "category_en": "Sketch & Board",
+ "category_cn": "速写板书",
+ "film": "Six Hands Away",
+ "film_cn": "隔着几只手",
+ "line": "A chain of hands from you to a stranger: tested with letters in 1967, explained by rings that outgrow the Earth, closed around the globe.",
+ "line_cn": "从你到一个陌生人，一串手拉起来：1967 年用信验证，一圈圈的人算到超过地球，最后围着地球合上。",
+ "uses": [
+  "Science explainers",
+  "Networks & social ideas",
+  "Data comparisons"
+ ],
+ "frame_sec": 9.5,
+ "dur": 52.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "stick-explainer",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Çöp Adam Anlatım",
+ "category_tr": "Eskiz & Tahta",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "IMPACT/HIT",
+    "query": "hit"
+   },
+   {
+    "role": "AMBIENCE",
+    "query": "room"
+   }
+  ],
+  "motion": {
+   "cuts": "draw-on, camera reframes",
+   "rig": "editorial",
+   "move_frames": [
+    8,
+    12
+   ],
+   "ease": "softLand",
+   "reveal": "draw",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "minimal-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Locked frame",
+     "expresses": "rules being set up; reading time",
+     "serves": "a question; a demonstration; a verdict"
+    },
+    {
+     "move": "Pull back",
+     "expresses": "one case becomes many",
+     "serves": "one chain → many chains; one person → a crowd"
+    },
+    {
+     "move": "Push in + focus shift",
+     "expresses": "singling one out",
+     "serves": "\"now take just you\"; the exception"
+    },
+    {
+     "move": "Fractal pull back",
+     "expresses": "growth by a constant factor",
+     "serves": "rings ×2.5, generations, compounding"
+    },
+    {
+     "move": "Through a shape",
+     "expresses": "a jump to another place or time",
+     "serves": "diving into a head, a node, a ring"
+    },
+    {
+     "move": "Match transform",
+     "expresses": "the same thing seen anew",
+     "serves": "a line bending into an arc, a row into a ring"
+    },
+    {
+     "move": "Slow drift / push",
+     "expresses": "holding attention on data",
+     "serves": "a count, a comparison"
+    }
+   ],
+   "transitions": [
+    "Cut on a beat or move through something;",
+    "no page turns, no wipes, no zoom-blur."
+   ],
+   "labels": [
+    "One geometric sans for everything Latin (e.g. Jost, OFL): titles 600 at 84–92 px with tight tracking (−2), big numbers 600 at 44–150 px, small caps labels 500 at 20–22 px with +3 tracking. A CJK sans (e.g. Noto Sans SC, OFL, subset to the characters used) for Chinese, ≥ 34 px on screen.",
+    "Left-aligned, flush to a 124 px margin; no header bars, no centred stacks. The one exception is type inside a closed shape (a ring, a globe), which centres in it.",
+    "Hierarchy: one big statement or number, one line saying what it means, one small source line. A question can sit left and its answer right on the same baseline.",
+    "Arrival: type slides up 12–22 px while fading in over ~0.4 s, staggered by line; it leaves by fading. Big numbers slide further."
+   ],
+   "motion": [
+    "60 fps. Figures never jump: every pose change goes through damped springs (hip fast, upper arm medium, forearm slower, head loosest) so forearms arrive late and overshoot slightly. Integrate at a fixed step from a pre-roll so renders repeat exactly.",
+    "Anticipation first: dip before a jump, pull the hand back before reaching. Keep crouches shallow (≤ 0.02 of height) or the legs bow into brackets.",
+    "Pop-in: a figure grows out of the ground with a spring step (≈ 20 % overshoot), its line weight growing with it.",
+    "Clasp: on contact the clasp point rebounds once and both bodies are tugged towards each other, then settle."
+   ],
+   "native_moves": [
+    {
+     "name": "Join the hands",
+     "does": "Two people reach, clasp, and become one curve.",
+     "fits": "a friendship; a trade; a handshake deal; a contract."
+    },
+    {
+     "name": "The chain",
+     "does": "People pop up between two ends and clasp one by one, faster and faster, until the line is closed; then the accent runs end to end.",
+     "fits": "supply chains; a relay of messages; a family tree line; steps of a proof."
+    },
+    {
+     "name": "The ripple",
+     "does": "One figure changes (dips, jumps, turns accent); a pulse runs along the ground line and each person reacts as it reaches them; finally all turn to the source.",
+     "fits": "a rumour; a bank run; a traffic jam; a market panic."
+    },
+    {
+     "name": "Let go",
+     "does": "The reverse of a clasp: a hand drops, the arm swings back, what was carried falls and greys.",
+     "fits": "a broken link; a lost message; a failed handover."
+    },
+    {
+     "name": "Rings",
+     "does": "People stand on a circle, feet in, heads out, and close it hand in hand; rings nest, each a constant factor larger, under a fractal pull-back.",
+     "fits": "compounding; generations; viral spread; orders of magnitude."
+    },
+    {
+     "name": "The bar chart of people",
+     "does": "Chains whose lengths are the data; a fractional value is a last link drawn shorter.",
+     "fits": "degrees of separation; queue lengths; steps in a process; ranking."
+    },
+    {
+     "name": "The whole shape",
+     "does": "A line bends onto an arc and grows around a globe or a closed form until the last two hands meet.",
+     "fits": "\"everyone\"; a closed loop economy; a cycle; a finale."
+    }
+   ]
+  },
+  "score": {
+   "genre": "minimal-pulse",
+   "pad": "marimba",
+   "lead": "kalimba",
+   "pulse": "harp",
+   "sparkle": "glockenspiel",
+   "bass": "contrabass_pizz",
+   "drums": "none",
+   "note": "small, light, pitched sounds that follow the hands",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "kalimba",
+      "gm": 108
+     },
+     "pad": {
+      "voice": "marimba",
+      "gm": 12
+     },
+     "pulse": {
+      "voice": "harp",
+      "gm": 46
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

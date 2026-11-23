@@ -1,0 +1,201 @@
+{
+ "slug": "ink-wash",
+ "num": "21",
+ "en": "Chinese Ink Wash",
+ "cn": "中国水墨",
+ "category_en": "Traditional Crafts",
+ "category_cn": "传统工艺",
+ "film": "The Swordsman and the River",
+ "film_cn": "剑客与江",
+ "line": "A swordsman crosses the river on the water and splits the current with a single stroke.",
+ "line_cn": "侠客踏水过江，一剑断流。",
+ "uses": [
+  "Wuxia",
+  "Cultural brands",
+  "Poetry"
+ ],
+ "frame_sec": 34.56,
+ "dur": 48.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "ink-wash",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Çin Mürekkep Resmi",
+ "category_tr": "Geleneksel Sanatlar",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "AMBIENCE",
+    "query": "ambience"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "thud"
+   },
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "metal"
+   },
+   {
+    "role": "WHOOSH/SWISH",
+    "query": "whoosh"
+   }
+  ],
+  "motion": {
+   "cuts": "slow, staged, push-through",
+   "rig": "calm",
+   "move_frames": [
+    16,
+    24
+   ],
+   "ease": "softLand",
+   "reveal": "focus",
+   "mblur": true
+  },
+  "three_d": "B",
+  "music": "east-asian",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Locked frame on the paper",
+     "expresses": "The page is the stage; things are painted in",
+     "serves": "a thing forming; a line being read; a still decision"
+    },
+    {
+     "move": "Right-to-left pan (handscroll)",
+     "expresses": "Time and distance as one painting",
+     "serves": "a journey; a history; a process"
+    },
+    {
+     "move": "Vertical tilt (hanging scroll)",
+     "expresses": "Height, stages stacked",
+     "serves": "seasons; a climb; generations"
+    },
+    {
+     "move": "Lateral tracking, lead room, slow far parallax",
+     "expresses": "Motion through a world",
+     "serves": "travel; a chase; a commute"
+    },
+    {
+     "move": "High wide, a tiny figure in blank paper",
+     "expresses": "Smallness, solitude",
+     "serves": "loneliness; nature's scale; one life among many"
+    },
+    {
+     "move": "Low angle, dark mass towering, slow push-in with shake",
+     "expresses": "Weight, threat",
+     "serves": "an obstacle; a storm; pressure"
+    },
+    {
+     "move": "Hard cut to an extreme close-up",
+     "expresses": "A break in the flow (the style's only hard cuts)",
+     "serves": "a decision; a shock; a memory"
+    },
+    {
+     "move": "Push into an ink bloom or mist",
+     "expresses": "Passing between states",
+     "serves": "memory; dream; a season turning"
+    },
+    {
+     "move": "Pull back until a mark joins the whole",
+     "expresses": "The part was inside something larger",
+     "serves": "a summing-up; irony of scale"
+    },
+    {
+     "move": "Return to an earlier framing",
+     "expresses": "The rhyme shows what changed",
+     "serves": "aftermath; growth; before/after"
+    }
+   ],
+   "transitions": [
+    "Transitions are ink blooms, pans along the scroll or mist;",
+    "never a generic dissolve or a wipe."
+   ],
+   "labels": [
+    "Subtitles are inscriptions (题跋): a classical italic serif (Cormorant Garamond italic), ink-coloured, no box, ≤ 2 lines, placed in each shot's empty paper. A small vermilion square marks the start of each line. They appear wet and dry in a fraction of a second. Hold ≥ max(1.8 s, speech + 0.6 s).",
+    "Titles are written on the painting itself, in vertical columns in its empty space, with a vermilion 白文 seal drawn by code (lines knocked out of a slightly irregular red square, with ink-paste speckles). They move with the world.",
+    "Screen-space overlays reset the camera transform."
+   ],
+   "motion": [
+    "Figures step at 12 fps (on twos); their position, the camera, blooms, ripples and splatter move on ones at 24 fps.",
+    "Stable strokes on twos: seed every stroke by its index and compute bristle breaks along normalized arc length × a fixed reference length, so flying-white gaps don't crawl every drawing. Allow only a small \"boil\" on the width noise.",
+    "Painted into existence: strokes appear in drawing order.",
+    "Stillness before action (when a decisive stroke is the event): hold, with at most a slow push-in, then let the stroke cross the frame in a few frames. Consequences start only after the stroke has finished."
+   ],
+   "native_moves": [
+    {
+     "name": "One stroke is everything",
+     "does": "",
+     "fits": "a product born from one line; a city growing from a single street; a day beginning with one bird."
+    },
+    {
+     "name": "Emptiness is matter",
+     "does": "Removing ink reveals paper white.",
+     "fits": "a door opening in a wall; a crowd parting; an absence in a family portrait."
+    },
+    {
+     "name": "Brush = gesture = action",
+     "does": "Stroke order becomes choreography.",
+     "fits": "a dancer's phrase that spells a word; a signature; a chef's knife work."
+    },
+    {
+     "name": "Flying white (飞白)",
+     "does": "One fast dry stroke across the frame, strongest out of a silence.",
+     "fits": "a sprint finish; a decision; a comet."
+    },
+    {
+     "name": "Ink bloom transition",
+     "does": "The next scene grows inside a spreading drop with a dark tide-line (noisy radial mask; world-anchored for elements, in the compositor for scenes).",
+     "fits": "memories; seasons; one era giving way to the next."
+    },
+    {
+     "name": "The handscroll",
+     "does": "One long painting panned right to left, seen whole at last.",
+     "fits": "a history; a supply chain from field to hand; a day in a street."
+    },
+    {
+     "name": "Splitting a mass",
+     "does": "Halves clipped either side of the cut; one rises and fades, one slumps; splatter stays.",
+     "fits": "breaking a record; a barrier falling; an idea splitting in two."
+    }
+   ]
+  },
+  "score": {
+   "genre": "east-asian",
+   "pad": null,
+   "lead": "pluck:guqin",
+   "counter": "flute",
+   "pulse": null,
+   "drums": "taiko",
+   "avoid": [
+    "piano",
+    "violins",
+    "cellos"
+   ],
+   "note": "guqin-led, a breathy low flute, big drum; Chinese pentatonic",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "pluck:guqin",
+      "gm": 107
+     },
+     "counter": {
+      "voice": "flute",
+      "gm": 73
+     }
+    },
+    "drums": {
+     "taiko": 116
+    }
+   }
+  }
+ }
+}

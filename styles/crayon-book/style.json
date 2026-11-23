@@ -1,0 +1,204 @@
+{
+ "slug": "crayon-book",
+ "num": "09",
+ "en": "Crayon Picture Book",
+ "cn": "蜡笔儿童绘本",
+ "category_en": "Painting & Illustration",
+ "category_cn": "绘画插画",
+ "film": "The Moon Can't Sleep",
+ "film_cn": "月亮睡不着",
+ "line": "The moon can't sleep, so a little girl climbs onto the roof to sing it a lullaby.",
+ "line_cn": "月亮失眠了，小女孩爬上屋顶给它唱摇篮曲。",
+ "uses": [
+  "Picture books",
+  "Bedtime stories",
+  "Kids' learning"
+ ],
+ "frame_sec": 43.68,
+ "dur": 52.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "crayon-book",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Pastel Boya Resimli Kitap",
+ "category_tr": "Resim & İllüstrasyon",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "metal-toothed"
+   },
+   {
+    "role": "AMBIENCE",
+    "query": "wind"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "crayon"
+   },
+   {
+    "role": "WHOOSH/SWISH",
+    "query": "swishes"
+   }
+  ],
+  "motion": {
+   "cuts": "slow drift, push-through with a focus pull",
+   "rig": "calm",
+   "move_frames": [
+    14,
+    24
+   ],
+   "ease": "softLand",
+   "reveal": "focus",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "folk-acoustic",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Locked full page",
+     "expresses": "Paper before drawing; the whole picture",
+     "serves": "a beginning from nothing; a tableau; a reveal that needs the page"
+    },
+    {
+     "move": "Push toward a character",
+     "expresses": "\"This one\"",
+     "serves": "a title giving way; a feeling arriving"
+    },
+    {
+     "move": "Locked medium close-up",
+     "expresses": "Substitution poses act",
+     "serves": "comedy; a decision; a small failure"
+    },
+    {
+     "move": "Tilt along a gaze",
+     "expresses": "We see what they see",
+     "serves": "discovery; longing; something huge"
+    },
+    {
+     "move": "Tight follow",
+     "expresses": "The world draws itself ahead of the subject",
+     "serves": "a brave act; a path; building"
+    },
+    {
+     "move": "Held wide while the brush moves",
+     "expresses": "The material is the motion",
+     "serves": "a wash reveal; weather; day or night falling"
+    },
+    {
+     "move": "Slow truck across the page",
+     "expresses": "Reading left to right",
+     "serves": "a list; a sequence; a family"
+    },
+    {
+     "move": "Pull out past the page edge",
+     "expresses": "The page is an object",
+     "serves": "a book on a table; a fridge drawing"
+    },
+    {
+     "move": "Page turn",
+     "expresses": "New chapter, time jump",
+     "serves": "before/after; the next day"
+    }
+   ],
+   "transitions": [
+    "Transitions: drawing on, colouring over, the wash, a pan or a page turn;",
+    "never a dissolve."
+   ],
+   "labels": [
+    "Subtitles are the book's printed words: a handwriting face (Patrick Hand, OFL), 50–56 px, in the outline colour, bottom-centre, each glyph tilted and offset, boiling on twos, written left→right in ~0.35 s, on a ragged knock-out patch of blank paper (never a dark box). Hold ≥ max(1.8 s, speech + 0.6 s); none during wordless music.",
+    "Titles are hand-lettered on the page (Gaegu Bold or similar), written letter by letter. You can't fade crayon: a title leaves by the camera moving off it, a page turn or being coloured over."
+   ],
+   "motion": [
+    "Everything drawn steps at 12 fps (lines, colouring, characters, boil seed); camera, the wash's leading edge and twinkles run at 24 fps.",
+    "Boil: each stroke re-jitters offset (<1 px), wobble and hatching rows every 2 frames. Characters full, background lines ~0.6, background colouring still (it also halves the bitrate). Calm the boil to about half when the film goes quiet.",
+    "Drawing on: lines reveal along their length in 0.4–0.9 s; colouring row by row; text letter by letter.",
+    "Acting: substitution, a new drawing per pose on the beat; two key drawings alternate for a repeated action. Big simple poses; a child's drawing doesn't in-between."
+   ],
+   "native_moves": [
+    {
+     "name": "Wax resist",
+     "does": "White crayon is invisible until a wash passes; hide the payoff in plain sight from the first frame.",
+     "fits": "a farewell message; a product's hidden feature; roots under a garden."
+    },
+    {
+     "name": "Drawn live",
+     "does": "The world draws itself just ahead of the hero.",
+     "fits": "a bridge plank by plank; a journey map; a company timeline."
+    },
+    {
+     "name": "Colouring is an action",
+     "does": "",
+     "fits": "a town lighting up window by window; a team putting on kit; fruit ripening."
+    },
+    {
+     "name": "Boil",
+     "does": "A held frame is alive; calming it quiets the film.",
+     "fits": "a pause for thought; grief; rest."
+    },
+    {
+     "name": "Child logic",
+     "does": "Wrong perspective, faces on objects, numbers in the sky.",
+     "fits": "a launch countdown; a talking house on insulation; a sun that clocks out."
+    },
+    {
+     "name": "It is a book",
+     "does": "Pull back to the object; turn the page.",
+     "fits": "a year in review; a \"chapter two\"; a thank-you card."
+    }
+   ]
+  },
+  "score": {
+   "genre": "folk-acoustic",
+   "pad": "ukulele",
+   "lead": "clarinet",
+   "counter": "bassoon",
+   "sparkle": "glockenspiel",
+   "bass": "bassoon_stac",
+   "drums": "wood",
+   "avoid": [
+    "violins",
+    "cellos",
+    "violas",
+    "piano"
+   ],
+   "note": "small wooden and metal-toothed instruments, no strings or grand piano",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "clarinet",
+      "gm": 71
+     },
+     "counter": {
+      "voice": "bassoon",
+      "gm": 70
+     },
+     "pad": {
+      "voice": "ukulele",
+      "gm": 24
+     },
+     "bass": {
+      "voice": "bassoon_stac",
+      "gm": 70
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {
+     "woodblock": 115
+    }
+   }
+  }
+ }
+}

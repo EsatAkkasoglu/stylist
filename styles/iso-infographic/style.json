@@ -1,0 +1,199 @@
+{
+ "slug": "iso-infographic",
+ "num": "45",
+ "en": "Isometric Infographic",
+ "cn": "等距信息图",
+ "category_en": "Line Diagrams",
+ "category_cn": "线稿图解",
+ "film": "From Bean to Cup",
+ "film_cn": "从豆到杯",
+ "line": "A coffee's journey from the plantation to your hands, across one isometric world.",
+ "line_cn": "一杯咖啡从种植园到你手里的旅程。",
+ "uses": [
+  "Process explainers",
+  "Supply chains",
+  "Annual reports"
+ ],
+ "frame_sec": 35.28,
+ "dur": 58.8,
+ "source": "lemo-opuscar",
+ "lemo_slug": "iso-infographic",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "İzometrik İnfografik",
+ "category_tr": "Çizgi Diyagramlar",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "AMBIENCE",
+    "query": "ambience"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "thud"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "keyboard"
+   }
+  ],
+  "motion": {
+   "cuts": "continuous camera over one sheet",
+   "rig": "calm",
+   "move_frames": [
+    10,
+    14
+   ],
+   "ease": "softLand",
+   "reveal": "draw",
+   "mblur": true
+  },
+  "three_d": "A",
+  "music": "folk-acoustic",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Follow along a route",
+     "expresses": "process; cause → effect",
+     "serves": "a supply chain; a journey; a signal"
+    },
+    {
+     "move": "Hold wide + circular inset",
+     "expresses": "the system and the individual together",
+     "serves": "one worker in a factory; one cell in an organ"
+    },
+    {
+     "move": "Push through nested cutaways",
+     "expresses": "a fall into scale; finding one thing among millions",
+     "serves": "a needle in a haystack; inside a machine"
+    },
+    {
+     "move": "Fast log pull-out",
+     "expresses": "release; the big picture after a detail",
+     "serves": "scale reveal; a statistic made physical"
+    },
+    {
+     "move": "Locked frame while things accumulate",
+     "expresses": "a system filling up; overload",
+     "serves": "a queue; traffic; data growing"
+    },
+    {
+     "move": "Lateral follow over emptiness",
+     "expresses": "a breath; distance",
+     "serves": "an ocean; a wait; a quiet phase"
+    },
+    {
+     "move": "Top-to-bottom tilt through strata",
+     "expresses": "layers; depth; history",
+     "serves": "geology; a city's underground; a software stack"
+    },
+    {
+     "move": "Switch boards (a second diorama)",
+     "expresses": "before/after; here vs there",
+     "serves": "two cities; two eras; two designs"
+    }
+   ],
+   "transitions": [
+    "a cut to a new board or an inset is another."
+   ],
+   "labels": [
+    "One geometric sans (e.g. Jost): titles 600 all caps with ~0.12 em tracking, numbers 400 large (~44 px), units at half size. All text has a ~7 px halo in the ground colour so it reads over any block.",
+    "Label pins: dot (ink ring, pale fill) → vertical leader → horizontal rule → text. Pins point up or down, left or right, chosen per station so labels never cover the subject.",
+    "Titles can be isometric type on a world plane, extruded as blocks.",
+    "The subtitle is a map label: a pale card with a small radius and an ink border, a tiny iso cube as legend chip, sans ~42 px, bottom-centre; border draws first, text wipes in. Keep the bottom ~170 px clear for it. Hold ≥ max(1.8 s, speech + 0.6 s); lines never overlap titles or other lines."
+   ],
+   "motion": [
+    "Nothing moves without a line leading it: a route line is drawn slightly ahead, a leader grows before an inset opens, a cut line draws before a skin slides away.",
+    "Cutaway: cut line (~0.3 s) → the near skin slides out along its normal and fades (~0.35 s, ease-out) → hatched section rims fade in over the last part.",
+    "Isotype fill: icons pop with a back-ease (overshoot), one per subdivision of the beat; count-up numbers run over the same span.",
+    "Accumulation = acceleration: arrivals on quarter notes, then eighths, then waves; the eye feels the system taking over. Solids arrive by motion, never by alpha (semi-transparent blocks look like ghosts)."
+   ],
+   "native_moves": [
+    {
+     "name": "Cutaway",
+     "does": "Cut line, skin slides away, hatched rims remain.",
+     "fits": "a heart's chambers; a server rack; a beehive."
+    },
+    {
+     "name": "Isotype number",
+     "does": "Identical icons in a new arrangement each time (a calendar, a bar, a silhouette formed by the icons themselves).",
+     "fits": "votes in an election; litres of water per product; users of an app."
+    },
+    {
+     "name": "Focus + context",
+     "does": "Everything greys except the subject.",
+     "fits": "one patient in a hospital; one packet in a network; one tree in a forest."
+    },
+    {
+     "name": "Frame within the frame",
+     "does": "A leader grows into a circular inset with a close-up.",
+     "fits": "a chip on a circuit board; a worker's hands; a crack in a bridge."
+    },
+    {
+     "name": "Scale reveal",
+     "does": "Pull back until every label is on screen and the last frame is a finished infographic.",
+     "fits": "how a city is powered; a school's day; a festival site."
+    },
+    {
+     "name": "Tracked subject",
+     "does": "One object followed with a \"you are here\" ring.",
+     "fits": "a letter through the post; a drop through a water plant; a vaccine dose."
+    },
+    {
+     "name": "Strata cross-section",
+     "does": "The board's edge becomes the story (layers added or removed).",
+     "fits": "a mine; an archaeological dig; a building's floors."
+    }
+   ]
+  },
+  "score": {
+   "genre": "folk-acoustic",
+   "pad": "pluck:nylon_guitar",
+   "lead": "kalimba",
+   "counter": "marimba",
+   "sparkle": "glockenspiel",
+   "bass": "contrabass_pizz",
+   "drums": "hand",
+   "note": "acoustic and light: kalimba, marimba, nylon guitar, hand percussion",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "kalimba",
+      "gm": 108
+     },
+     "counter": {
+      "voice": "marimba",
+      "gm": 12
+     },
+     "pad": {
+      "voice": "pluck:nylon_guitar",
+      "gm": 24
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {
+     "woodblock": 115
+    }
+   }
+  }
+ }
+}

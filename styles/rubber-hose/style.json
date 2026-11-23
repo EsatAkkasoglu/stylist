@@ -1,0 +1,196 @@
+{
+ "slug": "rubber-hose",
+ "num": "52",
+ "en": "1930s Rubber Hose Cartoon",
+ "cn": "1930s 橡皮管卡通",
+ "category_en": "Cartoons",
+ "category_cn": "卡通动画",
+ "film": "Coffee Cup Chase",
+ "film_cn": "咖啡杯追方糖",
+ "line": "A coffee cup chases a runaway sugar cube around the kitchen, 1930s-cartoon style.",
+ "line_cn": "一只咖啡杯满厨房追一块逃跑的方糖。",
+ "uses": [
+  "Food & drink",
+  "Retro ads",
+  "Kids"
+ ],
+ "frame_sec": 30.0,
+ "dur": 50.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "rubber-hose",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "1930'lar Lastik Hortum Çizgi Film",
+ "category_tr": "Çizgi Film",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "metal"
+   },
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "bells"
+   }
+  ],
+  "motion": {
+   "cuts": "snap zoom, squash and stretch",
+   "rig": "punchy",
+   "move_frames": [
+    6,
+    10
+   ],
+   "ease": "snapSettle",
+   "reveal": "rise",
+   "mblur": true
+  },
+  "three_d": "B",
+  "music": "hot-jazz",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Stage-wide, locked, eye level",
+     "expresses": "A proscenium: the set is a stage and everyone on it performs",
+     "serves": "introducing a place; a group number; a routine"
+    },
+    {
+     "move": "Hard cut to a face close-up",
+     "expresses": "The reaction is the joke",
+     "serves": "a surprise; a taste; a realisation"
+    },
+    {
+     "move": "Trucking pan beside a runner, eased start and stop",
+     "expresses": "Pursuit, momentum",
+     "serves": "a chase; a race; a delivery"
+    },
+    {
+     "move": "Medium follow shot (character ≈ 1/4–1/3 of the frame height)",
+     "expresses": "Every step is a note",
+     "serves": "Mickey-moused climbing, dancing, working"
+    },
+    {
+     "move": "Tilt with a fall or a rise",
+     "expresses": "Gravity as rhythm",
+     "serves": "a tumble; a rocket; a lift"
+    },
+    {
+     "move": "Slightly high angle, one unbroken shot",
+     "expresses": "The hazard and the answer in one frame",
+     "serves": "a danger; a stretch; a rescue"
+    },
+    {
+     "move": "Tabletop pan (flat characters in front of a model set turning in depth)",
+     "expresses": "The world is a real place",
+     "serves": "a street; a carousel; a factory floor"
+    },
+    {
+     "move": "Pull-back from a close-up to a packed medium-full",
+     "expresses": "One feeling spreads to everyone",
+     "serves": "a celebration; a crowd joining in"
+    },
+    {
+     "move": "Iris in / iris out (grabbable by a character)",
+     "expresses": "The film is an object",
+     "serves": "a beginning; an ending; a scene change with a gag"
+    }
+   ],
+   "transitions": [
+    "Transitions: iris, a hard cut on a beat, a title card rolling up like a window shade;",
+    "no dissolves."
+   ],
+   "labels": [
+    "Subtitles are a period title card: a small near-black plate with a white double-rule border and dot-and-ring corner ornaments; text in IM Fell English SC (~36 px), paper white. Drawn in the scene layer so it weaves and flickers with the film; pops on and off with no fades. Bottom by default, top when the action is low. One card may span two short voice clips; hold ≥ max(1.8 s, speech + 0.6 s).",
+    "Titles: Shrikhand fat retro script, white face, heavy ink outline (~14 % of the cap height), ink drop shadow down-right; letters can hop in a travelling wave on the beat. Sub-lines in Limelight caps."
+   ],
+   "motion": [
+    "Characters on twos (12 fps); camera moves on ones (24 fps). A stepped camera reads as judder.",
+    "Tempo grid: choose a tempo where one beat is an even whole number of frames at 24 fps (8, 10, 12, 16 or 20 frames), so every beat lands on a drawing of the twos.",
+    "Breathing: every idle object squashes and stretches with cos(2π·beats): an extreme on every beat (stretch on the beat, squash on the off-beat), sampled on twos, amplitude ~5–7 %, all props in phase. A peak of joy can raise the amplitude ×3 and squash the whole background painting around the floor line (~2.5 %).",
+    "Walk: one step per beat with a body bob (sad = smaller steps, limp arms). Run: legs as a windmill (feet orbit a circle), lean forward, speed lines."
+   ],
+   "native_moves": [
+    {
+     "name": "Everything breathes on the beat",
+     "does": "The setting is a character; at the peak the whole world can dance in sync, walls included.",
+     "fits": "a factory at shift change; a garden after rain; a city waking up."
+    },
+    {
+     "name": "Mickey-mousing",
+     "does": "Every step is a note; a prop becomes an instrument.",
+     "fits": "stairs as a piano; a typewriter as a drum kit; fence posts as a xylophone."
+    },
+    {
+     "name": "Rubber-hose stretch",
+     "does": "Limbs reach any length in one unbroken shot.",
+     "fits": "reaching a top shelf; a long-distance handshake; catching a falling baby bird."
+    },
+    {
+     "name": "Transformation",
+     "does": "Anything becomes something else mid-motion (a tail into a question mark, a hose into a saxophone).",
+     "fits": "an idea turning into a product; a problem into a tool; a word into an object."
+    },
+    {
+     "name": "The bouncing-ball singalong",
+     "does": "Lyrics on a title card, a ball hopping from word to word on the beat.",
+     "fits": "a jingle; a safety rhyme; a slogan to remember."
+    },
+    {
+     "name": "The film is a physical object",
+     "does": "Title cards roll up like window shades; the iris is grabbed and pulled shut; intertitles get bumped; the frame line slips.",
+     "fits": "a brand reveal; a \"the end?\" twist; a character escaping the cartoon."
+    },
+    {
+     "name": "The ink bottle",
+     "does": "An artist's pen draws the hero, who then argues with it.",
+     "fits": "a making-of; a mascot introduction; a lesson about drawing."
+    }
+   ]
+  },
+  "score": {
+   "genre": "hot-jazz",
+   "pad": "honky_tonk",
+   "lead": "clarinet",
+   "counter": "trumpet_mute",
+   "pulse": "pluck:banjo",
+   "sparkle": "xylophone",
+   "note": "1930s hot dance band: stride piano, clarinet, wah trumpet, tuba, banjo",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "clarinet",
+      "gm": 71
+     },
+     "counter": {
+      "voice": "trumpet_mute",
+      "gm": 59
+     },
+     "pad": {
+      "voice": "honky_tonk",
+      "gm": 3
+     },
+     "pulse": {
+      "voice": "pluck:banjo",
+      "gm": 105
+     },
+     "bass": {
+      "voice": "tuba_stac",
+      "gm": 58
+     },
+     "sparkle": {
+      "voice": "xylophone",
+      "gm": 13
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

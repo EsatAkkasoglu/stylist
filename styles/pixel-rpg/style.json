@@ -1,0 +1,175 @@
+{
+ "slug": "pixel-rpg",
+ "num": "58",
+ "en": "16-bit Pixel RPG",
+ "cn": "16-bit 像素 RPG",
+ "category_en": "Games",
+ "category_cn": "电子游戏",
+ "film": "The Last Save Point",
+ "film_cn": "最后的存档点",
+ "line": "At the final boss door a hero saves the game, and the save screen replays the whole journey.",
+ "line_cn": "勇士在最终 Boss 门前存档，存档画面闪回一路冒险。",
+ "uses": [
+  "Game trailers",
+  "Recaps",
+  "Nostalgia"
+ ],
+ "frame_sec": 27.25,
+ "dur": 54.5,
+ "source": "lemo-opuscar",
+ "lemo_slug": "pixel-rpg",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "16-bit Piksel RPG",
+ "category_tr": "Oyun",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "UI/CLICK",
+    "query": "tick-down"
+   }
+  ],
+  "motion": {
+   "cuts": "snap zoom, stepped motion",
+   "rig": "punchy",
+   "move_frames": [
+    4,
+    8
+   ],
+   "ease": "snapSettle",
+   "reveal": "draw",
+   "mblur": false
+  },
+  "three_d": "none",
+  "music": "chiptune",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Side-scroll with parallax layers",
+     "expresses": "journey; loneliness; progress",
+     "serves": "a commute; a quest; a timeline"
+    },
+    {
+     "move": "Locked frame with UI on one third",
+     "expresses": "a choice; a system speaking",
+     "serves": "a menu decision; a stats reveal"
+    },
+    {
+     "move": "Battle side view (enemy / party / windows)",
+     "expresses": "conflict as a system",
+     "serves": "an exam; a negotiation; an illness"
+    },
+    {
+     "move": "Top-down overworld pan",
+     "expresses": "the whole world; where things are",
+     "serves": "a city; a map of a company; a trip"
+    },
+    {
+     "move": "Integer-pixel tilt up something tall",
+     "expresses": "awe; scale",
+     "serves": "a tower; a door; a mountain"
+    },
+    {
+     "move": "Hold while the palette changes",
+     "expresses": "loss or change without motion",
+     "serves": "grief; a memory fading; nightfall"
+    },
+    {
+     "move": "Back view at a threshold",
+     "expresses": "resolve; the unknown ahead",
+     "serves": "a first day; a launch; a departure"
+    },
+    {
+     "move": "Zoom by mosaic into a thumbnail",
+     "expresses": "entering a memory or a file",
+     "serves": "a flashback; a save slot; a photo"
+    }
+   ],
+   "transitions": [
+    "snap zoom, stepped motion."
+   ],
+   "labels": [
+    "The dialog box is the subtitle, drawn in the framebuffer at the bottom quarter: a layered rounded border (ink / white / silver), a dithered dark-blue fill, a 32×32 portrait on the left, an original variable-width pixel font (cap ~7 px) with a 1-px shadow. It types with the voice (~38–40 chars/s; slower in older eras), ▼ blinks when done.",
+    "Skins follow the era (light box for 4-colour, black box with white frame for 8-bit, blue for 16-bit).",
+    "Battle and system messages go in a thin top window. Every box stays ≥ max(1.8 s, speech + 0.6 s); the next box cuts the previous one. Export the .srt from the same subtitle array.",
+    "Titles in the pixel font at 2×, 8-neighbour ink outline, row-by-row gradient, Bayer-dissolved in and out."
+   ],
+   "motion": [
+    "Output 24 fps. Sprites step at 8 fps (walk) to 12 fps (flames, blinks); camera and parallax move on ones at integer pixels.",
+    "Game-native acting: hop forward to act, cast pose, knockback recoil, kneel, KO blink (12 fps on/off) and vanish; breath = shoulders up 1 px.",
+    "UI motion: windows slide in over ~0.3 s (ease-out, integer px); a hand cursor bobs 1 px at 4 fps and stops when the character hesitates.",
+    "Transitions: thumbnail expand + mosaic, mosaic cross with a palette switch at the peak, the encounter swirl (polar twist + mosaic + Bayer dissolve to white), screen shake (3–2–1 px over 8 frames), palette step fades (4 levels). Never alpha fades."
+   ],
+   "native_moves": [
+    {
+     "name": "Palette collapse / flood",
+     "does": "Colour depth drops one level per beat, or full colour floods back through a dither wave.",
+     "fits": "a city blackout and recovery; a company in crisis; burnout and rest."
+    },
+    {
+     "name": "Protected colour match cut",
+     "does": "One exempt colour links two eras in the same screen position.",
+     "fits": "a family heirloom; a brand colour across decades; a team jersey."
+    },
+    {
+     "name": "Save files as memory",
+     "does": "A list of files; choosing NEW FILE refuses to overwrite.",
+     "fits": "versions of a product; chapters of a career; photo albums."
+    },
+    {
+     "name": "Game UI as narration",
+     "does": "A greyed-out name, an item description, a stat screen.",
+     "fits": "a team member leaving; a skill learned; a budget."
+    },
+    {
+     "name": "Level up",
+     "does": "Stats rise with a fanfare.",
+     "fits": "a student's year; a startup's funding round; learning a language."
+    },
+    {
+     "name": "Encounter swirl",
+     "does": "A crash into danger.",
+     "fits": "a deadline; a diagnosis; a storm."
+    },
+    {
+     "name": "Era shift",
+     "does": "The same characters redrawn in older hardware.",
+     "fits": "a town's history; grandparents' youth; the evolution of a device."
+    }
+   ]
+  },
+  "score": {
+   "genre": "chiptune",
+   "note": "pulse waves, 4-bit triangle bass, noise drums, SNES echo",
+   "render": {
+    "engine": "synth",
+    "space": "neon",
+    "band": {
+     "lead": {
+      "voice": "square",
+      "patch": "Leads/Square"
+     },
+     "pad": {
+      "voice": "pulse25",
+      "patch": "Plucks/Simple PW"
+     },
+     "bass": {
+      "voice": "triangle",
+      "patch": "Basses/Sub Square"
+     }
+    },
+    "drums": {
+     "kick": "Percussion/Kick Tech 1",
+     "snare": "Percussion/Snare Tight",
+     "tom": "Percussion/Synth Tom 1"
+    }
+   }
+  }
+ }
+}

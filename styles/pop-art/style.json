@@ -1,0 +1,184 @@
+{
+ "slug": "pop-art",
+ "num": "34",
+ "en": "Pop Art",
+ "cn": "波普艺术",
+ "category_en": "Print & Printmaking",
+ "category_cn": "印刷版画",
+ "film": "The Same Banana",
+ "film_cn": "同一根香蕉",
+ "line": "Almost every banana in the shops is one plant, copied: a wall of identical prints, an old banana eaten black by dots, and a wave of colour that turns into many bananas.",
+ "line_cn": "超市里几乎每根香蕉都是同一株植物的复制：一面一模一样的版画墙，一根被网点吃黑的老香蕉，最后一波换色翻出上千种香蕉。",
+ "uses": [
+  "Everyday-object explainers",
+  "Brand and product posters",
+  "Small data stories"
+ ],
+ "frame_sec": 42.4,
+ "dur": 52.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "pop-art",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Pop Art",
+ "category_tr": "Baskı & Gravür",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "IMPACT/HIT",
+    "query": "stamps"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   },
+   {
+    "role": "WHOOSH/SWISH",
+    "query": "whooshes"
+   }
+  ],
+  "motion": {
+   "cuts": "print-registration jumps with a slide",
+   "rig": "editorial",
+   "move_frames": [
+    10,
+    14
+   ],
+   "ease": "snapSettle",
+   "reveal": "rise",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "jazz-combo",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Pull from coin-sized dots to the whole print",
+     "expresses": "\"this is a print\"; scale; the hook",
+     "serves": "a first image; a reveal of what a detail belongs to"
+    },
+    {
+     "move": "Pull from one print to a wall of copies",
+     "expresses": "sameness, quantity, mass production",
+     "serves": "copies, a product line, a crowd, a franchise"
+    },
+    {
+     "move": "Push into a round shape, match-cut to another round shape",
+     "expresses": "one thing is part of another",
+     "serves": "a cross-section; a planet; a coin; a pill"
+    },
+    {
+     "move": "Through a hole in a printed letter or number",
+     "expresses": "passing into another time or chapter",
+     "serves": "a year; a price; a percentage"
+    },
+    {
+     "move": "Lateral track along a long print",
+     "expresses": "sequence, growth, a line of things",
+     "serves": "generations; a production line; a journey"
+    },
+    {
+     "move": "Push to fill the frame with one tile, then flip it",
+     "expresses": "a substitution, a turn",
+     "serves": "replacement; before/after; a new version"
+    },
+    {
+     "move": "Slow push into a wall while a front crosses it",
+     "expresses": "threat, spread, inevitability",
+     "serves": "a flood; a price rise; a trend"
+    }
+   ],
+   "transitions": [
+    "Transitions come from the print (stamp, push through a shape, flip, plate-by-plate print, sliding label);",
+    "no cross-dissolves, no fades to black, no page turns."
+   ],
+   "labels": [
+    "Headlines: a tall condensed grotesque (e.g. Anton, OFL), 100–260 px; colour fill, black outline, an offset shadow in another plate. They are printed in: colour lands from an offset, the key snaps on.",
+    "Labels: a paper slip with a black frame and a plate-coloured offset block behind it, tilted ±2°, at a fixed corner of the frame. Headline line (condensed or a heavy grotesque such as Archivo Black, 90–130 px) over one short Chinese line (a heavy CJK sans such as Noto Sans SC Black, subset to the characters used, 46–56 px). Mixed Latin and Chinese lines use a font stack (Latin face first) so Latin never falls back to a serif.",
+    "Subtitles are the same paper slip at the bottom centre: Chinese 40 px over English 28 px (Archivo Black), one line each, never wrapped; hold ≥ max(1.8 s, speech + 0.6 s).",
+    "Labels enter with a fast print (0.5 s) where paper and words appear together, and leave by sliding out; nothing fades."
+   ],
+   "motion": [
+    "Prints arrive in one of two ways: stamped (a short scale from 1.1 to 1 with the colour plates sliding into register, on the beat) or printed plate by plate (yellow, red, blue, black, each landing with a thunk).",
+    "Camera moves are long, eased, often logarithmic in zoom (a pull from dots to wall reads as one gesture).",
+    "Copies accelerate as they multiply: the interval between stamps shrinks.",
+    "Flips are card turns (scale X through zero), and the new print shows from the turn's midpoint."
+   ],
+   "native_moves": [
+    {
+     "name": "Dot pull",
+     "does": "Start inside the screen (one shade area at zoom ×15–20, the dots as big as coins) and pull logarithmically to the whole print.",
+     "fits": "the pixels of a famous photograph; a skin tone that turns out to be a face; a crowd that turns out to be one person."
+    },
+    {
+     "name": "Stamped copies",
+     "does": "One print stamped again and again in rings, faster and faster, until a wall.",
+     "fits": "factory output; viral copies of a post; identical houses in a suburb."
+    },
+    {
+     "name": "Plate-by-plate print",
+     "does": "Hide the plates and bring them back one by one (present({mask})), sliding into register.",
+     "fits": "a product launch; a new version; a portrait assembled from its parts."
+    },
+    {
+     "name": "Dots as data",
+     "does": "A front of growing dots crosses prints; dot size encodes amount.",
+     "fits": "a drought across farmland; inflation across a shopping list; a rumour across a city."
+    },
+    {
+     "name": "Colour wave",
+     "does": "One tile flips to a new colourway, then a wave flips the whole wall.",
+     "fits": "diversity; a team; a market opening up."
+    },
+    {
+     "name": "Through a letterform",
+     "does": "Cut a counter (the hole of a 0, an O, a P) out of the type sheet and push through it into the next print.",
+     "fits": "a year; a score; a price."
+    },
+    {
+     "name": "Mosaic echo",
+     "does": "Pull back until each tile is one pixel of a bigger image whose colours were set by the tiles' grounds; draw the big key line along the tile edges.",
+     "fits": "many faces making one face; many cities making a country; many small donations making one building."
+    }
+   ]
+  },
+  "score": {
+   "genre": "jazz-combo",
+   "lead": "trumpet_stac",
+   "counter": "marimba",
+   "drums": "hand",
+   "note": "sixties lounge / exotica: vibraphone, marimba, conga, muted trumpet",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "trumpet_stac",
+      "gm": 56
+     },
+     "counter": {
+      "voice": "marimba",
+      "gm": 12
+     },
+     "pad": {
+      "voice": "vibraphone",
+      "gm": 11
+     },
+     "bass": {
+      "voice": "jazz_bass",
+      "gm": 32
+     }
+    },
+    "drums": {
+     "woodblock": 115
+    }
+   }
+  }
+ }
+}

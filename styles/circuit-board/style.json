@@ -1,0 +1,198 @@
+{
+ "slug": "circuit-board",
+ "num": "73",
+ "en": "Circuit Board",
+ "cn": "电路板",
+ "category_en": "Light & Lines",
+ "category_cn": "发光线条",
+ "film": "Seven Milliseconds",
+ "film_cn": "七毫秒",
+ "line": "Rivers become copper traces as current runs 2,080 km from a dam to a phone charger.",
+ "line_cn": "江河变成电路板上的走线，电流从水坝跑 2,080 公里进手机充电器。",
+ "uses": [
+  "Energy",
+  "Supply chains",
+  "Devices"
+ ],
+ "frame_sec": 58.0,
+ "dur": 60.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "circuit-board",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Devre Kartı",
+ "category_tr": "Işık & Çizgi",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "bells"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "clicks"
+   },
+   {
+    "role": "DESIGNED/RISER",
+    "query": "drone"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "scratch"
+   }
+  ],
+  "motion": {
+   "cuts": "continuous, slow builds",
+   "rig": "calm",
+   "move_frames": [
+    12,
+    20
+   ],
+   "ease": "softLand",
+   "reveal": "draw",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "synthwave",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Ride the pulse (camera locked to a moving head, head on a third)",
+     "expresses": "following one thing through a system",
+     "serves": "a delivery route; a signal path; a single order through a process"
+    },
+    {
+     "move": "Rise while following (zoom out during the ride until both ends are in frame)",
+     "expresses": "the whole length becomes visible",
+     "serves": "a distance; a supply chain end to end; a timeline"
+    },
+    {
+     "move": "Crash zoom onto a pad",
+     "expresses": "arrival, impact",
+     "serves": "a deadline met; a package delivered; a test result"
+    },
+    {
+     "move": "Locked macro hold",
+     "expresses": "reading, comparing, verdict",
+     "serves": "two numbers side by side; a spec; a rule"
+    },
+    {
+     "move": "Whip along a trace",
+     "expresses": "jump to the next station",
+     "serves": "the next stage; skipping ahead"
+    },
+    {
+     "move": "Matched cut on a centred symbol (same symbol, same screen size, the world around it changes scale)",
+     "expresses": "the same step repeated at every level",
+     "serves": "step-downs; repeated approvals; hand-offs"
+    },
+    {
+     "move": "Plunge through a hole / via, reverse out of another hole",
+     "expresses": "entering a smaller world",
+     "serves": "into a device; into a building; into a file"
+    },
+    {
+     "move": "Continuous pull-out across nested boards",
+     "expresses": "everything was one board",
+     "serves": "the big picture after the detail; the system behind one object"
+    }
+   ],
+   "transitions": [
+    "Transitions: motion-into-motion and matched cuts;",
+    "no fades, no wipes, no page turns."
+   ],
+   "labels": [
+    "All type is silkscreen in one monoline stroke font routed like traces (0/45/90° strokes, chamfered corners, round caps), drawn in code. Chinese uses the same rules: every hanzi hand-routed on a 0/45/90° grid with the same stroke width as the Latin line beside it. Use simplified characters only and proof every glyph at large size before use.",
+    "Text is world-anchored and plotted stroke by stroke; it stays on the board and is still there when the camera pulls back.",
+    "Roles: labels (a Chinese line above a smaller English line, same stroke width), board-native text in one language (designators, voltages, timestamps, km, values), micro texture (pinyin tags, notes, REV/sheet lines) which may fade below reading size.",
+    "Reading: a label must be fully in frame and stay there for its reading time (≥ 1.5 s + characters at 4.5/s CJK, 15/s Latin). Never let text sit in the depth-of-field bands; never cut text at the frame edge in a held shot. Title caps ≥ 60 px at 1080p."
+   ],
+   "motion": [
+    "30 fps, everything on ones. render(t) depends on t only; motion blur from measured screen motion (180° shutter, sub-frames from 1 to ~20), never across a cut.",
+    "Kinds of current, told apart only by how the light moves:",
+    "AC / alternating: short dashes rocking back and forth along the trace (a slowed mains frequency) over a faint energised line.",
+    "DC / one-way: a continuous lit stream behind a travelling head, with slow streaks inside and an afterglow that dims slowly behind the head."
+   ],
+   "native_moves": [
+    {
+     "name": "Flow becomes current",
+     "does": "A second flow (silver) enters a row of pads; each pad lights on a beat and amber leaves on its other side.",
+     "fits": "raw material entering a factory and leaving as product; requests hitting servers and leaving as responses; donations becoming grants."
+    },
+    {
+     "name": "Pulse-path explainer",
+     "does": "Every stage of a process is a component on one trace; the way the light changes (rocking, streaming, thinning) tells what each stage does.",
+     "fits": "a payment's clearing path; a parcel's sorting hubs; a message across a network."
+    },
+    {
+     "name": "The map is a board",
+     "does": "Geography re-routed octilinear as copper and channels; rivers, lakes and coasts are clearances with via fences; cities are test points; corridors are buses of parallel traces.",
+     "fits": "a pipeline across countries; a migration route; the cables under an ocean. A board that covers China follows DIRECTOR.md §13."
+    },
+    {
+     "name": "Detail callout",
+     "does": "An assembly-drawing circle that shows another place of the same board (or another board) at a chosen scale next to the thing it is compared with.",
+     "fits": "the same mechanism at two sizes; a lab prototype beside the plant; yesterday's version beside today's."
+    },
+    {
+     "name": "Nested boards",
+     "does": "A module footprint on a board is a complete board of its own; plunge into it, or pull out through every level in one move.",
+     "fits": "a country → city → building → device; an organisation → team → person; a chip → core → transistor."
+    },
+    {
+     "name": "Matched step-down",
+     "does": "The same symbol held centred while the board around it changes scale on each cut.",
+     "fits": "voltage levels; approval tiers; zoom levels of a map."
+    },
+    {
+     "name": "Timestamp tags",
+     "does": "Silk frames printing times at two stations, the second tag repeating the first digit-for-digit above its own.",
+     "fits": "latency; a race between two routes; before and after."
+    }
+   ]
+  },
+  "score": {
+   "genre": "synthwave",
+   "lead": "pluck",
+   "sparkle": "sinebell",
+   "note": "electronic current: arps, clean pluck, bell for each lit pad",
+   "render": {
+    "engine": "synth",
+    "space": "neon",
+    "band": {
+     "lead": {
+      "voice": "pluck",
+      "patch": "Plucks/The 1980s"
+     },
+     "pad": {
+      "voice": "pad",
+      "patch": "Polysynths/Juno-60 Strings"
+     },
+     "pulse": {
+      "voice": "saw",
+      "patch": "Leads/Moogy Saw"
+     },
+     "bass": {
+      "voice": "synthbass",
+      "patch": "Basses/Bass 1"
+     },
+     "sparkle": {
+      "voice": "sinebell",
+      "patch": "Plucks/Bell 1"
+     }
+    },
+    "drums": {
+     "kick": "Percussion/Kick Tech 1",
+     "snare": "Percussion/Snare Tight",
+     "tom": "Percussion/Synth Tom 1"
+    }
+   }
+  }
+ }
+}

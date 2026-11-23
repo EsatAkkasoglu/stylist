@@ -1,0 +1,207 @@
+{
+ "slug": "cel-anime-80s",
+ "num": "53",
+ "en": "80s Cel Anime",
+ "cn": "80 年代赛璐璐动画",
+ "category_en": "Cartoons",
+ "category_cn": "卡通动画",
+ "film": "City Lights, 1987",
+ "film_cn": "城市灯火，1987",
+ "line": "A courier girl rides through a rain-soaked neon city to deliver a tape before the dawn launch.",
+ "line_cn": "快递少女骑车穿过雨后霓虹都市，赶在黎明发射前送到一盘磁带。",
+ "uses": [
+  "Music videos",
+  "Game trailers",
+  "Nostalgia"
+ ],
+ "frame_sec": 13.2,
+ "dur": 59.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "cel-anime-80s",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "80'ler Cel Anime",
+ "category_tr": "Çizgi Film",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "AMBIENCE",
+    "query": "city"
+   },
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "bell"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "hit"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "clicks"
+   }
+  ],
+  "motion": {
+   "cuts": "snap zoom, squash and stretch",
+   "rig": "punchy",
+   "move_frames": [
+    6,
+    10
+   ],
+   "ease": "snapSettle",
+   "reveal": "rise",
+   "mblur": true
+  },
+  "three_d": "B",
+  "music": "city-pop",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Multiplane crane over a tall plate",
+     "expresses": "a world revealed layer by layer",
+     "serves": "arriving; descending into a place; rising above it"
+    },
+    {
+     "move": "Side tracking, 3–4 parallax layers",
+     "expresses": "steady momentum",
+     "serves": "a journey; a chase; progress"
+    },
+    {
+     "move": "Rear view into a pseudo-3D canyon",
+     "expresses": "speed, pressure ahead",
+     "serves": "a race; a tunnel; a countdown"
+    },
+    {
+     "move": "Held bust with light bands",
+     "expresses": "speed or tension without animation",
+     "serves": "a drive; waiting; a decision"
+    },
+    {
+     "move": "Insert with bokeh and a sliding highlight",
+     "expresses": "this object matters",
+     "serves": "a letter; a key; a ticket"
+    },
+    {
+     "move": "Extreme close-up on eyes",
+     "expresses": "resolve, recognition",
+     "serves": "a choice; a promise"
+    },
+    {
+     "move": "Slow pan across a painted still",
+     "expresses": "awe, a held breath",
+     "serves": "a peak; a memory; a landscape"
+    },
+    {
+     "move": "Radial speed lines + one-beat freeze",
+     "expresses": "the instant before impact",
+     "serves": "a leap; a collision; a goal"
+    },
+    {
+     "move": "Truck-in through a window or screen",
+     "expresses": "entering another world",
+     "serves": "a flashback; a broadcast; a dream"
+    },
+    {
+     "move": "Locked two-shot with lip flaps",
+     "expresses": "conversation",
+     "serves": "banter; a confession; an argument"
+    },
+    {
+     "move": "An earlier composition repainted",
+     "expresses": "what changed",
+     "serves": "after a storm; years later"
+    }
+   ],
+   "transitions": [
+    "Cut on bars.",
+    "Transitions: cuts, white flashes, impact frames, tracking noise at a tape-related beat;",
+    "no digital dissolves or wipes."
+   ],
+   "labels": [
+    "Subtitles live on the tape, composited inside the CRT pass: a semi-condensed sans (e.g. Barlow Semi Condensed 600, ~50–56 px), cream-yellow with a thick dark outline and soft shadow, ~96 px above the bottom; a second speaker may take a second colour and a small boxed tag. Hold ≥ max(1.8 s, speech + 0.6 s); a line yields to the next.",
+    "Titles: heavy italic Latin in a chrome gradient (sky → white horizon line → violet → pink → gold), dark + neon outlines, optional katakana line (e.g. Dela Gothic One), glowing through the emissive layer, flickering on at 12 fps with a light sweep and a star glint."
+   ],
+   "motion": [
+    "Characters on twos (12 fps); performance beats (blinks, eye openings, lip flaps, gestures) on threes (8 fps). Camera, light sweeps, flares and rain on ones (24 fps); a stepped camera judders.",
+    "Cycles: hair and cloth as ribbons driven by a travelling sine, 4-drawing cycle (6 when calm); bounce = a 12 fps jitter of a few px.",
+    "Move light, not drawings: coloured bands sweeping across a held cel (source-atop).",
+    "Impact frames: 2 frames of an inverted or monochrome silhouette over radial lines, then the result."
+   ],
+   "native_moves": [
+    {
+     "name": "Small flat hero in a huge painted world",
+     "does": "",
+     "fits": "a first day in a big company; a child in a museum hall; a lone researcher at an observatory."
+    },
+    {
+     "name": "Stillness as drama",
+     "does": "(held close-up or harmony still).",
+     "fits": "an exam result; a goodbye at a gate; an unveiling."
+    },
+    {
+     "name": "Backlit light",
+     "does": "",
+     "fits": "a lantern festival; a screen full of code; a lighthouse; stage lights."
+    },
+    {
+     "name": "Speed grammar",
+     "does": "(speed lines, looping plates, impact frames).",
+     "fits": "a sprint final; a data packet crossing the world; a kitchen rush."
+    },
+    {
+     "name": "Light-band sweep on a held cel",
+     "does": "",
+     "fits": "a night train; a scanner reading a page; a heartbeat quickening."
+    },
+    {
+     "name": "A song as an object",
+     "does": "(tape, radio, jukebox changes the score).",
+     "fits": "a band's origin; a family memory; a call-in show."
+    },
+    {
+     "name": "Tape artefacts as punctuation",
+     "does": "",
+     "fits": "found home video; a rewind to the past; an interrupted broadcast."
+    },
+    {
+     "name": "Colour-model change",
+     "does": "(one place, another hour).",
+     "fits": "a day in a shop; a farm's seasons; before/after a renovation."
+    }
+   ]
+  },
+  "score": {
+   "genre": "city-pop",
+   "note": "city pop / synth funk: sax lead, FM keys, slap bass, gated snare",
+   "render": {
+    "engine": "synth",
+    "space": "neon",
+    "band": {
+     "lead": {
+      "voice": "alto_sax",
+      "patch": "Brass/Toto Brass"
+     },
+     "pad": {
+      "voice": "epiano",
+      "patch": "Keys/DX EP"
+     },
+     "bass": {
+      "voice": "electric_bass",
+      "patch": "Basses/E-Bass"
+     }
+    },
+    "drums": {
+     "kick": "Percussion/Kick Tech 1",
+     "snare": "Percussion/Snare Tight",
+     "tom": "Percussion/Synth Tom 1"
+    }
+   }
+  }
+ }
+}

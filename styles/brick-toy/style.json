@@ -1,0 +1,199 @@
+{
+ "slug": "brick-toy",
+ "num": "78",
+ "en": "Brick Toy",
+ "cn": "积木玩具",
+ "category_en": "3D & Miniature",
+ "category_cn": "立体微缩",
+ "film": "Rocket from Spare Parts",
+ "film_cn": "零件拼出的火箭",
+ "line": "A brick astronaut builds a rocket from spare parts and flies to a brick moon.",
+ "line_cn": "积木宇航员用零件拼出火箭，飞向积木月亮。",
+ "uses": [
+  "Toys & kids",
+  "Product builds",
+  "Space"
+ ],
+ "frame_sec": 38.88,
+ "dur": 54.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "brick-toy",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Yapı Oyuncağı",
+ "category_tr": "3D & Minyatür",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "DESIGNED/RISER",
+    "query": "swell"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "click"
+   },
+   {
+    "role": "WHOOSH/SWISH",
+    "query": "whoosh"
+   },
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "bell"
+   }
+  ],
+  "motion": {
+   "cuts": "camera moves through one set",
+   "rig": "calm",
+   "move_frames": [
+    12,
+    18
+   ],
+   "ease": "softLand",
+   "reveal": "rise",
+   "mblur": true
+  },
+  "three_d": "A+B",
+  "music": "future-pop",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Extreme macro on one brick or stud, real room blurred behind",
+     "expresses": "The toy scale is the world",
+     "serves": "a beginning; a detail that matters; a single part"
+    },
+    {
+     "move": "Low angle at minifig eye level",
+     "expresses": "A tiny character made heroic",
+     "serves": "ambition; pride; standing up to something big"
+    },
+    {
+     "move": "High wide over the whole surface",
+     "expresses": "The scale reveal: it was a toy all along",
+     "serves": "a summing-up; irony; a finished build"
+    },
+    {
+     "move": "Low, wide, lonely frame, character small in a corner",
+     "expresses": "Smallness, failure",
+     "serves": "a setback; waiting; loss"
+    },
+    {
+     "move": "Frontal close-up, hands and brick in focus",
+     "expresses": "Intimacy, decision",
+     "serves": "a choice; a repair; a gift"
+    },
+    {
+     "move": "Handheld shake on impact",
+     "expresses": "Physical shock",
+     "serves": "a collapse; an arrival; a collision"
+    },
+    {
+     "move": "Tracking alongside a moving object, destination ahead",
+     "expresses": "Momentum toward a goal",
+     "serves": "a journey; a race; a launch"
+    },
+    {
+     "move": "Top-down plan view",
+     "expresses": "Order, layout, a map",
+     "serves": "a plan; sorting parts; a city from above"
+    },
+    {
+     "move": "Rack focus from a real object to a brick (or back)",
+     "expresses": "Two scales in one frame",
+     "serves": "\"big world, small maker\"; a comparison"
+    },
+    {
+     "move": "Orbit around a finished build",
+     "expresses": "Pride, inspection",
+     "serves": "a product; a monument; a result"
+    }
+   ],
+   "transitions": [
+    "Cut on beats or bars;",
+    "a snap can be a cut point.",
+    "No generic dissolves;",
+    "transitions can be a hand-placed brick covering the lens, a whip along the desk, or a pull out of one set into the next."
+   ],
+   "labels": [
+    "A rounded, friendly OFL face (e.g. Fredoka, in core/fonts) for titles and subtitles.",
+    "Subtitles live on a toy element: a dark rounded pill low in the frame with a small brick icon beside the text, or a printed tile, or a sign built into the set. White on dark, ≤ 2 lines. A second speaker type (radio, device, narrator) gets its own icon colour or tag. Hold ≥ max(1.8 s, speech + 0.6 s).",
+    "Titles pop in on 12 fps steps, like a piece being placed; a short sub-line in a brick colour."
+   ],
+   "motion": [
+    "Characters and bricks step at 12 fps (on twos); camera, focus, fire and flying vehicles move on ones at 24 fps. Stepping the camera too reads as judder, not charm.",
+    "Bricks fly in on arcs and snap with a tiny overshoot (a fraction of a stud → 0 in ~4 frames). Every snap is a click on the soundtrack.",
+    "Characters act with big readable poses held for several drawings: a V of arms for pride, arms flung up for alarm, a bowed head for sadness, a hop for joy. Walk cycles swing legs about ±0.55 rad with a small bob. Arms and legs rotate at their joints; nothing bends.",
+    "Collapses and falls use real rigid-body physics: tip about the base edge, then independent bodies with gravity (a lower-than-true value reads better at this scale), bounces (restitution ~0.3), friction, settling flat. Pre-simulate so every render is identical."
+   ],
+   "native_moves": [
+    {
+     "name": "Snap-together building",
+     "does": "The plot is an act of building; pieces fly in on arcs and click home.",
+     "fits": "a company assembling its first product; a neighbourhood rising street by street; a recipe put together ingredient by ingredient."
+    },
+    {
+     "name": "Break without harm",
+     "does": "Things fall apart and the parts become something new; failure yields spare parts.",
+     "fits": "a pivot after a failed plan; recycling; a team reshuffled into a better shape."
+    },
+    {
+     "name": "Toy on a real desk",
+     "does": "Real objects become landscape at toy scale.",
+     "fits": "a laptop keyboard as a city grid; a houseplant as a jungle; a coffee spill as a flood."
+    },
+    {
+     "name": "Hand-made stop-motion",
+     "does": "12 fps poses, tiny imperfections, even fire and water made of bricks.",
+     "fits": "a weather report; a kitchen explained with brick flames; a science demo of a volcano."
+    },
+    {
+     "name": "Rebuild into something else",
+     "does": "The same pieces, rearranged on screen, become a different object.",
+     "fits": "one career turning into another; a before/after renovation; a word re-spelled."
+    },
+    {
+     "name": "The scale reveal",
+     "does": "Pull back until the whole world is a toy on a table.",
+     "fits": "a big ambition that is still small; a year in review; a child's imagination."
+    }
+   ]
+  },
+  "score": {
+   "genre": "future-pop",
+   "pad": "ukulele",
+   "lead": "glockenspiel",
+   "counter": "violins_pizz",
+   "bass": "contrabass_pizz",
+   "drums": "kit",
+   "note": "small, acoustic, playful: glockenspiel, ukulele, pizzicato, claps",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "glockenspiel",
+      "gm": 9
+     },
+     "counter": {
+      "voice": "violins_pizz",
+      "gm": 45
+     },
+     "pad": {
+      "voice": "ukulele",
+      "gm": 24
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

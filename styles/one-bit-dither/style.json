@@ -1,0 +1,188 @@
+{
+ "slug": "one-bit-dither",
+ "num": "72",
+ "en": "1-bit Dither",
+ "cn": "1-bit 点阵",
+ "category_en": "Screens & Interfaces",
+ "category_cn": "屏幕界面",
+ "film": "The Moon's Fax",
+ "film_cn": "月亮的传真",
+ "line": "February 1966: the first close-up of the Moon arrives at an English radio telescope as a newspaper fax, printed one line at a time in two inks, a day early and stretched too tall.",
+ "line_cn": "1966 年 2 月，月面的第一张近照被英国一座射电望远镜当成报社传真收下，一行一行印出来：早了一天，比例却拉高了。",
+ "uses": [
+  "History told through a chain of media",
+  "Printing, scanning and signals",
+  "Night scenes and space"
+ ],
+ "frame_sec": 25.5,
+ "dur": 50.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "one-bit-dither",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "1-bit Dither",
+ "category_tr": "Ekran & Arayüz",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "mechanical"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "scratch"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "stamps"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "tick"
+   }
+  ],
+  "motion": {
+   "cuts": "one-take UI flythrough or snap zoom",
+   "rig": "punchy",
+   "move_frames": [
+    8,
+    12
+   ],
+   "ease": "snapSettle",
+   "reveal": "rise",
+   "mblur": false
+  },
+  "three_d": "A",
+  "music": "drone-sparse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Macro locked to a surface",
+     "expresses": "the object is the world; texture becomes landscape",
+     "serves": "a print forming; a dial; frost; a fingerprint"
+    },
+    {
+     "move": "Fall through the dots",
+     "expresses": "scale change between media",
+     "serves": "entering a photograph; leaving a screen; zooming into a map"
+    },
+    {
+     "move": "Low glide (camera centimetres above ground)",
+     "expresses": "presence, scale, long shadows crossing the lens",
+     "serves": "a landscape; a crime scene; a battlefield after"
+    },
+    {
+     "move": "Orbit to backlight",
+     "expresses": "revelation by silhouette and rim",
+     "serves": "an object, a monument, a figure"
+    },
+    {
+     "move": "Exponential pull-back",
+     "expresses": "context arriving in layers",
+     "serves": "a document to a building to a city"
+    },
+    {
+     "move": "Locked frame",
+     "expresses": "judgement, reading time",
+     "serves": "comparisons, verdicts, notices"
+    },
+    {
+     "move": "Hard cuts on a beat",
+     "expresses": "mechanical process, urgency",
+     "serves": "arrivals, a montage of hands-on steps"
+    }
+   ],
+   "transitions": [
+    "Allowed transitions: hard cut, shape match, block dissolve, fax-scan wipe, inversion flash, coarse-cell resolve, fall through the dots.",
+    "Across a dissolve or wipe both pictures hold still and share the composition.",
+    "Forbidden: cross-fades through grey, per-pixel dissolves over fine dots (they read as a grey double exposure), blurs as transitions, page turns."
+   ],
+   "labels": [
+    "All text lives in the world: written, typed, stencilled, printed or stamped on an object, then dithered like everything else. No overlay captions.",
+    "Text is drawn high-resolution on the object's own canvas, bold enough to survive the 960×540 grid: CJK glyphs at least 11 internal px tall where they must be read (22 px at 1080p), Latin cap height at least 9 internal px. Thin handwriting gets a stroke; typewriter faces get a stroke; condensed display faces close up below ~20 px, so stamps use a heavy sans.",
+    "Roles: handwriting for logs and notes (a kai-style CJK hand, a casual Latin hand), typewriter for labels, a newspaper serif or condensed grotesk for print, a heavy sans for stamps and stencils. Fonts are OFL or Apache, subset to the characters used.",
+    "Bilingual lines: one line per language, native line first and larger."
+   ],
+   "motion": [
+    "30 fps, on ones. Because every pixel flips between two states, motion is visible as pattern change: keep camera moves smooth (spline keys, ease in and out) and avoid fast lateral pans across fine repeating structure.",
+    "No velocity cliffs. A sudden stop, a start at full speed or a 0.1 s hold mid-move reads as a stutter, because the whole pattern freezes or jumps at once. Join camera segments with continuous velocity (Hermite or Bézier, overlap and blend two segments), start a shot after a cut from rest or at the speed the cut implies, slow an orbit down rather than stopping it. As a reference, keep turns under about 3° per frame.",
+    "Big scale changes in log distance. A pull-back from one dot to a town is keyed on log(distance), starts from rest and peaks around 15 % per frame; a linear pull that is fastest on its first frame smears the whole picture.",
+    "Fine regular structure (lattice, mesh, grilles, rigging) must be built as few thick members or kept in silhouette; one-pixel lines that move produce crawling stairs."
+   ],
+   "native_moves": [
+    {
+     "name": "Print it line by line",
+     "does": "A picture appears one scan line at a time on paper (fax drum, plotter, receipt).",
+     "fits": "a weather chart arriving at a ship; a wanted poster on a police printer; a newborn's first scan."
+    },
+    {
+     "name": "Change of dot",
+     "does": "Pass the camera from world to print to page: ordered dither becomes error diffusion becomes halftone.",
+     "fits": "a photograph's journey to a newspaper; a satellite image to an atlas; a painting to a postcard."
+    },
+    {
+     "name": "Fall through the dots",
+     "does": "Push into a printed dot until it fills the frame, resolve the next world from coarse blocks.",
+     "fits": "entering a memory; going inside a map; a scan becoming the room it shows."
+    },
+    {
+     "name": "Inversion strike",
+     "does": "Swap ink and paper for one frame at an impact.",
+     "fits": "a stamp or verdict; a camera flash; a lightning strike; a gunshot."
+    },
+    {
+     "name": "Rim in the dark",
+     "does": "A dark object against a dark ground gets a paper outline from the edge rule; a backlit object becomes a drawn contour.",
+     "fits": "a spacecraft; a statue at night; a lighthouse."
+    },
+    {
+     "name": "Density time-lapse",
+     "does": "A window, sky or wall goes from dense to sparse dots over a held move.",
+     "fits": "a night passing; a season; a fire dying."
+    }
+   ]
+  },
+  "score": {
+   "genre": "drone-sparse",
+   "lead": "clarinet",
+   "pulse": "upright",
+   "sparkle": "glockenspiel",
+   "bass": "cellos_pizz",
+   "drums": "brushes",
+   "note": "small, slightly cold ensemble: clarinet, glockenspiel, pizzicato, detuned upright piano",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "clarinet",
+      "gm": 71
+     },
+     "pad": {
+      "voice": "cellos",
+      "gm": 42
+     },
+     "pulse": {
+      "voice": "upright",
+      "gm": 32
+     },
+     "bass": {
+      "voice": "cellos_pizz",
+      "gm": 45
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

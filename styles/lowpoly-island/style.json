@@ -1,0 +1,190 @@
+{
+ "slug": "lowpoly-island",
+ "num": "81",
+ "en": "Low-poly Isometric Island",
+ "cn": "低多边形等距",
+ "category_en": "3D & Miniature",
+ "category_cn": "立体微缩",
+ "film": "The Island That Grew",
+ "film_cn": "长出来的岛",
+ "line": "An island and its village grow tile by tile from an empty sea, each tile a note, into a starry night.",
+ "line_cn": "空海里一格格长出小岛和村庄，每放一块响一个音符，直到星空。",
+ "uses": [
+  "Game trailers",
+  "World building",
+  "Calm content"
+ ],
+ "frame_sec": 21.2,
+ "dur": 53.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "lowpoly-island",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Low-poly İzometrik Ada",
+ "category_tr": "3D & Minyatür",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "bells"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "ticks"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "knock"
+   },
+   {
+    "role": "DESIGNED/RISER",
+    "query": "swells"
+   }
+  ],
+  "motion": {
+   "cuts": "camera moves through one set",
+   "rig": "calm",
+   "move_frames": [
+    12,
+    18
+   ],
+   "ease": "softLand",
+   "reveal": "rise",
+   "mblur": true
+  },
+  "three_d": "A+B",
+  "music": "minimal-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Turntable (azimuth sweep)",
+     "expresses": "the thing seen from every side",
+     "serves": "building; inspecting; a product assembled"
+    },
+    {
+     "move": "Pure orthographic zoom (frustum change)",
+     "expresses": "scale without perspective",
+     "serves": "a detail in context; smallness; a world among worlds"
+    },
+    {
+     "move": "Elevation change",
+     "expresses": "low (≈20–25°) widens the sky band; high (≈50°) reads as a map",
+     "serves": "night and stars; a sweep across the whole world; a plan"
+    },
+    {
+     "move": "Locked 3/4 wide",
+     "expresses": "the world lives on its own",
+     "serves": "lights coming on; time-lapse; waiting"
+    },
+    {
+     "move": "Tight close-up on one arrival",
+     "expresses": "the bounce and the splash",
+     "serves": "a key piece; a milestone; a gag"
+    },
+    {
+     "move": "Side angle trailing a mover",
+     "expresses": "travel across the frame, never at the lens",
+     "serves": "a delivery; a departure; a route"
+    },
+    {
+     "move": "Lateral truck along a row of tiles",
+     "expresses": "a list, a sequence",
+     "serves": "steps of a process; a timeline"
+    },
+    {
+     "move": "Time-lapse sun sweep, camera still",
+     "expresses": "light is the time machine",
+     "serves": "a day; a season; history"
+    }
+   ],
+   "transitions": [
+    "Intercut wide and close on beats: wide shows the shape growing, close sells the bounce.",
+    "Transitions: hard cuts on the beat, a time-of-day change, a zoom through the sky;",
+    "no dissolves, no perspective whip-pans."
+   ],
+   "labels": [
+    "Geometric OFL sans faces: a rounded one for subtitles (e.g. Quicksand 600), a geometric caps face with wide tracking for titles (e.g. Josefin Sans).",
+    "Subtitles: no box; warm white with a soft dark-blue drop shadow, centred low; a small flat-shaded tile icon beside them whose top colour follows the time of day. Hold ≥ max(1.8 s, speech + 0.6 s), never overlapping the next line or a title.",
+    "Titles behave like tiles: letters rise one by one from under a water line, overshoot and settle.",
+    "A text card over the world leaves a gap where the world stays visible."
+   ],
+   "motion": [
+    "On ones (24 fps), smooth. The charm is in the arrival curves, not stepping.",
+    "Rise from below: a short cubic ease up, then a damped-sine overshoot; a splash ring and spray the moment it breaks the surface. The event time is when it settles.",
+    "Drop and stack (floors, roofs, rings): a fast ease-in fall, a damped bounce, and volume-preserving squash-and-stretch on landing.",
+    "Pop (trees, lamps, details): scale 1 − e^(−k s)·cos(ω s), about 25 % overshoot."
+   ],
+   "native_moves": [
+    {
+     "name": "Building is composing",
+     "does": "every piece that lands plays a note; a later sweep can replay them in spatial order as a finished melody.",
+     "fits": "a skyline whose floors are notes; a team assembling a product; a garden whose flowers form a chord."
+    },
+    {
+     "name": "Procedural growth",
+     "does": "tiles rise, floors stack, trees pop.",
+     "fits": "a startup's first year; a coral reef recovering; a neighbourhood being planned."
+    },
+    {
+     "name": "Scale by pure zoom",
+     "does": "one object fills the frame, then the world becomes a speck (or the reverse).",
+     "fits": "one user among millions; a village on a continent; a data centre inside a network."
+    },
+    {
+     "name": "Turntable",
+     "does": "a continuous rotation around the thing being made.",
+     "fits": "a machine being assembled; a museum object; a house renovation."
+    },
+    {
+     "name": "Light as clock",
+     "does": "shadows sweep and facets re-colour.",
+     "fits": "a day of a shop; a year of a farm; a shift at a hospital."
+    },
+    {
+     "name": "Emissive blocks in the dark",
+     "does": "lights coming on one by one, a beam sweeping like a clock hand.",
+     "fits": "a network going live; a town at nightfall; volunteers joining a cause."
+    }
+   ]
+  },
+  "score": {
+   "genre": "minimal-pulse",
+   "lead": "kalimba",
+   "sparkle": "glockenspiel",
+   "note": "pitched percussion that suits the facets: marimba, kalimba, bells",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "kalimba",
+      "gm": 108
+     },
+     "pad": {
+      "voice": "marimba",
+      "gm": 12
+     },
+     "pulse": {
+      "voice": "glockenspiel",
+      "gm": 9
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

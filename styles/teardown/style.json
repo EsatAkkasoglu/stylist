@@ -1,0 +1,187 @@
+{
+ "slug": "teardown",
+ "num": "46",
+ "en": "Exploded Teardown",
+ "cn": "产品拆解",
+ "category_en": "Line Diagrams",
+ "category_cn": "线稿图解",
+ "film": "21 Keys, Opened",
+ "film_cn": "二十一键",
+ "line": "Half an open-source keyboard comes apart in one orbit, down to the chip, then closes with its real dimensions.",
+ "line_cn": "开源键盘的一半在一次环绕中逐层拆开，看到主控再合拢，标上真实尺寸。",
+ "uses": [
+  "Hardware launches",
+  "Product pages",
+  "Spec explainers"
+ ],
+ "frame_sec": 9.75,
+ "dur": 38.8,
+ "source": "lemo-opuscar",
+ "lemo_slug": "teardown",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Patlatılmış Parça Görünüşü",
+ "category_tr": "Çizgi Diyagramlar",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "UI/CLICK",
+    "query": "click"
+   },
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "metal"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "thud"
+   },
+   {
+    "role": "WHOOSH/SWISH",
+    "query": "swooshes"
+   }
+  ],
+  "motion": {
+   "cuts": "continuous camera over one sheet",
+   "rig": "calm",
+   "move_frames": [
+    10,
+    14
+   ],
+   "ease": "softLand",
+   "reveal": "draw",
+   "mblur": true
+  },
+  "three_d": "A",
+  "music": "minimal-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Orbit while layers separate",
+     "expresses": "the whole, its order of assembly",
+     "serves": "a reveal; a structure overview"
+    },
+    {
+     "move": "Grazing macro dolly",
+     "expresses": "touch, material, finish",
+     "serves": "an opening; a texture"
+    },
+    {
+     "move": "Dive between layers",
+     "expresses": "being inside",
+     "serves": "a hidden component; how it works"
+    },
+    {
+     "move": "Slow push on one still part",
+     "expresses": "the part that matters",
+     "serves": "a chip, a sensor, a seal"
+    },
+    {
+     "move": "Rise through the stack",
+     "expresses": "one subsystem to the next",
+     "serves": "a transition between stops"
+    },
+    {
+     "move": "Fast pull back",
+     "expresses": "return, synthesis",
+     "serves": "a closing; a before/after"
+    },
+    {
+     "move": "High three-quarter drift",
+     "expresses": "scale and precision",
+     "serves": "sizes, pitch, thickness"
+    }
+   ],
+   "transitions": [
+    "Transitions are camera moves through the object itself.",
+    "No cuts to black, no slide transitions, no split screens."
+   ],
+   "labels": [
+    "Names: a clean sans at medium weight in the film's script (28–32 px; Noto Sans SC 500 in our demo). Specs and numbers: a monospaced face (15–22 px; JetBrains Mono) so digits line up and read as measurement. A neutral grotesque (Inter) for Latin running text.",
+    "Label structure is fixed: a two-digit index in the accent, the name, one spec line. Units always written (mm, MB, ×n for counts). A label carries at most one fact the voice does not say.",
+    "Dimension text sits on a small dark plate, follows the line's angle and is never upside down.",
+    "Subtitles: a centred strip at the bottom with a soft shadow and no box; if the film is bilingual, the film's language on top. Hold every cue ≥ max(1.8 s, speech + 0.6 s); every label stays fully in frame for CJK ÷ 4.5 + other ÷ 15 + 1.5 s."
+   ],
+   "motion": [
+    "24 fps on ones; everything is smooth and deterministic.",
+    "Separation: smooth start, fast middle, long settle (ease-in-out cubed); layers leave top first, 0.15–0.2 s apart; repeated parts (keys, screws) fan out in a wave ordered by distance from a corner.",
+    "Closing: bottom first, quicker (about 1 s per layer), the last layer lands with a real mechanical response (a key travels its stroke and returns; nothing bounces like rubber unless it is rubber).",
+    "While held apart, layers may float a millimetre or two with offset phases; during macro shots they hold perfectly still."
+   ],
+   "native_moves": [
+    {
+     "name": "The wave lift",
+     "does": "Repeated parts rise in a wave across the object.",
+     "fits": "battery cells; solar tiles; the drawers of a modular shelf."
+    },
+    {
+     "name": "Inside the gap",
+     "does": "The camera enters the space between two lifted layers to see a hidden face.",
+     "fits": "the back of a logic board; the inside of a drone arm; the underside of a sensor module."
+    },
+    {
+     "name": "The leader that lands on the part",
+     "does": "A macro label whose line ends on the component.",
+     "fits": "a pressure sensor in a shoe; a gasket in a waterproof case; a motor driver."
+    },
+    {
+     "name": "Dimensions drawn on the thing",
+     "does": "After closing, the real outline gets dimension lines in perspective.",
+     "fits": "the thickness of a laptop lid; the footprint of a router; the bore of a valve."
+    },
+    {
+     "name": "One real motion",
+     "does": "A part performs its true mechanical motion once (a press, a hinge, a latch).",
+     "fits": "a camera shutter; a buckle; a folding hinge."
+    },
+    {
+     "name": "Lights on inside",
+     "does": "Emitters inside the product switch on while it is apart.",
+     "fits": "status LEDs; a backlit display; an indicator ring."
+    }
+   ]
+  },
+  "score": {
+   "genre": "minimal-pulse",
+   "pad": "marimba",
+   "lead": "vibraphone",
+   "sparkle": "glass",
+   "bass": "synthbass",
+   "drums": "machine",
+   "note": "tuned mallets and glass, a round bass, a short synthetic kick",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "vibraphone",
+      "gm": 11
+     },
+     "pad": {
+      "voice": "marimba",
+      "gm": 12
+     },
+     "pulse": {
+      "voice": "glockenspiel",
+      "gm": 9
+     },
+     "bass": {
+      "voice": "synthbass",
+      "gm": 38
+     },
+     "sparkle": {
+      "voice": "glass",
+      "gm": 92
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

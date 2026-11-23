@@ -1,0 +1,204 @@
+{
+ "slug": "paper-popup",
+ "num": "79",
+ "en": "Paper Pop-up Book",
+ "cn": "纸片立体书",
+ "category_en": "3D & Miniature",
+ "category_cn": "立体微缩",
+ "film": "Pip's Paper Adventure",
+ "film_cn": "小精灵冒险记",
+ "line": "A pop-up book opens on a desk; a sprite named Pip adventures through paper worlds and jumps out into ours.",
+ "line_cn": "立体书在书桌上打开，小精灵 Pip 在纸片世界冒险，最后跳出书外。",
+ "uses": [
+  "Children's books",
+  "Game trailers",
+  "Story films"
+ ],
+ "frame_sec": 16.0,
+ "dur": 133.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "paper-popup",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Kâğıt Pop-up Kitap",
+ "category_tr": "3D & Minyatür",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   },
+   {
+    "role": "WHOOSH/SWISH",
+    "query": "swish"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "thump"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "typing"
+   }
+  ],
+  "motion": {
+   "cuts": "camera moves through one set",
+   "rig": "calm",
+   "move_frames": [
+    12,
+    18
+   ],
+   "ease": "softLand",
+   "reveal": "rise",
+   "mblur": true
+  },
+  "three_d": "A+B",
+  "music": "folk-acoustic",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Eye-level macro track, shallow focus",
+     "expresses": "being inside the story at the actors' size",
+     "serves": "a walk; a conversation; a chase"
+    },
+    {
+     "move": "Pull up to a 3/4 view of the spread",
+     "expresses": "the mechanism, the map",
+     "serves": "a page turn; a new setting; a plan"
+    },
+    {
+     "move": "Descending dolly from human height",
+     "expresses": "entering the book's scale",
+     "serves": "an arrival; zooming into one part of a system"
+    },
+    {
+     "move": "Push-in on a face",
+     "expresses": "feeling",
+     "serves": "a wish; a fear; a decision"
+    },
+    {
+     "move": "Reverse shot from inside the book to the blurred room",
+     "expresses": "the world beyond the page is huge",
+     "serves": "curiosity; an outside threat; a reader watching"
+    },
+    {
+     "move": "Rack focus paper ↔ real object",
+     "expresses": "paper and reality touch",
+     "serves": "cause and effect; a real product in a paper story"
+    },
+    {
+     "move": "Top-down over the open spread",
+     "expresses": "a board game, a diagram",
+     "serves": "a route; two sides of the gutter compared"
+    },
+    {
+     "move": "Locked frame on a pull-tab",
+     "expresses": "the trick is the event",
+     "serves": "before/after; a count"
+    },
+    {
+     "move": "Rising crane leaving the book small",
+     "expresses": "scale, distance",
+     "serves": "aftermath; a summary; time passing"
+    }
+   ],
+   "transitions": [
+    "a new key list = a hard cut.",
+    "Transitions: page turns, a book closing and reopening, a hard cut on a paper sound;",
+    "never a video dissolve inside the book."
+   ],
+   "labels": [
+    "Rounded OFL faces: a rounded sans for subtitles, bubbles, signs (e.g. Fredoka); a chunky display face for cover, banners, action words (e.g. Lilita One); a storybook serif for taglines (e.g. IM Fell English); a playful Chinese face (e.g. ZCOOL KuaiLe) with the Latin face in its stack.",
+    "Narration subtitles: bottom centre, ~40 px, cream with a thick dark-brown outline and soft shadow, second language smaller below. Hold ≥ max(1.8 s, speech + 0.6 s).",
+    "Speech bubbles live in the paper world: white card, ink outline, tail projected each frame to the speaker; pop in with overshoot, type on with blips.",
+    "Titles are paper objects: a cardboard sign dropping on strings and swinging; the cover itself is the film title. Action words (italic display, gradient, double stroke, rays) sparingly, like a game rating."
+   ],
+   "motion": [
+    "On ones (60 fps suits the smooth macro camera), all a pure function of t. Paper moves stiffly; life comes from easing: back() overshoot for pop-ups, springs for things on strings, squash and stretch on characters.",
+    "Pop-ups rise back to front (delay grows with distance from the reader), far pieces lying back, near ones folding forward face-down; they fold down in the same order.",
+    "Plants and light props sway a few hundredths of a radian around their base.",
+    "Characters are flat cards redrawn per quantized pose (walk phase, arms, eyes, mouth, look, blink); walk phase follows distance walked, so feet don't slide."
+   ],
+   "native_moves": [
+    {
+     "name": "The book opens",
+     "does": "creak, the board swings up, the world pops up back to front.",
+     "fits": "a project launch; a first school day; a recipe book."
+    },
+    {
+     "name": "Page turn = scene change",
+     "does": "old pieces fold down as new ones spring up.",
+     "fits": "stages of a process; a farm's seasons; chapters of a biography."
+    },
+    {
+     "name": "Pull-tab mechanisms",
+     "does": "flipping slats, a sun on a stick, sliding strips, a hinged door, pieces on strings.",
+     "fits": "a forecast; old way/new way; a lock opening."
+    },
+    {
+     "name": "Paper as character",
+     "does": "crumpled, smoothed, refolded, torn, taped.",
+     "fits": "a mistake becoming a lesson; recycling; a rejected draft becoming the design."
+    },
+    {
+     "name": "The edge of the page",
+     "does": "crossing between paper and the room, either way.",
+     "fits": "a character stepping into a phone on the desk; a real object entering the story; a drawing coming true."
+    },
+    {
+     "name": "The real object plays a part",
+     "does": "a lamp as a sun, a mug as a tower.",
+     "fits": "a product at home; the reader's presence; real clock time."
+    },
+    {
+     "name": "Typed bubbles and ratings",
+     "does": ".",
+     "fits": "a tutorial; a quiz; a small victory."
+    }
+   ]
+  },
+  "score": {
+   "genre": "folk-acoustic",
+   "pad": "ukulele",
+   "lead": "clarinet",
+   "counter": "violins_pizz",
+   "sparkle": "pluck:music_box",
+   "bass": "contrabass_pizz",
+   "drums": "brushes",
+   "note": "whimsical, toy-like: music box, pizzicato, clarinet, ukulele",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "clarinet",
+      "gm": 71
+     },
+     "counter": {
+      "voice": "violins_pizz",
+      "gm": 45
+     },
+     "pad": {
+      "voice": "ukulele",
+      "gm": 24
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     },
+     "sparkle": {
+      "voice": "pluck:music_box",
+      "gm": 10
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

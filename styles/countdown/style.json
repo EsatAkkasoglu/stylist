@@ -1,0 +1,195 @@
+{
+ "slug": "countdown",
+ "num": "03",
+ "en": "Live Countdown Split-screen",
+ "cn": "实时倒计时分屏",
+ "category_en": "Edit & Documentary",
+ "category_cn": "剪辑纪实",
+ "film": "Counting Itself Down",
+ "film_cn": "自己倒数",
+ "line": "The last minute of the Artemis II launch, uncut: one cell opens to nine, and they merge into one at ignition.",
+ "line_cn": "阿尔忒弥斯二号发射的最后一分钟，一秒不剪：格子从 1 开到 9，点火合成 1。",
+ "uses": [
+  "Launches",
+  "Countdowns",
+  "Live events"
+ ],
+ "frame_sec": 8.93,
+ "dur": 59.5,
+ "source": "lemo-opuscar",
+ "lemo_slug": "countdown",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Canlı Geri Sayım Bölünmüş Ekran",
+ "category_tr": "Kurgu & Belgesel",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "UI/CLICK",
+    "query": "tick"
+   },
+   {
+    "role": "WHOOSH/SWISH",
+    "query": "whoosh"
+   },
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "metallic"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "thump"
+   }
+  ],
+  "motion": {
+   "cuts": "camera-led cuts: slide or push-through on motion",
+   "rig": "editorial",
+   "move_frames": [
+    6,
+    10
+   ],
+   "ease": "accelExit",
+   "reveal": "wipe",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "cinematic-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Screen time = event time",
+     "expresses": "One mapping, M = t − T0, for the whole film. Each camera has its own source offset (s = M + c) measured once and baked into the frame extraction (demo/tools/prep.sh): frames are named by film frame nu",
+     "serves": ""
+    },
+    {
+     "move": "Cut points are calls",
+     "expresses": "Each layout change starts on the first word of a real call in the native audio (\"ten\", \"go for…\", \"ignition\", a name) or on an event visible in the footage. The music follows; it never sets a cut.",
+     "serves": ""
+    },
+    {
+     "move": "Cell count rises toward zero",
+     "expresses": "1 → 2 → 3–4 → many (6–9, the clock itself becomes the centre cell, the transcript a cell) → one at zero → a few again after zero (the event's consequences) → one under the title. The shortest layouts ",
+     "serves": ""
+    },
+    {
+     "move": "Inside a cell, the source cuts itself (a broadcast switching cameras): keep it; ",
+     "expresses": "",
+     "serves": ""
+    },
+    {
+     "move": "Silence before zero",
+     "expresses": "the music drops out a quarter-second before zero; only the native sound and the clock remain.",
+     "serves": ""
+    },
+    {
+     "move": "Full-screen moments carry the clock and transcript as plates at the bottom; a gr",
+     "expresses": "",
+     "serves": ""
+    }
+   ],
+   "transitions": [
+    "Cut points are calls.",
+    "it never sets a cut.",
+    "Inside a cell, the source cuts itself (a broadcast switching cameras): keep it;",
+    "we only cut the layout."
+   ],
+   "labels": [
+    "Clock digits: a condensed sans with fixed-width digit slots (ours: Barlow Condensed SemiBold, drawn digit by digit in equal slots so the clock never jitters); size up to 132 px, the T−/T+ sign at 0.85×, tenths at 0.41× in grey, a ten-segment sub-second bar under it.",
+    "Chinese: a sturdy sans (ours: Noto Sans SC 500/700, subset). English text: a clean grotesque (Barlow). Labels, codes and English small print: a monospace (IBM Plex Mono). All OFL, in the project's fonts/.",
+    "The live transcript is the subtitle. A fixed box (bottom right, or a cell in the grid): a speaking light and the speaker type (commentary / loop / narrator — the narrator, our own voice, is marked in orange so it is never mistaken for the event's audio), the English line appearing word by word at the spoken times (0.08 s fade per word, a block cursor), the Chinese line whole when its cue starts. One line per language, never wrapped: a long sentence becomes two cues; each cue ≥ max(1.8 s, speech + 0.6 s). Transcribe only what is said; mark doubtful words in FACTS.md.",
+    "Reading time for everything else: CJK ÷ 4.5 + other ÷ 15 + 1.5 s from the moment it is complete (readcheck.mjs). A comparison (two bars, two numbers) stays fully on screen ≥ 2.5 s."
+   ],
+   "motion": [
+    "30 fps. Clock: on each whole second the new digits drop 14 px in 0.12 s (ease-out); the sub-second bar empties one segment per 0.1 s (fills after zero).",
+    "Re-layout: 0.34 s easeInOutCubic. Cells that stay interpolate their rectangles; new cells open from their left edge; leaving cells close to the left; a new cell flashes a 3 px orange border for ~0.2 s when it lands. A grid filling up pops one cell per spoken count in 0.30 s.",
+    "Swaps (one source replaces another in the same rectangle) wipe in from the left. Hard cuts only between full-screen sources.",
+    "Photographs push in ≤ 6 % over their whole stay; names pop one by one 0.16 s apart. Documents move their window down a row in 0.45 s; the highlight sweeps left to right in 0.35 s."
+   ],
+   "native_moves": [
+    {
+     "name": "Many into one",
+     "does": "At zero, every cell moves to its tile of the full frame (a 3×3 grid becomes nine 640×360 tiles) while each tile cross-fades to the same full-screen shot, chips and borders vanish in the first half, a warm white flash (rgba(255,248,236,.7), decay τ ≈ 0.11 s) peaks, and the clock and transcript slide from their grid cells back to the bottom. 0.42 s. Fits: a verdict read out; the goal at the final whistle.",
+     "fits": ""
+    },
+    {
+     "name": "Clock inversion",
+     "does": "At zero the clock block flips from dark with an orange T− to orange with dark T+, and its header changes (countdown → elapsed). Fits: polls closing, a store opening.",
+     "fits": ""
+    },
+    {
+     "name": "Control strip",
+     "does": "Segments in the clock header (who has control: ground → vehicle → mission control; prosecution → jury → judge); the active one fills orange on the call that hands it over, with a short flash. The story's turns live here.",
+     "fits": ""
+    },
+    {
+     "name": "The grid fills on the count",
+     "does": "Empty grid slots show as dashed \"standby\" frames; each spoken number opens one camera. Fits: \"three, two, one\" before a premiere.",
+     "fits": ""
+    },
+    {
+     "name": "Sync badge",
+     "does": "Top-right of each video cell: ● 实时同步 LIVE SYNC (synced), ○ 同一时段 · 未逐帧同步 SAME WINDOW (hatched, grey: footage from the same minutes without a usable clock), 慢动作还原 1× REAL-TIME (slow-motion re-timed). Honesty is part of the look.",
+     "fits": ""
+    },
+    {
+     "name": "Planned vs heard checklist",
+     "does": "Official milestones with their planned times tick as the clock passes them; when the native audio actually says one, a red \"heard −32.1\" tag with a small waveform appears beside it. Fits: a court schedule against what was said; a train timetable against the platform announcement.",
+     "fits": ""
+    },
+    {
+     "name": "Second countdown",
+     "does": "After zero, a smaller clock counts to the next official milestone (−1:47 to booster separation, expected T+2:09) along a schematic profile drawn by time, not distance. Fits: the next race split; the next ballot count.",
+     "fits": ""
+    },
+    {
+     "name": "Event flag",
+     "does": "An orange bar with black type slides in at the bottom of the relevant cell on its call (RS-25 ×4 启动 ENGINE START · T−6.36), held ≥ the reading time.",
+     "fits": ""
+    },
+    {
+     "name": "Punch-in on a call",
+     "does": "A hard digital punch-in on the relevant detail when the commentary names it, from a higher-resolution extraction of the same source.",
+     "fits": ""
+    },
+    {
+     "name": "Document by rows",
+     "does": "A paper close-up shows two or three rows; a highlight bar and an annotation band below the paper translate the row; the window moves only between rows (its edges in the white space).",
+     "fits": ""
+    }
+   ]
+  },
+  "score": {
+   "genre": "cinematic-pulse",
+   "note": "ticking pulse to zero, a quarter-second silence before ignition",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "piano",
+      "gm": 0
+     },
+     "pad": {
+      "voice": "violins",
+      "gm": 48
+     },
+     "pulse": {
+      "voice": "saw",
+      "gm": 81
+     },
+     "bass": {
+      "voice": "synthbass",
+      "gm": 38
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

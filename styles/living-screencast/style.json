@@ -1,0 +1,208 @@
+{
+ "slug": "living-screencast",
+ "num": "68",
+ "en": "Mascot Screencast",
+ "cn": "像素小人录屏",
+ "aka": [
+  "Living Screencast",
+  "活体实机录屏"
+ ],
+ "category_en": "Screens & Interfaces",
+ "category_cn": "屏幕界面",
+ "film": "Clawd Moves In",
+ "film_cn": "Clawd 搬进来了",
+ "line": "Clawd hops out of the terminal into the Claude app and acts out plan mode and self-checks in one take.",
+ "line_cn": "像素小人 Clawd 搬进 Claude 应用，一镜到底演示 Plan 模式和自检。",
+ "uses": [
+  "Product tutorials",
+  "Feature launches",
+  "Onboarding"
+ ],
+ "frame_sec": 5.94,
+ "dur": 59.4,
+ "source": "lemo-opuscar",
+ "lemo_slug": "living-screencast",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Maskotlu Ekran Kaydı",
+ "category_tr": "Ekran & Arayüz",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "UI/CLICK",
+    "query": "keyboard"
+   },
+   {
+    "role": "WHOOSH/SWISH",
+    "query": "swishes"
+   },
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "chimes"
+   },
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "shutter"
+   }
+  ],
+  "motion": {
+   "cuts": "one-take UI flythrough or snap zoom",
+   "rig": "punchy",
+   "move_frames": [
+    8,
+    12
+   ],
+   "ease": "snapSettle",
+   "reveal": "rise",
+   "mblur": true
+  },
+  "three_d": "A",
+  "music": "future-pop",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Push-in to the cursor or caret",
+     "expresses": "\"this is where it happens\"",
+     "serves": "typing a prompt; choosing a menu item; a setting"
+    },
+    {
+     "move": "Slow drift at rest",
+     "expresses": "the app is alive while we listen",
+     "serves": "a line of narration; waiting for a result"
+    },
+    {
+     "move": "Whip-pan between panes (with blur)",
+     "expresses": "cause here, effect there",
+     "serves": "sending a message → a result appearing; code → preview"
+    },
+    {
+     "move": "Push-in + vignette freeze",
+     "expresses": "the one promise to remember",
+     "serves": "a safety guarantee; a price; an undo"
+    },
+    {
+     "move": "Rack focus between panes",
+     "expresses": "attention moves, nothing else does",
+     "serves": "reading files; logs scrolling while chat waits"
+    },
+    {
+     "move": "Pull back to the full window",
+     "expresses": "the whole workflow in view",
+     "serves": "a summary; parallel tasks; before/after"
+    },
+    {
+     "move": "Follow the mascot along a list",
+     "expresses": "the software working through items",
+     "serves": "scanning results; a checklist; a migration"
+    },
+    {
+     "move": "Split-window reframe",
+     "expresses": "two things at once",
+     "serves": "parallel sessions; compare two versions"
+    }
+   ],
+   "transitions": [
+    "A recording-software camera: one continuous take inside the screen, zoom ≥ 1, cuts only under chapter transitions.",
+    "Transitions: chapter pill wipes, pixel wipes, a theme reveal circle;",
+    "never dissolves or screenshots."
+   ],
+   "labels": [
+    "UI type follows the product (or licence-free look-alikes such as Inter, JetBrains Mono, a serif for editorial UIs).",
+    "Information layers only: a chapter pill (01–04), a KeyCastr-style keystroke HUD, frosted-glass caption pills, an optional \"▶▶ 4×\" time-lapse tag. Nothing else overlays the screen.",
+    "Captions sit in a pill at the bottom, never over the element being discussed and never under the mascot; hold ≥ max(1.8 s, speech + 0.6 s).",
+    "A title, if any, is diegetic: it appears as part of the UI (an empty-state heading, a window title, a notification)."
+   ],
+   "motion": [
+    "30 fps; UI on ones; mascot position stepped to its pixel grid.",
+    "Mascot acting: jumps with anticipation crouch, stretch on take-off, tucked legs, landing squash with a damped bounce and dust. Idle breathes (a tiny squash) on the score's beat and blinks irregularly. Walks by leg alternation, flipping the sprite for direction.",
+    "Eyes carry the acting (neutral / left / right / up / down / wide / happy / shut / blink): they look at what matters. Arms: down / up (cheer) / wave.",
+    "Cursor: smoothed, spring-eased paths, small push on click, never teleports."
+   ],
+   "native_moves": [
+    {
+     "name": "Match-cut origin",
+     "does": "The mascot is born from something already in the UI (a logo's block characters, an icon, a loading spinner) and climbs out, leaving an outline.",
+     "fits": "a chat bubble turning into a guide; an icon becoming an assistant; a spinner becoming a helper."
+    },
+    {
+     "name": "Diegetic title",
+     "does": "The name appears as a real UI element; the mascot lands on it on a downbeat.",
+     "fits": "an empty state; a new-project dialog; a welcome email."
+    },
+    {
+     "name": "Moving floor",
+     "does": "The mascot rides a caret, a popup, a sent message, a progress bar.",
+     "fits": "a message flying into a thread; an upload bar; a drag-and-drop."
+    },
+    {
+     "name": "Time-lapse with a tag",
+     "does": "Long work runs at N× with a flashing tag and rack focus.",
+     "fits": "indexing a library; a data import; a build."
+    },
+    {
+     "name": "Spotlight freeze",
+     "does": "Push in and vignette the one badge that holds the promise.",
+     "fits": "\"Saved\"; \"Encrypted\"; \"No charges until…\"."
+    },
+    {
+     "name": "The film changes state",
+     "does": "A toggle's effect escapes the preview and takes over the whole film, and returns later.",
+     "fits": "dark mode; a language switch; offline mode."
+    },
+    {
+     "name": "Cell division",
+     "does": "A new session or window splits the screen and the mascot splits with a pixel burst.",
+     "fits": "parallel tasks; multiple accounts; team members."
+    },
+    {
+     "name": "Cursor and mascot as characters",
+     "does": "The cursor pets, pokes or drags the mascot, and it reacts.",
+     "fits": "approving a suggestion; undoing; onboarding delight."
+    },
+    {
+     "name": "Karaoke-ball words",
+     "does": "The mascot hops from word to word as they are spoken.",
+     "fits": "a slogan; a shortcut list; step names."
+    }
+   ]
+  },
+  "score": {
+   "genre": "future-pop",
+   "pad": "piano",
+   "lead": "glockenspiel",
+   "counter": "square",
+   "bass": "electric_bass",
+   "drums": "kit",
+   "note": "two resolutions: a hi-fi band is the world, a chiptune square is the mascot; they trade and merge",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "glockenspiel",
+      "gm": 9
+     },
+     "counter": {
+      "voice": "square",
+      "gm": 80
+     },
+     "pad": {
+      "voice": "piano",
+      "gm": 0
+     },
+     "bass": {
+      "voice": "electric_bass",
+      "gm": 33
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

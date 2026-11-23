@@ -1,0 +1,203 @@
+{
+ "slug": "microgame",
+ "num": "60",
+ "en": "Microgame Frenzy",
+ "cn": "微游戏快闪",
+ "category_en": "Games",
+ "category_cn": "电子游戏",
+ "film": "Five-Second Astronaut",
+ "film_cn": "五秒宇航员",
+ "line": "A clumsy cadet survives a five-second boot camp, faster and faster, until the boss: landing home.",
+ "line_cn": "见习宇航员闯五秒训练营，越来越快，Boss 关亲手降落回地球。",
+ "uses": [
+  "Game trailers",
+  "Onboarding",
+  "Social shorts"
+ ],
+ "frame_sec": 23.92,
+ "dur": 59.8,
+ "source": "lemo-opuscar",
+ "lemo_slug": "microgame",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Mikro Oyun Çılgınlığı",
+ "category_tr": "Oyun",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "IMPACT/HIT",
+    "query": "hit"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "crayon"
+   },
+   {
+    "role": "DESIGNED/ALERT",
+    "query": "beeps"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "typewriter"
+   }
+  ],
+  "motion": {
+   "cuts": "snap zoom, stepped motion",
+   "rig": "punchy",
+   "move_frames": [
+    4,
+    8
+   ],
+   "ease": "snapSettle",
+   "reveal": "draw",
+   "mblur": false
+  },
+  "three_d": "none",
+  "music": "city-pop",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Start inside a game, command already slamming",
+     "expresses": "the rules explain themselves",
+     "serves": "throwing the viewer in"
+    },
+    {
+     "move": "Pull back out of the game screen",
+     "expresses": "scale: this was one screen on a show",
+     "serves": "the first return to the stage"
+    },
+    {
+     "move": "Locked frontal home frame",
+     "expresses": "the constant; only the scoreboard changes",
+     "serves": "stage beats; the host's reaction"
+    },
+    {
+     "move": "Slot reels (the stage splits into spinning strips of earlier frames, stopping one per beat)",
+     "expresses": "acceleration, a summary",
+     "serves": "a speed-up; a change of round"
+    },
+    {
+     "move": "Extreme insert on the trigger prop",
+     "expresses": "the start, felt",
+     "serves": "a game starting on the downbeat"
+    },
+    {
+     "move": "Lights cut to one top spot, frame unchanged",
+     "expresses": "stakes; the last chance",
+     "serves": "the last life; a decision"
+    },
+    {
+     "move": "Tile flip (last frames of past games flip into pieces of a new frame)",
+     "expresses": "the past becomes the material of the present",
+     "serves": "a boss or finale; a recap"
+    },
+    {
+     "move": "Push into a detail, hold",
+     "expresses": "the viewer notices before the hero does",
+     "serves": "a clue; a silence"
+    },
+    {
+     "move": "Snap back to wide on one beat",
+     "expresses": "release",
+     "serves": "a solution blooming; a save"
+    },
+    {
+     "move": "Split screen, two media side by side",
+     "expresses": "comparison, rivalry",
+     "serves": "two players; before/after; two approaches"
+    }
+   ],
+   "transitions": [
+    "snap zoom, stepped motion."
+   ],
+   "labels": [
+    "The command word is the subtitle: a heavy display face (e.g. Titan One), white with a thick ink outline, a coloured drop and a burst behind it, skewed a few degrees. It slams in over ~3 frames (overshoot → settle), holds, then shrinks into a corner tag before the first action, so the result is never covered. One-off banners fly out instead of tagging, so tags never pile up.",
+    "Other lines: a rounded card in the home palette with the home outline and hard shadow, a friendly rounded face (e.g. Lilita One ~50 px), a small speaker icon; placed above the timer in games. Hold ≥ max(1.8 s, speech + 0.6 s), never under a big banner.",
+    "Inside a game, any text (replay captions, labels) uses that medium's own typography.",
+    "The command word appears in the .srt only, never burned twice."
+   ],
+   "motion": [
+    "The frame rate is part of the ladder: characters step on twos or at 8 fps early, faster later, on ones at the climax. Camera moves, transitions and the timer spark always run on ones.",
+    "Five things accelerate together at each speed-up: tempo, game length, stage dwell, command hold, character frame rate.",
+    "The timer is visible and on the beat: e.g. a fuse with one knot per beat, the spark passing each knot exactly on it. It freezes in a replay.",
+    "Unified transition through the frame-within-the-frame: push into the screen to start a game (~0.25 s), shrink the game back into it to return (~0.33 s) with a ✓ / ✗ stamp. No fades, no blank frames."
+   ],
+   "native_moves": [
+    {
+     "name": "Style switch per game",
+     "does": "Each task is drawn in the medium that suits it.",
+     "fits": "the steps of baking bread (flour in crayon, oven dial in blueprint, crust in woodcut); a day of a nurse; a heist's roles."
+    },
+    {
+     "name": "Command word",
+     "does": "One verb is script, subtitle and downbeat.",
+     "fits": "SCAN! at a checkout; BREATHE! in a yoga class; SIGN! at a contract signing."
+    },
+    {
+     "name": "Lives as UI",
+     "does": "The counter carries emotion without narration; 3 → 2 → 1 (blinking) builds tension alone.",
+     "fits": "a phone battery; retries on a driving test; chances left on a quiz."
+    },
+    {
+     "name": "SPEED UP",
+     "does": "Everything steps up together.",
+     "fits": "rush hour; the last week before a deadline; a kitchen during dinner service."
+    },
+    {
+     "name": "Failure becomes the solution",
+     "does": "The material of an earlier failure returns in the final game as the answer.",
+     "fits": "a spilled coffee that later stains the winning map; a bug that becomes a feature; a missed train that leads to the right meeting."
+    },
+    {
+     "name": "Boss mixes the rules",
+     "does": "The final game is built from pieces of earlier media.",
+     "fits": "a final exam; launch day; a festival's closing night."
+    },
+    {
+     "name": "Instant replay",
+     "does": "The joke explained in slow motion.",
+     "fits": "a goal-line decision; a typo that shipped; a cat's leap that missed."
+    }
+   ]
+  },
+  "score": {
+   "genre": "city-pop",
+   "lead": "trumpet_stac",
+   "counter": "square",
+   "note": "a constant groove plus one colour instrument per medium",
+   "render": {
+    "engine": "synth",
+    "space": "neon",
+    "band": {
+     "lead": {
+      "voice": "trumpet_stac",
+      "patch": "Brass/OB-8 Jump"
+     },
+     "counter": {
+      "voice": "square",
+      "patch": "Leads/Square"
+     },
+     "pad": {
+      "voice": "epiano",
+      "patch": "Keys/DX EP"
+     },
+     "bass": {
+      "voice": "electric_bass",
+      "patch": "Basses/E-Bass"
+     }
+    },
+    "drums": {
+     "kick": "Percussion/Kick Tech 1",
+     "snare": "Percussion/Snare Tight",
+     "tom": "Percussion/Synth Tom 1"
+    }
+   }
+  }
+ }
+}

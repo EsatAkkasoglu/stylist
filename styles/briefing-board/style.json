@@ -1,0 +1,203 @@
+{
+ "slug": "briefing-board",
+ "num": "87",
+ "en": "Engineering Briefing Board",
+ "cn": "工程简报板",
+ "category_en": "Instruments & Evidence",
+ "category_cn": "仪器实证",
+ "film": "The Ship Decides",
+ "film_cn": "船说了算",
+ "line": "Four bridge types are tested on one briefing wall, and the ship that must pass under picks the winner.",
+ "line_cn": "一条河要架桥，四种桥型在一面简报墙上逐个受检，拍板的是桥下要过的船。",
+ "uses": [
+  "Engineering",
+  "Option comparisons",
+  "Briefings"
+ ],
+ "frame_sec": 39.9,
+ "dur": 40.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "briefing-board",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Mühendislik Brifing Panosu",
+ "category_tr": "Cihaz & Kanıt",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "IMPACT/HIT",
+    "query": "thump"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   }
+  ],
+  "motion": {
+   "cuts": "instrument sweeps, slide between readings",
+   "rig": "editorial",
+   "move_frames": [
+    10,
+    16
+   ],
+   "ease": "softLand",
+   "reveal": "wipe",
+   "mblur": true
+  },
+  "three_d": "A",
+  "music": "jazz-combo",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Ride a line (with the pen or a dimension)",
+     "expresses": "measuring; \"how far does it go?\"",
+     "serves": "lengths compared; a route; a timeline"
+    },
+    {
+     "move": "Tilt along projection lines",
+     "expresses": "the same quantity in another view",
+     "serves": "plan → elevation; a total → its parts"
+    },
+    {
+     "move": "Slow push-in, slight Dutch tilt",
+     "expresses": "tension, an approaching problem",
+     "serves": "a collision; a deadline; an overrun"
+    },
+    {
+     "move": "Pull back and sideways",
+     "expresses": "stepping back to state a rule",
+     "serves": "a constraint; a turn in the argument"
+    },
+    {
+     "move": "Whip with the line, overshoot, settle",
+     "expresses": "a result that exceeds",
+     "serves": "a record; an outlier"
+    },
+    {
+     "move": "Rise along a leader line",
+     "expresses": "from evidence to verdict",
+     "serves": "a conclusion; a recommendation"
+    },
+    {
+     "move": "Staircase framing (each new item with the previous result)",
+     "expresses": "comparison in sequence",
+     "serves": "rankings; tests; options"
+    },
+    {
+     "move": "Judgement frame: the whole item, the limit and the verdict, held ≥ 2.5 s",
+     "expresses": "a test the viewer can check",
+     "serves": "pass / fail against a threshold; a budget against a cap"
+    },
+    {
+     "move": "Long pull-back to the whole wall",
+     "expresses": "scale; everything at once",
+     "serves": "the end of an argument; a summary"
+    }
+   ],
+   "transitions": [
+    "Transitions are moves;",
+    "no cuts, fades or zoom-to-fit."
+   ],
+   "labels": [
+    "Marker lettering: a single-weight marker face covering every script the film uses (ours: LXGW Marker Gothic, OFL, subset — re-run when words change). Content 100–160 board px; a verdict 230–400.",
+    "Printed labels (tags, cards, stamps): a sturdy sans; credit lines in a monospace. A tag holds one to three words.",
+    "Subtitles: a frosted acrylic strip at the bottom centre with a blue marker tick. If the film is bilingual, the film's language sits on top. One line per language: nowrap, measured in the page against a 1,500 px safe width; a long line becomes two cues. Key content stays above the strip (bottom 15 %).",
+    "Reading time: subtitles ≥ max(1.8 s, speech + 0.6 s); board text stays fully in frame for CJK ÷ 4.5 + other ÷ 15 + 1.5 s from when it appears. In the final wall, text meant to be read is ≥ 20 px on screen."
+   ],
+   "motion": [
+    "24 fps on ones; nothing is stepped.",
+    "Camera: overlapping eased moves, velocity ∝ u^a (1−u)^b (a, b ≈ 1.5–4), so speed and acceleration never jump; b > a gives inertia. A hand-held breath (≤ 3 px) underneath; shake only on an impact.",
+    "Weight: prints are lowered from the camera side, land, bounce and settle as the shadow tightens; magnets clack on to pin them; tags swing; removed magnets pop toward the lens; struck things jolt and spring back. The camera may meet a landing close, briefly, on the object's most telling detail, then pulls out.",
+    "Blurred in motion, sharp where words are read. Every 1–2 beats something lands, draws or swings; only silences and judgement holds go still."
+   ],
+   "native_moves": [
+    {
+     "name": "The whole-wall reveal",
+     "does": "Design the wall as a poster first (hierarchy, reading path, filling the frame), then plan every shot as a crop of it; keep one zone (secondary layer, verdict, title card) for the reveal alone. Fits: a product roadmap; a household budget.",
+     "fits": ""
+    },
+    {
+     "name": "The subject passes through the answer",
+     "does": "The real thing moves through the chosen solution, its sound first. Fits: a parcel along the chosen route; a train over the new viaduct.",
+     "fits": ""
+    },
+    {
+     "name": "Ride the dimension line",
+     "does": "A quantity drawn as a real length to one scale; the camera rides the tip. Fits: battery ranges of four cars.",
+     "fits": ""
+    },
+    {
+     "name": "Projection lines",
+     "does": "Dashed lines carry an edge from one view to another so two drawings share a scale. Fits: a trail map above its elevation profile.",
+     "fits": ""
+    },
+    {
+     "name": "Magnets as countable things",
+     "does": "Units clack on in rhythm, pop off when a rule removes them. Fits: seats in a vote.",
+     "fits": ""
+    },
+    {
+     "name": "Erase to a ghost",
+     "does": "A rejected idea wiped but faintly visible. Fits: last year's plan under this year's.",
+     "fits": ""
+    },
+    {
+     "name": "The stamp",
+     "does": "A verdict lands with a thud and a jolt. Fits: passed / failed tests.",
+     "fits": ""
+    },
+    {
+     "name": "The physical answer",
+     "does": "A real prop laid down as the solution. Fits: one cable instead of five.",
+     "fits": ""
+    },
+    {
+     "name": "Leader to the verdict",
+     "does": "An arrow from the deciding number to the conclusion. Fits: the bottleneck in a process.",
+     "fits": ""
+    }
+   ]
+  },
+  "score": {
+   "genre": "jazz-combo",
+   "bpm": 120,
+   "lead": "marimba",
+   "counter": "trombone_stac",
+   "drums": "brushes",
+   "avoid": [
+    "violins",
+    "piano"
+   ],
+   "note": "small rhythmic ensemble, walking to brisk; low brass for verdicts",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "marimba",
+      "gm": 12
+     },
+     "counter": {
+      "voice": "trombone_stac",
+      "gm": 57
+     },
+     "pad": {
+      "voice": "vibraphone",
+      "gm": 11
+     },
+     "bass": {
+      "voice": "jazz_bass",
+      "gm": 32
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

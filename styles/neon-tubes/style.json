@@ -1,0 +1,195 @@
+{
+ "slug": "neon-tubes",
+ "num": "77",
+ "en": "Neon Tubes",
+ "cn": "霓虹灯管",
+ "category_en": "Light & Lines",
+ "category_cn": "发光线条",
+ "film": "Midnight Snack",
+ "film_cn": "夜宵",
+ "line": "A neon cat goes out for the goldfish on the sign at the end of the street, cracks its bowl, and runs the fading fish home through the rain to the goblet on its own sign.",
+ "line_cn": "一只霓虹猫去街尾招牌上偷金鱼当夜宵，一爪子拍漏了鱼缸，又叼着快灭的鱼冒雨跑回家，放进自家招牌上的冰饮杯。",
+ "uses": [
+  "Shop openings and mascot stories",
+  "Nightlife and city-pop music videos",
+  "City and festival night idents"
+ ],
+ "frame_sec": 16.75,
+ "dur": 48.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "neon-tubes",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Neon Tüpler",
+ "category_tr": "Işık & Çizgi",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "UI/CLICK",
+    "query": "click"
+   },
+   {
+    "role": "AMBIENCE",
+    "query": "rain"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "thump"
+   }
+  ],
+  "motion": {
+   "cuts": "continuous, slow builds",
+   "rig": "calm",
+   "move_frames": [
+    12,
+    20
+   ],
+   "ease": "softLand",
+   "reveal": "draw",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "city-pop",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Macro on cold glass or an eye, pulling back",
+     "expresses": "the object is real glass; the moment it strikes",
+     "serves": "an opening; a character waking"
+    },
+    {
+     "move": "Whip pan along the facade",
+     "expresses": "distance, desire, \"over there\"",
+     "serves": "a character seeing its goal"
+    },
+    {
+     "move": "Lateral truck with a hanging sign in front",
+     "expresses": "a street, a route, a sequence",
+     "serves": "a journey; a list of places"
+    },
+    {
+     "move": "Locked medium",
+     "expresses": "cause and effect, reading time",
+     "serves": "a mistake; a verdict; a revival"
+    },
+    {
+     "move": "Slow push on one figure",
+     "expresses": "attention, guilt, decision",
+     "serves": "a reaction"
+    },
+    {
+     "move": "Crane down to puddle level (eye 0.3 m)",
+     "expresses": "the city doubled, urgency",
+     "serves": "a chase; rain; a mood change"
+    },
+    {
+     "move": "Rise from the reflection to the sign",
+     "expresses": "the real thing behind the image",
+     "serves": "arrival; a reveal"
+    },
+    {
+     "move": "Pull back and rise to the whole street",
+     "expresses": "everything at once",
+     "serves": "a chorus; closing time"
+    },
+    {
+     "move": "Tilt down into a still puddle",
+     "expresses": "what remains",
+     "serves": "an ending"
+    }
+   ],
+   "transitions": [
+    "Cuts land on beats.",
+    "Match cuts work on shapes of the same size: a round clock to a round eye, a tube on one sign to the same tube on another."
+   ],
+   "labels": [
+    "Words are tubes. Every word the viewer reads is bent glass on a sign: hanzi as above (5–14 strokes in 1–7 tubes), Latin capitals monoline at 15–20 % of the hanzi height, Chinese on one line, English beneath.",
+    "Printed type only where the world has paint or paper: a stencil on a roller shutter, a tag, a clock face. Use open fonts lit by the scene's light.",
+    "Readable at 1080p: hanzi tubes ≥ 60 px tall, Latin ≥ 18 px; hold ≥ CJK ÷ 4.5 + Latin ÷ 15 + 1.5 s from the moment the sign settles after its strike. A flickering or chasing sign does not count as readable.",
+    "No subtitle bar. Names of places come from the signs, time from a clock; a story told in this style is best told without voice."
+   ],
+   "motion": [
+    "30 fps; every switch lands on the music grid (beats, 8ths, 16ths).",
+    "Strike: 100 % for 50 ms, dark 70 ms, 70 %, dark, ramp to full in 0.1 s. Argon-mercury tubes start dim violet and warm to blue. A figure can also come alive by light running along its tube from one electrode to the other.",
+    "Characters switch, they never tween. One key pose per beat or per 8th note; pose changes are instant. Make poses strong: a leap stretches into one line, a landing gathers into a ball; a gallop alternates gathered and extended frames. Afterglow, if any, only on jumps: the previous outline at ≤ 8 % for two frames. Never on runs: one character must never read as two.",
+    "Failure: random flicker; a crack flashes white at the impact and leaves a visible gap in the tube; the column turns pale; the glow retreats a section at a time toward the electrodes. Anything stacked (water levels, steps, a meter) dies a level at a time."
+   ],
+   "native_moves": [
+    {
+     "name": "Strike in sequence",
+     "does": "Signs flash on one per beat as the camera passes, or as a character lands on them.",
+     "fits": "a route; a list of places; members of a team; steps of a timeline."
+    },
+    {
+     "name": "Frame-switched character",
+     "does": "A figure moves by one tube per pose on the beat grid.",
+     "fits": "a mascot's journey; a gesture; a chase; a small fable."
+    },
+    {
+     "name": "Strike = life",
+     "does": "The two-flash strike used on a character or object at the emotional peak.",
+     "fits": "a revival; a launch; a yes."
+    },
+    {
+     "name": "Crack and drain",
+     "does": "White flash, a gap in the tube, pale colour, then levels going out one by one.",
+     "fits": "a mistake; damage; loss; a running-out countdown."
+    },
+    {
+     "name": "Alternate circuits",
+     "does": "Two outlines swap on the beat (a bird's wing, a microphone, an eye).",
+     "fits": "before/after; two states; a heartbeat."
+    },
+    {
+     "name": "Chaser",
+     "does": "Segments of an arrow fill in 16ths, and can carry a character like a conveyor.",
+     "fits": "direction; progress; flow from A to B."
+    },
+    {
+     "name": "Puddle-level chase",
+     "does": "The character runs along the base of the wall with its upside-down twin in the water.",
+     "fits": "urgency; a return; a race."
+    },
+    {
+     "name": "One sign left",
+     "does": "Everything switches off but one, doubled in a still puddle.",
+     "fits": "closing time; what remains; a single message."
+    }
+   ]
+  },
+  "score": {
+   "genre": "city-pop",
+   "lead": "saw",
+   "note": "synthesized city pop at a dance tempo; each sign strikes the next note",
+   "render": {
+    "engine": "synth",
+    "space": "neon",
+    "band": {
+     "lead": {
+      "voice": "saw",
+      "patch": "Leads/Moogy Saw"
+     },
+     "pad": {
+      "voice": "epiano",
+      "patch": "Keys/DX EP"
+     },
+     "bass": {
+      "voice": "electric_bass",
+      "patch": "Basses/E-Bass"
+     }
+    },
+    "drums": {
+     "kick": "Percussion/Kick Tech 1",
+     "snare": "Percussion/Snare Tight",
+     "tom": "Percussion/Synth Tom 1"
+    }
+   }
+  }
+ }
+}

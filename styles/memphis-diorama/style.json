@@ -1,0 +1,183 @@
+{
+ "slug": "memphis-diorama",
+ "num": "83",
+ "en": "Memphis Diorama",
+ "cn": "孟菲斯微缩景观",
+ "category_en": "3D & Miniature",
+ "category_cn": "立体微缩",
+ "film": "Four Seasons in Pomelo Town",
+ "film_cn": "柚子城的四季",
+ "line": "One river bend, four seasons, one take; each turns when the big tree squats and springs back.",
+ "line_cn": "一个河湾一镜过完四季，大树一蹲一弹，就换一季。",
+ "uses": [
+  "Web heroes",
+  "Ambient loops",
+  "Seasons"
+ ],
+ "frame_sec": 25.0,
+ "dur": 45.0,
+ "by": {
+  "name": "EianLu",
+  "url": "https://x.com/EianLu"
+ },
+ "source": "lemo-opuscar",
+ "lemo_slug": "memphis-diorama",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Memphis Diorama",
+ "category_tr": "3D & Minyatür",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "AMBIENCE",
+    "query": "birds"
+   },
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "bell"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "click"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "thump"
+   }
+  ],
+  "motion": {
+   "cuts": "camera moves through one set",
+   "rig": "calm",
+   "move_frames": [
+    12,
+    18
+   ],
+   "ease": "softLand",
+   "reveal": "rise",
+   "mblur": true
+  },
+  "three_d": "A+B",
+  "music": "lofi-chill",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "High slow orbit or drift",
+     "expresses": "the whole place breathing",
+     "serves": "time passing; day and night; seasons; a loop"
+    },
+    {
+     "move": "Straight-down, slowly turning",
+     "expresses": "a map; order",
+     "serves": "road networks; fields; coverage; data on a grid"
+    },
+    {
+     "move": "Locked three-quarter frame",
+     "expresses": "calm; comparable",
+     "serves": "before and after; data; several places side by side"
+    },
+    {
+     "move": "Lateral move along a cutaway",
+     "expresses": "above and inside at once",
+     "serves": "how a thing works; underground; under water; inside a building"
+    },
+    {
+     "move": "Slow push to one detail",
+     "expresses": "something is happening here",
+     "serves": "a lit window; a stall; a bird on a roof"
+    },
+    {
+     "move": "Following one vehicle",
+     "expresses": "flow; a route",
+     "serves": "a delivery; a commute; one line joining places"
+    }
+   ],
+   "transitions": [
+    "Transitions: only three — the frame draws in and grows out again;",
+    "the ground is cut open (the Cutaway of §8: the same move, whether the cut goes into the ground, a building or water).",
+    "No white flash, spin or fast hard cut."
+   ],
+   "labels": [
+    "Three centred lines under the frame: line 1, the title, Chinese and English, weight 600, about 25 px, dark; line 2, one sentence, weight 400, about 18 px, grey; line 3, small data (time, solar term, place, coordinates) in a monospace, about 15 px, light grey. Line 3 may change with the picture.",
+    "Line 3 is optional, and so is line 2. An empty line leaves its place empty; the others never move up to fill it. With a voice, or when the film's words are bilingual, the type is one Chinese line and one English line: line 1 in Chinese (weight 600, about 25 px, dark) and line 2 in English (weight 400, about 18 px, grey), each on one line, never wrapped; line 3 stays empty unless there is small data to show. In this layout both lines change together, as one pair.",
+    "The lines fade in and out with the frame and never move. When a line changes, the old one fades away and the new one fades in; line 1 stays (in the bilingual layout, both lines cross-fade, about 0.4 s out and 0.4 s in). The three marks stay at full strength through every change: only the words fade.",
+    "Typefaces: Inter Tight for Latin, Noto Sans SC for Chinese, IBM Plex Mono for data (all OFL)."
+   ],
+   "motion": [
+    "60 fps, every frame moves; no stepping, no jitter. The frame's grain boils at 12 fps, which is the only thing on twos.",
+    "Shapes may be simple; motion may not. Everything eases. Vehicles accelerate, brake and nod; turns follow smooth curves, never polylines.",
+    "All natural motion is procedural and looping: water, trees, cloud shadows, leaves, snow, smoke, flocks. Every object has its own phase; nothing marches in step.",
+    "People are distant decoration: small, walking a cycle, flying a kite, rowing. No close-ups, no acting, no hand business."
+   ],
+   "native_moves": [
+    {
+     "name": "Wave",
+     "does": "A ring spreads from one point; everything it passes takes its next state (colours swap per pixel inside the radius; objects grow, open, fall or light up as the ring reaches them).",
+     "fits": "night falling street by street; a change of season; a delivery or signal coverage map; power coming back after an outage. Night falling or day breaking by area follows §3 (night and day as two states); how to build it is in §10."
+    },
+    {
+     "name": "Squash and spring",
+     "does": "One landmark squats, springs back, and the change starts from it. Use it to say \"this causes that\" without a person.",
+     "fits": "a fountain that starts the morning; a factory chimney that starts a shift; a station clock that starts the rush hour."
+    },
+    {
+     "name": "Cutaway",
+     "does": "Cut along a line; the near part sinks and slides away to show the section underground, inside a wall or under water.",
+     "fits": "how a metro and its pipes work; a tree's roots; what each floor of a building is doing; fish under a pond. What is revealed is built, not implied: floors with their rooms and furniture, soil in layers, pipes and tunnels, water with what lives in it; every cut face is drawn as a section (flat colour with section hatching), never left hollow. The near part leaves in two steps (a lid rises, then slides back; a wall or a slab of ground sinks straight down), so nothing passes through anything, and it comes back the same way in reverse. The engine has no cutaway built in: §10 says how to make one."
+    },
+    {
+     "name": "Grow the frame",
+     "does": "The organic frame grows from the centre to open, draws back in to close, and can close and reopen as a chapter break.",
+     "fits": "an opening; a change of chapter; an ending."
+    },
+    {
+     "name": "Living loop",
+     "does": "Every small motion is periodic, so a passage loops seamlessly.",
+     "fits": "a website hero; a screensaver; a livestream background; a live wallpaper."
+    },
+    {
+     "name": "Callout",
+     "does": "A pill label with a leader line pops out of the model.",
+     "fits": "explaining a mechanism; labelling data; naming places."
+    }
+   ]
+  },
+  "score": {
+   "genre": "lofi-chill",
+   "pad": "epiano",
+   "lead": "piano",
+   "sparkle": "pluck:music_box",
+   "bass": "synthbass",
+   "drums": "brushes",
+   "note": "warm, gentle, continuous: piano, Rhodes, marimba, music box, brushes",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "piano",
+      "gm": 0
+     },
+     "pad": {
+      "voice": "epiano",
+      "gm": 4
+     },
+     "bass": {
+      "voice": "synthbass",
+      "gm": 38
+     },
+     "sparkle": {
+      "voice": "pluck:music_box",
+      "gm": 10
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

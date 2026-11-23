@@ -1,0 +1,177 @@
+{
+ "slug": "oscilloscope-math",
+ "num": "76",
+ "en": "Oscilloscope Math",
+ "cn": "示波器数学",
+ "category_en": "Light & Lines",
+ "category_cn": "发光线条",
+ "film": "The Gibbs Phenomenon",
+ "film_cn": "吉布斯现象",
+ "line": "How do you roll a square out of circles? Spinning circles stack into a square wave, until a dive into one corner finds the 9% spike that never goes away.",
+ "line_cn": "方方正正的波，怎么由圆滚出来？一个个圆叠成方波，直到镜头扎进一个角：那里有一个永远消不掉的 9% 尖角。",
+ "uses": [
+  "Maths and physics lessons",
+  "Signals and electronics",
+  "Science explainers"
+ ],
+ "frame_sec": 28.6,
+ "dur": 51.1,
+ "source": "lemo-opuscar",
+ "lemo_slug": "oscilloscope-math",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Osiloskop Matematiği",
+ "category_tr": "Işık & Çizgi",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "bells"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "clicks"
+   }
+  ],
+  "motion": {
+   "cuts": "continuous, slow builds",
+   "rig": "calm",
+   "move_frames": [
+    12,
+    20
+   ],
+   "ease": "softLand",
+   "reveal": "draw",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "synthwave",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Follow the beam's writing point",
+     "expresses": "something being made",
+     "serves": "an opening; drawing a curve"
+    },
+    {
+     "move": "Push onto a rotation, then ride a moving point",
+     "expresses": "attention on a mechanism",
+     "serves": "one term, one phasor, one particle"
+    },
+    {
+     "move": "Match cut between two curves of the same shape",
+     "expresses": "\"this is that\"",
+     "serves": "a circle's arc to a wave crest; a trajectory to a graph"
+    },
+    {
+     "move": "Pull back over a whole curve",
+     "expresses": "the result",
+     "serves": "after a build-up; an ending"
+    },
+    {
+     "move": "Dive into a detail (×10 and more), graticule refining, TIME/DIV shrinking",
+     "expresses": "looking closely; the twist",
+     "serves": "an error, a crossing, a limit"
+    },
+    {
+     "move": "Locked frame with cursors",
+     "expresses": "measuring",
+     "serves": "a verdict"
+    }
+   ],
+   "transitions": [
+    "Transitions come from the medium: letters morphing into the next subject;"
+   ],
+   "labels": [
+    "Instrument voice: a monospace (e.g. JetBrains Mono, OFL) for readouts, cursors, knob values, labels on objects, 19–30 px. Values are live (computed every frame); align the = signs in a column.",
+    "Formula: TeX typography (MathJax SVG paths or LaTeX), top left, about 520–560 px wide; glyphs are lit one by one by the beam; the part that changes (an upper limit, a coefficient) flashes when it changes.",
+    "Titles: a serif that matches TeX (e.g. STIX Two Text, OFL), 60–84 px, with the key word in italic; a Chinese line under it in a CJK serif (e.g. Noto Serif SC) ≥ 34 px. Written by the beam (outline traced, then filled, then a white-hot flash), never faded in.",
+    "Subtitles: bottom left, fixed to the glass, a thin vertical light bar, Chinese serif 36 px over English STIX italic 29 px, one line each, a soft dark scrim behind them so a trace never runs through the words. Keep subjects and labels out of that corner."
+   ],
+   "motion": [
+    "Rotation is uniform and real (the frequencies are the maths). Growth eases in: a new element grows from nothing at the point it attaches to in about 0.45 s, flashing white (in our demo, a new circle at its parent's tip).",
+    "Additions accelerate rather than repeat: one, then a few, then too many to count.",
+    "Live values update every frame; when a value is the point, it is shown at the precision that stays constant.",
+    "STOP freezes the signal; the camera may keep moving through the frozen world."
+   ],
+   "native_moves": [
+    {
+     "name": "Epicycle chain",
+     "does": "circles on circles whose tip draws a curve, with afterglow.",
+     "fits": "Fourier series; phasors in AC circuits; planetary epicycles."
+    },
+    {
+     "name": "Live readouts",
+     "does": "values computed from the drawn state, updating every frame.",
+     "fits": "a pendulum's energy; a filter's gain; a running sum."
+    },
+    {
+     "name": "Text into geometry",
+     "does": "a title written by the beam, its letters morphing into the next subject.",
+     "fits": "naming a theorem before it appears; a chapter title becoming an axis."
+    },
+    {
+     "name": "Knob zoom",
+     "does": "a dive with refining graticule and changing scale readouts.",
+     "fits": "the fine edge of a fractal; a discontinuity; numerical error near a limit."
+    },
+    {
+     "name": "Cursor measurement",
+     "does": "(amber): two lines, an arrow, the difference and its share.",
+     "fits": "a period; a rise time; a peak height."
+    },
+    {
+     "name": "STOP and power-off",
+     "does": "freezing the signal for a closer look; collapsing the picture to a dot at the end.",
+     "fits": ""
+    }
+   ]
+  },
+  "score": {
+   "genre": "synthwave",
+   "pad": "pad",
+   "lead": "pluck",
+   "sparkle": "sinebell",
+   "bass": "synthbass",
+   "drums": "machine",
+   "note": "plucked synth tones following the signal, sine bells for events",
+   "render": {
+    "engine": "synth",
+    "space": "neon",
+    "band": {
+     "lead": {
+      "voice": "pluck",
+      "patch": "Plucks/The 1980s"
+     },
+     "pad": {
+      "voice": "pad",
+      "patch": "Polysynths/Juno-60 Strings"
+     },
+     "pulse": {
+      "voice": "saw",
+      "patch": "Leads/Moogy Saw"
+     },
+     "bass": {
+      "voice": "synthbass",
+      "patch": "Basses/Bass 1"
+     },
+     "sparkle": {
+      "voice": "sinebell",
+      "patch": "Plucks/Bell 1"
+     }
+    },
+    "drums": {
+     "kick": "Percussion/Kick Tech 1",
+     "snare": "Percussion/Snare Tight",
+     "tom": "Percussion/Synth Tom 1"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,198 @@
+{
+ "slug": "spreadsheet",
+ "num": "71",
+ "en": "Spreadsheet Film",
+ "cn": "表格动画",
+ "category_en": "Screens & Interfaces",
+ "category_cn": "屏幕界面",
+ "film": "The Hidden Column",
+ "film_cn": "藏起来的那一列",
+ "line": "The total says treatment B; unhide the stone-size columns and A wins every group. Simpson's paradox told in one sheet, 1 cell = 1 patient.",
+ "line_cn": "总数说 B 更好；把藏起来的结石大小列打开，A 在每一组都赢。一张表讲清辛普森悖论，一格就是一位病人。",
+ "uses": [
+  "Data literacy",
+  "Finance & costs",
+  "Analytics explainers"
+ ],
+ "frame_sec": 47.3,
+ "dur": 52.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "spreadsheet",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Tablo Filmi",
+ "category_tr": "Ekran & Arayüz",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "UI/CLICK",
+    "query": "clicks"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "thump"
+   },
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "ratchet"
+   },
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "ding"
+   }
+  ],
+  "motion": {
+   "cuts": "one-take UI flythrough or snap zoom",
+   "rig": "punchy",
+   "move_frames": [
+    8,
+    12
+   ],
+   "ease": "snapSettle",
+   "reveal": "rise",
+   "mblur": true
+  },
+  "three_d": "A",
+  "music": "future-pop",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Pull out from one cell",
+     "expresses": "the part becomes the whole; data becomes a picture",
+     "serves": "a reveal of scale; \"each cell is one…\"; a summary"
+    },
+    {
+     "move": "Push into a cell or range",
+     "expresses": "this one number matters",
+     "serves": "a verdict; a definition; an outlier"
+    },
+    {
+     "move": "Follow the selected cell",
+     "expresses": "the eye is led step by step",
+     "serves": "a calculation path; a comparison A → B; a list"
+    },
+    {
+     "move": "Whip to the headers",
+     "expresses": "look at the structure, not the data",
+     "serves": "a clue (hidden columns, a sort, a filter)"
+    },
+    {
+     "move": "Track along a row or column",
+     "expresses": "reading a series",
+     "serves": "a timeline; a ranking; a sequence of groups"
+    },
+    {
+     "move": "Follow cells that move",
+     "expresses": "the data reorganises",
+     "serves": "a sort; a pivot; a filter; a merge"
+    },
+    {
+     "move": "Locked wide frame",
+     "expresses": "let the viewer compare",
+     "serves": "a paradox; before/after; any judgement"
+    }
+   ],
+   "transitions": [
+    "Transitions are made by the sheet (a hop, a zoom, a column opening, cells flying, a colour scale spreading, a merged cell expanding);",
+    "no cross-fades, wipes or page turns."
+   ],
+   "labels": [
+    "One grotesque for the whole interface (Inter, OFL) and a matching CJK sans (Noto Sans SC, OFL), self-hosted as subsets.",
+    "Roles: cell values 11 px × zoom (texture), merged-cell labels 14–26 px × zoom, results 26–32 px × zoom (they pop 30 % on Enter), formula bar 26 px fixed (the line of the film), shell 12–13 px fixed. On-screen Chinese ≥ 34 px at the zoom it is read at.",
+    "Subtitles are a cell comment: a pale yellow note with an ink border and a red corner triangle, docked at the lower left, one Chinese line over one English line, never wrapped. Frame the subject above it (the camera's centre sits about 48 px above the viewport's centre).",
+    "Formulas use the real syntax of a spreadsheet (=AVERAGE(range), =COUNTIF(range, \"L\")), names for ranges, and colour the referenced names."
+   ],
+   "motion": [
+    "24 fps; the camera (zoom, scroll) is smooth every frame. Cells themselves move on the grid: positions snap to whole cells, so a moving cell hops.",
+    "Paint happens in rings or sweeps from one cell, a few tens of milliseconds per cell, with the status bar counting cells.",
+    "Typing is even within a line, about 14–30 characters per second: the longer the formula, the faster, so that one formula is typed in about 0.8–1.4 s; the caret blinks at 4 Hz. Enter is a hard cut of state: the edit box closes, the value pops.",
+    "Column-width changes ease in and out (~0.5 s per column) and ripple across neighbouring columns."
+   ],
+   "native_moves": [
+    {
+     "name": "Pull out from a formula cell",
+     "does": "Type in one cell, then zoom out until the sheet is a picture made of values.",
+     "fits": "a budget that becomes a portrait of a city; survey answers that become a map; one sale among a year of sales."
+    },
+    {
+     "name": "Conditional format sweep",
+     "does": "A rule fires and paints outward from one cell; the status bar counts.",
+     "fits": "turning raw numbers into a heat map; flagging outliers; a season of temperatures."
+    },
+    {
+     "name": "Hidden columns",
+     "does": "Letters skip in the header and a double line marks the fold; \"Unhide\" opens the columns, which show #, ##, then values while they widen.",
+     "fits": "a confounder; a missing cost; the fine print of a contract."
+    },
+    {
+     "name": "Cells that move",
+     "does": "Cells lift and hop to new positions (rows first, then columns) to sort, filter or pivot; bars of cells grow as they land.",
+     "fits": "a ranking that reshuffles; a cohort split by age; votes regrouped by region."
+    },
+    {
+     "name": "A count drawn as cells",
+     "does": "A COUNTIF or SUM shown as a row of cells filled in proportion, not just a number.",
+     "fits": "market share; a quota; \"3 of 10 households\"."
+    },
+    {
+     "name": "Reference boxes as pointers",
+     "does": "A formula's names colour boxes around ranges anywhere in the sheet.",
+     "fits": "a weighted average; a dependency between two tables; where a total comes from."
+    },
+    {
+     "name": "Merged cell as stage",
+     "does": "A range merges and expands into a title or end card; typing fills it.",
+     "fits": "chapter titles; a verdict; a credit."
+    },
+    {
+     "name": "#### gag",
+     "does": "A column too narrow for its number shows hashes; widening it reveals the value.",
+     "fits": "a number too big to believe; a surprise price; a hidden score."
+    }
+   ]
+  },
+  "score": {
+   "genre": "future-pop",
+   "pad": "piano",
+   "lead": "marimba",
+   "counter": "xylophone",
+   "sparkle": "glockenspiel",
+   "bass": "electric_bass",
+   "drums": "kit",
+   "note": "office pop: kit, electric bass, piano stabs, marimba, xylophone",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "marimba",
+      "gm": 12
+     },
+     "counter": {
+      "voice": "xylophone",
+      "gm": 13
+     },
+     "pad": {
+      "voice": "piano",
+      "gm": 0
+     },
+     "bass": {
+      "voice": "electric_bass",
+      "gm": 33
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

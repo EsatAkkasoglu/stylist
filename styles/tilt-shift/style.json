@@ -1,0 +1,193 @@
+{
+ "slug": "tilt-shift",
+ "num": "80",
+ "en": "Tilt-Shift Miniature",
+ "cn": "移轴微缩",
+ "category_en": "3D & Miniature",
+ "category_cn": "立体微缩",
+ "film": "Toy Town Rush Hour",
+ "film_cn": "玩具城早高峰",
+ "line": "Morning rush hour in a town that looks like a model: traffic, trains and tiny people.",
+ "line_cn": "玩具城的早高峰，一切都像模型。",
+ "uses": [
+  "City promos",
+  "Real estate",
+  "Transport"
+ ],
+ "frame_sec": 22.8,
+ "dur": 38.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "tilt-shift",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Tilt-Shift Minyatür",
+ "category_tr": "3D & Minyatür",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "bells"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "clicks"
+   },
+   {
+    "role": "AMBIENCE",
+    "query": "birds"
+   }
+  ],
+  "motion": {
+   "cuts": "camera moves through one set",
+   "rig": "calm",
+   "move_frames": [
+    12,
+    18
+   ],
+   "ease": "softLand",
+   "reveal": "rise",
+   "mblur": true
+  },
+  "three_d": "A+B",
+  "music": "minimal-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "High oblique wide, very slow slide",
+     "expresses": "a whole system at a glance",
+     "serves": "setting a place; routine; many small actors"
+    },
+    {
+     "move": "Band follows one subject across a wide",
+     "expresses": "\"this one\"",
+     "serves": "a single commuter; a delivery; a lost child"
+    },
+    {
+     "move": "Rack of the band from one subject to another",
+     "expresses": "attention changing hands",
+     "serves": "cause and effect; a handover; a comparison"
+    },
+    {
+     "move": "Slow push on an intersection, station or yard",
+     "expresses": "a system heating up",
+     "serves": "rush hour; a festival setting up; a queue"
+    },
+    {
+     "move": "Straight top-down, slowly rotating",
+     "expresses": "the world as a board or machine",
+     "serves": "patterns; logistics; choreography"
+    },
+    {
+     "move": "Continuous dive from high to actor height with a speed ramp",
+     "expresses": "the one small thing that matters",
+     "serves": "a twist; a joke; a meeting"
+    },
+    {
+     "move": "Band narrowing to a sliver",
+     "expresses": "intimacy",
+     "serves": "a confession; a reunion; one decision"
+    },
+    {
+     "move": "Vertical rise with logarithmic height",
+     "expresses": "scale, letting go",
+     "serves": "aftermath; a summary; a system becoming a pattern"
+    },
+    {
+     "move": "Lateral track along a line (rail, river, road)",
+     "expresses": "a process in order",
+     "serves": "a supply chain; a parade; a race"
+    },
+    {
+     "move": "Locked frame across hours",
+     "expresses": "time as the actor",
+     "serves": "a construction; a market day; tide"
+    }
+   ],
+   "transitions": [
+    "Transitions: cuts on the beat, speed ramps, dives and rises;",
+    "avoid dissolves that reveal the fake lens."
+   ],
+   "labels": [
+    "Subtitles belong to the world's own signage: a panel in the graphic language of the place's signs (road sign, platform board, harbour notice…), an open sign-revival font (Overpass, OFL, is a Highway-Gothic revival), sitting inside the lower blur band. Hold ≥ max(1.8 s, speech + 0.6 s).",
+    "A time-lapse clock with a speed readout (e.g. ×24 TIME-LAPSE / ×1 REAL TIME, monospace) is the audience's speedometer for the native trick; use it whenever speed changes carry meaning.",
+    "Titles live in the world: letters on a roof, a sign or a field, placed where nothing blocks them, lit or revealed on the beat."
+   ],
+   "motion": [
+    "Time-lapse stutter is the soul of the style. In fast-forward the whole world (vehicles, people, lights, sun) updates at a low rate and holds each position for several frames (8 Hz = 3 frames at 24 fps); choose the rate so every jump lands on the musical grid. The camera stays smooth on every frame. Step at a middle rate while the speed is moderate; below about ×2 the stutter disappears and motion becomes silky, which makes a drop to real time hit hard.",
+    "Systems run on simple simulations pre-computed per clip (car-following, signal cycles, crowds gathering and surging), with cycle offsets chosen so changes land on bar lines.",
+    "Hero actors get art-directed timing (scripted paths fitted through beat times), never a hope that the sim hits a beat.",
+    "Close-up acting: anticipation squash → stretch → land squash → settle; a failed attempt before success is the comedy engine."
+   ],
+   "native_moves": [
+    {
+     "name": "The speed drop (×40 → ×1)",
+     "does": "Time crashes to real speed on one detail.",
+     "fits": "one worker finishing a shift; a child dropping an ice cream; a proposal on a crowded pier."
+    },
+    {
+     "name": "The band as pointer",
+     "does": "Slide or narrow the sharp strip to steer the eye.",
+     "fits": "a courier through a market; a single wrong-way skier; one boat leaving port."
+    },
+    {
+     "name": "God's-eye system",
+     "does": "The place as a sequencer or machine.",
+     "fits": "a port unloading ships; an airport's turnaround; a farm harvest."
+    },
+    {
+     "name": "Long-exposure light",
+     "does": "At dusk, lights leave trails that draw on the world.",
+     "fits": "ferries crossing a bay; runners with headlamps; lanterns along a river."
+    },
+    {
+     "name": "The scale reveal",
+     "does": "Rise until the place becomes a pattern.",
+     "fits": "a festival from setup to crowd; a school at recess; a city grid at night."
+    },
+    {
+     "name": "Cloud shadows sweeping",
+     "does": "Weather crossing the model.",
+     "fits": "a season turning; a mood change; a news cycle."
+    }
+   ]
+  },
+  "score": {
+   "genre": "minimal-pulse",
+   "counter": "clarinet",
+   "note": "Reich grammar: tuned percussion added one voice at a time, a small reed section",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "vibraphone",
+      "gm": 11
+     },
+     "counter": {
+      "voice": "clarinet",
+      "gm": 71
+     },
+     "pad": {
+      "voice": "marimba",
+      "gm": 12
+     },
+     "pulse": {
+      "voice": "glockenspiel",
+      "gm": 9
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

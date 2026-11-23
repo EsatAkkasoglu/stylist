@@ -1,0 +1,183 @@
+{
+ "slug": "news-package",
+ "num": "08",
+ "en": "Broadcast News Package",
+ "cn": "电视新闻包装",
+ "category_en": "Edit & Documentary",
+ "category_cn": "剪辑纪实",
+ "film": "The Week in AI",
+ "film_cn": "本周 AI 四件事",
+ "line": "Four AI stories from one week in a full on-air package: rundown, headline strap, price board, spec card.",
+ "line_cn": "一周四条 AI 新闻，一整套电视台包装：串联单、标题条、翻牌价格表、规格卡。",
+ "uses": [
+  "News round-ups",
+  "Bulletins",
+  "Market updates"
+ ],
+ "frame_sec": 4.4,
+ "dur": 53.5,
+ "source": "lemo-opuscar",
+ "lemo_slug": "news-package",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "TV Haber Paketi",
+ "category_tr": "Kurgu & Belgesel",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "IMPACT/HIT",
+    "query": "hit"
+   },
+   {
+    "role": "DESIGNED/RISER",
+    "query": "drone"
+   },
+   {
+    "role": "WHOOSH/SWISH",
+    "query": "whoosh"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "clicks"
+   }
+  ],
+  "motion": {
+   "cuts": "camera-led cuts: slide or push-through on motion",
+   "rig": "editorial",
+   "move_frames": [
+    6,
+    10
+   ],
+   "ease": "accelExit",
+   "reveal": "wipe",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "cinematic-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "120 BPM grid, beat 0 at the end of the sting (1",
+     "expresses": "5 s). Every cut and wipe on a beat or half-beat.",
+     "serves": ""
+    },
+    {
+     "move": "Shot lengths",
+     "expresses": "sting 1.5 s; rundown 4–5 s; story shots 3–7 s; a map long take (6–12 s) as the bulletin's breath; a comparison stays until every item has been fully on screen ≥ 2.5 s.",
+     "serves": ""
+    },
+    {
+     "move": "A package action every 0",
+     "expresses": "5–1 s inside a shot (flip, count, stamp, tick, strap change, map light, line step). No frame flat for more than 1 s; a strong action within 0.5 s of every cut.",
+     "serves": ""
+    },
+    {
+     "move": "Date every story",
+     "expresses": "a weekly bulletin's items happen on different days; the date sits in the rundown row, the eyebrow line, the readout or the document.",
+     "serves": ""
+    },
+    {
+     "move": "The order inside an item",
+     "expresses": "what (the name or the number) → how big (the line, the bars, the price board) → who it hits or who said it (bars, documents, a quote) → the verdict stamp.",
+     "serves": ""
+    }
+   ],
+   "transitions": [
+    "Every cut and wipe on a beat or half-beat.",
+    "a strong action within 0.5 s of every cut."
+   ],
+   "labels": [
+    "Chinese: Noto Sans SC 900 (headlines, strap) / 700 (labels).",
+    "Latin: Barlow Condensed 800 (numbers, names, the plate), 600 (secondary lines, quotes), 600 italic (the end-card English title).",
+    "Mono: IBM Plex Mono 500 for datelines, sources, axis labels, all caps with 1–4 px tracking.",
+    "All OFL, subset from Google Fonts by demo/tools/fonts.sh (the character list is read from main.js; delete fonts/.woff2 after a text change). No handwriting faces in this style."
+   ],
+   "motion": [],
+   "native_moves": [
+    {
+     "name": "Sting becomes the bug",
+     "does": "the brand plate slams in, then flies to the corner and stays there for the whole bulletin; opening and programme are one object.",
+     "fits": ""
+    },
+    {
+     "name": "Strap tab = category",
+     "does": "the strap's tab changes category (模型 MODELS, 市场 MARKETS, 监管 POLICY …) with a white flash when a new story starts; no separate item cards between stories.",
+     "fits": ""
+    },
+    {
+     "name": "Rundown, then ticked off",
+     "does": "the same list opens and closes the bulletin; at the end each row gets its tick.",
+     "fits": ""
+    },
+    {
+     "name": "Spec card",
+     "does": "a launch reduced to its proportions: the whole and the part on one scale, then what it runs on, joined by a bracket to the total.",
+     "fits": ""
+    },
+    {
+     "name": "Strap that never leaves",
+     "does": "one strap group from the first story to the recap; words flip, the strap itself never exits mid-programme.",
+     "fits": ""
+    },
+    {
+     "name": "Split-flap before/after",
+     "does": "old and new value on one board, each tile flipping from the old to the new.",
+     "fits": ""
+    },
+    {
+     "name": "Breaking the threshold",
+     "does": "a line advances one period per step towards a dashed threshold; the music stops for one beat before the last step and the crossing gets the heaviest hit.",
+     "fits": ""
+    },
+    {
+     "name": "Date in the eyebrow",
+     "does": "every graphic's eyebrow line carries source and date in mono caps, so a weekly round-up never blurs which day each item happened.",
+     "fits": ""
+    },
+    {
+     "name": "City sends the letters",
+     "does": "on a map long take, documents fly out of the sending city to their addressees; one world→screen function keeps labels and documents attached through push and pan.",
+     "fits": ""
+    },
+    {
+     "name": "Quote card + verdict stamp",
+     "does": "the official's own words in type, with name, occasion and date; an underline on the key word as the voice says it; one stamp.",
+     "fits": ""
+    }
+   ]
+  },
+  "score": {
+   "genre": "cinematic-pulse",
+   "note": "news bed: pulse, strings, piano hook",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "piano",
+      "gm": 0
+     },
+     "pad": {
+      "voice": "violins",
+      "gm": 48
+     },
+     "pulse": {
+      "voice": "saw",
+      "gm": 81
+     },
+     "bass": {
+      "voice": "synthbass",
+      "gm": 38
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

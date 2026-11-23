@@ -1,0 +1,216 @@
+{
+ "slug": "gilded-illumination",
+ "num": "27",
+ "en": "Gilded Illumination",
+ "cn": "金箔彩绘",
+ "category_en": "Traditional Crafts",
+ "category_cn": "传统工艺",
+ "film": "Borrowed Light",
+ "film_cn": "借来的光",
+ "line": "In a painted world where only gold shines, the sun goes out; a girl carries the last lamp up the mountain and gives it its light back.",
+ "line_cn": "画里的世界只有金子会发光，可太阳熄了；一个女孩提着最后一盏灯上山，把光还给了太阳。",
+ "uses": [
+  "Fables and picture-book stories",
+  "Holiday and festival shorts",
+  "Brand and origin stories"
+ ],
+ "frame_sec": 41.1,
+ "dur": 46.8,
+ "source": "lemo-opuscar",
+ "lemo_slug": "gilded-illumination",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Altın Varaklı Tezhip",
+ "category_tr": "Geleneksel Sanatlar",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "bells"
+   },
+   {
+    "role": "AMBIENCE",
+    "query": "wind"
+   }
+  ],
+  "motion": {
+   "cuts": "slow, staged, push-through",
+   "rig": "calm",
+   "move_frames": [
+    16,
+    24
+   ],
+   "ease": "softLand",
+   "reveal": "focus",
+   "mblur": true
+  },
+  "three_d": "B",
+  "music": "folk-acoustic",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "exponential pull out of the leaf",
+     "expresses": "from the material to the picture",
+     "serves": "an opening; a reveal of scale"
+    },
+    {
+     "move": "push through a quatrefoil / foliate frame",
+     "expresses": "entering the picture, changing chapter",
+     "serves": "a hero introduced in a roundel, then the world"
+    },
+    {
+     "move": "follow along the path of a continuous narration",
+     "expresses": "a journey, time passing",
+     "serves": "a climb, a pilgrimage, a delivery"
+    },
+    {
+     "move": "foreground spire or cloud wiping across",
+     "expresses": "an elided stretch of time without a cut",
+     "serves": "the middle of a long walk"
+    },
+    {
+     "move": "locked frame while light rakes",
+     "expresses": "revelation, value",
+     "serves": "the finished work, gold, a seal"
+    },
+    {
+     "move": "a band of light sweeping the whole picture",
+     "expresses": "the world changes",
+     "serves": "a sunrise, a verdict, a return"
+    },
+    {
+     "move": "a ring of gold light spreading from a touch",
+     "expresses": "ignition, a decision, a turning point",
+     "serves": "a key turning in a lock, a seal pressed"
+    },
+    {
+     "move": "hard cuts on circles, centre to centre",
+     "expresses": "match, repetition",
+     "serves": "a wheel to a halo, a coin to a seal"
+    },
+    {
+     "move": "the big pull back to the whole painting",
+     "expresses": "the story was one picture",
+     "serves": "endings: every scene seen at once"
+    }
+   ],
+   "transitions": [
+    "Allowed transitions: continuous zoom, push through a frame, foreground wipes, match cuts on shapes, hard cuts on the beat.",
+    "Forbidden: page-turn wipes, slide transitions, cross-dissolves between unrelated scenes."
+   ],
+   "labels": [
+    "Reference: titles and inscriptions in Uncial Antiqua (display capitals) or Grenze Gotisch (lowercase Gothic); explanatory words and subtitles in IM Fell English (roman and italic) for English and Noto Serif SC for Chinese, in brown ink, written on scrolls and plaques. One language per line.",
+    "Sizes: text meant to be read ≥ 40 px at 1080p for titles, ≥ 32 px for English subtitles, ≥ 34 px for Chinese.",
+    "Reading time: hold ≥ CJK ÷ 4.5 + other ÷ 15 + 1.5 s, and ≥ 1.8 s, from the first frame the block is complete. Text is revealed by a pen wipe, never typed letter by letter.",
+    "Subtitles are a speech scroll, fixed in one place: a vellum banderole at the bottom centre of the frame (Chinese line, English line) that unrolls when a line is spoken. It is part of the style. It never moves sideways and never changes size: one width for the whole film (set by the longest line, shorter lines centred inside it), one height, one type size. Between two close lines the scroll stays open: the old words fade, then the new ones are pen-wiped on; two lines are never seen on top of each other."
+   ],
+   "motion": [
+    "30 fps, smooth (on ones). Things appear the way they are made: shapes pop up with a small spring, strokes are laid along their path, writing is wiped on, gold is laid then shines, a figure is painted in layers (gold, colour, ink and white lead).",
+    "Easing is calm (ease-in-out, ease-out); springs only on small things appearing.",
+    "What never moves: the painted picture and the gold already laid. Only the light, the hero and the camera move across them.",
+    "Paint and gold build up; they never fade in as a whole."
+   ],
+   "native_moves": [
+    {
+     "name": "The touch",
+     "does": "A small light (a flame, a spark) touches a large piece of leaf; two thin rings of gold light spread from the point of contact and the leaf squares light one after another as they pass, while rays around it light in turn. Restrained: no white flash, no full-frame bloom; the climax is gold lighting up, not the screen going bright.",
+     "fits": "a launch; a first sale; the moment a thing starts working."
+    },
+    {
+     "name": "Gold laid, then lit",
+     "does": "Gold appears dark and warm; later a light crosses it and each leaf square flashes in turn while pigment stays matte.",
+     "fits": "revealing a finished seal; an inventory of treasures; a medal list."
+    },
+    {
+     "name": "Lit by a lamp",
+     "does": "A light moves through the picture and the gold brightens only near it, then sinks back after it passes.",
+     "fits": "a guide, a teacher, a product that changes what it touches."
+    },
+    {
+     "name": "Into the material",
+     "does": "Pull out of a macro of leaf (squares, seams, punches) into the picture.",
+     "fits": "where a thing comes from; an opening that starts from texture."
+    },
+    {
+     "name": "Continuous narration",
+     "does": "The same figure appears several times in one painting, each at a later moment of the story; the final pull back shows them all.",
+     "fits": "a journey; a process with stations; a life."
+    },
+    {
+     "name": "Through the frame",
+     "does": "A quatrefoil or foliate frame holds a close-up; the camera pushes through it into the big picture.",
+     "fits": "introducing a hero; a chapter change."
+    },
+    {
+     "name": "Painted in layers",
+     "does": "A figure or a title appears in the order it is made: bole, gold and its flash, then colour, inner rim, ink and white lead.",
+     "fits": "a reveal; a signature; a product being made."
+    },
+    {
+     "name": "Holy card",
+     "does": "One object centred in a painted frame on a gold ground, with its name on a scroll.",
+     "fits": "a herb; a tool; a coin."
+    },
+    {
+     "name": "Brush fill",
+     "does": "A blank area is filled stroke by stroke in ground pigment, from the centre out.",
+     "fits": "a design completed; a sky; a filled map region."
+    }
+   ]
+  },
+  "score": {
+   "genre": "folk-acoustic",
+   "mode": "dorian",
+   "pad": "organ_soft",
+   "lead": "violin",
+   "counter": "recorder",
+   "pulse": "harp",
+   "sparkle": "hand_chimes",
+   "bass": null,
+   "drums": "taiko",
+   "avoid": [
+    "piano",
+    "violins",
+    "cellos",
+    "supersaw",
+    "pad"
+   ],
+   "note": "fiddle, harp, portative organ, frame drum, recorder; modal, no piano",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "violin",
+      "gm": 40
+     },
+     "counter": {
+      "voice": "recorder",
+      "gm": 74
+     },
+     "pad": {
+      "voice": "organ_soft",
+      "gm": 19
+     },
+     "pulse": {
+      "voice": "harp",
+      "gm": 46
+     },
+     "sparkle": {
+      "voice": "hand_chimes",
+      "gm": 14
+     }
+    },
+    "drums": {
+     "taiko": 116
+    }
+   }
+  }
+ }
+}

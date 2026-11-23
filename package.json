@@ -1,0 +1,21 @@
+{
+  "name": "stylist-router",
+  "version": "1.0.0",
+  "main": "server/index.mjs",
+  "scripts": {
+    "start": "node server/index.mjs",
+    "test": "node test/roundtrip.mjs && node test/test_kit.mjs && uv run --no-project python test/test_sfx_library.py && uv run --no-project python test/test_kit.py",
+    "import-styles": "uv run --no-project python tools/import_styles.py",
+    "fetch-sfx": "uv run --no-project python tools/sfx_library.py fetch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  },
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "three": "^0.170.0"
+  },
+  "license": "SEE LICENSE IN LICENSE"
+}

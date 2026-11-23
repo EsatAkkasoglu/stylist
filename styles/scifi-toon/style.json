@@ -1,0 +1,211 @@
+{
+ "slug": "scifi-toon",
+ "num": "54",
+ "en": "Sci-Fi Sitcom Toon",
+ "cn": "科幻情景喜剧卡通",
+ "category_en": "Cartoons",
+ "category_cn": "卡通动画",
+ "film": "Coffee Run",
+ "film_cn": "跑腿买咖啡",
+ "line": "A jaded genius opens a portal just to buy coffee and tumbles through ever-stranger universes.",
+ "line_cn": "厌世天才开传送门只想买杯咖啡，却穿过越来越离谱的平行宇宙。",
+ "uses": [
+  "Comedy",
+  "Tech brands",
+  "Social shorts"
+ ],
+ "frame_sec": 11.5,
+ "dur": 57.5,
+ "source": "lemo-opuscar",
+ "lemo_slug": "scifi-toon",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Bilimkurgu Sitkom Çizgi Film",
+ "category_tr": "Çizgi Film",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "spring"
+   },
+   {
+    "role": "AMBIENCE",
+    "query": "room"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "tick"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "boom"
+   }
+  ],
+  "motion": {
+   "cuts": "snap zoom, squash and stretch",
+   "rig": "punchy",
+   "move_frames": [
+    6,
+    10
+   ],
+   "ease": "snapSettle",
+   "reveal": "rise",
+   "mblur": true
+  },
+  "three_d": "B",
+  "music": "synthwave",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Medium two-shot",
+     "expresses": "the relationship; who reacts how",
+     "serves": "dialogue; a standoff; a deal"
+    },
+    {
+     "move": "Hard cut to a close-up",
+     "expresses": "an interruption, a face breaking",
+     "serves": "the cut-off line; the realisation; a lie"
+    },
+    {
+     "move": "Insert extreme close-up of an object",
+     "expresses": "the absurd detail",
+     "serves": "a reveal; the problem itself; the wrong result"
+    },
+    {
+     "move": "Reaction close-up",
+     "expresses": "the laugh lives on the face",
+     "serves": "after every absurd image"
+    },
+    {
+     "move": "Tight close-up + short shake on one word",
+     "expresses": "panic",
+     "serves": "the key word; an alarm; a scream"
+    },
+    {
+     "move": "Rush zoom into the portal → swirl wipe",
+     "expresses": "leaving a world",
+     "serves": "any jump between places, times or versions"
+    },
+    {
+     "move": "Same framing repeated across worlds",
+     "expresses": "only the world changes",
+     "serves": "a montage; a comparison; a list"
+    },
+    {
+     "move": "Very slow push-in on a still two-shot",
+     "expresses": "a cold silence",
+     "serves": "the pause after a reversal; a confession"
+    },
+    {
+     "move": "Wide with the device and both leads in frame",
+     "expresses": "the whole situation at once",
+     "serves": "a callback; a trap; a fresh start"
+    },
+    {
+     "move": "Over-the-shoulder onto a screen",
+     "expresses": "reading bad news",
+     "serves": "a message; a readout"
+    },
+    {
+     "move": "Whip pan between two faces",
+     "expresses": "overlapping argument",
+     "serves": "a fight; a bet; a double take"
+    }
+   ],
+   "transitions": [
+    "Transitions go through the travel device (swirl wipes) or hard cuts;",
+    "no dissolves."
+   ],
+   "labels": [
+    "Subtitles: bottom centre, a rounded heavy sans (Baloo 2 ExtraBold ~50 px), white with a ~11 px black outline, so they look like the cartoon's own captions, with a small speaker pill in the character's colour (boiling outline) on the left. Lines over ~1300 px wrap to two lines. Overlapping lines stack; the older one dims to ~70 %.",
+    "Timing: hold ≥ max(1.8 s, speech + 0.6 s) for narration; for rapid dialogue, max(audio + 0.35 s, 0.9 s + chars / 17). Clip at world changes and before a silent beat, so the silence plays on a clean screen.",
+    "Title: chunky display lettering popped in on 12 fps steps on a musical hit. Choose a period look that is not the source genre's logo: avoid acid green, slime drips and wobbly bubble lettering together, which reads as a specific show.",
+    "Keep faces out of the subtitle band (bottom ~170 px) and the world tag clear of faces."
+   ],
+   "motion": [
+    "Characters on twos (12 fps): poses, mouths, blinks, walk cycles and boil step at 12 fps. Camera moves, portal swirl, flying props and wipes on ones (24 fps).",
+    "Acting over moving: held poses with small changes (eye twitch, pupils sliding, a gulp, sweat drops). Idle life: breathing (±1 % squash), a nod driven by speech loudness.",
+    "Anticipation → action before every gesture.",
+    "Squash & stretch on landings (decaying cosine squash ~22 %), stretch while flying out of a portal; \"sucked in\" = scale toward the portal centre while stretching."
+   ],
+   "native_moves": [
+    {
+     "name": "Parallel worlds",
+     "does": "Each jump = new palette, new cue, new creature.",
+     "fits": "versions of a product; careers you could have had; the same city in five eras."
+    },
+    {
+     "name": "Duo contrast",
+     "does": "Deadpan vs panic: the joke is in the difference between reactions.",
+     "fits": "a veteran and a new hire; a parent and a teenager; an AI and its user."
+    },
+    {
+     "name": "Rule of three → machine-gun",
+     "does": "Two slow wrong answers, then one-second worlds cut on the beat with the same rejection word.",
+     "fits": "failed prototypes; bad date ideas; tax forms."
+    },
+    {
+     "name": "The suspiciously normal world",
+     "does": "The pattern breaks; the calm is the joke.",
+     "fits": "the one boring answer that works; a quiet office after chaos; the real customer."
+    },
+    {
+     "name": "Dead-air reversal",
+     "does": "A long silence after the twist, then one line revealing a character's values.",
+     "fits": "a price reveal; a fine print clause; a gift that wasn't wanted."
+    },
+    {
+     "name": "Hardware as junk",
+     "does": "World-bending tech used for a petty chore.",
+     "fits": "a quantum computer used for a grocery list; a rocket to deliver a sandwich; a time machine to fix a typo."
+    },
+    {
+     "name": "Callback button",
+     "does": "The last line repeats the first so the story loops.",
+     "fits": "a catchphrase of a brand; a morning routine; a running complaint."
+    }
+   ]
+  },
+  "score": {
+   "genre": "synthwave",
+   "lead": "theremin",
+   "pulse": "pulse25",
+   "bass": "synthbass",
+   "drums": "machine",
+   "note": "theremin lead over analog bass, square arpeggio, retro drum machine",
+   "render": {
+    "engine": "synth",
+    "space": "neon",
+    "band": {
+     "lead": {
+      "voice": "theremin",
+      "patch": "Leads/Sine Lead"
+     },
+     "pad": {
+      "voice": "pad",
+      "patch": "Polysynths/Juno-60 Strings"
+     },
+     "pulse": {
+      "voice": "pulse25",
+      "patch": "Plucks/Simple PW"
+     },
+     "bass": {
+      "voice": "synthbass",
+      "patch": "Basses/Bass 1"
+     }
+    },
+    "drums": {
+     "kick": "Percussion/Kick Tech 1",
+     "snare": "Percussion/Snare Tight",
+     "tom": "Percussion/Synth Tom 1"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,191 @@
+{
+ "slug": "desktop-flythrough",
+ "num": "70",
+ "en": "Tabletop App Flythrough",
+ "cn": "桌面卡片穿梭",
+ "aka": [
+  "Desktop Flythrough",
+  "桌面穿梭"
+ ],
+ "category_en": "Screens & Interfaces",
+ "category_cn": "屏幕界面",
+ "film": "Before the Ding",
+ "film_cn": "叮之前",
+ "line": "A cat photo hops across app cards on a sunlit desk, from one phone to a friend's.",
+ "line_cn": "一张猫照片跳过桌上的应用卡片，从一台手机飞到朋友手机里，一镜跟到底。",
+ "uses": [
+  "App explainers",
+  "Workflows",
+  "Products"
+ ],
+ "frame_sec": 56.85,
+ "dur": 60.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "desktop-flythrough",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Masaüstü Uygulama Turu",
+ "category_tr": "Ekran & Arayüz",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "UI/CLICK",
+    "query": "tick"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "thump"
+   },
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "ding"
+   },
+   {
+    "role": "WHOOSH/SWISH",
+    "query": "whip"
+   }
+  ],
+  "motion": {
+   "cuts": "one-take UI flythrough or snap zoom",
+   "rig": "punchy",
+   "move_frames": [
+    8,
+    12
+   ],
+   "ease": "snapSettle",
+   "reveal": "rise",
+   "mblur": true
+  },
+  "three_d": "A",
+  "music": "future-pop",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Macro glide with a slow orbit (close, 20–45° down)",
+     "expresses": "being there, small scale",
+     "serves": "a character at work; one detail of an interface; a title standing on the desk"
+    },
+    {
+     "move": "Whip from card to card (0.3–0.5 s, banking into the turn)",
+     "expresses": "the next step, cause → effect",
+     "serves": "a process moving on; a hand-off between tools"
+    },
+    {
+     "move": "Rise to near top-down (55–70° down)",
+     "expresses": "reading, one card as a whole",
+     "serves": "a screen, a counter, a table; any verdict"
+    },
+    {
+     "move": "Ride along, low behind the subject",
+     "expresses": "travel, momentum, pursuit",
+     "serves": "a route; a delivery; a download"
+    },
+    {
+     "move": "Pull back over the desk",
+     "expresses": "the whole system, scale",
+     "serves": "a recap; the route so far; many stations at once"
+    },
+    {
+     "move": "Hold with a shake",
+     "expresses": "impact",
+     "serves": "a press, a stamp, a ring"
+    }
+   ],
+   "transitions": [
+    "One take, no cuts, no dissolves."
+   ],
+   "labels": [
+    "In the world, only keywords and numbers: step badges (a camera-facing accent pill with a digit and one word), sizes, a name on a screen, a banner, a title card. Text meant to be read is framed above the subtitle area, held still for its reading time, and large enough at the angle it is seen: flat print reads from 55–70° down; a low camera reads a standing tent card.",
+    "Titles are objects on the desk: an opening tent card beside the first stop; at the end a large paper card dropped onto open desk in the final frame. Where depends on the layout: wherever it covers no station, route or character and sits clear of the subtitle bar (the demo's stops leave the middle free; a zigzag layout may leave the front edge). Leave that space when laying out the desk.",
+    "Every face on screen comes from the film's own font files (cards, pills, subtitles); the mono stack falls back to the film's CJK face, never to a system face.",
+    "Three roles: a mono for labels and numbers (spaced caps), a sans with a heavy weight for pills, titles and subtitles, and a CJK (or other script) face both fall back to. The families are free (e.g. DM Mono or JetBrains Mono, Manrope or Space Grotesk, the Noto Sans of the film's language); the roles are not. Pixels belong to the cast, so no pixel font on the print."
+   ],
+   "motion": [
+    "30 fps. One steady tempo (110–130 BPM); every action on the 16th grid, big moments on downbeats.",
+    "Hops: an arc with squash and stretch (stretch about 14 % in the air, squash about 30 % for 0.2 s on landing, a small anticipation squash before take-off). Groups move follow-the-leader, each a 16th behind the one ahead, so they never close up.",
+    "Characters act: they blink every couple of seconds, bounce on the beat while they wait, squint when they are squashed, lean towards what they look at.",
+    "Pop: sticker → toy in 0.25–0.5 s (hinge up with overshoot, cells extrude from the centre, a small jump, squash on landing). Reverse pop: toy → sticker or print when it is stored, delivered or taped down."
+   ],
+   "native_moves": [
+    {
+     "name": "Sticker pop",
+     "does": "A flat pixel sticker on a card stands up and extrudes into a toy on a 16th.",
+     "fits": "a new user, file or job appearing; a feature switched on; an order placed."
+    },
+    {
+     "name": "Reverse pop",
+     "does": "A toy lies back down into a sticker or a print.",
+     "fits": "a photo delivered into a chat; a snapshot saved; a task archived."
+    },
+    {
+     "name": "Press",
+     "does": "A heavy plate drops on a toy; pixel debris bursts out and rolls away; the same character pops out at half resolution beside a counter that runs down.",
+     "fits": "compression; a budget cut; a summary of a long report."
+    },
+    {
+     "name": "Drawer",
+     "does": "A slab of a stacked tower slides open, a toy hops in, it closes and one window lights; small data cubes hop into the windows.",
+     "fits": "storing something in the cloud; a queue; an archive."
+    },
+    {
+     "name": "Messenger",
+     "does": "A small voxel object (a bell, an envelope) flies an arc between two cards leaving a dotted trail, taps the target twice, and a banner drops on its screen.",
+     "fits": "a notification; a hand-off; an alert."
+    },
+    {
+     "name": "Data run",
+     "does": "A stream of small bright cubes runs along the route between two stations.",
+     "fits": "a download; a sync; a payment going through."
+    },
+    {
+     "name": "Blurry, then sharp",
+     "does": "A picture on a screen card is printed blurred, then snaps sharp as the toy lands in it.",
+     "fits": "loading; focus; a draft becoming final."
+    },
+    {
+     "name": "UI rises",
+     "does": "Part of the printed interface grows into 3D out of its printed shape.",
+     "fits": "progress; a metric climbing; a step badge."
+    },
+    {
+     "name": "Curtain call",
+     "does": "The closing pull-back frames every stop; each hops once, left to right, the characters pop back up, and a title card drops into open space.",
+     "fits": "a recap; a team; a pipeline shown whole."
+    }
+   ]
+  },
+  "score": {
+   "genre": "future-pop",
+   "pad": "marimba",
+   "lead": "vibraphone",
+   "bass": "contrabass_pizz",
+   "drums": "machine",
+   "note": "bright and warm: marimba, vibraphone, plucked bass, soft synth kick, claps",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "vibraphone",
+      "gm": 11
+     },
+     "pad": {
+      "voice": "marimba",
+      "gm": 12
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "slug": "bauhaus-shapes",
+ "num": "40",
+ "en": "Bauhaus Shapes",
+ "cn": "包豪斯几何",
+ "category_en": "Graphic & Type",
+ "category_cn": "平面排版",
+ "film": "COMPOUND",
+ "film_cn": "复利是怎么滚起来的",
+ "line": "One dot doubles every ten years: 128 after seventy, 6.02 without compounding, and the last ten years are worth all the rest.",
+ "line_cn": "一个点每十年翻一倍：七十年后是 128，不复利只有 6.02，最后十年抵得上之前的全部。",
+ "uses": [
+  "Finance and economics explainers",
+  "Mechanisms and principles",
+  "Titles and chapter cards"
+ ],
+ "frame_sec": 9.4,
+ "dur": 52.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "bauhaus-shapes",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Bauhaus Formlar",
+ "category_tr": "Grafik & Tipografi",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "IMPACT/HIT",
+    "query": "thuds"
+   },
+   {
+    "role": "WHOOSH/SWISH",
+    "query": "whoosh"
+   }
+  ],
+  "motion": {
+   "cuts": "snap zoom on the beat",
+   "rig": "punchy",
+   "move_frames": [
+    4,
+    8
+   ],
+   "ease": "snapSettle",
+   "reveal": "track",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "minimal-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Build on a locked frame; push in slowly once a composition is complete",
+     "expresses": "",
+     "serves": ""
+    },
+    {
+     "move": "Move the whole group, not the camera, when the meaning changes: a slope swings f",
+     "expresses": "",
+     "serves": ""
+    },
+    {
+     "move": "Through a shape",
+     "expresses": "push into a colour band until it fills the frame, cut, pull out of the same colour in the next scene.",
+     "serves": ""
+    },
+    {
+     "move": "Whip",
+     "expresses": "a fast lateral move to a scene beside this one, long construction lines passing to carry the speed.",
+     "serves": ""
+    },
+    {
+     "move": "Grid match cut",
+     "expresses": "the pieces of a scene fall out of frame, its construction lines stay and re-form as the next scene's grid.",
+     "serves": ""
+    },
+    {
+     "move": "Every scene uses a different entry; a whole film never sits on one fixed frame",
+     "expresses": "",
+     "serves": ""
+    }
+   ],
+   "transitions": [
+    "Through a shape: push into a colour band until it fills the frame, cut, pull out of the same colour in the next scene.",
+    "Grid match cut: the pieces of a scene fall out of frame, its construction lines stay and re-form as the next scene's grid."
+   ],
+   "labels": [
+    "Latin and numbers: a geometric sans (e.g. Jost, OFL, variable). Key word or number 800 with tight tracking (−2 to −6); the light companion line 300 with wide tracking (+12 to +18); reading lines 500; small labels 600–700 caps with +3 to +6 tracking.",
+    "Chinese: a sans (e.g. Noto Sans SC, OFL, subset to the characters used), 700, tracking +2 to +4, ≥ 34 px on screen (after camera scale). One Chinese line per scene at most.",
+    "Type joins the shapes: a letter can be a shape (the O of a word is the protagonist dot); a number sits on the line it measures or in the field it names.",
+    "How type arrives: letters rise out of a slot on their baseline, one block at a time; labels slide out from under an edge (clipped by it); reading lines reveal left to right. Never fades, never typewriter."
+   ],
+   "motion": [
+    "Roll: pure rolling, angular speed = distance ÷ radius, so the path is a true cycloid. A growing ball's phase is integrated along the path.",
+    "Grow: at each step a ring lands on the outside (\"thunk\"), newest outermost, all rings tangent at the protagonist's core.",
+    "Land: squares slide along the grid and lock with a small overshoot; slopes swing up about one corner; dots drop and squash once.",
+    "Sweep: a turning thing leaves a secondary-colour wedge; the same angle sweeps more area at a larger radius."
+   ],
+   "native_moves": [
+    {
+     "name": "The snowball",
+     "does": "a protagonist dot rolls up a field-colour slope, gains a ring at each step of growth, draws its arcs, and ends as a disc that breaks the frame.",
+     "fits": ""
+    },
+    {
+     "name": "The ruler",
+     "does": "the slope swings flat; ticks rise from it, each to the height the growing thing had reached, so the grid draws the curve.",
+     "fits": ""
+    },
+    {
+     "name": "Cut and tangent",
+     "does": "a compass circles part of a shape, it slides out leaving a hole, two tangents tie the hole to the piece, an equals sign drops between them.",
+     "fits": ""
+    },
+    {
+     "name": "The ghost",
+     "does": "a finished shape drains to its outline; a second run grows inside it, and the outline is the comparison.",
+     "fits": ""
+    },
+    {
+     "name": "The grid sets the type",
+     "does": "lines left by the last scene become baselines and cap lines; numbers rise into them; operators are built from shapes (+ is two crossed bars, = is two bars, a point is a ball).",
+     "fits": ""
+    },
+    {
+     "name": "Swept area",
+     "does": "a lever or a hand turns and leaves a wedge.",
+     "fits": ""
+    }
+   ]
+  },
+  "score": {
+   "genre": "minimal-pulse",
+   "pad": "marimba",
+   "lead": "vibraphone",
+   "pulse": "harp",
+   "sparkle": "kalimba",
+   "bass": "contrabass_pizz",
+   "note": "tuned percussion and plucks on a steady grid",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "vibraphone",
+      "gm": 11
+     },
+     "pad": {
+      "voice": "marimba",
+      "gm": 12
+     },
+     "pulse": {
+      "voice": "harp",
+      "gm": 46
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     },
+     "sparkle": {
+      "voice": "kalimba",
+      "gm": 108
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

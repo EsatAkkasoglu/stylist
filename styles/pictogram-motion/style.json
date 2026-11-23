@@ -1,0 +1,191 @@
+{
+ "slug": "pictogram-motion",
+ "num": "39",
+ "en": "Pictogram Motion",
+ "cn": "象形运动图形",
+ "category_en": "Graphic & Type",
+ "category_cn": "平面排版",
+ "film": "Left Behind",
+ "film_cn": "被落下的伞",
+ "line": "A yellow umbrella left on a bus waits out a sunny day on the lost-property shelf, then opens with 312 others when the storm comes back: objects, vehicles, weather and signs as beat-locked geometric pictograms.",
+ "line_cn": "一把被落在公交车上的黄伞，晴天里在失物招领的货架上等了一整天，暴雨回来时和另外 312 把一起撑开：物件、交通、天气和标识，都是卡着节拍的几何象形符号。",
+ "uses": [
+  "Public services and city stories",
+  "Brand and event identity films",
+  "Explainers told through signs and objects"
+ ],
+ "frame_sec": 9.2,
+ "dur": 50.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "pictogram-motion",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Piktogram Animasyon",
+ "category_tr": "Grafik & Tipografi",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "UI/CLICK",
+    "query": "type"
+   },
+   {
+    "role": "DESIGNED/RISER",
+    "query": "risers"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "hit"
+   },
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "clank"
+   }
+  ],
+  "motion": {
+   "cuts": "snap zoom on the beat",
+   "rig": "punchy",
+   "move_frames": [
+    4,
+    8
+   ],
+   "ease": "snapSettle",
+   "reveal": "track",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "future-pop",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Locked flat frame",
+     "expresses": "clarity, the card as a poster",
+     "serves": "any item; a spec that must be read"
+    },
+    {
+     "move": "Lateral track with a one-screen whip per beat",
+     "expresses": "one continuous family, momentum",
+     "serves": "a line of stations; a production line; a route"
+    },
+    {
+     "move": "Slow drift along a row",
+     "expresses": "calm, browsing",
+     "serves": "a gallery; a menu; a slower chapter"
+    },
+    {
+     "move": "Vertical scroll by grid rows",
+     "expresses": "ranking, depth, descent",
+     "serves": "a top-ten; floors of a building; ocean depths"
+    },
+    {
+     "move": "Push into one motif cell until it becomes the next frame",
+     "expresses": "zooming into a part",
+     "serves": "an ingredient inside a dish; a city inside a map"
+    },
+    {
+     "move": "Pull back to a tiled wall of items",
+     "expresses": "the whole set at once",
+     "serves": "a summary; \"all of them\"; a comparison"
+    },
+    {
+     "move": "Tiles collapsing to one point",
+     "expresses": "many become one",
+     "serves": "a merger; a shared goal; a count reaching zero"
+    },
+    {
+     "move": "Split screen along a grid line",
+     "expresses": "two items side by side",
+     "serves": "versus; before/after; two versions"
+    }
+   ],
+   "transitions": [
+    "energy comes from row shifts, transitions and figure actions.",
+    "Allowed transitions are the grid ones in §5;",
+    "never dissolves, 3D camera moves, handheld shake or depth of field."
+   ],
+   "labels": [
+    "Title: a 900-weight grotesk (e.g. Inter Tight), 150–330 px at 1080p, tight tracking, auto-fitted. Second language: a heavy face under it. Meta: a mono (e.g. DM Mono) ~22 px, wide tracking; tags as mono chips.",
+    "HUD on every card: mono corner text and a progress bar of N ticks (current tall, done dimmed, rest faint), N derived from the item list.",
+    "Bilingual rule: one language is always the big title; the second language is chosen per version by a switch, never by hand-editing cards.",
+    "The card type is the text layer. With narration, captions are two lines on a solid band in the chapter's darkest tone (an ink band on light hues), bottom left, never over the title: the second language in a heavy face over the English in mono; hold ≥ max(1.8 s, speech + 0.6 s). A card that must be read (a spec, a number) holds ≥ 1.6 s."
+   ],
+   "motion": [
+    "A grid of time: pick one tempo for the film; every shot starts on a beat and every key action in a pose (release, contact, landing) lands on an integer beat.",
+    "Pace ladder: normal cards last one bar; related sub-items become half-length rapid-fire runs. A second tempo comes from dividing the beat, never from changing tempo.",
+    "Easing: exponential ease-out for entrances, exponential in-out for whips and wipes; a back ease once at most.",
+    "Type enters by mask slide-up: title first, second line ~0.08 s later, tag after; meta lines type on without a caret. Short cards compress all timings."
+   ],
+   "native_moves": [
+    {
+     "name": "One card = one item",
+     "does": "The count is the hook (\"ALL N\").",
+     "fits": "every tool in a workshop; every station of a subway line; every dish of a regional cuisine."
+    },
+    {
+     "name": "Chapter = colour",
+     "does": "Families become hues so the viewer always knows where they are.",
+     "fits": "instrument sections of an orchestra; food groups; departments of a company."
+    },
+    {
+     "name": "One verb per item",
+     "does": "One body action readable in a bar, or a prop action (a gear turns, a cup pours).",
+     "fits": "yoga poses; kitchen techniques; jobs on a construction site."
+    },
+    {
+     "name": "Pace ladder run",
+     "does": "A sub-family at double speed.",
+     "fits": "four knife cuts; the bones of a hand; weekday routines."
+    },
+    {
+     "name": "Long take down a track",
+     "does": "Stations one screen apart, the camera whipping on each cut.",
+     "fits": "the steps of a recipe; checkpoints of a marathon; stages of a rocket launch."
+    },
+    {
+     "name": "Count-up slam",
+     "does": "A big number rolls to its value on a bar.",
+     "fits": "tonnes recycled; members of a club; years of a company."
+    },
+    {
+     "name": "Icon wall",
+     "does": "All pictograms return as a grid and turn one colour.",
+     "fits": "a summary of a year; a periodic table of habits; a team roster."
+    }
+   ]
+  },
+  "score": {
+   "genre": "future-pop",
+   "drums": "hand",
+   "lead": "marimba",
+   "note": "percussion is the spine; mallets and saw stabs on top",
+   "render": {
+    "engine": "synth",
+    "space": "neon",
+    "band": {
+     "lead": {
+      "voice": "marimba",
+      "patch": "Plucks/Woody"
+     },
+     "pad": {
+      "voice": "supersaw",
+      "patch": "Polysynths/Super Jupiter"
+     },
+     "bass": {
+      "voice": "synthbass",
+      "patch": "Basses/Bass 1"
+     }
+    },
+    "drums": {
+     "kick": "Percussion/Kick Tech 1",
+     "snare": "Percussion/Snare Tight",
+     "tom": "Percussion/Synth Tom 1"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,196 @@
+{
+  "slug": "comic-teardown",
+  "en": "Comic Teardown",
+  "cn": "漫画拆解",
+  "name_tr": "Çizgi Roman Söküm",
+  "category_en": "Line Diagrams",
+  "category_cn": "线稿图解",
+  "category_tr": "Çizgi Diyagramlar",
+  "film": "Why Nobody Copies a GPU",
+  "line": "A graphics card is unscrewed on a workbench, its chip dived into layer by layer, and behind it stand a machine the size of a bus and twenty years of software.",
+  "uses": [
+    "Hardware explainers",
+    "Why-is-it-hard stories",
+    "Tech shorts (9:16)"
+  ],
+  "source": "stylist",
+  "license": "ours",
+  "aspects": [
+    "9:16",
+    "16:9",
+    "1:1"
+  ],
+  "stylist": {
+    "sfx_families": [
+      {
+        "role": "FOLEY/MECHANICAL",
+        "query": "screwdriver"
+      },
+      {
+        "role": "FOLEY/MECHANICAL",
+        "query": "metal"
+      },
+      {
+        "role": "IMPACT/HIT",
+        "query": "wood"
+      },
+      {
+        "role": "FOLEY/PAPER",
+        "query": "paper"
+      }
+    ],
+    "motion": {
+      "cuts": "continuous camera through the object",
+      "rig": "calm",
+      "move_frames": [
+        10,
+        16
+      ],
+      "ease": "softLand",
+      "reveal": "draw",
+      "mblur": false
+    },
+    "three_d": "A",
+    "music": "minimal-pulse",
+    "aspects": [
+      "9:16",
+      "16:9",
+      "1:1"
+    ],
+    "hidden": false,
+    "notes": "Our own style (not from lemo-opuscar). Sounds: material foley with a visible cause only; no swooshes or sweeps. Complex props are modelled in Blender (kit blender/mesh_export.py) when available; one subject per shot, filling a third of the frame.",
+    "edit": {
+      "camera": [
+        {
+          "move": "High three-quarter on the bench",
+          "expresses": "the object in its world",
+          "serves": "an opening; a question"
+        },
+        {
+          "move": "Orbit while layers separate",
+          "expresses": "order of assembly",
+          "serves": "a teardown"
+        },
+        {
+          "move": "Push down into one part",
+          "expresses": "look closer",
+          "serves": "a chip, a die, a seal"
+        },
+        {
+          "move": "Match-zoom through a part into a new scale",
+          "expresses": "the next level of the answer",
+          "serves": "die to layers to wires; machine to droplet"
+        },
+        {
+          "move": "Slow lateral track along a row of objects",
+          "expresses": "comparison",
+          "serves": "counts, sizes, alternatives"
+        },
+        {
+          "move": "Pull back up to the whole bench",
+          "expresses": "synthesis",
+          "serves": "a closing"
+        }
+      ],
+      "transitions": [
+        "Transitions are camera moves: a push into a part that becomes the next scene, a pan along the bench to the next prop.",
+        "No cuts to black, no wipes, no split screens."
+      ],
+      "labels": [
+        "Captions in the scene: heavy black grotesque, lower-case, 60-90 px, a thin paper-coloured halo, in the air above the object; at most four words, only numbers the voice says.",
+        "Tags: paper tag with ink border on a leader whose dot lands on the part; name in the heavy face, one spec line in mono, units always written.",
+        "Text never sits on hatching."
+      ],
+      "motion": [
+        "24 fps; camera and mechanical motion on ones; captions pop over 3 frames.",
+        "Separation: top layer first, 0.15-0.25 s apart, ease-in-out cubic, short settle; screws quarter-turn then lift in order.",
+        "Apart is never ruler-straight: each layer drifts 1-4 cm and tilts 2-6 degrees; repeated parts (fans) spread with different heights and tilts.",
+        "Held apart, layers float slightly with offset phases and their shadows follow; closing bottom first, no bounce.",
+        "Props enter on the word that names them, by motion (alternate sides), never by appearing; nothing pops, scale never changes while visible."
+      ],
+      "native_moves": [
+        {
+          "name": "Screw out, lift off",
+          "does": "Screws turn a quarter, rise in order, the cover lifts.",
+          "fits": "any first opening"
+        },
+        {
+          "name": "The floating stack",
+          "does": "All layers held apart above the mat, each with its hatched shadow.",
+          "fits": "what is inside"
+        },
+        {
+          "name": "Into the part",
+          "does": "The camera pushes into a part until it becomes a new scene at a new scale.",
+          "fits": "die, layers, wires; a lens; a cell"
+        },
+        {
+          "name": "Desk-toy comparison",
+          "does": "Toy-sized props set down beside the product with a counter tag each.",
+          "fits": "counts, sizes, costs"
+        },
+        {
+          "name": "Peel",
+          "does": "Layers of one part lift off one by one like sheets.",
+          "fits": "chip layers, paint, geology"
+        },
+        {
+          "name": "Back on the bench",
+          "does": "The film ends on the bench with the one thing to remember as a caption.",
+          "fits": "closings"
+        },
+        {
+          "name": "Count apart",
+          "does": "When the voice gives a part count, that object comes apart into its own parts on the word.",
+          "fits": "hundreds vs thousands vs millions of parts"
+        },
+        {
+          "name": "Into the eyepiece",
+          "does": "The part is set under a microscope, the camera travels into the eyepiece and the plan draws itself as a diagram.",
+          "fits": "die plans, cells, fibres"
+        },
+        {
+          "name": "Area sweep",
+          "does": "A spoken area sweeps across the part and fills it, with the number riding the edge.",
+          "fits": "die size, sensor size, footprint"
+        }
+      ]
+    },
+    "score": {
+      "genre": "minimal-pulse",
+      "pad": "marimba",
+      "lead": "vibraphone",
+      "sparkle": "glass",
+      "bass": "synthbass",
+      "drums": "machine",
+      "note": "tuned mallets and glass, a round bass, no drums",
+      "render": {
+        "engine": "notes",
+        "space": "hall",
+        "band": {
+          "lead": {
+            "voice": "vibraphone",
+            "gm": 11
+          },
+          "pad": {
+            "voice": "marimba",
+            "gm": 12
+          },
+          "pulse": {
+            "voice": "glockenspiel",
+            "gm": 9
+          },
+          "bass": {
+            "voice": "synthbass",
+            "gm": 38
+          },
+          "sparkle": {
+            "voice": "glass",
+            "gm": 92
+          }
+        },
+        "drums": {}
+      }
+    }
+  }
+}

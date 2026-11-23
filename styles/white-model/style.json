@@ -1,0 +1,187 @@
+{
+ "slug": "white-model",
+ "num": "95",
+ "en": "Projection-Mapped Model",
+ "cn": "白模投影",
+ "aka": [
+  "Projection on White Model"
+ ],
+ "category_en": "Data & Maps",
+ "category_cn": "数据地图",
+ "film": "How a Flattened City Grew Back",
+ "film_cn": "被炸平的城市怎样长回来",
+ "line": "A projector paints Rotterdam's white model layer by layer, from the 1940 gap to today's towers.",
+ "line_cn": "投影机把数据一层层刷上鹿特丹白模：从 1940 年的空洞到今天的塔楼。",
+ "uses": [
+  "Urban planning",
+  "Exhibitions",
+  "City data"
+ ],
+ "frame_sec": 30.4,
+ "dur": 40.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "white-model",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Projeksiyonlu Maket",
+ "category_tr": "Veri & Harita",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "AMBIENCE",
+    "query": "room"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "thump"
+   },
+   {
+    "role": "DESIGNED/RISER",
+    "query": "riser"
+   }
+  ],
+  "motion": {
+   "cuts": "continuous camera, chart builds",
+   "rig": "editorial",
+   "move_frames": [
+    10,
+    14
+   ],
+   "ease": "softLand",
+   "reveal": "wipe",
+   "mblur": true
+  },
+  "three_d": "A",
+  "music": "drone-sparse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Macro glide at rooftop height, shallow focus",
+     "expresses": "the model is a real object",
+     "serves": "an opening; a detail that matters"
+    },
+    {
+     "move": "Crane up and back",
+     "expresses": "the whole pattern only seen from above",
+     "serves": "revealing a hole, a cluster, an edge"
+    },
+    {
+     "move": "Slow orbit with a rise",
+     "expresses": "the city as a whole, layers accumulating",
+     "serves": "growth over time; comparisons across the model"
+    },
+    {
+     "move": "Boom down to a low angle against black",
+     "expresses": "height, skyline",
+     "serves": "tall buildings, heights, a single tower"
+    },
+    {
+     "move": "Side-on track along a line",
+     "expresses": "a measured distance on the model",
+     "serves": "a shadow, a corridor, a route, a view line"
+    },
+    {
+     "move": "Pull back as the house lights return",
+     "expresses": "the data stops; the object remains",
+     "serves": "an ending; a reset between topics"
+    }
+   ],
+   "transitions": [
+    "Transitions are light changes on one take (lights out, a layer replacing another, the projector going dark), not cuts, fades or wipes."
+   ],
+   "labels": [
+    "Roles: a light grotesk for the figure (Inter Tight 200, 120–140 px), a sans for labels in the film's language (Noto Sans SC 300/500, 20–36 px), a monospace for instruments, years and coordinates (IBM Plex Mono, 18–22 px). OFL, self-hosted, CJK subset.",
+    "Readout in the left third, one per layer: index + layer name, one figure, one label, one source line, a legend bar.",
+    "Pins: a hairline from a roof or a ground point up to a tag on a dark plate (title 26 px + one sub line 20 px).",
+    "Identity label top-left, quiet: place, scale, data sources."
+   ],
+   "motion": [
+    "The camera moves continuously and slowly; it changes speed with the layers, never stops dead.",
+    "Light is the actor. Each layer arrives by a soft-edged gesture of light: a wash spreading from the projector axis, buildings switching on one by one with a short flash, a level climbing every facade, the sun's clock running. No hard line sweeping the table.",
+    "House lights cut fast (a relay, 0.25 s) and return slowly (1 s); the projector strikes with a brief flicker.",
+    "Counters roll while the light moves and land when it lands; measured lines grow from A to B with ticks."
+   ],
+   "native_moves": [
+    {
+     "name": "Lights out, lamp on",
+     "does": "House light, a relay, darkness, the lamp strikes, the first layer arrives.",
+     "fits": "a site before and after; a district before a plan is shown; any \"now look closer\"."
+    },
+    {
+     "name": "The hole",
+     "does": "Light only the set that answers a question (built before a date, owned by one party, inside a zone) and let the absence draw the shape.",
+     "fits": "a war-damaged centre; a flood plain with no housing; land a company owns; a protected zone."
+    },
+    {
+     "name": "Layers by time",
+     "does": "Buildings switch on in the decade they were built, each layer faster than the last, a year counter rolling.",
+     "fits": "a new town's growth; a campus master plan by phase; a port's expansion; a developer's portfolio by year."
+    },
+    {
+     "name": "The rising level",
+     "does": "A soft level of light climbs every facade at once; low buildings finish first, the tallest last, the reading rides up with it.",
+     "fits": "building heights; sea-level or flood depth; floor counts; a height limit being tested."
+    },
+    {
+     "name": "The sun clock",
+     "does": "A real sun at a real date sweeps the shadows; the projector then traces one shadow and measures it.",
+     "fits": "a new tower's shadow on a park; winter light in a courtyard; solar panels' best roofs; a street's daylight hours."
+    },
+    {
+     "name": "The pick-out",
+     "does": "One building or set lights alone while the rest stay dark, with a pin.",
+     "fits": "a listed building; the plot for sale; the hospital in an evacuation plan."
+    },
+    {
+     "name": "Lights up",
+     "does": "The data stops, the white model comes back. An ending or a reset.",
+     "fits": ""
+    }
+   ]
+  },
+  "score": {
+   "genre": "drone-sparse",
+   "pad": "vibraphone_bowed",
+   "lead": "glass",
+   "counter": "trombone",
+   "pulse": "marimba",
+   "drums": "orch",
+   "note": "mallets and glass for light, bowed vibraphone, timpani and low brass for weight",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "glass",
+      "gm": 92
+     },
+     "counter": {
+      "voice": "trombone",
+      "gm": 57
+     },
+     "pad": {
+      "voice": "vibraphone_bowed",
+      "gm": 11
+     },
+     "pulse": {
+      "voice": "marimba",
+      "gm": 12
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {
+     "timpani": 47
+    }
+   }
+  }
+ }
+}

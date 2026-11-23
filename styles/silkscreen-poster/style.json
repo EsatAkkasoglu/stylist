@@ -1,0 +1,193 @@
+{
+ "slug": "silkscreen-poster",
+ "num": "32",
+ "en": "Silkscreen Travel Poster",
+ "cn": "丝印旅行海报",
+ "category_en": "Print & Printmaking",
+ "category_cn": "印刷版画",
+ "film": "The Long Way Home",
+ "film_cn": "绕远路回家",
+ "line": "A traveller crosses the world one full-bleed screen print at a time, a ticket stub counting the distance from home, until the far side turns into the way back.",
+ "line_cn": "一张满屏丝印海报一座城，票根数着离家的公里数，走到世界的另一头，才发现那是回家的路。",
+ "uses": [
+  "Destination guides",
+  "Tourism",
+  "Event posters"
+ ],
+ "frame_sec": 44.5,
+ "dur": 50.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "silkscreen-poster",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Serigrafi Seyahat Afişi",
+ "category_tr": "Baskı & Gravür",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "IMPACT/HIT",
+    "query": "hit"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "ticks"
+   },
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "metal"
+   }
+  ],
+  "motion": {
+   "cuts": "print-registration jumps with a slide",
+   "rig": "editorial",
+   "move_frames": [
+    10,
+    14
+   ],
+   "ease": "snapSettle",
+   "reveal": "rise",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "folk-acoustic",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Truck with the squeegee, slight roll, frame edge in view",
+     "expresses": "the act of printing; colour arriving",
+     "serves": "a hook; a split-fountain sky"
+    },
+    {
+     "move": "Locked top-down full sheet",
+     "expresses": "layers stacking into a picture",
+     "serves": "watching a poster build; a comparison"
+    },
+    {
+     "move": "Fast pull-back as the screen lifts",
+     "expresses": "the reveal of a finished layer",
+     "serves": "a scene complete; a title"
+    },
+    {
+     "move": "Push + tilt to the info band",
+     "expresses": "reading",
+     "serves": "facts; a date; a price"
+    },
+    {
+     "move": "Truck through a foreground silhouette (tree, lamp post, sail) in screen space",
+     "expresses": "passing into the next poster",
+     "serves": "poster-to-poster transitions"
+    },
+    {
+     "move": "Crane through loose planes (multi-plane parallax)",
+     "expresses": "depth, a journey inside the print",
+     "serves": "a route; a climb; a street"
+    },
+    {
+     "move": "Slow lateral dolly along a row of prints",
+     "expresses": "a set, a range",
+     "serves": "a series wall; colourways"
+    },
+    {
+     "move": "Push into the mesh until the weave shows",
+     "expresses": "the craft, the grain of the medium",
+     "serves": "an intimate beat; a detail"
+    },
+    {
+     "move": "Log-zoom pull-back to the wall or window",
+     "expresses": "the poster in the world",
+     "serves": "a final lockup (hold ≥ 3 s)"
+    }
+   ],
+   "transitions": [
+    "No dissolves, no bare cuts."
+   ],
+   "labels": [
+    "Condensed display for names and values (e.g. Big Shoulders Display, League Gothic), auto-fit; a geometric sans for letter-spaced labels (e.g. Outfit 600).",
+    "Headers are printed into the sky, tracked out; the info band is printed last.",
+    "The poster text is the subtitle. No narration is needed; if there is a voice, subtitles are a printed strip (a band pull), never a floating caption.",
+    "Reading rule: each text stays ≥ chars/12 + 1 s (min 1.5 s) after its last item lands, and ≥ max(1.8 s, speech + 0.6 s) with a voice. Compute it from the content, round up to the beat."
+   ],
+   "motion": [
+    "Pulls are linear and steady (a squeegee does not ease). Accent inks start half a beat after the main ink of their layer.",
+    "Info items print left to right on subdivisions of the beat. There is no fade anywhere.",
+    "Screen lift: the frame hinges up (vertical squash + growing shadow) in ~0.4 s.",
+    "Palette re-ink: a wide squeegee travels diagonally over the sheet in ~0.35 s; geometry identical on both sides of the blade, only the inks change. Show only the blade, bead and a sliver of handle."
+   ],
+   "native_moves": [
+    {
+     "name": "One ink, one beat",
+     "does": "Facts print last, when they are read.",
+     "fits": "museum hours; a ferry timetable; tasting notes."
+    },
+    {
+     "name": "Split fountain",
+     "does": "Several inks in one pull fill the frame with colour.",
+     "fits": "a festival's night sky; a sunset beach bar; a rainbow of colourways."
+    },
+    {
+     "name": "Palette re-ink",
+     "does": "Same poster, another palette = time passing, a season, a variant.",
+     "fits": "summer vs winter hours; three jacket colourways; day and night at a market."
+    },
+    {
+     "name": "Registration slip → snap",
+     "does": "Loose layers clamp into register with one hit, before the key facts.",
+     "fits": "the date of a race; a launch price; a ticket sale opening."
+    },
+    {
+     "name": "Paper as a colour",
+     "does": "The unprinted sheet is the brightest element.",
+     "fits": "a ski slope; a lighthouse beam; fresh snow on a roof."
+    },
+    {
+     "name": "The route as a printed layer",
+     "does": "A dashed accent line stamped segment by segment.",
+     "fits": "a bus line; a marathon course; a delivery path."
+    },
+    {
+     "name": "The series wall",
+     "does": "Every print ends up hung together as the final lockup.",
+     "fits": "a city's four districts; a band's tour dates; a product family."
+    }
+   ]
+  },
+  "score": {
+   "genre": "folk-acoustic",
+   "counter": "pluck:banjo",
+   "note": "acoustic, hand-played: strummed guitar, harmonica, upright bass, cajon",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "harmonica",
+      "gm": 22
+     },
+     "counter": {
+      "voice": "pluck:banjo",
+      "gm": 105
+     },
+     "pad": {
+      "voice": "pluck:acoustic_guitar",
+      "gm": 25
+     },
+     "bass": {
+      "voice": "jazz_bass",
+      "gm": 32
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

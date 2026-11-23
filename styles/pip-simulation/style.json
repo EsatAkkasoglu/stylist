@@ -1,0 +1,195 @@
+{
+ "slug": "pip-simulation",
+ "num": "99",
+ "en": "Blob Simulation",
+ "cn": "小人模拟实验",
+ "category_en": "Data & Maps",
+ "category_cn": "数据地图",
+ "film": "Is Faster Better?",
+ "film_cn": "跑得快，就更好吗？",
+ "line": "160 flocked Pips race for beans: the fast ones eat first and run dry first, and after 20 generations the board turns blue.",
+ "line_cn": "160 只植绒小人抢豆子：快的先抢到也先跑不动，跑完 20 代，整块台面都变蓝了。",
+ "uses": [
+  "Evolution and natural selection",
+  "Game theory and agent-based models",
+  "Epidemics, queues and markets"
+ ],
+ "frame_sec": 44.7,
+ "dur": 52.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "pip-simulation",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Figür Simülasyonu",
+ "category_tr": "Veri & Harita",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "UI/CLICK",
+    "query": ""
+   },
+   {
+    "role": "WHOOSH/SWISH",
+    "query": ""
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": ""
+   }
+  ],
+  "motion": {
+   "cuts": "continuous camera, chart builds",
+   "rig": "editorial",
+   "move_frames": [
+    10,
+    14
+   ],
+   "ease": "softLand",
+   "reveal": "wipe",
+   "mblur": true
+  },
+  "three_d": "A",
+  "music": "minimal-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "From one to all",
+     "expresses": "low close-up on one Pip (camera 1–1.3 units high, 3–3.5 away) → rise to overhead or crane to a board-wide view. Between set-ups the camera moves along a spherical interpolation around a sliding look p",
+     "serves": ""
+    },
+    {
+     "move": "Overhead for rules and for time-lapses",
+     "expresses": "nearly vertical, the screen \"up\" fixed to the board, slowly tilting and orbiting so it never sits dead.",
+     "serves": ""
+    },
+    {
+     "move": "Tracking at Pip height, from the side, for a race; the azimuth is chosen by code",
+     "expresses": "",
+     "serves": ""
+    },
+    {
+     "move": "Focus pull to hand the story from one Pip to another",
+     "expresses": "",
+     "serves": ""
+    },
+    {
+     "move": "Hard cuts only on rhythm points (a start, a cut into and out of a close-up); eve",
+     "expresses": "",
+     "serves": ""
+    },
+    {
+     "move": "The result is held",
+     "expresses": "when a verdict or a final chart lands, picture and camera stop for at least 2.5 s.",
+     "serves": ""
+    },
+    {
+     "move": "The key light and its shadow camera never follow the camera (no swimming shadows",
+     "expresses": "",
+     "serves": ""
+    }
+   ],
+   "transitions": [
+    "Hard cuts only on rhythm points (a start, a cut into and out of a close-up);"
+   ],
+   "labels": [
+    "Fredoka 600 for titles and the one big number per frame (120–168 px); its rounded shapes share the Pips' character.",
+    "Inter 500/600 for explanations (24–30 px), labels and ticks; eyebrows in capitals, 15 px, letter-spacing 2 px.",
+    "Noto Sans SC 500 for Chinese, at least 34 px.",
+    "Hierarchy: each frame has exactly one largest piece of type and it is the result (a head count, a generation, a mean). Never an outline, never a drop shadow, never a header bar."
+   ],
+   "motion": [
+    "Hop by distance: the hop phase is distance travelled ÷ stride (stride grows with speed); when a Pip stops, the hop amplitude fades with a smoothed \"moving\" factor, so feet never slide and no Pip freezes in mid-air. Lean forward 0.12–0.22 rad, squash and stretch ±8%; fast Pips kick up two or three cream fluff balls that stay where they land and shrink.",
+    "Anticipation, action, follow-through: turn and crouch before a run; the body bulges as it eats and the bean flies into the mouth; a Pip that runs out of energy slumps and fades to spent grey; at a verdict the ones that go stretch up once and shrink away (never squashed into a puddle), a newborn pops out beside its parent with a ring printed on the board.",
+    "Breathing: idle Pips breathe (±2% squash, each with its own phase), until the final hold, which is perfectly still.",
+    "Bodies never interpenetrate: in the simulation Pips are points; every frame the drawn positions are relaxed apart (three passes by body radius) so neighbours touch but never merge. This changes only the drawing."
+   ],
+   "native_moves": [
+    {
+     "name": "Bean rain",
+     "does": "food pops up out of the board in rings around the subject.",
+     "fits": ""
+    },
+    {
+     "name": "The race",
+     "does": "a low tracking shot of one Pip running a rule, its energy bar draining.",
+     "fits": ""
+    },
+    {
+     "name": "Running dry",
+     "does": "slow motion as one Pip's colour drains to spent grey and it slumps.",
+     "fits": ""
+    },
+    {
+     "name": "The verdict sweep",
+     "does": "a line of judgement crosses the board; the ones that go shrink away and leave a grey ring, newborns pop up with a mint ring; the head count rolls.",
+     "fits": ""
+    },
+    {
+     "name": "The morning wave",
+     "does": "between generations a mint band sweeps the board diagonally; behind it the new generation pops up, ahead of it the old one sinks.",
+     "fits": ""
+    },
+    {
+     "name": "Pips into the chart",
+     "does": "every Pip walks into its slot in bars printed on the board, one Pip = one individual, with an earlier generation as a dashed outline.",
+     "fits": ""
+    },
+    {
+     "name": "The cast on a number line",
+     "does": "a few Pips standing on a ramp printed on the board, each at its own value.",
+     "fits": ""
+    }
+   ]
+  },
+  "score": {
+   "genre": "minimal-pulse",
+   "lead": "kalimba",
+   "counter": "hang",
+   "sparkle": "glockenspiel",
+   "bass": "cellos_pizz",
+   "avoid": [
+    "drum_kit",
+    "piano",
+    "violins"
+   ],
+   "note": "warm mallets and plucks; no piano-and-strings, no drum kit",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "kalimba",
+      "gm": 108
+     },
+     "counter": {
+      "voice": "hang",
+      "gm": 114
+     },
+     "pad": {
+      "voice": "marimba",
+      "gm": 12
+     },
+     "pulse": {
+      "voice": "glockenspiel",
+      "gm": 9
+     },
+     "bass": {
+      "voice": "cellos_pizz",
+      "gm": 45
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

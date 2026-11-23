@@ -1,0 +1,195 @@
+{
+ "slug": "instruction-manual",
+ "num": "49",
+ "en": "Instruction Manual Art",
+ "cn": "说明书插画",
+ "category_en": "Line Diagrams",
+ "category_cn": "线稿图解",
+ "film": "Step Ten",
+ "film_cn": "第十步",
+ "line": "Two first-timers build a crib from a flat-pack manual, ten steps on one 45° page; step ten was never in the manual.",
+ "line_cn": "两个从没装过家具的新手照说明书装婴儿床，十步排在同一张 45° 说明书上；第十步，说明书里没有。",
+ "uses": [
+  "Assembly and set-up guides",
+  "Safety instructions",
+  "Product onboarding"
+ ],
+ "frame_sec": 6.1,
+ "dur": 50.6,
+ "source": "lemo-opuscar",
+ "lemo_slug": "instruction-manual",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Kullanım Kılavuzu Çizimi",
+ "category_tr": "Çizgi Diyagramlar",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "knocking"
+   },
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "ratchet"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "click"
+   }
+  ],
+  "motion": {
+   "cuts": "continuous camera over one sheet",
+   "rig": "calm",
+   "move_frames": [
+    10,
+    14
+   ],
+   "ease": "softLand",
+   "reveal": "draw",
+   "mblur": true
+  },
+  "three_d": "A",
+  "music": "minimal-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Push into a parts box / object",
+     "expresses": "\"this one\"",
+     "serves": "an opening; a detail"
+    },
+    {
+     "move": "Pan or whip along the page to the next step",
+     "expresses": "progress",
+     "serves": "the next step; skipping dull steps"
+    },
+    {
+     "move": "Tilt to the next row, the step number entering first",
+     "expresses": "a new stage",
+     "serves": "a change of section"
+    },
+    {
+     "move": "Locked frame on a do/don't box",
+     "expresses": "judging",
+     "serves": "a rule; a common mistake"
+    },
+    {
+     "move": "Push through a shape (the ✓ cell, a magnifier circle)",
+     "expresses": "going into the detail",
+     "serves": "the right way, shown big; a close-up"
+    },
+    {
+     "move": "Shape-matched cut (a bolt head → a round knob)",
+     "expresses": "jumping to the consequence",
+     "serves": "a mistake revealed; a time jump"
+    },
+    {
+     "move": "Pull back to the whole page",
+     "expresses": "the full sequence, the result",
+     "serves": "an ending; a summary"
+    }
+   ],
+   "transitions": [
+    "The camera is a 2D camera over one long sheet: pan, whip, tilt, push, pull, and cuts."
+   ],
+   "labels": [
+    "On the page only step numbers (a geometric sans, e.g. Inter 700, about 150 px at 1:1, top left of each step's area, printed on the paper and moving with it) and counts in parts boxes (\"4×\", Inter 600). Everything else is said by drawings and the voice.",
+    "Subtitles bottom left, left-aligned: Chinese (e.g. Noto Sans SC 500, 38 px) over English (Inter 500, 32 px, ink at about 78 %), one line each, an 8 px yellow bar on the left marking the line being spoken. No box, outline or shadow; a soft paper-coloured bed (same colour as the page) keeps them readable over line art. Keep subjects out of that corner.",
+    "A title, if any, is printed on the page like a manual's cover or footer, never a title card over the picture."
+   ],
+   "motion": [
+    "Parts fly along dotted guide lines in straight paths, ease in, and stop with a small settle; a beat of stillness after each one lands.",
+    "Arrow first, motion second: the arrow is drawn, then the part follows it once and holds.",
+    "The new part's yellow fades to white once it is fitted.",
+    "People move between a few key poses with eased interpolation; walking is short shuffled steps when carrying."
+   ],
+   "native_moves": [
+    {
+     "name": "Parts explosion",
+     "does": "The box opens and its parts fly along their own dotted lines to a counted parts list.",
+     "fits": "unboxing; a kit's contents; what a product is made of."
+    },
+    {
+     "name": "Line art grows",
+     "does": "Floor line → object → people → arrows → magnifier, then the flat colours.",
+     "fits": "a step being built up; a scene appearing."
+    },
+    {
+     "name": "Arrow-driven assembly",
+     "does": "A flat arrow in the isometric plane, then the part follows it and lands.",
+     "fits": "any fitting, inserting, sliding step."
+    },
+    {
+     "name": "New part yellow",
+     "does": "The new part is yellow, then turns white.",
+     "fits": "what changed in this step; the one new thing at the end."
+    },
+    {
+     "name": "Magnifier circle",
+     "does": "A small ring on the spot, a leader line, a big circle redrawn at 3–4× with a hand and a rotation arrow.",
+     "fits": "tightening, pressing, a latch, a connector."
+    },
+    {
+     "name": "Do / don't box",
+     "does": "One white rounded box split in two: red ✗ beside blue ✓, drawn as strokes.",
+     "fits": "safety rules; common mistakes; two ways to hold something."
+    },
+    {
+     "name": "Push through a shape",
+     "does": "The camera dives into the ✓ cell or a magnifier circle and comes out in the next picture.",
+     "fits": "zooming into the right way; changing scene inside one page."
+    },
+    {
+     "name": "The whole page",
+     "does": "A final pull back shows every step laid out on one sheet.",
+     "fits": "a summary; the full procedure at a glance."
+    }
+   ]
+  },
+  "score": {
+   "genre": "minimal-pulse",
+   "pad": "marimba",
+   "lead": "glockenspiel",
+   "counter": "piano",
+   "pulse": "violins_pizz",
+   "bass": "contrabass_pizz",
+   "note": "a small tidy ensemble that counts steps",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "glockenspiel",
+      "gm": 9
+     },
+     "counter": {
+      "voice": "piano",
+      "gm": 0
+     },
+     "pad": {
+      "voice": "marimba",
+      "gm": 12
+     },
+     "pulse": {
+      "voice": "violins_pizz",
+      "gm": 45
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

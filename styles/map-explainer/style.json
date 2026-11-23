@@ -1,0 +1,204 @@
+{
+ "slug": "map-explainer",
+ "num": "98",
+ "en": "3D Map Explainer",
+ "cn": "立体地图解说",
+ "category_en": "Data & Maps",
+ "category_cn": "数据地图",
+ "film": "Strait of Hormuz",
+ "film_cn": "霍尔木兹海峡",
+ "line": "From the globe down into the strait a fifth of the world's oil squeezes through: two lanes, a cut through the sea floor, and pipelines that can carry only a fraction of it around.",
+ "line_cn": "从地球一路落进这道海峡：世界约五分之一的石油挤过两条航道，剖开看水下有多深，再看绕行的管道只能分走多少。",
+ "uses": [
+  "News and geopolitics",
+  "Energy, trade and shipping",
+  "Rivers, borders and terrain"
+ ],
+ "frame_sec": 13.8,
+ "dur": 52.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "map-explainer",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "3D Harita Anlatım",
+ "category_tr": "Veri & Harita",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "chimes"
+   },
+   {
+    "role": "DESIGNED/RISER",
+    "query": "swell"
+   },
+   {
+    "role": "WHOOSH/SWISH",
+    "query": "whoosh"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "ticks"
+   }
+  ],
+  "motion": {
+   "cuts": "continuous camera, chart builds",
+   "rig": "editorial",
+   "move_frames": [
+    10,
+    14
+   ],
+   "ease": "softLand",
+   "reveal": "wipe",
+   "mblur": true
+  },
+  "three_d": "A",
+  "music": "cinematic-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Push in from space",
+     "expresses": "finding the place",
+     "serves": "an opening"
+    },
+    {
+     "move": "Dive and level out (log distance, pitch from ~80° to ~45°)",
+     "expresses": "arriving",
+     "serves": "a region to its key point"
+    },
+    {
+     "move": "Near-locked oblique",
+     "expresses": "reading a measurement",
+     "serves": "a width, a name, a verdict"
+    },
+    {
+     "move": "Orbit + crane down to the cut",
+     "expresses": "looking under the surface",
+     "serves": "a cross-section"
+    },
+    {
+     "move": "Low tracking shot along a line",
+     "expresses": "travelling it",
+     "serves": "a lane, a river, a road"
+    },
+    {
+     "move": "Crane up around a quantity",
+     "expresses": "weight, scale",
+     "serves": "a pillar growing"
+    },
+    {
+     "move": "Big pull-out over the whole region",
+     "expresses": "context, alternatives",
+     "serves": "routes around, other places"
+    },
+    {
+     "move": "Square-on side view",
+     "expresses": "an honest comparison",
+     "serves": "quantities on one scale"
+    },
+    {
+     "move": "Pull back to the globe",
+     "expresses": "consequence",
+     "serves": "an ending"
+    }
+   ],
+   "transitions": [
+    "Transitions: dissolves through the atmosphere (globe ↔ map, with the cameras matched), the cut that opens the ground, one rhythmic hard cut at most, everything else continuous."
+   ],
+   "labels": [
+    "A condensed grotesk for everything Latin (e.g. Barlow Condensed, OFL): country names 600 at ~30 px with wide tracking (≈ 0.3 em); sea names 500 at ~21 px, pale blue; island and port names 15 px; data numbers 600 at 70–96 px with a small unit and a smaller source line beside or under them. A CJK sans (e.g. Noto Sans SC, OFL, subset to the characters used) for Chinese, ≥ 34 px.",
+    "Labels sit on the map where the thing is, and fade with the camera's height: a far set (countries, seas) hands over to a near set (islands, ports). A label the frame would cut fades out instead.",
+    "Measurements are drawn, then labelled: a line grows from its middle to both ends, end ticks snap on, then the label appears beside the line, never on the data.",
+    "A cross-section is labelled like an engineering drawing: a small caption and a headline in the upper left, the exaggeration factors under them, a depth scale on the side, dashed soundings from the surface to the floor with their value."
+   ],
+   "motion": [
+    "The camera never stops dead: distance interpolates in log space, keys are monotone cubic, holds keep a slow drift.",
+    "The glowing layer arrives by being drawn: lines grow from their source, a lane ignites with a bright head running along its real course, pulses flow in the direction of travel, pillars grow slab by slab on the beat.",
+    "Depth of field, fog and bloom change continuously with height; nothing pops.",
+    "Traffic moves at a time-lapse speed that reads (a few km per film second), all in its lanes."
+   ],
+   "native_moves": [
+    {
+     "name": "The dive from orbit",
+     "does": "One push from the globe into the place, a dissolve through the atmosphere where the globe and the map share one camera.",
+     "fits": "any place that matters to the world; a city in a country; a reef in an ocean."
+    },
+    {
+     "name": "Flows converge",
+     "does": "Points light up and their routes grow and pour into one line.",
+     "fits": "commuters into a city centre; tributaries into a river; roads into a pass."
+    },
+    {
+     "name": "A line ignites along its true course",
+     "does": "A bright head runs along the real geometry and leaves the line, its boundaries and its traffic behind.",
+     "fits": "a rail line; a border; a pipeline; a migration route."
+    },
+    {
+     "name": "Cut the map open",
+     "does": "Sweep away one side of the terrain along a line and show the profile underneath.",
+     "fits": "the depth of a lake; a river valley; a tunnel under a mountain; an aquifer."
+    },
+    {
+     "name": "Fly the line",
+     "does": "A low tracking shot along it, a ruler across it.",
+     "fits": "a bridge's span; a canal; a runway; a front line."
+    },
+    {
+     "name": "Quantities on the ground",
+     "does": "A pillar grows where the quantity belongs, and its alternatives grow beside it on the same scale.",
+     "fits": "a river's yearly discharge; a dam's output; harvests by region."
+    },
+    {
+     "name": "Back to the world",
+     "does": "Pull out to the globe, the data layer still glowing.",
+     "fits": "where things go next; who depends on this place."
+    }
+   ]
+  },
+  "score": {
+   "genre": "cinematic-pulse",
+   "pad": "vibraphone_bowed",
+   "pulse": "cellos_spic",
+   "lead": "horn",
+   "sparkle": "hand_chimes",
+   "bass": "contrabass_pizz",
+   "drums": "taiko",
+   "note": "low plucked pulse, cello spiccato, bowed vibraphone, frame drum on downbeats",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "horn",
+      "gm": 60
+     },
+     "pad": {
+      "voice": "vibraphone_bowed",
+      "gm": 11
+     },
+     "pulse": {
+      "voice": "cellos_spic",
+      "gm": 48
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     },
+     "sparkle": {
+      "voice": "hand_chimes",
+      "gm": 14
+     }
+    },
+    "drums": {
+     "taiko": 116
+    }
+   }
+  }
+ }
+}

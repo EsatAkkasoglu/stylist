@@ -1,0 +1,197 @@
+{
+ "slug": "manga-panels",
+ "num": "57",
+ "en": "Manga Panels",
+ "cn": "黑白漫画分格",
+ "category_en": "Cartoons",
+ "category_cn": "卡通动画",
+ "film": "KOMA ONE: Thirty Frames a Second",
+ "film_cn": "KOMA ONE · 一秒三十格",
+ "line": "A street photographer chases a running light to the moment the pigeons rise; her pocket camera splits that second into thirty panels.",
+ "line_cn": "街拍摄影师追着一束跑动的光，等到鸽群腾起的那一秒；她的口袋相机把这一秒拆成三十格。",
+ "uses": [
+  "Music videos",
+  "Product launches",
+  "Anime openings"
+ ],
+ "needs": [
+  "image-generation"
+ ],
+ "frame_sec": 40.2,
+ "dur": 48.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "manga-panels",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Manga Kareleri",
+ "category_tr": "Çizgi Film",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "IMPACT/HIT",
+    "query": "slam"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "clicks"
+   },
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "metallic"
+   }
+  ],
+  "motion": {
+   "cuts": "snap zoom, squash and stretch",
+   "rig": "punchy",
+   "move_frames": [
+    6,
+    10
+   ],
+   "ease": "snapSettle",
+   "reveal": "rise",
+   "mblur": true
+  },
+  "three_d": "B",
+  "music": "rock-opening",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Pan along the reading direction across a page wider than the frame",
+     "expresses": "following, chasing",
+     "serves": "a run; a queue; a process"
+    },
+    {
+     "move": "Push into a point inside a panel (an eye, a keyhole), then cut on an impact frame",
+     "expresses": "entering the next thought",
+     "serves": "a decision; a flashback; a zoom into detail"
+    },
+    {
+     "move": "Glide through the gutters from panel to panel, one beat each",
+     "expresses": "a series, a collection",
+     "serves": "a day in photos; steps of a recipe; a team roster"
+    },
+    {
+     "move": "Pull back from one panel to the whole page",
+     "expresses": "the moment becomes part of a story",
+     "serves": "an ending; a reveal of scale"
+    },
+    {
+     "move": "Static frame while the panels change around it",
+     "expresses": "the grid itself is the action",
+     "serves": "bursts, comparisons, countdowns"
+    },
+    {
+     "move": "Slow push on a single big panel with emotional tone",
+     "expresses": "feeling, a held breath",
+     "serves": "a smile; a memory; a result"
+    },
+    {
+     "move": "A panel splitting along a slanted gutter",
+     "expresses": "a page giving way to the next",
+     "serves": "a chapter break; a change of place"
+    }
+   ],
+   "transitions": [
+    "No page-turn transitions."
+   ],
+   "labels": [
+    "Sound effects (katakana, Dela Gothic One): per letter — 1.6–1.9× → 1× slam with overshoot, 0.03–0.09 s stagger, ±10° random rotation, small offsets, three layers (wide ink stroke ×0.34, paper stroke ×0.27, ink fill), boiling ±1.5 px at 12 fps. Small kana (ッ ャ) at 0.62× and dropped. Dela's 「カ」 reads as 「太」 at small sizes: use another word (ドンッ rather than カンッ for a hit).",
+    "Narration boxes (Noto Serif SC 900, vertical, right column first, a space starts a new column): paper box, 5 px ink border, offset solid ink shadow, characters ink in one after another. Inner voice, scene-setting, verse lyrics.",
+    "Hand-lettered shouts (Noto Sans SC 900, 110–190 px): the same slam engine as the sound effects, horizontal or vertical. Choruses, slogans, anything shouted.",
+    "Speech balloons (Noto Serif SC 900, vertical): ellipse with a tail toward the speaker's mouth; full-width comma becomes the vertical form."
+   ],
+   "motion": [
+    "Panel ink-in: 0.1 s wipe in the reading direction, content slammed 40–110 px from that direction and settled in 0.22 s.",
+    "Boiling: focus lines, speed lines and lettering redraw 8–12 times a second with a new seed; images stay still. Stopping the boil is itself an event (time freezes).",
+    "Shake: an exponentially decaying jitter (τ 0.07 s, 6–40 px) on every hit.",
+    "Performance comes from pose frames, not from tweening a drawing: a new pose = a new panel. Inside a panel: slide-in, bob (running), head flicks on half-beats, a sweat drop sliding, a tone wiping away."
+   ],
+   "native_moves": [
+    {
+     "name": "Panel = cut, one per beat",
+     "does": "(panel()): fits a list, a montage, a countdown, a beat drop.",
+     "fits": ""
+    },
+    {
+     "name": "Panel split = burst",
+     "does": "(one panel splits on consecutive beats, for example 1→2→4→8→16, each cell one frame of a motion, cells numbered in reading order, a flash per new cell): fits a fast motion taken apart, a crowd of options, growth.",
+     "fits": ""
+    },
+    {
+     "name": "Panels merge into a double-page spread",
+     "does": "(gutter lines shrink to zero, then one big panel): fits the moment everything comes together.",
+     "fits": ""
+    },
+    {
+     "name": "Break the frame",
+     "does": "(出格: a haloed figure or object drawn above the border): fits a hero entrance, a product reveal, an escape.",
+     "fits": ""
+    },
+    {
+     "name": "Same composition, consecutive panels",
+     "does": "(the same framing three times, something changes each time): fits time passing, a crowd thinning, waiting.",
+     "fits": ""
+    },
+    {
+     "name": "Anticipation triptych",
+     "does": "(ready → action → close-up, each a new panel and a closer framing): fits the second before a decision.",
+     "fits": ""
+    },
+    {
+     "name": "The empty panel",
+     "does": "(dashed border, then filled on the beat): fits \"next\", a blank page, a promise.",
+     "fits": ""
+    },
+    {
+     "name": "The quiet panel (間)",
+     "does": "(a hard cut to one wide panel on a bare page, the subject at rest, no lettering, no effect lines, at most one glint; held through a real silence): fits the breath after the biggest hit, the moment after a decision.",
+     "fits": ""
+    },
+    {
+     "name": "Time stop",
+     "does": "(tone wipes away from a point, speed lines retract, boiling stops, one mark locks in place): fits focus, a realisation, slow motion.",
+     "fits": ""
+    },
+    {
+     "name": "Gutter travel",
+     "does": "(camera through a page of panels): fits a gallery, a contact sheet, a timeline.",
+     "fits": ""
+    }
+   ]
+  },
+  "score": {
+   "genre": "rock-opening",
+   "lead": "electric_guitar",
+   "note": "anime-opening rock: power chords, melodic bass, tight drums, 150–170 BPM",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "electric_guitar",
+      "gm": 29
+     },
+     "pad": {
+      "voice": "electric_guitar",
+      "gm": 29
+     },
+     "bass": {
+      "voice": "electric_bass",
+      "gm": 33
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

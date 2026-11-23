@@ -1,0 +1,205 @@
+{
+ "slug": "art-deco",
+ "num": "38",
+ "en": "Art Deco",
+ "cn": "装饰艺术",
+ "category_en": "Graphic & Type",
+ "category_cn": "平面排版",
+ "film": "Midnight at the Starlight Hotel",
+ "film_cn": "星光饭店的午夜",
+ "line": "A grand hotel, 1930: a bellboy races lifts and revolving doors to deliver one letter before midnight.",
+ "line_cn": "1930 年的大饭店，门童赶在午夜前把一封信送上顶楼。",
+ "uses": [
+  "Luxury & hospitality",
+  "Galas",
+  "Invitations"
+ ],
+ "frame_sec": 17.52,
+ "dur": 58.4,
+ "source": "lemo-opuscar",
+ "lemo_slug": "art-deco",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Art Deco",
+ "category_tr": "Grafik & Tipografi",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "bells"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "hit"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "clicks"
+   },
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "spring"
+   }
+  ],
+  "motion": {
+   "cuts": "snap zoom on the beat",
+   "rig": "punchy",
+   "move_frames": [
+    4,
+    8
+   ],
+   "ease": "snapSettle",
+   "reveal": "track",
+   "mblur": true
+  },
+  "motion_note": "Use the mechanical easing and symmetric transitions defined in §5–6. Keep 3-layer parallax subtle and deliberate; use `snapSettle` only for mechanical locks (doors, dials, bulb ignitions), avoiding TikTok-style snap zooms or restless camera drift.",
+  "three_d": "none",
+  "music": "hot-jazz",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Symmetric split (two door leaves hinged at the edges; or a revolving-door wipe)",
+     "expresses": "a threshold crossed",
+     "serves": "a new place; a new chapter; a reveal behind a façade"
+    },
+    {
+     "move": "Leaves sliding shut over the live shot",
+     "expresses": "a door closing on a moment",
+     "serves": "leaving; a decision made; the end of an era"
+    },
+    {
+     "move": "Extreme low-angle Cassandre tilt",
+     "expresses": "scale and aspiration",
+     "serves": "a goal far above; a tower, a rocket, a monument"
+    },
+    {
+     "move": "Architectural section (pull out to a cutaway of the whole building)",
+     "expresses": "progress through a structure",
+     "serves": "climbing, descending, a process in stages; a company's floors"
+    },
+    {
+     "move": "Busby Berkeley overhead, mirrored and rotating",
+     "expresses": "people become pattern",
+     "serves": "a team, a release, a celebration, a system of parts"
+    },
+    {
+     "move": "Push-in on a dial, medallion or clock",
+     "expresses": "the number is the plot",
+     "serves": "a deadline; a count; a milestone"
+    },
+    {
+     "move": "Match-cut on shape (circle → circle, ray → ray)",
+     "expresses": "two places, one rhyme",
+     "serves": "jumping between departments, cities, eras"
+    },
+    {
+     "move": "Low oblique along a sign or marquee",
+     "expresses": "light travelling letter by letter",
+     "serves": "a name revealed; a launch; a score being counted"
+    },
+    {
+     "move": "Pull back from detail to skyline",
+     "expresses": "where the moment sits in the world",
+     "serves": "aftermath; a city-wide effect; scale"
+    }
+   ],
+   "transitions": [
+    "Transitions: splits, revolves, arch openings, shape matches;",
+    "never a generic dissolve or slide."
+   ],
+   "labels": [
+    "Type (OFL): Limelight (titles), Poiret One (numbers, sign skeletons, plaques), Josefin Sans (subtitles, labels), Italiana (numerals).",
+    "Titles are architecture: a stepped gold title bar over an arch or sunburst, optional badge and wings; drawn on in gold, then a sheen sweep.",
+    "Subtitle card (subtitleCard): a lacquer bar (~88 % black) with stepped ends like the title bar, double gold keyline, Josefin Sans SemiBold ~40–42 px ivory, an optional small speaker icon per voice. It unfolds from the centre like every other title, so titles, subtitles and transitions are one system. Hold ≥ max(1.8 s, speech + 0.6 s).",
+    "Numbers carry plot without narration: dials, clock faces, floor medallions, badges."
+   ],
+   "motion": [
+    "Characters step on twos (12 fps); camera, light, bulbs, gold draw-on and sheen run on ones (24 fps). A stepped camera reads as stutter.",
+    "Everything unfolds from the centre: a point → a hairline → bars open symmetrically → text rises → wings and sparkle.",
+    "Draw-on follows the music: a gold line grows at the speed of the phrase under it and lands on the hit.",
+    "Bulbs have an ignition overshoot (~1.6× flash settling in ~0.18 s) and a relay \"chunk\"; once a sign is lit, a fast chase may run across it."
+   ],
+   "native_moves": [
+    {
+     "name": "Counted light",
+     "does": "A bulb sign lights one letter per beat or per event, so the audience can count.",
+     "fits": "the countdown to a product launch; the letters of a city name lighting as a train arrives; votes tallied into a winner."
+    },
+    {
+     "name": "Threshold doors",
+     "does": "Every scene change is a door split along the seam.",
+     "fits": "the departments of a company; the rooms of a museum; stages of a career."
+    },
+    {
+     "name": "Machine kaleidoscope",
+     "does": "People or objects become a mirrored, rotating pattern that locks into a symbol.",
+     "fits": "a team becoming a logo; gears of a supply chain; a choir becoming a clock."
+    },
+    {
+     "name": "Dials carry the plot",
+     "does": "A floor indicator, a clock or a gauge moves instead of narration.",
+     "fits": "a funding thermometer; the altitude of a climb; a stock ticker at the opening bell."
+    },
+    {
+     "name": "The architectural cutaway",
+     "does": "Pull out until a building is a section and the protagonist a coloured dot with speed lines.",
+     "fits": "data moving through a server stack; a letter through a post office; a skier down a resort."
+    },
+    {
+     "name": "Sheen sweep / draw-on",
+     "does": "Light crosses a gold object on a hit; a gold line engraves itself at the speed of a glissando.",
+     "fits": "unveiling a trophy; a map route; a signature on a treaty."
+    },
+    {
+     "name": "The one colour",
+     "does": "One element keeps its own colour in a gold world.",
+     "fits": "the one product among competitors; the patient among doctors; the new idea in an old firm."
+    }
+   ]
+  },
+  "score": {
+   "genre": "hot-jazz",
+   "space": "vintage-hall",
+   "bpm": 150,
+   "pad": "piano",
+   "lead": "clarinet",
+   "counter": "trumpet_mute",
+   "bass": "contrabass_pizz",
+   "drums": "brushes",
+   "note": "1920s–30s symphonic jazz: concert piano, clarinet, muted trumpet",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "clarinet",
+      "gm": 71
+     },
+     "counter": {
+      "voice": "trumpet_mute",
+      "gm": 59
+     },
+     "pad": {
+      "voice": "piano",
+      "gm": 0
+     },
+     "pulse": {
+      "voice": "pluck:banjo",
+      "gm": 105
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

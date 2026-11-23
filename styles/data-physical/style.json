@@ -1,0 +1,176 @@
+{
+ "slug": "data-physical",
+ "num": "96",
+ "en": "Data Physicalization",
+ "cn": "数据实物化",
+ "category_en": "Data & Maps",
+ "category_cn": "数据地图",
+ "film": "Two Spirals",
+ "film_cn": "两条螺旋",
+ "line": "Twelve years of wind and solar stacked as real plates, spiralling round a walnut dial until solar overtakes.",
+ "line_cn": "十二年风电和太阳能装机叠成实物，绕表盘升成两条螺旋，2021 年太阳能反超。",
+ "uses": [
+  "Annual reports",
+  "Investor decks",
+  "Energy data"
+ ],
+ "frame_sec": 37.8,
+ "dur": 39.4,
+ "source": "lemo-opuscar",
+ "lemo_slug": "data-physical",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Verinin Nesneleşmesi",
+ "category_tr": "Veri & Harita",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "metal"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "tick"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "knocks"
+   },
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "bell"
+   }
+  ],
+  "motion": {
+   "cuts": "continuous camera, chart builds",
+   "rig": "editorial",
+   "move_frames": [
+    10,
+    14
+   ],
+   "ease": "softLand",
+   "reveal": "wipe",
+   "mblur": true
+  },
+  "three_d": "A",
+  "music": "minimal-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Macro dolly along a stack's edge, rack focus",
+     "expresses": "the unit is real and countable",
+     "serves": "the rule \"1 piece = X\"; a single record"
+    },
+    {
+     "move": "Low lateral track along the series",
+     "expresses": "time passing; growth",
+     "serves": "a decade; a ranking; a sequence of sites"
+    },
+    {
+     "move": "Locked three-quarter frame on two subjects",
+     "expresses": "comparison",
+     "serves": "before/after; A against B; a crossover"
+    },
+    {
+     "move": "Crane with the rising top",
+     "expresses": "accumulation",
+     "serves": "one year's increase; a target being reached"
+    },
+    {
+     "move": "Pull-back to near top view",
+     "expresses": "the whole as an object",
+     "serves": "a summary; a ratio; an ending"
+    },
+    {
+     "move": "Slow orbit around the base",
+     "expresses": "the installation as sculpture",
+     "serves": "a title; a breath"
+    }
+   ],
+   "transitions": [
+    "Transitions are camera moves inside one set (one continuous take where possible);",
+    "no cuts to a chart, no wipes, no page turns."
+   ],
+   "labels": [
+    "Roles: a light grotesk for numbers (e.g. Inter 200–300; the hero reading 130–170 px, a stack reading 46–56 px); a sans for labels and verdicts in the film's language (e.g. Noto Sans SC 500, 24–46 px); a monospace for units, years and source lines (20–24 px); a serif only for the title. OFL, self-hosted, CJK subset.",
+    "A reading = a dot on the object, a 1.4 px leader, a small swatch of the series' material, the category line, then the value and unit, on a translucent paper plate (~84 %). Two readings of one pair stack in one column, larger value on top.",
+    "The source line (dataset, publisher, year, licence, e.g. \"数据：IRENA (2026)，经 Our World in Data 整理 · CC BY 4.0\") is in frame with the data, small (20–22 px, ink at ~60 %) in a corner away from the subtitles, at least from the first reading to the summary, and on the title card.",
+    "A verdict sits in the upper-left third on its own plate in the accent colour, underlined by a growing rule; it appears only after the readings it judges have been still for ≥ 2.5 s."
+   ],
+   "motion": [
+    "On ones, 24 fps; the camera never stops (2–5 % creep on holds).",
+    "Cascade: a stack assembles bottom-to-top in 0.5–1.0 s, each piece dropping a few centimetres with an ease-out.",
+    "Feed: one period's increase arrives piece by piece from out of frame, quintic ease-out, a yaw that unwinds (\"placed\", not \"dropped\"), 8–16 pieces per second, the counter rolling with the pieces landed.",
+    "A single heavy object falls with gravity, lands with one small damped bounce, its shadow tightening."
+   ],
+   "native_moves": [
+    {
+     "name": "The unit close-up",
+     "does": "Push into the side of a stack until one piece fills the frame; bracket one piece (\"= 10 GW\") and one ruler piece (\"= 100 GW\").",
+     "fits": "tonnes of CO₂ as steel plates; a budget as banknote bricks; a population as wooden discs."
+    },
+    {
+     "name": "The paired climb",
+     "does": "Two series on one base, one material each, built year by year as the camera tracks; the crossover is held still with both readings before the verdict.",
+     "fits": "imports vs exports; renewables vs fossil capacity; two companies' revenue."
+    },
+    {
+     "name": "The feed",
+     "does": "One period's increase arrives piece by piece onto last period's level, the counter rolling with the landings.",
+     "fits": "this year's new hires on last year's team; a quarter's sales; a record harvest."
+    },
+    {
+     "name": "Chart to installation",
+     "does": "Pull back until the bars are a dial, a skyline or a table piece; the base's inlaid marks become its typography.",
+     "fits": "twelve months as a clock; regions as a map-shaped base; product lines as a city."
+    },
+    {
+     "name": "The last object",
+     "does": "One single heavier piece (a brass puck, a coin, a weight) lands on the base carrying the final number engraved.",
+     "fits": "a total; a ratio; a target met."
+    }
+   ]
+  },
+  "score": {
+   "genre": "minimal-pulse",
+   "pad": "marimba",
+   "lead": "vibraphone",
+   "sparkle": "glass",
+   "bass": "synthbass",
+   "note": "mallets and air: marimba ostinato, glass, pulse bass; accelerate by subdivision",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "vibraphone",
+      "gm": 11
+     },
+     "pad": {
+      "voice": "marimba",
+      "gm": 12
+     },
+     "pulse": {
+      "voice": "glockenspiel",
+      "gm": 9
+     },
+     "bass": {
+      "voice": "synthbass",
+      "gm": 38
+     },
+     "sparkle": {
+      "voice": "glass",
+      "gm": 92
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

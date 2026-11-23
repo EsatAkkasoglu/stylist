@@ -1,0 +1,185 @@
+{
+ "slug": "colored-pencil",
+ "num": "13",
+ "en": "Colored-Pencil Science Illustration",
+ "cn": "彩铅科普插画",
+ "category_en": "Painting & Illustration",
+ "category_cn": "绘画插画",
+ "film": "The Other Half",
+ "film_cn": "树的另一半",
+ "line": "Do trees feed each other? A pencil drawing sinks below the grass, follows one grain of sugar along a fungal thread to the next tree, and pulls back over a whole wood joined underground.",
+ "line_cn": "树会互相喂食吗？一张彩铅画沉到草地下面，跟着一粒糖沿菌丝走到下一棵树，再拉开看整片森林在地下连在一起。",
+ "uses": [
+  "Natural-science cutaways",
+  "Picture-book explainers",
+  "Hidden structures and processes"
+ ],
+ "frame_sec": 50.1,
+ "dur": 50.8,
+ "source": "lemo-opuscar",
+ "lemo_slug": "colored-pencil",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Kuru Boya Bilim İllüstrasyonu",
+ "category_tr": "Resim & İllüstrasyon",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "FOLEY/PAPER",
+    "query": "pencil"
+   },
+   {
+    "role": "AMBIENCE",
+    "query": "ambience"
+   }
+  ],
+  "motion": {
+   "cuts": "slow drift, push-through with a focus pull",
+   "rig": "calm",
+   "move_frames": [
+    14,
+    24
+   ],
+   "ease": "softLand",
+   "reveal": "focus",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "folk-acoustic",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Sink",
+     "expresses": "a vertical crane from the landscape into the cut face; the soil rises over the far view.",
+     "serves": ""
+    },
+    {
+     "move": "The magnifier",
+     "expresses": "a pencil circle drawn around a detail; inside it, the magnified view is drawn from blank paper outward from the centre; the circle grows to fill the frame. The reverse (the circle shrinking to a point",
+     "serves": ""
+    },
+    {
+     "move": "Focus is how fully something is drawn. No optical blur",
+     "expresses": "the subject gets all four layers and a firm line; what is behind keeps one light wash and a faint line. A focus pull moves \"fully drawn\" from one thing to another.",
+     "serves": ""
+    },
+    {
+     "move": "Inside the magnifier, draw only what the shot is about; illustrators leave thing",
+     "expresses": "",
+     "serves": ""
+    },
+    {
+     "move": "Follow",
+     "expresses": "a truck alongside a moving particle, which sits left of centre with space ahead.",
+     "serves": ""
+    },
+    {
+     "move": "The orientation stays fixed inside a shot group; to turn, change scale or cut th",
+     "expresses": "",
+     "serves": ""
+    }
+   ],
+   "transitions": [
+    "Sink: a vertical crane from the landscape into the cut face;",
+    "to turn, change scale or cut through a magnifier."
+   ],
+   "labels": [
+    "One OFL handwriting face with a pencil feel (the demo uses LXGW WenKai, whose Latin comes from Klee One). English leads; one short Chinese line may follow.",
+    "Labels in capitals on paper tags, at most one per shot; the Chinese at about 1.05× the English size, slightly lighter. A short pencil leader with a pale paper halo under it so it never reads as another line of the drawing.",
+    "Titles are written in pencil on the sky, stroke by stroke, with a hand-drawn underline.",
+    "Subtitles (when spoken): a cream paper slip, bottom left; Chinese over English, each one line; wiped on quickly (they are read, not drawn). Keep the subject out of that corner."
+   ],
+   "motion": [
+    "Strokes stick to what they draw. Hatching, the tooth inside the pigment and the contour wobble are computed in anchor coordinates: each surface point projected through a fixed reference camera. Inside a shot group the camera only translates (crane, truck, push), so the anchor is exact and nothing swims under a fixed pattern.",
+    "Only the contour boils: a new drawing every 2 frames, 3 drawings cycled, about 1 px. Hatching and colour fields do not boil.",
+    "Things that move do so on twos (12 drawings a second: grass in the wind); the camera moves on ones.",
+    "Drawn in, not faded in: a sweep colours a horizon left to right with a ragged front; growing things (stems, vines, cables) appear from their base outward, already carrying their base colour, and finish their hatching within a few frames; tips grow pointed."
+   ],
+   "native_moves": [
+    {
+     "name": "The blank half",
+     "does": "a finished landscape whose underground is still blank paper, waiting to be drawn.",
+     "fits": ""
+    },
+    {
+     "name": "The horizon sweep",
+     "does": "soil coloured in left to right as the camera sinks, the four layers arriving in order.",
+     "fits": ""
+    },
+    {
+     "name": "Growth drawn outward",
+     "does": "from its base, tips first.",
+     "fits": ""
+    },
+    {
+     "name": "White over dark",
+     "does": "fine lines spreading across soil in white pencil, bridging structures.",
+     "fits": ""
+    },
+    {
+     "name": "The magnifier",
+     "does": "in and out (a pencilled circle as a transition and a change of scale).",
+     "fits": ""
+    },
+    {
+     "name": "Focus by drawing",
+     "does": "wash ↔ fully drawn.",
+     "fits": ""
+    },
+    {
+     "name": "A grain on a thread",
+     "does": "a coloured particle travelling along a structure, the camera following.",
+     "fits": ""
+    },
+    {
+     "name": "The plate",
+     "does": "the final wide cutaway, everything drawn, the title pencilled in the sky.",
+     "fits": ""
+    }
+   ]
+  },
+  "score": {
+   "genre": "folk-acoustic",
+   "pad": "pluck:nylon_guitar",
+   "lead": "flute",
+   "counter": "clarinet",
+   "sparkle": "kalimba",
+   "bass": "contrabass_pizz",
+   "drums": "none",
+   "note": "acoustic, intimate: nylon guitar, flute, clarinet, kalimba",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "flute",
+      "gm": 73
+     },
+     "counter": {
+      "voice": "clarinet",
+      "gm": 71
+     },
+     "pad": {
+      "voice": "pluck:nylon_guitar",
+      "gm": 24
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     },
+     "sparkle": {
+      "voice": "kalimba",
+      "gm": 108
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

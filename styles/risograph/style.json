@@ -1,0 +1,198 @@
+{
+ "slug": "risograph",
+ "num": "28",
+ "en": "Risograph Print",
+ "cn": "孔版印刷",
+ "aka": [
+  "Risograph 孔版印刷"
+ ],
+ "category_en": "Print & Printmaking",
+ "category_cn": "印刷版画",
+ "film": "Sunday Ride",
+ "film_cn": "周日骑行",
+ "line": "A Sunday-morning bike ride through the city — bakery, park, riverside — each stop adding an ink until three misregistered plates overprint.",
+ "line_cn": "周日早晨骑车穿过城市：面包店、公园、河边，每到一处加一版油墨，最后三版套印。",
+ "uses": [
+  "Indie brands",
+  "Zines",
+  "Lifestyle"
+ ],
+ "frame_sec": 28.8,
+ "dur": 40.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "risograph",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Risograf Baskı",
+ "category_tr": "Baskı & Gravür",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "FOLEY/PAPER",
+    "query": "papery"
+   },
+   {
+    "role": "AMBIENCE",
+    "query": "ambience"
+   }
+  ],
+  "motion": {
+   "cuts": "print-registration jumps with a slide",
+   "rig": "editorial",
+   "move_frames": [
+    10,
+    14
+   ],
+   "ease": "snapSettle",
+   "reveal": "rise",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "lofi-chill",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Wide lateral tracking, small figure, empty sky",
+     "expresses": "Travel, routine, room",
+     "serves": "a commute; a process line; a title"
+    },
+    {
+     "move": "Static wide, the subject crosses the frame",
+     "expresses": "Comedy of scale",
+     "serves": "a gag; an arrival; a crowd"
+    },
+    {
+     "move": "Locked composition: horizon, disc, figure",
+     "expresses": "Stillness, awe",
+     "serves": "a decision; a reveal; the film's one pause"
+    },
+    {
+     "move": "Ground-level low angle, big foreground shapes",
+     "expresses": "Energy, abundance",
+     "serves": "a burst; a harvest; a launch"
+    },
+    {
+     "move": "Medium two-shot held for a look",
+     "expresses": "Reaction",
+     "serves": "a joke landing; a deal; a disagreement"
+    },
+    {
+     "move": "Straight top-down, long shadows",
+     "expresses": "Pattern, a map",
+     "serves": "a schedule; a floor plan; a game board"
+    },
+    {
+     "move": "Push into a halftone field until dots are shapes",
+     "expresses": "Entering the print",
+     "serves": "a close look at data; a memory; a cell"
+    },
+    {
+     "move": "Pull back to reveal the paper",
+     "expresses": "It was one sheet",
+     "serves": "a series; an archive; a summing-up"
+    },
+    {
+     "move": "Match cut on a flat shape",
+     "expresses": "Continuity through form",
+     "serves": "a time jump; cause and effect; before/after"
+    }
+   ],
+   "transitions": [
+    "Transitions: overprint growths, roller sweeps, shape match cuts, hard cuts on beats.",
+    "Never a cross-dissolve, never a soft digital wipe."
+   ],
+   "labels": [
+    "Type is printed: titles and subtitles live on one plate, so they misregister and grain with it. A title can be printed on two plates with a visible offset: the riso double-hit.",
+    "Fonts (OFL): heavy grotesque for titles (e.g. Bricolage Grotesque 800), geometric sans for captions (e.g. Jost 500–700). Preload every weight before READY.",
+    "Subtitles: a paper-white knockout strip (zero ink, small radius) with text on one plate, ~40–46 px; its edges catch misregistration fringes. Hold ≥ max(1.8 s, speech + 0.6 s).",
+    "Prints don't fade: titles arrive with a roller wipe or on a beat and leave on a cut."
+   ],
+   "motion": [
+    "Characters act on twos (12 fps); camera moves on ones (24 fps): a stepped camera reads as judder.",
+    "Registration is not jittered every frame. One fixed set of offsets per shot (±1–3 px). A kick (≈ 8–14 px, decaying in ~0.25 s with slight ringing) on an accent; a drift up to ~25 px through a held moment, snapping back on the downbeat.",
+    "Grain boils partly (about a third re-rolls per print); sheet streaks and blots change only at cuts.",
+    "Simple cycles on few drawings; secondary motion (scarf, flag, tail) as a travelling sine wave."
+   ],
+   "native_moves": [
+    {
+     "name": "Plates as narrative",
+     "does": "The world gains a plate at each turning point.",
+     "fits": "a product arriving as a new ink; a city history, one ink per era; colour returning during a recovery."
+    },
+    {
+     "name": "Two inks, a third where they meet",
+     "does": "",
+     "fits": "a merger; a duet; two data sets whose overlap is the finding."
+    },
+    {
+     "name": "Overprint transition",
+     "does": "A shape of one ink grows over the frame, turning everything beneath into the mix, then shrinks into the next scene's key shape.",
+     "fits": "a pill dissolving; a spotlight becoming a moon; a stamp becoming a map pin."
+    },
+    {
+     "name": "Registration as rhythm and feeling",
+     "does": "Kicks on accents, drift in a held moment, snap on the downbeat.",
+     "fits": "nerves before a speech; dizziness; a memory coming into focus."
+    },
+    {
+     "name": "Reflections as separated plates",
+     "does": "Each plate wobbles on its own phase.",
+     "fits": "a shop window; heat over a road; a coffee surface."
+    },
+    {
+     "name": "Knockout reveal",
+     "does": "A shape made only of missing ink; its plate arrives later.",
+     "fits": "a missing piece; a secret; a logo hidden in plain sight."
+    },
+    {
+     "name": "Halftone scale",
+     "does": "Dots grow into shapes as the camera pushes in.",
+     "fits": "population; rainfall; a crowd that turns out to be people."
+    },
+    {
+     "name": "It is a sheet of paper",
+     "does": "The print can be stacked, folded, cut or pinned; grain boils like a flipbook of prints.",
+     "fits": "a zine; a poster series; a flyer passed hand to hand."
+    }
+   ]
+  },
+  "score": {
+   "genre": "lofi-chill",
+   "pad": "epiano",
+   "lead": "vibraphone",
+   "counter": "pluck:nylon_guitar",
+   "bass": "jazz_bass",
+   "drums": "brushes",
+   "note": "warm, dry, handmade: Rhodes, vibraphone, nylon guitar, brushed kit",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "vibraphone",
+      "gm": 11
+     },
+     "counter": {
+      "voice": "pluck:nylon_guitar",
+      "gm": 24
+     },
+     "pad": {
+      "voice": "epiano",
+      "gm": 4
+     },
+     "bass": {
+      "voice": "jazz_bass",
+      "gm": 32
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

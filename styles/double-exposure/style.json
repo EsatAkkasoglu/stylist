@@ -1,0 +1,193 @@
+{
+ "slug": "double-exposure",
+ "num": "66",
+ "en": "Double Exposure",
+ "cn": "双重曝光",
+ "category_en": "Film & Tape",
+ "category_cn": "胶片录像",
+ "film": "Mountains and Seas",
+ "film_cn": "山海",
+ "line": "From the mountains to the sea as night falls: a stag, a wolf, an eagle, a salmon and a whale, each carrying its own place inside its silhouette, until the whale's harbour lands on the real shore.",
+ "line_cn": "天黑下来的这一路，从山到海：鹿、狼、鹰、鲑鱼、鲸，每只动物的剪影里装着它的那片天地；最后鲸身体里的港湾落在真的海岸上。",
+ "uses": [
+  "Brand and city films",
+  "Documentary and series openings",
+  "Music video intros"
+ ],
+ "frame_sec": 38.5,
+ "dur": 50.5,
+ "source": "lemo-opuscar",
+ "lemo_slug": "double-exposure",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Çift Pozlama",
+ "category_tr": "Film & Kaset",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "shutter"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "click"
+   },
+   {
+    "role": "WHOOSH/SWISH",
+    "query": "whip"
+   },
+   {
+    "role": "AMBIENCE",
+    "query": "wind"
+   }
+  ],
+  "motion": {
+   "cuts": "slide / whip pan, period grammar",
+   "rig": "editorial",
+   "move_frames": [
+    8,
+    12
+   ],
+   "ease": "accelExit",
+   "reveal": "focus",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "cinematic-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Tracking with the animal, the fill slower than the outline",
+     "expresses": "the window and the place sliding apart",
+     "serves": "a journey; a migration; memory against the present"
+    },
+    {
+     "move": "Push into the silhouette until its edge leaves the frame",
+     "expresses": "entering the place it carries",
+     "serves": "a change of chapter; a hand-over to the next subject"
+    },
+    {
+     "move": "Pull back from inside to reveal the outline",
+     "expresses": "\"this place was inside an animal\"",
+     "serves": "a reveal; a change of narrator"
+    },
+    {
+     "move": "Whip upwards with motion blur",
+     "expresses": "a sudden change of altitude or scene",
+     "serves": "from ground to sky; a cry, a leap"
+    },
+    {
+     "move": "Push and return during a gesture (a wing beat, a turn)",
+     "expresses": "weight and scale",
+     "serves": "a climax inside one shot"
+    },
+    {
+     "move": "Crossing a surface (waterline, cloud layer) in one move",
+     "expresses": "one continuous world",
+     "serves": "a breach; a dive; a landing"
+    },
+    {
+     "move": "Locked frame, only the inner layer and the light moving",
+     "expresses": "waiting for alignment",
+     "serves": "register; an arrival; an ending"
+    }
+   ],
+   "transitions": [
+    "Allowed transitions: screen-blend double-exposure dissolve, push through the window, pull-out reveal, whip, a continuous camera move across a surface, a silhouette-to-silhouette superimposition.",
+    "No wipes, page turns, slides or white flashes."
+   ],
+   "labels": [
+    "Very little type. Subtitles are quiet: a serif (e.g. Noto Serif SC 600 for Chinese, Newsreader italic for English; both OFL), Chinese about 36 px over English about 28 px, one line each, on a barely visible soft shadow; no box, no outline.",
+    "Subtitles sit in the empty part of the outside world (sky, water, snow), never across the silhouette's fill; move them per cue (bottom left, bottom right) when the animal occupies a corner.",
+    "Titles and credits are developed like a print: they appear blurred and sharpen, baked into the image so they take the grade, vignette and grain. A vertical Chinese title works well beside a wide horizon.",
+    "Reading time: every cue holds ≥ max(1.8 s, speech + 0.6 s); title and credit pass readcheck.mjs."
+   ],
+   "motion": [
+    "On ones, smooth, everything a pure function of time.",
+    "Animals: breathing, weight shifts between legs, a head lift, wing beats with small tip flex between beats, swimming as in §2. Leaps have a wind-up, a fast exit and a slower landing with splash or settle; nothing rises in a straight line.",
+    "Inner photographs move slowly and continuously and never cut on their own.",
+    "Lamps light in a direction that follows the body (head to tail, one cabin after another), each with a small swell."
+   ],
+   "native_moves": [
+    {
+     "name": "The window",
+     "does": "A silhouette filled with the place it belongs to, sliding at a different speed from its outline.",
+     "fits": "an emigrant's profile holding a hometown street; a train carrying its destination; a migratory bird carrying its breeding marsh."
+    },
+    {
+     "name": "Develop the second exposure",
+     "does": "The shape stands dark first, then on a shutter click the photograph prints into it, rising from the bottom.",
+     "fits": "a memory arriving; a product showing what it is for; a building filling with its history."
+    },
+    {
+     "name": "Through the window",
+     "does": "The camera pushes into the shape until the fill is the whole frame, which becomes the next scene.",
+     "fits": "entering a person's memory; going from a map to a city; a chapter hand-over."
+    },
+    {
+     "name": "Lamps inside",
+     "does": "Points of warm light come on one by one inside the fill, following the body.",
+     "fits": "a town waking up; members of a network joining; a list counted without numbers."
+    },
+    {
+     "name": "Superimpose, don't morph",
+     "does": "One whole silhouette fades in over another at the same place, their fills screen-blended, the motion rhythm handing over continuously.",
+     "fits": "a child becoming an adult; a seed becoming a tree; one company becoming another."
+    },
+    {
+     "name": "Cross the surface",
+     "does": "One continuous move through a waterline or a cloud layer, the animal on one trajectory above and below.",
+     "fits": "a launch; a diver surfacing; a plane breaking through cloud."
+    },
+    {
+     "name": "Register",
+     "does": "The place inside and the place outside slide into alignment and become one photograph; the outline loosens to a faint veil and a thin warm line.",
+     "fits": "arriving home; a plan becoming a building; a forecast met by the day."
+    }
+   ]
+  },
+  "score": {
+   "genre": "cinematic-pulse",
+   "lead": "horn",
+   "sparkle": "harp",
+   "bass": "cellos_pizz",
+   "drums": "orch",
+   "note": "strings bed, harp and bowed vibraphone for lamps, timpani sparingly",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "horn",
+      "gm": 60
+     },
+     "pad": {
+      "voice": "violins",
+      "gm": 48
+     },
+     "pulse": {
+      "voice": "saw",
+      "gm": 81
+     },
+     "bass": {
+      "voice": "cellos_pizz",
+      "gm": 45
+     },
+     "sparkle": {
+      "voice": "harp",
+      "gm": 46
+     }
+    },
+    "drums": {
+     "timpani": 47
+    }
+   }
+  }
+ }
+}

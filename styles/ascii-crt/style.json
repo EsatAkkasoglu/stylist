@@ -1,0 +1,199 @@
+{
+ "slug": "ascii-crt",
+ "num": "62",
+ "en": "CRT ASCII Terminal",
+ "cn": "CRT 字符终端",
+ "aka": [
+  "ASCII / CRT Terminal",
+  "ASCII / CRT 终端"
+ ],
+ "category_en": "Film & Tape",
+ "category_cn": "胶片录像",
+ "film": "Tranquility.log",
+ "film_cn": "静海日志",
+ "line": "A moon-base AI wakes after forty years to a signal from Earth, and replies by drawing “home” in characters.",
+ "line_cn": "月球基地的 AI 沉睡 40 年后被唤醒，用字符画出“家”来回复。",
+ "uses": [
+  "Developer tools",
+  "Sci-fi",
+  "Tech brands"
+ ],
+ "frame_sec": 50.23,
+ "dur": 59.8,
+ "source": "lemo-opuscar",
+ "lemo_slug": "ascii-crt",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "CRT ASCII Terminal",
+ "category_tr": "Film & Kaset",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "DESIGNED/RISER",
+    "query": "drone"
+   },
+   {
+    "role": "AMBIENCE",
+    "query": "room"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "typing"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "thump"
+   }
+  ],
+  "motion": {
+   "cuts": "slide / whip pan, period grammar",
+   "rig": "editorial",
+   "move_frames": [
+    8,
+    12
+   ],
+   "ease": "accelExit",
+   "reveal": "focus",
+   "mblur": false
+  },
+  "three_d": "none",
+  "music": "synthwave",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Static 80-column terminal",
+     "expresses": "Waiting, procedure, machine time",
+     "serves": "a countdown; a queue; a log being read"
+    },
+    {
+     "move": "Push in (cells grow)",
+     "expresses": "Attention, intimacy",
+     "serves": "one line of dialogue; a name; a decision typed"
+    },
+    {
+     "move": "Pull out (cells shrink)",
+     "expresses": "Context, scale",
+     "serves": "a title becoming line 1 of a list; one entry among thousands"
+    },
+    {
+     "move": "Push into a single glyph",
+     "expresses": "Hidden depth; what a symbol is made of",
+     "serves": "a letter made of messages; a pixel made of people"
+    },
+    {
+     "move": "Scroll (the buffer moves)",
+     "expresses": "Accumulation, time passing",
+     "serves": "years of records; a changelog; a feed"
+    },
+    {
+     "move": "Clear screen / hard redraw",
+     "expresses": "A cut; a new state",
+     "serves": "a reboot; a new chapter; a crash"
+    },
+    {
+     "move": "Text becomes image (grid shrinks as glyphs fall)",
+     "expresses": "Words turning into world",
+     "serves": "a letter becoming a face; data becoming a map"
+    },
+    {
+     "move": "Power on / off, degauss",
+     "expresses": "Birth, death, sleep, shock",
+     "serves": "a machine waking; an ending; a jolt"
+    },
+    {
+     "move": "Pull back off the glass into a drawn room",
+     "expresses": "The screen is an object in a world",
+     "serves": "who is reading; where the machine is"
+    }
+   ],
+   "transitions": [
+    "Transitions happen on the screen (clear, redraw, scroll, power), never a crossfade between two screens."
+   ],
+   "labels": [
+    "Subtitles are terminal output. A reserved LOG strip at the bottom: a dim separator, an inverse-video tag, then a prompt and the line in uppercase at ~45 px. It is typed word by word in sync with the voice (whisper word timestamps) and holds ≥ max(1.8 s, speech + 0.6 s). It lives outside the zooming grid, like a status line, with the same scanlines and glow. When nobody speaks it can show system state (a progress bar, a waiting message).",
+    "On-screen text that the story shows is picture, not subtitle; in the .srt it appears as [SCREEN] ….",
+    "Titles are typed with key clicks, as a filename, a command or a header."
+   ],
+   "motion": [
+    "Characters never move off-grid, except in a declared transformation moment. Typing, scrolling and counters jump from cell to cell. A roller flips digits discretely, fast then slowing.",
+    "Only three things move continuously: grid scale (the camera), CRT physics, and particles in a transformation.",
+    "Typing speed is performance: machine output is even and fast (~10–40 ms/char); dramatic lines slow to note values of the score; human typing is hand-timed, uneven, with pauses and bursts.",
+    "Particles spawn from random points inside source glyphs, start small, fade in, ease to their cell, and flash briefly on landing, so they never stack into bright bars."
+   ],
+   "native_moves": [
+    {
+     "name": "The picture is made of words",
+     "does": "A sentence breaks apart and its letters, sorted by ink density, become an image containing only those letters.",
+     "fits": "a manifesto becoming a crowd; a recipe becoming the dish; a poem becoming a landscape."
+    },
+    {
+     "name": "Font size = camera",
+     "does": "Push until one character fills the screen and is itself made of smaller text.",
+     "fits": "a company name made of employee names; a year made of its headlines; a heart glyph made of messages."
+    },
+    {
+     "name": "Typing rhythm = editing rhythm",
+     "does": "Even machine typing against uneven human typing; a blinking cursor is a performance.",
+     "fits": "a job application; an apology; a password remembered."
+    },
+    {
+     "name": "CRT physics",
+     "does": "Power on as dot → line → frame, off to a dot; afterglow, bloom, curved glass.",
+     "fits": "a hospital monitor; a night shift ending; an old archive reopened."
+    },
+    {
+     "name": "A single colour change",
+     "does": "One soft second colour appears once.",
+     "fits": "a first green leaf in a data log; a blood-orange sunset in a weather report; a child's drawing in a server room."
+    },
+    {
+     "name": "The log file",
+     "does": "Timestamps, error codes, progress bars tell the story.",
+     "fits": "a product launch day; a rescue; a migration."
+    }
+   ]
+  },
+  "score": {
+   "genre": "synthwave",
+   "space": "dry",
+   "pad": "pad",
+   "lead": "square",
+   "bass": "synthbass",
+   "drums": "none",
+   "avoid": [
+    "piano",
+    "violins"
+   ],
+   "note": "analog synth score, square sequencers, silence as an instrument",
+   "render": {
+    "engine": "synth",
+    "space": "dry",
+    "band": {
+     "lead": {
+      "voice": "square",
+      "patch": "Leads/Square"
+     },
+     "pad": {
+      "voice": "pad",
+      "patch": "Polysynths/Juno-60 Strings"
+     },
+     "pulse": {
+      "voice": "saw",
+      "patch": "Leads/Moogy Saw"
+     },
+     "bass": {
+      "voice": "synthbass",
+      "patch": "Basses/Bass 1"
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

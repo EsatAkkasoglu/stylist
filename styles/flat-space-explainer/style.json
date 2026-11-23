@@ -1,0 +1,182 @@
+{
+ "slug": "flat-space-explainer",
+ "num": "41",
+ "en": "Scale Zoom Explainer",
+ "cn": "扁平尺度漫游",
+ "category_en": "Graphic & Type",
+ "category_cn": "平面排版",
+ "film": "The Long Way Down",
+ "film_cn": "一路往下缩",
+ "line": "A little probe whose eye is a zoom lens fires a dotted sight line at each next stop and takes us from the Milky Way down to a virus.",
+ "line_cn": "眼睛就是变焦镜头的小探测器，一站站打出点线，带我们从银河一路缩到病毒。",
+ "uses": [
+  "Science explainers",
+  "Scale and size",
+  "Classroom"
+ ],
+ "frame_sec": 8.9,
+ "dur": 52.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "flat-space-explainer",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Ölçek Yakınlaştırma Anlatım",
+ "category_tr": "Grafik & Tipografi",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "chimes"
+   },
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "shutter"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "click"
+   },
+   {
+    "role": "WHOOSH/SWISH",
+    "query": "whooshes"
+   }
+  ],
+  "motion": {
+   "cuts": "snap zoom on the beat",
+   "rig": "punchy",
+   "move_frames": [
+    4,
+    8
+   ],
+   "ease": "snapSettle",
+   "reveal": "track",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "minimal-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Log-space dolly through a shape (ring, lens, iris)",
+     "expresses": "going down a level of scale",
+     "serves": "every change of scale; a chapter turn"
+    },
+    {
+     "move": "Pull back from an extreme close-up",
+     "expresses": "revealing who and where",
+     "serves": "a cold open; a \"this is the real size\" moment"
+    },
+    {
+     "move": "Slow push with a 2–5 % creep",
+     "expresses": "attention, reading time",
+     "serves": "a measurement; a label being read"
+    },
+    {
+     "move": "Tracking with a moving thing while pulling out",
+     "expresses": "travel, duration",
+     "serves": "light crossing space; a journey with a clock"
+    },
+    {
+     "move": "Frame within frame (a magnifier inset)",
+     "expresses": "a detail too small for the scale",
+     "serves": "an orbit's height; a cell's part"
+    },
+    {
+     "move": "Shape match (a small dot becomes the next subject)",
+     "expresses": "the same thing at two scales",
+     "serves": "a planet dot to a planet; a cell icon to a cell"
+    },
+    {
+     "move": "Fly-through layers (clouds, skin)",
+     "expresses": "crossing a boundary",
+     "serves": "atmosphere; skin; a wall; water"
+    }
+   ],
+   "transitions": [
+    "Transitions are made from the medium (rings, lenses, concentric layers, a covering cloud bank);",
+    "no crossfades, no hard cuts inside a zoom."
+   ],
+   "labels": [
+    "Roles: a geometric sans (e.g. Jost, OFL): titles 96–132 px weight 700 with tight tracking; labels 26–34 px weight 600; small caps tags 16–18 px weight 600 with letter-spacing 3 in mist or sun. One short Chinese line where needed in a CJK sans (e.g. Noto Sans SC Bold, subset), ≥ 34 px.",
+    "Two ways in: big words rise from below their own baseline through a clip (spring, small overshoot); labels wipe left to right. Exits run the same moves backwards. No fades.",
+    "Labels: a small-caps tag above, one cream line below, attached by a 2.5 px leader. One label or one big number per screen; comparisons go in the voice, the screen gives a name and a number.",
+    "Subtitles sit bottom left: one Chinese line (36 px, cream) over one English line (26 px, mist), a 5 px sun bar at the left, rising in over 0.16 s. On a light ground they sit on an opaque night plate. Never wrapped; a long sentence becomes two cues. Hold ≥ max(1.8 s, speech + 0.6 s)."
+   ],
+   "motion": [
+    "24 fps, every frame on ones; the camera and the guide move smoothly every frame.",
+    "Performance: anticipation, action, overshoot and settle on every meaningful move (squash before a jump, stretch on release, panels flapping like ears, the antenna bead lagging half a beat). Poses blend by easing, never by switching in an if.",
+    "The eye carries the face: a lid for blinks, the iris itself bending into an upward arch for a smile (never a colour block over the lens), the iris widening for surprise, the barrel stepping out with turning grooves for a zoom.",
+    "Dots of a sight line pop out one by one (0 → 1.3 → 1), then stream slowly toward the target, growing in at the start and shrinking out at the end."
+   ],
+   "native_moves": [
+    {
+     "name": "The sight line",
+     "does": "The guide's lens fires a dotted line at the next stop; the line can become what the level needs: light walking at constant speed, a tape measure, a trail, a stream into the scale ribbon.",
+     "fits": "the distance from a city to its water source; a nerve signal; the route of a migrating bird."
+    },
+    {
+     "name": "Through the ring",
+     "does": "The next-stop ring grows to fill the frame while the outside level blows past; the next level grows inside the ring from a point.",
+     "fits": "a country to a city; a city to a building; an organ to a tissue."
+    },
+    {
+     "name": "True size, at last",
+     "does": "The guide, always drawn at \"guide size\", is shown once at true scale next to an everyday object, then the narration says it now shrinks with us.",
+     "fits": "a microchip; an ant; a snowflake."
+    },
+    {
+     "name": "The scale ribbon summary",
+     "does": "The corner ribbon moves to centre stage, the dots run along it lighting each stop, and the progress fills.",
+     "fits": "the ages of the Earth; the sizes of particles; a history of computing power."
+    },
+    {
+     "name": "Inside the lens",
+     "does": "The camera dives into the guide's own lens and the next world is inside the glass.",
+     "fits": "a look into a cell; a peek inside an atom; switching from a map to street level."
+    }
+   ]
+  },
+  "score": {
+   "genre": "minimal-pulse",
+   "pad": "marimba",
+   "lead": "vibraphone",
+   "pulse": "harp",
+   "sparkle": "hand_chimes",
+   "bass": "contrabass_pizz",
+   "note": "tuned percussion and plucks; timpani and triangle for locks",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "vibraphone",
+      "gm": 11
+     },
+     "pad": {
+      "voice": "marimba",
+      "gm": 12
+     },
+     "pulse": {
+      "voice": "harp",
+      "gm": 46
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     },
+     "sparkle": {
+      "voice": "hand_chimes",
+      "gm": 14
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

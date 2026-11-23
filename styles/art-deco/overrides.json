@@ -1,0 +1,5 @@
+{
+ "stylist": {
+  "motion_note": "Use the mechanical easing and symmetric transitions defined in §5–6. Keep 3-layer parallax subtle and deliberate; use `snapSettle` only for mechanical locks (doors, dials, bulb ignitions), avoiding TikTok-style snap zooms or restless camera drift."
+ }
+}

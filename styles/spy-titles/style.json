@@ -1,0 +1,197 @@
+{
+ "slug": "spy-titles",
+ "num": "37",
+ "en": "60s Spy Title Sequence",
+ "cn": "60s 间谍片头",
+ "category_en": "Graphic & Type",
+ "category_cn": "平面排版",
+ "film": "The Velvet Cipher",
+ "film_cn": "天鹅绒密码",
+ "line": "Opening titles for an imaginary 1964 spy film: a chase for a stolen key until the shapes lock into the title.",
+ "line_cn": "虚构 1964 年间谍片的片头：追一把被偷的钥匙，几何碎片最后拼成片名。",
+ "uses": [
+  "Title sequences",
+  "Event openers",
+  "Trailers"
+ ],
+ "frame_sec": 26.46,
+ "dur": 44.1,
+ "source": "lemo-opuscar",
+ "lemo_slug": "spy-titles",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "60'lar Casus Jeneriği",
+ "category_tr": "Grafik & Tipografi",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "spring"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "clicks"
+   },
+   {
+    "role": "AMBIENCE",
+    "query": "wind"
+   }
+  ],
+  "motion": {
+   "cuts": "snap zoom on the beat",
+   "rig": "punchy",
+   "move_frames": [
+    4,
+    8
+   ],
+   "ease": "snapSettle",
+   "reveal": "track",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "jazz-combo",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Wide on a full credit line, then truck in",
+     "expresses": "reading, then action",
+     "serves": "any location built from type"
+    },
+    {
+     "move": "Lateral tracking, one screen direction",
+     "expresses": "pursuit; momentum",
+     "serves": "a chase; a race; a delivery"
+    },
+    {
+     "move": "Hard cut on a brass stab",
+     "expresses": "punch; a new location",
+     "serves": "montage; a reveal; a gag"
+    },
+    {
+     "move": "Graphic match cut (same shape, same position)",
+     "expresses": "rhyme; acceleration",
+     "serves": "wheel → coin → pupil → moon"
+    },
+    {
+     "move": "Locked single shape on a flat ground",
+     "expresses": "mystery; an icon",
+     "serves": "a cold open; a clue; a logo"
+    },
+    {
+     "move": "Silhouette against a giant circle",
+     "expresses": "the hero moment",
+     "serves": "a catch; a triumph; a stand-off"
+    },
+    {
+     "move": "Diagonal split into a grid",
+     "expresses": "fragmentation; many at once",
+     "serves": "a split screen; a conspiracy; a team"
+    },
+    {
+     "move": "Vertical pan down a column of type",
+     "expresses": "descent; a list",
+     "serves": "a building; a roster; a countdown"
+    },
+    {
+     "move": "Push into a letter until it fills frame",
+     "expresses": "a letter becomes a place",
+     "serves": "a door; a tunnel; a window"
+    }
+   ],
+   "transitions": [
+    "Match cuts keep circle centres and sizes identical across the cut.",
+    "No dissolves."
+   ],
+   "labels": [
+    "Credits live in the set, never in the subtitle band: one line per location, fully readable at some moment. Credits are fictional roles only, never real people's names.",
+    "Subtitles on a narrow paper strip (scissor-cut ends, slightly tilted) bottom-left, a small glyph from the film as bullet, a geometric OFL sans (e.g. League Spartan 600, ~44 px). Light strip on dark scenes, dark strip on light scenes; slides in from the left in ~0.18 s. Hold ≥ max(1.8 s, speech + 0.6 s).",
+    "Hold each credit long enough to read alongside a subtitle."
+   ],
+   "motion": [
+    "Puppets on twos (12 fps): poses and positions of figures, hands, letters landing, vehicles. Camera, credit slides and grid growth on ones (24 fps): a stepped camera judders.",
+    "Run cycles of ~8 drawings, one step per beat, a strong lean, the accent flying back. Walks one step per beat, coats swinging.",
+    "Credits slide in along grid lines and stop dead on the beat (short ease-out); letters land with a paper slap.",
+    "Stop-time: at a stab the whole picture freezes (background scroll included) for a couple of beats in total silence, then resumes."
+   ],
+   "native_moves": [
+    {
+     "name": "Type is the set",
+     "does": "Each location is one line of credits and that line is its architecture (letters as pillars, words as carriages, a letter as a lock).",
+     "fits": "a conference programme as a city; a menu as a restaurant; team names as a stadium."
+    },
+    {
+     "name": "Credits are rhythm",
+     "does": "Credits land on beats; stabs are cuts.",
+     "fits": "a product's features; a festival line-up; an award's nominees."
+    },
+    {
+     "name": "Graphic match cuts",
+     "does": "Shape rhymes, the interval shrinking as tension rises.",
+     "fits": "a coin → a planet → a clock; a gear → a wheel → a sun."
+    },
+    {
+     "name": "The diagonal grid",
+     "does": "A diagonal cut multiplies into a grid, and the pieces later fly back along it to assemble something.",
+     "fits": "a puzzle solved; a team forming; a logo assembled."
+    },
+    {
+     "name": "Silhouette puppets",
+     "does": "Profile cut-outs whose acting is outline and timing.",
+     "fits": "a heist; a courier on a deadline; a detective."
+    },
+    {
+     "name": "Stop-time gag",
+     "does": "Freeze on a stab, silence, resume.",
+     "fits": "a near miss; a double take; a price reveal."
+    },
+    {
+     "name": "The object of the chase is the title",
+     "does": "What everyone pursues becomes the last thing assembled.",
+     "fits": "a product launch; a book's name; a birthday name."
+    }
+   ]
+  },
+  "score": {
+   "genre": "jazz-combo",
+   "bpm": 140,
+   "mode": "minor",
+   "lead": "trumpet_stac",
+   "counter": "electric_guitar",
+   "drums": "brushes",
+   "note": "1960s spy big band: brass stabs, surf guitar twang, walking bass, vibraphone",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "trumpet_stac",
+      "gm": 56
+     },
+     "counter": {
+      "voice": "electric_guitar",
+      "gm": 29
+     },
+     "pad": {
+      "voice": "vibraphone",
+      "gm": 11
+     },
+     "bass": {
+      "voice": "jazz_bass",
+      "gm": 32
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

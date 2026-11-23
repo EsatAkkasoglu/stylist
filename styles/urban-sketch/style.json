@@ -1,0 +1,191 @@
+{
+ "slug": "urban-sketch",
+ "num": "12",
+ "en": "Urban Sketch · Pen & Wash",
+ "cn": "钢笔淡彩",
+ "category_en": "Painting & Illustration",
+ "category_cn": "绘画插画",
+ "film": "Where the Wind Went",
+ "film_cn": "风去了哪里",
+ "line": "A park that is only a pen sketch; wherever the wind carries her straw hat, colour follows.",
+ "line_cn": "公园只是一张钢笔速写，风把草帽吹到哪里，哪里才有颜色。",
+ "uses": [
+  "City & travel",
+  "Architecture",
+  "Lifestyle brands"
+ ],
+ "frame_sec": 16.2,
+ "dur": 33.4,
+ "source": "lemo-opuscar",
+ "lemo_slug": "urban-sketch",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Kent Eskizi · Kalem & Lavi",
+ "category_tr": "Resim & İllüstrasyon",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "AMBIENCE",
+    "query": "ambience"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "clicks"
+   },
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "bells"
+   }
+  ],
+  "motion": {
+   "cuts": "slow drift, push-through with a focus pull",
+   "rig": "calm",
+   "move_frames": [
+    14,
+    24
+   ],
+   "ease": "softLand",
+   "reveal": "focus",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "jazz-combo",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Push-in",
+     "expresses": "attention; a detail observed",
+     "serves": "a face; a sign; a small event"
+    },
+    {
+     "move": "Lateral follow on a spring",
+     "expresses": "travel, pursuit",
+     "serves": "an object carried; a walker; a vehicle"
+    },
+    {
+     "move": "Crane up",
+     "expresses": "a new level, a view opening",
+     "serves": "a skyline; a tree; a balcony"
+    },
+    {
+     "move": "Whip-tilt with slight roll",
+     "expresses": "sudden change of direction",
+     "serves": "a fall; a gust; a surprise"
+    },
+    {
+     "move": "Punch-in with a short shake",
+     "expresses": "impact",
+     "serves": "a catch; a collision; a door slam"
+    },
+    {
+     "move": "Pull back to the whole page",
+     "expresses": "scale; the sketch as an object",
+     "serves": "a summary; a place in full"
+    },
+    {
+     "move": "Tilt into the margin",
+     "expresses": "from picture to words",
+     "serves": "notes; a date; a title"
+    },
+    {
+     "move": "Slow pan across a line-only area",
+     "expresses": "the world before colour",
+     "serves": "a quiet start; memory"
+    },
+    {
+     "move": "Hold while the pen draws",
+     "expresses": "the act of noticing",
+     "serves": "a subject being drawn"
+    },
+    {
+     "move": "Page turn to a new spread",
+     "expresses": "another time or place",
+     "serves": "a travel diary; a sequence of days"
+    }
+   ],
+   "transitions": [
+    "Transitions: camera travel on the page, page turns, or colour arriving;",
+    "no dissolves."
+   ],
+   "labels": [
+    "All text is handwriting on the page, written on left to right with pen sound, and moves with the camera: a corner note (e.g. Reenie Beanie: day, time, weather, place), titles and colophon in a casual hand (e.g. Caveat 500–600), left-aligned in the blank margin.",
+    "Subtitles, if there is a voice: handwritten lines in the page margin or a caption strip written into the lower margin, never a generic overlay box. Hold ≥ max(1.8 s, speech + 0.6 s).",
+    "The style works well without any voice."
+   ],
+   "motion": [
+    "Figures boil at 12 fps (line wobble and wash seeds change every 1/12 s). The static page does not boil (it is a real page); the camera moves every frame, smoothly.",
+    "Performance: anticipation, action, follow-through; footsteps on the beat.",
+    "Invisible forces are drawn: wind as ink curls that draw on and erase from the tail, trailing dabs; sound as ink lines; heat as wavy strokes.",
+    "Colour never snaps: it blooms from a point or arrives through the field."
+   ],
+   "native_moves": [
+    {
+     "name": "Line before colour",
+     "does": "The pen draws a subject in real stroke order, then the wash drops in; the drawing is the spectacle.",
+     "fits": "a cathedral façade; a chef plating a dish; a street musician."
+    },
+    {
+     "name": "Colour as arrival",
+     "does": "Wash spreads from a source with a wet front, so an event paints the page; figures stay frozen line drawings until colour touches them.",
+     "fits": "a sunrise over a harbour; a parade moving down a street; the lights of a market switching on."
+    },
+    {
+     "name": "The one coloured thing",
+     "does": "A colourless sketch with a single tinted object that becomes the protagonist.",
+     "fits": "a red umbrella in the rain; a yellow taxi; a child's kite."
+    },
+    {
+     "name": "The page as frame",
+     "does": "Pull back until the whole page shows, edges dissolving, handwritten notes in the margin.",
+     "fits": "a travel diary entry; a neighbourhood portrait; a day in a place."
+    },
+    {
+     "name": "Carrot people",
+     "does": "Distant crowds as one wash blob, two leg lines and a head dot.",
+     "fits": "a station at rush hour; a stadium; a beach."
+    }
+   ]
+  },
+  "score": {
+   "genre": "jazz-combo",
+   "pad": "accordion",
+   "lead": "clarinet",
+   "counter": "flute",
+   "drums": "brushes",
+   "note": "jazz waltz / café accordion trio: walking bass, brushes, clarinet",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "clarinet",
+      "gm": 71
+     },
+     "counter": {
+      "voice": "flute",
+      "gm": 73
+     },
+     "pad": {
+      "voice": "accordion",
+      "gm": 21
+     },
+     "bass": {
+      "voice": "jazz_bass",
+      "gm": 32
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

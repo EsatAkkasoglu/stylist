@@ -1,0 +1,190 @@
+{
+ "slug": "vintage-collage",
+ "num": "35",
+ "en": "Vintage Engraving Collage",
+ "cn": "复古版画拼贴",
+ "category_en": "Print & Printmaking",
+ "category_cn": "印刷版画",
+ "film": "The Inverted Jenny",
+ "film_cn": "倒置的珍妮",
+ "line": "A 1918 airmail sheet printed with its plane upside down: bought for $24, cut up and scattered, and number 66 is still missing.",
+ "line_cn": "1918 年一整版印反了的航空邮票：24 美元买下、剪开散落，66 号至今下落不明。",
+ "uses": [
+  "The history of an object",
+  "Magazine-style explainers on ideas and society",
+  "Archive and collecting stories"
+ ],
+ "frame_sec": 9.6,
+ "dur": 52.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "vintage-collage",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Eski Gravür Kolaj",
+ "category_tr": "Baskı & Gravür",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "type"
+   },
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "bell"
+   },
+   {
+    "role": "WHOOSH/SWISH",
+    "query": "whoosh"
+   }
+  ],
+  "motion": {
+   "cuts": "print-registration jumps with a slide",
+   "rig": "editorial",
+   "move_frames": [
+    10,
+    14
+   ],
+   "ease": "snapSettle",
+   "reveal": "rise",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "chamber-march",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Wide establishing on the assembled collage; follow a moving piece; push to read ",
+     "expresses": "",
+     "serves": ""
+    },
+    {
+     "move": "Through a shape",
+     "expresses": "push into a hole in the paper (an oval frame, a window, an empty album slot) and the next scene is already inside it.",
+     "serves": ""
+    },
+    {
+     "move": "Whip pan sideways along the table, a paper seam between the two scenes",
+     "expresses": "",
+     "serves": ""
+    },
+    {
+     "move": "Match cuts on the same piece at a new size; match on action (a piece leaves the ",
+     "expresses": "",
+     "serves": ""
+    },
+    {
+     "move": "Rise along a growing data engraving, then pull back so the whole comparison is i",
+     "expresses": "",
+     "serves": ""
+    },
+    {
+     "move": "Keep the view on the paper",
+     "expresses": "zoom ≥ 1 on a single-sheet table, or tile the table for wide pulls.",
+     "serves": ""
+    }
+   ],
+   "transitions": [
+    "Match cuts on the same piece at a new size;"
+   ],
+   "labels": [
+    "All type is printed on its own slip of paper and placed like any other piece: no type floats on the frame, no outlines or drop shadows on letters, only the slip's shadow.",
+    "Faces with a period feel, all OFL: an old-style serif (e.g. IM FELL English roman, italic and small caps) for titles and labels; a typewriter (e.g. Courier Prime) for slips, receipts and data; a CJK serif (e.g. Noto Serif SC, subset) for Chinese.",
+    "Ransom letters for a hero word or number: one slip per character, rotating fonts, papers and inks, slapped in one per eighth note. Old-style serifs have old-style figures (1 like I, 0 like o): digits come from a lining face.",
+    "Typewriter slips type out letter by letter on a blank slip (monospace advance), with a key sound per letter."
+   ],
+   "motion": [
+    "On twos (12 drawings a second) for every paper piece; the camera moves smoothly every frame.",
+    "Slide in from off-frame with a small overshoot and a 2–3 drawing side-to-side settle; drops accelerate and bounce once; a slap arrives in two drawings (a slightly larger copy high above, then down).",
+    "Moving pieces carry a hand jitter (≈ 0.7 px, 0.25° per drawing); resting pieces are still.",
+    "Hinges turn around a pin and overshoot; a sheet can turn 180° flat on the table."
+   ],
+   "native_moves": [
+    {
+     "name": "Cut it out",
+     "does": "a found print enters as a cut-out with its white margin; it can be cut again on screen with scissors and scatter.",
+     "fits": ""
+    },
+    {
+     "name": "Assemble",
+     "does": "torn colour papers and cut-outs slide in one by one and build the scene or the subject.",
+     "fits": ""
+    },
+    {
+     "name": "Turn the sheet",
+     "does": "a whole sheet or piece turns 180° flat on the table, or flips to show its back.",
+     "fits": ""
+    },
+    {
+     "name": "Through the hole",
+     "does": "the camera enters a shape cut in the paper into the next scene.",
+     "fits": ""
+    },
+    {
+     "name": "Ransom and typewriter",
+     "does": "words arrive letter by letter as slapped clippings or typed slips.",
+     "fits": ""
+    },
+    {
+     "name": "Data engraving",
+     "does": "a value grows as engraved lines, the camera rises with it, a torn break marks a broken scale.",
+     "fits": ""
+    }
+   ]
+  },
+  "score": {
+   "genre": "chamber-march",
+   "lead": "clarinet",
+   "counter": "xylophone",
+   "pad": "violins_pizz",
+   "sparkle": "glockenspiel",
+   "drums": "orch",
+   "avoid": [
+    "piano"
+   ],
+   "note": "music hall oom-pah: tuba and bassoon staccato, pizzicato, clarinet, xylophone",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "clarinet",
+      "gm": 71
+     },
+     "counter": {
+      "voice": "xylophone",
+      "gm": 13
+     },
+     "pad": {
+      "voice": "violins_pizz",
+      "gm": 45
+     },
+     "pulse": {
+      "voice": "bassoon_stac",
+      "gm": 70
+     },
+     "bass": {
+      "voice": "tuba_stac",
+      "gm": 58
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {
+     "timpani": 47
+    }
+   }
+  }
+ }
+}

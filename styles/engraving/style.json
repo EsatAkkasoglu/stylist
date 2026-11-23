@@ -1,0 +1,200 @@
+{
+ "slug": "engraving",
+ "num": "31",
+ "en": "Copperplate Engraving",
+ "cn": "铜版画",
+ "category_en": "Print & Printmaking",
+ "category_cn": "印刷版画",
+ "film": "The Honeybee, Plate VII",
+ "film_cn": "蜜蜂，图版七",
+ "line": "A natural-history plate engraves itself: the burin cuts the copper, the bee builds up line by line, and a watercolour wash brings it to life.",
+ "line_cn": "一张博物志图版自己刻出来：雕刀推开铜版，蜜蜂一线线成形，最后手工水彩上色。",
+ "uses": [
+  "Museum labels",
+  "Science explainers",
+  "Brand heritage"
+ ],
+ "frame_sec": 34.0,
+ "dur": 40.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "engraving",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Bakır Gravür",
+ "category_tr": "Baskı & Gravür",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   },
+   {
+    "role": "WHOOSH/SWISH",
+    "query": "whoosh"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "thump"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "tick"
+   }
+  ],
+  "motion": {
+   "cuts": "print-registration jumps with a slide",
+   "rig": "editorial",
+   "move_frames": [
+    10,
+    14
+   ],
+   "ease": "snapSettle",
+   "reveal": "rise",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "baroque-motor",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Loupe following the burin tip",
+     "expresses": "One point of attention; making",
+     "serves": "a first mark; a signature"
+    },
+    {
+     "move": "Log-zoom pull-out",
+     "expresses": "The line was part of something larger",
+     "serves": "scale reveal; context"
+    },
+    {
+     "move": "Push to a part, ride with its roundel",
+     "expresses": "Where → what, in one take",
+     "serves": "an invisible detail; a mechanism"
+    },
+    {
+     "move": "Tilt/pan along the sheet at reading zoom",
+     "expresses": "Labels in order",
+     "serves": "a parts list; a coastline"
+    },
+    {
+     "move": "Pull back while something flies",
+     "expresses": "Everything placed in relation",
+     "serves": "acceleration; summary"
+    },
+    {
+     "move": "Locked frame, or a ≤ 2 % breathing push",
+     "expresses": "The plate as document",
+     "serves": "reading time; colour moving"
+    },
+    {
+     "move": "Raking view across the copper",
+     "expresses": "The groove as depth",
+     "serves": "the cost of craft"
+    },
+    {
+     "move": "Cut from mirrored copper to true proof",
+     "expresses": "Reversal",
+     "serves": "a hidden truth; before/after"
+    }
+   ],
+   "transitions": [
+    "Transitions from printmaking only (proof pulled, tissue guard laid over, region burnished out and re-cut, new sheet on the bed);",
+    "no dissolves or wipes."
+   ],
+   "labels": [
+    "Lettering belongs to the plate: roman capitals (Bodoni Moda; title ~44–56 px, wide tracking; labels ~15–19 px), italics for scientific names (~20–24 px), script (Pinyon Script) for notes, fixed size, balanced over two lines, never shrunk.",
+    "Roman letters are cut glyph by glyph; script is written in one left-to-right stroke. Nothing fades in.",
+    "Subtitles: script on a deckled paper slip, bottom centre, ≤ 2 lines, never over a label. Hold ≥ max(1.8 s, speech + 0.6 s). An engraved note stays in frame chars ÷ 12 + 1 s from when it starts writing."
+   ],
+   "motion": [
+    "Cutting order is the animation: outline → first hatching sweeping across each form → crossing → darks, hair, stipple. Strokes run at constant burin speed, many at once (a few for outlines, dozens for hatching).",
+    "A long single stroke may be followed by the camera; start it partly cut so no frame is empty. Keep a full build to a few seconds.",
+    "Roundels fly on an eased arc with a small lift, growing log-linearly to size. Colour blooms from one point with a ragged front and a wet rim that dries; regions staggered.",
+    "Nothing fades or slides like UI: lines are cut, text cut or written, colour blooms, sheets are pressed, peeled or laid down."
+   ],
+   "native_moves": [
+    {
+     "name": "The cut",
+     "does": "Burin mid-stroke, swarf rising, nothing else. Fits: the first line of a treaty; a watchmaker's scribe; a coast being charted.",
+     "fits": ""
+    },
+    {
+     "name": "The three passes",
+     "does": "Form gains volume pass by pass. Fits: a building from its plan; a portrait emerging; a skill improving.",
+     "fits": ""
+    },
+    {
+     "name": "Magnification roundel",
+     "does": "Ring scribed, burnished, re-cut larger, flown to a margin with a leader, label cut on landing. Fits: a gear in a clock; a pollen grain; a harbour inset on a chart.",
+     "fits": ""
+    },
+    {
+     "name": "The proof",
+     "does": "Sheet peels off; mirrored copper becomes true paper. Fits: a secret out; a draft made final; a coin's die and strike.",
+     "fits": ""
+    },
+    {
+     "name": "States of the plate",
+     "does": "A region burnished out and re-cut. Fits: a border redrawn; before/after; a design revision.",
+     "fits": ""
+    },
+    {
+     "name": "Hand colouring",
+     "does": "Washes bloom after the print. Fits: one organ lit; a flag on a historical map; a ripening fruit.",
+     "fits": ""
+    },
+    {
+     "name": "Natural size",
+     "does": "A tiny true-scale figure beside the engraving. Fits: a seed by its tree; a chip by its circuit; a stamp by its enlargement.",
+     "fits": ""
+    },
+    {
+     "name": "The finished plate",
+     "does": "Every label and credit, locked. Fits: a museum label; a frontispiece; a certificate.",
+     "fits": ""
+    }
+   ]
+  },
+  "score": {
+   "genre": "baroque-motor",
+   "lead": "cellos",
+   "counter": "violin",
+   "sparkle": "glass",
+   "drums": "none",
+   "note": "harpsichord, string quartet, solo cello; plucked and dry while lines are cut",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "cellos",
+      "gm": 42
+     },
+     "counter": {
+      "voice": "violin",
+      "gm": 40
+     },
+     "pad": {
+      "voice": "harpsichord",
+      "gm": 6
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     },
+     "sparkle": {
+      "voice": "glass",
+      "gm": 92
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

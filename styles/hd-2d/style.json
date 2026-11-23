@@ -1,0 +1,198 @@
+{
+ "slug": "hd-2d",
+ "num": "59",
+ "en": "2.5D Pixel Art",
+ "cn": "2.5D 像素",
+ "aka": [
+  "HD-2D"
+ ],
+ "category_en": "Games",
+ "category_cn": "电子游戏",
+ "film": "The Lampbearer",
+ "film_cn": "守灯人",
+ "line": "The lighthouse goes dark; a girl carries the last flame through a night forest and up the storm cliffs.",
+ "line_cn": "灯塔熄灭，孙女提着最后一簇火穿过夜林、爬上风暴悬崖。",
+ "uses": [
+  "Game trailers",
+  "Fantasy",
+  "Story films"
+ ],
+ "frame_sec": 55.08,
+ "dur": 76.5,
+ "source": "lemo-opuscar",
+ "lemo_slug": "hd-2d",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "2.5D Piksel Sanat",
+ "category_tr": "Oyun",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "chime"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "boom"
+   },
+   {
+    "role": "AMBIENCE",
+    "query": "ambience"
+   }
+  ],
+  "motion": {
+   "cuts": "snap zoom, stepped motion",
+   "rig": "punchy",
+   "move_frames": [
+    4,
+    8
+   ],
+   "ease": "snapSettle",
+   "reveal": "draw",
+   "mblur": false
+  },
+  "three_d": "none",
+  "music": "ambient-wonder",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Very high, very far, slow push; band on one tiny subject",
+     "expresses": "Preciousness, a whole place as a map",
+     "serves": "where we are; scale; a landmark"
+    },
+    {
+     "move": "Medium-high 3/4, near-static drift",
+     "expresses": "Two figures on one stage",
+     "serves": "a conversation; a handover; a choice"
+    },
+    {
+     "move": "Lateral tracking, camera leading slightly, foreground passing blurred",
+     "expresses": "A path through a world",
+     "serves": "travel; a process with steps; a commute"
+    },
+    {
+     "move": "Dive low and close while a figure kneels or stops",
+     "expresses": "The toy world suddenly personal",
+     "serves": "exhaustion; care; a secret"
+    },
+    {
+     "move": "Rising pull-back, focus handed from figure to object",
+     "expresses": "The act spreads outward",
+     "serves": "consequence; a system switching on"
+    },
+    {
+     "move": "Orbit half-way round a building or prop",
+     "expresses": "An object seen from all sides",
+     "serves": "a workshop; a machine; a monument"
+    },
+    {
+     "move": "Top-down, straight overhead, tilt band as a strip",
+     "expresses": "A board game, a plan",
+     "serves": "routes; a schedule; a queue"
+    },
+    {
+     "move": "Rack focus between two depths in a locked frame",
+     "expresses": "Attention changing hands",
+     "serves": "a memory; someone watching; before/after"
+    },
+    {
+     "move": "Return to an earlier framing, changed",
+     "expresses": "The rhyme shows what changed",
+     "serves": "aftermath; growth; a season later"
+    }
+   ],
+   "transitions": [
+    "Transitions: short fades to black or cuts between sets;",
+    "no wipes, no 3D spins."
+   ],
+   "labels": [
+    "An inscriptional capital serif (Cinzel, wide tracking) for chapter labels and titles; an old-style serif (Cormorant, Cormorant Garamond italic) for subtitles, dialogue, taglines. All OFL.",
+    "Narration subtitles: italic serif ~46–54 px, centred low on a soft dark gradient band, one line per voice clip, in ~0.35 s before the voice.",
+    "On-screen speech gets a dialogue box, not a subtitle: dark plate, thin metal border, corner ornaments, name plate on its top edge, text typed over ~90 % of the voice, blinking caret, soft chime on entry.",
+    "Chapter cards and a title card belong to the grammar. Hold ≥ max(1.8 s, speech + 0.6 s). Export the .srt from the data that drives the overlay."
+   ],
+   "motion": [
+    "Sprites step, everything else glides. Walk cycles 4 frames at 6–10 fps, idles alternate two frames at ~1–2 Hz, blinks every few seconds, pose changes are instant cuts between drawings. Camera, lights, particles, beams and focus update every output frame (60 fps).",
+    "Poses are data: a parameter object per drawing; a new pose is a new table entry.",
+    "Lights breathe: every flame flickers (a few summed sines, about ±20 %). A light's level is one value that drives the sprite drawing, the point light (intensity ∝ level^~1.3), the glow opacity and its scale together.",
+    "Weather is procedural: slanted rain streaks; lightning as a scripted flash curve (strike, dip, re-strike, decay) lifting sky, fill and exposure together."
+   ],
+   "native_moves": [
+    {
+     "name": "Shadows jump when a light is lit",
+     "does": "A practical turns on next to sprites and their shadows swing across the floor.",
+     "fits": "a shop opening at dawn; a server rack powering up; a teacher switching on a projector."
+    },
+    {
+     "name": "The carried light as a meter",
+     "does": "One small light a character carries is key light and gauge at once: its brightness rises and falls with whatever the story is measuring.",
+     "fits": "a phone battery on a long trip; a patient's heart monitor; a candle vigil."
+    },
+    {
+     "name": "Tilt-shift preciousness",
+     "does": "An extra-wide with the band on one tiny subject.",
+     "fits": "a single delivery van in a city; a newborn's room in a whole hospital; one stall in a night market."
+    },
+    {
+     "name": "Lights popping on one by one",
+     "does": "Windows, lamps or boats light up at a steady cadence across the map.",
+     "fits": "users joining a network; a village getting electricity; a festival beginning."
+    },
+    {
+     "name": "RPG grammar",
+     "does": "Chapter card, named character in a dialogue box, biomes, a landmark, a title card.",
+     "fits": "onboarding a new employee; a history in eras; a recipe in stages."
+    },
+    {
+     "name": "Weather passes over the diorama",
+     "does": "Rain, snow or lightning sweeps the tabletop with the flash curve.",
+     "fits": "a market crash; a harvest threatened; a hard week at work."
+    }
+   ]
+  },
+  "score": {
+   "genre": "ambient-wonder",
+   "lead": "flute",
+   "counter": "horn",
+   "pulse": "harp",
+   "sparkle": "glockenspiel",
+   "drums": "orch",
+   "note": "chamber fantasy: harp, strings, horns, timpani",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "flute",
+      "gm": 73
+     },
+     "counter": {
+      "voice": "horn",
+      "gm": 60
+     },
+     "pad": {
+      "voice": "violins",
+      "gm": 48
+     },
+     "pulse": {
+      "voice": "harp",
+      "gm": 46
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {
+     "timpani": 47
+    }
+   }
+  }
+ }
+}

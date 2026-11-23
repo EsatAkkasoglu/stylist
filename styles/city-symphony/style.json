@@ -1,0 +1,198 @@
+{
+ "slug": "city-symphony",
+ "num": "04",
+ "en": "City Symphony",
+ "cn": "城市交响曲",
+ "aka": [
+  "Time-lapse Symphony",
+  "延时交响"
+ ],
+ "category_en": "Edit & Documentary",
+ "category_cn": "剪辑纪实",
+ "film": "One Day in New York",
+ "film_cn": "纽约的一天",
+ "line": "One day in New York in time-lapse: rivers of light, a grid on the sixteenths, 1899 beside today.",
+ "line_cn": "纽约的一天：延时光河、踩着十六分音符的网格，1899 年和今天并排。",
+ "uses": [
+  "City films",
+  "Music montages",
+  "Openers"
+ ],
+ "frame_sec": 11.2,
+ "dur": 52.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "city-symphony",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Şehir Senfonisi",
+ "category_tr": "Kurgu & Belgesel",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "IMPACT/HIT",
+    "query": "hit"
+   }
+  ],
+  "motion": {
+   "cuts": "camera-led cuts: slide or push-through on motion",
+   "rig": "editorial",
+   "move_frames": [
+    6,
+    10
+   ],
+   "ease": "accelExit",
+   "reveal": "wipe",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "minimal-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Opening hit + eighth-note arpeggio",
+     "expresses": "2 bars → 1 bar",
+     "serves": "120 → 60"
+    },
+    {
+     "move": "Eighths",
+     "expresses": "2 beats → 1 beat",
+     "serves": "30 → 15"
+    },
+    {
+     "move": "Triplets against eighths (3:2)",
+     "expresses": "1 beat → ½ beat",
+     "serves": "15 → 7/8 alternating"
+    },
+    {
+     "move": "Sixteenths, full ensemble",
+     "expresses": "grid cells light every 1–2 frames; cells re-cut every sixteenth",
+     "serves": "1–4"
+    },
+    {
+     "move": "Arpeggios stop, one long chord",
+     "expresses": "3–4 s, one or two shots",
+     "serves": "90–120"
+    },
+    {
+     "move": "Sixteenths + triplets + horns",
+     "expresses": "½ beat → 4 frames → 2 frames",
+     "serves": "7 → 4 → 2"
+    },
+    {
+     "move": "Dry cut of the whole ensemble, reverb left ringing",
+     "expresses": "hard cut to black on the bar line",
+     "serves": "—"
+    }
+   ],
+   "transitions": [
+    "Cut-point table (the score decides;",
+    "numbers at 120 BPM and 30 fps: 1 beat = 15 frames, triplet = 5, sixteenth = 3.75) Rules: - Cuts land on beats.",
+    "All cut times come from one function, bar(n, beat) in tools/timeline.py;",
+    "The editor never cuts faster than the current subdivision, and the slowest picture sits under the place where the arpeggios stop."
+   ],
+   "labels": [
+    "Latin: Michroma (OFL), capitals, tracking 0.06–0.32 em. Chinese: Noto Sans SC variable, weight 300–350, tracking 0.08–0.14 em. Credits: Noto Sans SC 17 px.",
+    "Left-aligned, left margin 168–196 px, never centred, never on a box. Legibility comes from a very soft elliptical darkening behind the block (α ≤ 0.6), not a panel.",
+    "Number card: the number in Michroma 84 px (44 px when three numbers stack); a 2 px sodium rule grows under it; one Chinese line (28 px) and one English line (14–16 px) say what it counts and the source year. A census-type number locks digit by digit on sixteenths (one glockenspiel note per digit); a flow number counts up from 0 in 0.6 s (ease-out). \"About\" numbers carry ≈ and \"约\".",
+    "Archive date: just the year, Michroma 22 px, bottom-left of the archive panel."
+   ],
+   "motion": [
+    "Speed is the main instrument. Shot speeds run from 0.3× to 75×; every speed above 1× uses frame blending (a 360° shutter): each output frame averages the source frames it covers, capped at N frames. Headlights become continuous lines, crowds become fog, clouds become water.",
+    "Speed ramps are smooth (smoothstep between key speeds) and always mean something: a corridor accelerates out of real time (1× → 6×), a time-lapse ramps into a frenzy (1× → 7×), a fast shot brakes into slow motion (2.2× → 0.3× in 0.55 s) on the bar where the music stops.",
+    "Camera moves are added sparingly in post: slow push-ins (1.00 → 1.05–1.10 over the shot), a falling push on the opening still (1.0 → 1.3 in 0.35 s, ease-out, then accelerating to ×2 by the cut). No shakes, no whip pans, no digital zooms past the upscale limit."
+   ],
+   "native_moves": [
+    {
+     "name": "Light river",
+     "does": "",
+     "fits": ""
+    },
+    {
+     "name": "Speed ramp",
+     "does": "",
+     "fits": ""
+    },
+    {
+     "name": "Brake into slow motion",
+     "does": "",
+     "fits": ""
+    },
+    {
+     "name": "Crowd → tracks (people as data)",
+     "does": "",
+     "fits": ""
+    },
+    {
+     "name": "Traffic → light",
+     "does": "",
+     "fits": ""
+    },
+    {
+     "name": "Grid",
+     "does": "",
+     "fits": ""
+    },
+    {
+     "name": "Counterpoint split",
+     "does": "",
+     "fits": ""
+    },
+    {
+     "name": "Day/night flicker",
+     "does": "",
+     "fits": ""
+    },
+    {
+     "name": "Photo that moves",
+     "does": "",
+     "fits": ""
+    },
+    {
+     "name": "Number lock",
+     "does": "",
+     "fits": ""
+    }
+   ]
+  },
+  "score": {
+   "genre": "minimal-pulse",
+   "pad": "violins_spic",
+   "pulse": "flute_stac",
+   "lead": "horn",
+   "bass": "contrabass",
+   "drums": "orch",
+   "note": "music only: organ, staccato winds, spiccato strings, additive layering",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "horn",
+      "gm": 60
+     },
+     "pad": {
+      "voice": "violins_spic",
+      "gm": 48
+     },
+     "pulse": {
+      "voice": "flute_stac",
+      "gm": 73
+     },
+     "bass": {
+      "voice": "contrabass",
+      "gm": 43
+     }
+    },
+    "drums": {
+     "timpani": 47
+    }
+   }
+  }
+ }
+}

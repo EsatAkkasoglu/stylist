@@ -1,0 +1,191 @@
+{
+ "slug": "satellite-briefing",
+ "num": "86",
+ "en": "Satellite Briefing",
+ "cn": "卫星简报",
+ "category_en": "Instruments & Evidence",
+ "category_cn": "仪器实证",
+ "film": "The Map Still Says Sea",
+ "film_cn": "地图上还写着海",
+ "line": "A satellite follows the map to the Aral Sea and finds a desert; only the part someone dammed came back.",
+ "line_cn": "卫星照着地图去找咸海，找到的是沙漠；只有筑了坝的那一块回来了。",
+ "uses": [
+  "Climate",
+  "News explainers",
+  "Geography"
+ ],
+ "frame_sec": 37.4,
+ "dur": 37.8,
+ "source": "lemo-opuscar",
+ "lemo_slug": "satellite-briefing",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Uydu Brifingi",
+ "category_tr": "Cihaz & Kanıt",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "UI/CLICK",
+    "query": "ticks"
+   },
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "ratchet"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "hit"
+   },
+   {
+    "role": "DESIGNED/RISER",
+    "query": "risers"
+   }
+  ],
+  "motion": {
+   "cuts": "instrument sweeps, slide between readings",
+   "rig": "editorial",
+   "move_frames": [
+    10,
+    16
+   ],
+   "ease": "softLand",
+   "reveal": "wipe",
+   "mblur": true
+  },
+  "three_d": "A",
+  "music": "drone-sparse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Oblique orbit, limb in frame",
+     "expresses": "scale, context, distance",
+     "serves": "an opening; a return; a title card"
+    },
+    {
+     "move": "Dive (log zoom, tilt to nadir)",
+     "expresses": "going to look for yourself",
+     "serves": "a reveal; checking a claim"
+    },
+    {
+     "move": "Locked nadir frame, slow creep",
+     "expresses": "evidence, comparison",
+     "serves": "time running in one place; a measurement"
+    },
+    {
+     "move": "Push-in on a point",
+     "expresses": "singling out",
+     "serves": "one town, one dam, one field"
+    },
+    {
+     "move": "Track along a line",
+     "expresses": "travelling a distance",
+     "serves": "measuring; a river, a road, a border"
+    },
+    {
+     "move": "Whip pan with blur",
+     "expresses": "a new subject at the same altitude",
+     "serves": "the counter-example; \"meanwhile\""
+    },
+    {
+     "move": "Climb back to orbit",
+     "expresses": "consequence, perspective",
+     "serves": "an ending; a summary"
+    }
+   ],
+   "transitions": [
+    "Transitions: scan-line swaps, a map layer switched off, zooming through plates, whip pans, the reticle opening into a title card.",
+    "No crossfades between unrelated places, no hard cuts inside a zoom."
+   ],
+   "labels": [
+    "Roles: a light condensed grotesk for the reading (96–130 px, e.g. Barlow Condensed); a monospace for instruments and dates (20–34 px, e.g. IBM Plex Mono); a sans for labels in the film's language (24–42 px); a serif only for the claim layer and the title. OFL, self-hosted, CJK subset to the characters used.",
+    "Labels attach to the ground with a leader line. The reading sits in the right third beside what it measures, label above, source note below (\"Landsat, measured\").",
+    "Subtitles are a transcript strip at the bottom left: a 2 px white rule, a dark plate fading right, left-aligned, each line on one line (measure with the real font, nowrap; split a long sentence into two cues). If the film is bilingual, the film's language on top.",
+    "Nothing below 20 px at 1080p, the imagery credit included."
+   ],
+   "motion": [
+    "The camera never stops: distance interpolates in log space, segments ease, holds keep a 2–5 % creep or a slow rotation. No frozen frame longer than a second.",
+    "Marks arrive by being made: a line grows, an outline prints behind the scan, a counter rolls and lands with a small pop, a reticle snaps with overshoot.",
+    "Time changes are scans, never dissolves; their spacing tells the speed, and the camera moves with them (accelerating as the steps shorten, braking on the last).",
+    "Never moves: the ground under its annotations, the instrument positions."
+   ],
+   "native_moves": [
+    {
+     "name": "The map against the photograph",
+     "does": "The camera falls into the printed map of the claim; a scanner bar tears it away and the ground is underneath; the name outlives the page.",
+     "fits": "a lake still on maps but gone; a cleared concession forest; a planned city never built."
+    },
+    {
+     "name": "Time rings in a locked frame",
+     "does": "Dated plates scan in one by one; each leaves its outline, the band lost between two rings flashes.",
+     "fits": "a glacier's retreat; a city's sprawl; a fire scar season after season."
+    },
+    {
+     "name": "The range line",
+     "does": "Mark the destination, grow a ticked line from A to B, chase the tip while the reading counts up, land on the number, pull back to show the whole distance.",
+     "fits": "how far a shore moved; a village to its well; a camp to the border."
+    },
+    {
+     "name": "The dive and the climb",
+     "does": "One zoom from orbit to the ground, or back.",
+     "fits": "locating anything; a scale reveal; an ending that returns one place to the planet."
+    },
+    {
+     "name": "Colour returns where the story turns",
+     "does": "Only the subject regains true colour inside the grey.",
+     "fits": "an irrigated field; a refilled reservoir; a regrown forest."
+    },
+    {
+     "name": "The reticle becomes the frame",
+     "does": "the lock-on brackets open out to frame a title card or the last reading.",
+     "fits": ""
+    }
+   ]
+  },
+  "score": {
+   "genre": "drone-sparse",
+   "pad": "pad",
+   "lead": "sinebell",
+   "pulse": "pluck",
+   "bass": "synthbass",
+   "drums": "orch",
+   "note": "telemetry pings, detuned-saw pads, timpani and gran cassa for weight",
+   "render": {
+    "engine": "synth",
+    "space": "neon",
+    "band": {
+     "lead": {
+      "voice": "sinebell",
+      "patch": "Plucks/Bell 1"
+     },
+     "pad": {
+      "voice": "pad",
+      "patch": "Polysynths/Juno-60 Strings"
+     },
+     "pulse": {
+      "voice": "pluck",
+      "patch": "Plucks/The 1980s"
+     },
+     "bass": {
+      "voice": "synthbass",
+      "patch": "Basses/Bass 1"
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "patch": "Plucks/Bell 1"
+     }
+    },
+    "drums": {
+     "kick": "Percussion/Kick Tech 1",
+     "snare": "Percussion/Snare Tight",
+     "tom": "Percussion/Synth Tom 1"
+    }
+   }
+  }
+ }
+}

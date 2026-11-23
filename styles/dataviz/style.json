@@ -1,0 +1,209 @@
+{
+ "slug": "dataviz",
+ "num": "94",
+ "en": "Data Storytelling",
+ "cn": "数据叙事",
+ "category_en": "Data & Maps",
+ "category_cn": "数据地图",
+ "film": "A Hundred Summers",
+ "film_cn": "一百个夏天",
+ "line": "A hundred years of summer temperatures, where the chart itself tells the story.",
+ "line_cn": "一百年的夏季气温，图表本身就是故事。",
+ "uses": [
+  "Data journalism",
+  "Reports",
+  "Climate & science"
+ ],
+ "frame_sec": 42.0,
+ "dur": 50.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "dataviz",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Veri Hikâyeciliği",
+ "category_tr": "Veri & Harita",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "AMBIENCE",
+    "query": "ambience"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "tick-and-paper"
+   },
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "ratchet"
+   }
+  ],
+  "motion": {
+   "cuts": "continuous camera, chart builds",
+   "rig": "editorial",
+   "move_frames": [
+    10,
+    14
+   ],
+   "ease": "softLand",
+   "reveal": "wipe",
+   "mblur": true
+  },
+  "three_d": "A",
+  "music": "synthwave",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Extreme close-up on one mark, following its leader",
+     "expresses": "One fact, one life",
+     "serves": "a single case; a named person"
+    },
+    {
+     "move": "Full view first, then dive to one mark",
+     "expresses": "The pattern before the case",
+     "serves": "a familiar trend; a myth to correct"
+    },
+    {
+     "move": "Pull back as axes grow out of the marks",
+     "expresses": "The frame arrives with the unit",
+     "serves": "naming the measure; widening a claim"
+    },
+    {
+     "move": "Track the pencil, newest mark at ~60 % of width",
+     "expresses": "Progress: the past behind, the future ahead",
+     "serves": "a series in time; a race; a queue"
+    },
+    {
+     "move": "Pedestal with rising data, a Dutch angle creeping in",
+     "expresses": "Escalation, unease",
+     "serves": "runaway growth; a debt"
+    },
+    {
+     "move": "Punch-in over 2 frames, decaying shake, jolt on rescale",
+     "expresses": "Surprise, a broken frame",
+     "serves": "an outlier; a crash"
+    },
+    {
+     "move": "Fast pull-out, roll, small constant tremor",
+     "expresses": "A rush",
+     "serves": "a boom; a cascade; a panic"
+    },
+    {
+     "move": "Locked-off",
+     "expresses": "The transformation is the movement",
+     "serves": "a morph; a slow reading"
+    },
+    {
+     "move": "Hold on one mark, then pull back",
+     "expresses": "The part inside the whole",
+     "serves": "a verdict; context"
+    },
+    {
+     "move": "Pull and pan to add more real data",
+     "expresses": "Scale switch",
+     "serves": "a longer record; the rest of the list"
+    },
+    {
+     "move": "Lateral pan across notes in the memory zone",
+     "expresses": "Recollection",
+     "serves": "a biography; a timeline of events"
+    }
+   ],
+   "transitions": [
+    "a hard cut is rare and meaningful."
+   ],
+   "labels": [
+    "The subtitle is the figure caption: a text serif (Newsreader), ink colour, left-aligned with the chart, ≤ 2 lines, with a hairline rule above it and a small mono kicker for the range drawn so far. Words appear on their whisper timestamps over a paper-colour band. Hold ≥ max(1.8 s, speech + 0.6 s).",
+    "The title is the chart's own headline (Newsreader), set in world space above the plot; it fades when the camera is close and returns with the full view.",
+    "No captions over a signature chart operation or a silence."
+   ],
+   "motion": [
+    "The rhythm of the data is the rhythm of the film. Map the marks to a musical grid; to accelerate, one option is to divide the beat instead of changing tempo. Pick a tempo whose finest subdivision lands on whole frames (at 24 fps a minute has 1440 frames; the count of finest notes per minute must divide it), so picture and sound never drift.",
+    "Pencil acting: lift before each tap, land with the shadow meeting the tip, a tiny rebound; hurry as data densifies, tremble like a seismograph needle at a peak. It can flinch (recoil and freeze), hesitate (hover before a mark) and exit (hand the story to the viewer).",
+    "Rescale reads as ratchet clicks (stepped, each step eased); a calm rescale is smooth.",
+    "Morph: a staggered sweep, each mark easing into its new form; notes fade as it passes and return as tiny marks."
+   ],
+   "native_moves": [
+    {
+     "name": "One mark = one fact",
+     "does": "",
+     "fits": "the first store a chain opened; the first patient of a trial; the first satellite launched."
+    },
+    {
+     "name": "Axes grow with the story",
+     "does": "The y axis arrives when the narration first names the unit.",
+     "fits": "revenue; a city's population; vaccination rates."
+    },
+    {
+     "name": "Pinned annotations",
+     "does": "Their content and colour carry the arc.",
+     "fits": "an athlete's season; a family's migrations; releases on a usage curve."
+    },
+    {
+     "name": "Breaking the frame",
+     "does": "The chart must make room; the torn edge stays as a scar.",
+     "fits": "a viral spike; a price bubble; a record-breaking flood."
+    },
+    {
+     "name": "Encoding morph",
+     "does": "Bars into a waffle, a map into a ranking, a line into a slope: the reveal of the whole.",
+     "fits": "a budget as units of people; countries as a ranking; daily steps as a year strip."
+    },
+    {
+     "name": "Scale switch",
+     "does": "One value → the series → a longer real record, never extrapolated.",
+     "fits": "one day's energy use → a year; one species count → a region."
+    },
+    {
+     "name": "The empty next cell",
+     "does": "A dashed slot for the value nobody knows yet.",
+     "fits": "next year's election; the next launch; tomorrow's reading."
+    }
+   ]
+  },
+  "score": {
+   "genre": "synthwave",
+   "pad": "pad",
+   "lead": "sinebell",
+   "bass": "synthbass",
+   "drums": "machine",
+   "note": "sonification plonks over a detuned-saw pad, soft kick, sine sub",
+   "render": {
+    "engine": "synth",
+    "space": "neon",
+    "band": {
+     "lead": {
+      "voice": "sinebell",
+      "patch": "Plucks/Bell 1"
+     },
+     "pad": {
+      "voice": "pad",
+      "patch": "Polysynths/Juno-60 Strings"
+     },
+     "pulse": {
+      "voice": "saw",
+      "patch": "Leads/Moogy Saw"
+     },
+     "bass": {
+      "voice": "synthbass",
+      "patch": "Basses/Bass 1"
+     }
+    },
+    "drums": {
+     "kick": "Percussion/Kick Tech 1",
+     "snare": "Percussion/Snare Tight",
+     "tom": "Percussion/Synth Tom 1"
+    }
+   }
+  }
+ }
+}

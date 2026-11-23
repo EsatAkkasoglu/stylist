@@ -1,0 +1,208 @@
+{
+ "slug": "woodcut",
+ "num": "30",
+ "en": "Woodcut Print",
+ "cn": "木刻版画",
+ "category_en": "Print & Printmaking",
+ "category_cn": "印刷版画",
+ "film": "The Bell Founder",
+ "film_cn": "铸钟人",
+ "line": "A village spends a whole winter casting one bell; the first time it rings, the snow stops.",
+ "line_cn": "村子用一整个冬天铸一口钟，钟声第一次响起，雪停了。",
+ "uses": [
+  "Folk tales",
+  "Craft brands",
+  "Book trailers"
+ ],
+ "frame_sec": 49.14,
+ "dur": 58.5,
+ "source": "lemo-opuscar",
+ "lemo_slug": "woodcut",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Ağaç Baskı",
+ "category_tr": "Baskı & Gravür",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "metal"
+   },
+   {
+    "role": "DESIGNED/RISER",
+    "query": "drone"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   },
+   {
+    "role": "AMBIENCE",
+    "query": "ambience"
+   }
+  ],
+  "motion": {
+   "cuts": "print-registration jumps with a slide",
+   "rig": "editorial",
+   "move_frames": [
+    10,
+    14
+   ],
+   "ease": "snapSettle",
+   "reveal": "rise",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "drone-sparse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Track with the knife tip",
+     "expresses": "Making; the line is the story",
+     "serves": "a first mark; a route drawn on a map; a signature"
+    },
+    {
+     "move": "Continuous pull-back as cuts spread",
+     "expresses": "A line becomes a world; scale",
+     "serves": "a city from one street; a family tree; a reach of sound or news"
+    },
+    {
+     "move": "Locked plate",
+     "expresses": "A page of a wordless novel; reading time",
+     "serves": "a decision; a portrait; the aftermath"
+    },
+    {
+     "move": "Slow macro push on a sculpted close-up",
+     "expresses": "Patience, touch, labour",
+     "serves": "hands at work; a tool; a letter being read"
+    },
+    {
+     "move": "Snap zoom and hold",
+     "expresses": "Shock; the detail that breaks",
+     "serves": "a crack; a wrong number; a face turning"
+    },
+    {
+     "move": "Frame in a frame (door, window, arch)",
+     "expresses": "Distance, exclusion, waiting",
+     "serves": "a crowd outside; a sickroom; a border"
+    },
+    {
+     "move": "Hard cuts on the beat, each a new impression",
+     "expresses": "Accumulation, a series of prints",
+     "serves": "offerings; days passing; a list of names"
+    },
+    {
+     "move": "Crane up from a detail to the whole",
+     "expresses": "Consequence",
+     "serves": "a flood reaching a village; a light reaching faces"
+    },
+    {
+     "move": "Rack between two plates via the peel",
+     "expresses": "One state printed over another",
+     "serves": "before/after; a promise kept; generations"
+    }
+   ],
+   "transitions": [
+    "The knife tip, or the brightest cut, is the focus.",
+    "Framing: black masses on carved white or white on uncut black, never grey on grey;",
+    "Transitions: hard cut (new impression) or the peel;",
+    "never a dissolve."
+   ],
+   "labels": [
+    "Captions are letterpress in the paper margin, below the plate, like a plate caption in a woodcut novel. They never cover the image. A letterpress old-style face (IM Fell English, OFL) around 40–44 px, in ink, pushed through the same print shader. The ink comes up in 0.1 s with no slide and fades over 0.15 s. Hold ≥ max(1.8 s, speech + 0.6 s).",
+    "Titles are carved, not typed: cut into the block (IM Fell English SC), mirrored if the block is shown before the print is pulled.",
+    "Any closing text is a fresh print: letterpress in the margin or carved out of a black panel."
+   ],
+   "motion": [
+    "Characters on twos (12 fps); camera, particles, fire and light on ones (24 fps). Hatching lives in each body part's local space, so cuts move with the limb and don't boil; only fire and liquids re-cut every 2 frames, as deliberate boil.",
+    "Anticipation / action / follow-through on every key action: a few frames back → a 2-frame strike → settle + a short shake.",
+    "Carve reveal: each stroke has its own start time and speed (0.08–0.35 s). Reveal keys: light (bright areas first, coarse to fine), radial (from a point: rays, a pour), down, or any function.",
+    "Hard cut = a new impression: two frames of misregistration (a few pixels, then back)."
+   ],
+   "native_moves": [
+    {
+     "name": "Light is carved",
+     "does": "A burst of radial cuts from a point.",
+     "fits": "a power grid switched on; a scientific insight; a lighthouse restored."
+    },
+    {
+     "name": "Carving = time",
+     "does": "Patient work on screen, cut by cut.",
+     "fits": "a year of training; a building rising; a craft apprenticeship."
+    },
+    {
+     "name": "Mirrored block → true print",
+     "does": "A backwards word reads true when the sheet is pulled.",
+     "fits": "a vote result; a name cleared; a misunderstanding put right."
+    },
+    {
+     "name": "Stab cuts as texture",
+     "does": "White dots can freeze mid-air or be inked back in until the black is clean.",
+     "fits": "stars going out over a city; rain stopping; a disease receding on a map."
+    },
+    {
+     "name": "The one colour plate spreads and withdraws",
+     "does": "",
+     "fits": "a blood donation; a sunrise over a harvest; a single lit window in a blackout."
+    },
+    {
+     "name": "Filter a sculpt or a frame",
+     "does": "into form-following cuts.",
+     "fits": "a portrait of a real person drawn from a photo; a machine part; an archive image re-cut."
+    },
+    {
+     "name": "Wordless-novel sequencing",
+     "does": "Self-contained plates, few or no lines; a gap can be silent.",
+     "fits": "a migration; a strike; a life in seven plates."
+    }
+   ]
+  },
+  "score": {
+   "genre": "drone-sparse",
+   "lead": "cellos",
+   "pulse": "cellos_spic",
+   "bass": "contrabass_pizz",
+   "drums": "wood",
+   "avoid": [
+    "supersaw",
+    "pad"
+   ],
+   "note": "low strings, log drum, woodblock, timpani, one tam-tam",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "cellos",
+      "gm": 42
+     },
+     "pad": {
+      "voice": "cellos",
+      "gm": 42
+     },
+     "pulse": {
+      "voice": "cellos_spic",
+      "gm": 48
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {
+     "woodblock": 115
+    }
+   }
+  }
+ }
+}

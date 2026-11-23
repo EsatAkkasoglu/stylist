@@ -1,0 +1,177 @@
+{
+ "slug": "backrooms",
+ "num": "64",
+ "en": "Liminal Found Footage",
+ "cn": "后室录像带",
+ "aka": [
+  "后室 / 新怪谈"
+ ],
+ "category_en": "Film & Tape",
+ "category_cn": "胶片录像",
+ "film": "Night Shift Orientation",
+ "film_cn": "夜班入职培训",
+ "line": "A new night-shift hire films their first night in an endless yellow office, following the rules on the wall.",
+ "line_cn": "新夜班员工拍下入职第一晚：无尽的黄色办公空间，和墙上的员工守则。",
+ "uses": [
+  "Horror",
+  "Mystery & ARG",
+  "Game teasers"
+ ],
+ "frame_sec": 8.96,
+ "dur": 59.7,
+ "source": "lemo-opuscar",
+ "lemo_slug": "backrooms",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Liminal Buluntu Kayıt",
+ "category_tr": "Film & Kaset",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "chime"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "thud"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "rustles"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "ticks"
+   }
+  ],
+  "motion": {
+   "cuts": "slide / whip pan, period grammar",
+   "rig": "editorial",
+   "move_frames": [
+    8,
+    12
+   ],
+   "ease": "accelExit",
+   "reveal": "focus",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "none",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Walking POV down a corridor",
+     "expresses": "routine, the endless",
+     "serves": "establishing the space; time passing"
+    },
+    {
+     "move": "Slow pan off a detail to the space",
+     "expresses": "scale; the space goes on",
+     "serves": "a reveal; a first look"
+    },
+    {
+     "move": "Glance down at the feet",
+     "expresses": "obedience, avoidance",
+     "serves": "obeying a rule; not looking"
+    },
+    {
+     "move": "Crouch and hold on printed text",
+     "expresses": "reading; bureaucracy",
+     "serves": "a rule; a contradiction"
+    },
+    {
+     "move": "Zoom + focus hunt into the distance",
+     "expresses": "seeing / not seeing",
+     "serves": "a presence; a doubt"
+    },
+    {
+     "move": "Identical framing after a tear, only the OSD changed",
+     "expresses": "time removed",
+     "serves": "a jump; a loss"
+    },
+    {
+     "move": "Turn a corner, hold still",
+     "expresses": "a threshold",
+     "serves": "an exit; a choice"
+    },
+    {
+     "move": "Slow push-in with no sound",
+     "expresses": "the pull of something",
+     "serves": "a door; a sign"
+    },
+    {
+     "move": "Backing away while filming",
+     "expresses": "retreat, fear",
+     "serves": "leaving a room; a rule broken"
+    },
+    {
+     "move": "Camera set down on a surface, static, recording alone",
+     "expresses": "abandonment",
+     "serves": "the operator gone; a long wait"
+    },
+    {
+     "move": "Whip toward a sound, then nothing",
+     "expresses": "expectation denied",
+     "serves": "a noise with no source"
+    }
+   ],
+   "transitions": [
+    "Transitions: tape events only."
+   ],
+   "labels": [
+    "Closed captions (CEA-608 style): a monospace (e.g. IBM Plex Mono 600) ~42 px, white on a solid black box per row, ≤ 32 characters, centred inside the 4:3 frame above the OSD. Untouched by tape noise (the TV decodes them). Hold ≥ max(1.8 s, speech + 0.6 s).",
+    "Speaker marks: [PA] for announcements, italics for the operator, SDH descriptions in brackets ([LIGHTS FLICKER], [TAPE NOISE], [SILENCE]).",
+    "Rules on notices are not captioned: they are the picture. Readable at 1080p, ≥ 3–4 s uncovered. For close-ups lower the camera so the lens is parallel to the page; pitching down at a vertical sheet shears words into fake italics.",
+    "The title is camcorder title-generator text over the first shot."
+   ],
+   "motion": [
+    "One continuous handheld take. Cuts happen only where the tape breaks: power-on roll-in, tracking tear, REC off.",
+    "Handheld = walking gait (head bob a few cm, sway, small roll) + breathing (~0.27 Hz) + tremor noise at a few frequencies whose amplitude follows a fear curve. At a held breath, freeze all of it.",
+    "Looking down shows only shoe toes and floor, never legs.",
+    "Autofocus = focus distance animated with overshoot: blur → lock → slip → lock. Blur comes from pulling focus near. Zoom narrows the FOV and opens the aperture."
+   ],
+   "native_moves": [
+    {
+     "name": "Autofocus / auto-exposure hunting",
+     "does": "Something is there only while focus is correct.",
+     "fits": "a missing pet on a hotel floor; a figure in an empty stadium; a shape at the end of a hospital corridor."
+    },
+    {
+     "name": "Tape tracking damage",
+     "does": "A tear is a cut the universe made; same framing after, but the clock jumped, the battery drained, a light died.",
+     "fits": "a night-watch log; a lost weekend in a mall; a house that ages between tapes."
+    },
+    {
+     "name": "The OSD is plot",
+     "does": "REC, battery, date and time code are evidence.",
+     "fits": "an alibi; a countdown; a dated inspection."
+    },
+    {
+     "name": "Rules as text in frame",
+     "does": "Notices and PA announcements start ordinary, drift wrong, contradict each other, and finally address the viewer.",
+     "fits": "a pool's safety rules; a school fire drill; a museum after hours."
+    },
+    {
+     "name": "Emptiness and repetition",
+     "does": "The same notice in a different place; the same room with one detail changed; a corridor into fog.",
+     "fits": "a moving-day walkthrough; an airport at 4 a.m.; an office after layoffs."
+    },
+    {
+     "name": "The thing that is almost human",
+     "does": "A distant silhouette wrong by 15–40 % (small head, long neck, narrow high shoulders, long arms), drawn as organic curves on a billboard, moving slowly.",
+     "fits": "a mannequin that is not; a night guard; a reflection that lags."
+    }
+   ]
+  },
+  "score": {
+   "genre": "none",
+   "note": "no score: music only inside the world (hold music, PA jingle), filtered"
+  }
+ }
+}

@@ -1,0 +1,187 @@
+{
+ "slug": "silent-film",
+ "num": "63",
+ "en": "1920s Silent Film",
+ "cn": "1920s 默片",
+ "category_en": "Film & Tape",
+ "category_cn": "胶片录像",
+ "film": "The Runaway Loaf",
+ "film_cn": "逃跑的面包",
+ "line": "A baker's boy chases a runaway loaf downhill, then breaks it in half for a hungry girl.",
+ "line_cn": "面包店学徒追一个滚走的面包，最后掰成两半分给饿肚子的小女孩。",
+ "uses": [
+  "Comedy",
+  "Retro brands",
+  "Silent storytelling"
+ ],
+ "frame_sec": 39.02,
+ "dur": 54.2,
+ "source": "lemo-opuscar",
+ "lemo_slug": "silent-film",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "1920'ler Sessiz Film",
+ "category_tr": "Film & Kaset",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "DESIGNED/RISER",
+    "query": "swelling"
+   },
+   {
+    "role": "AMBIENCE",
+    "query": "ambience"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "click"
+   }
+  ],
+  "motion": {
+   "cuts": "slide / whip pan, period grammar",
+   "rig": "editorial",
+   "move_frames": [
+    8,
+    12
+   ],
+   "ease": "accelExit",
+   "reveal": "focus",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "hot-jazz",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Locked-off extreme wide",
+     "expresses": "cause and effect seen whole; the wait is the joke",
+     "serves": "a mechanical gag; a crowd; an elaborate process"
+    },
+    {
+     "move": "Locked full shot",
+     "expresses": "the premise in one frame",
+     "serves": "a character's routine; a confrontation"
+    },
+    {
+     "move": "Tracking shot with foreground passing",
+     "expresses": "pursuit; momentum",
+     "serves": "a chase; a race; a delivery against the clock"
+    },
+    {
+     "move": "Iris in / out",
+     "expresses": "attention on one thing; a beginning or end of a thought",
+     "serves": "an object; a face; a memory"
+    },
+    {
+     "move": "Half-open iris, held",
+     "expresses": "a character sharing a look with the audience",
+     "serves": "a wink; a secret; complicity"
+    },
+    {
+     "move": "Slow motivated push-in",
+     "expresses": "tenderness; realisation",
+     "serves": "a kneel; a letter read; a decision"
+    },
+    {
+     "move": "Masked shot (keyhole, binoculars)",
+     "expresses": "point of view; spying",
+     "serves": "a detective; curiosity; romance"
+    },
+    {
+     "move": "Split screen / double exposure",
+     "expresses": "trickery; dream; two places at once",
+     "serves": "a phone call; a ghost; a daydream"
+    }
+   ],
+   "transitions": [
+    "Transitions: iris, fade to black, straight cuts, the curtain.",
+    "No dissolves between shots of the same scene, no modern whip pans."
+   ],
+   "labels": [
+    "The intertitles are the subtitles; the .srt lists their text. A card holds 2.5–3.75 s (≥ max(1.8 s, reading time + 0.6 s)).",
+    "A black painted card with a deco border whose ornament follows the emotion: one heavy rule for a shout (the text shakes), a double rule with stepped corners and fans for narration, vines and small flowers for tenderness.",
+    "Period faces (OFL): a small-caps display serif (e.g. Playfair Display SC) for titles and shouts, an italic old-style serif (e.g. Old Standard TT Italic) for narration and dialogue.",
+    "A few words per card; three to five cards in a short film. A card never explains what the picture already shows."
+   ],
+   "motion": [
+    "Hand-cranked sampling: character and camera motion sampled at 16 fps (18 or more to undercrank a fast scene); flicker, weave, grain and scratches change every output frame (24 fps). That mix makes it look projected rather than merely low-frame-rate.",
+    "Speed is an emotion: undercrank chases and panic (faster motion, faster flicker); return to 16 fps and a calmer print for tender scenes.",
+    "Deadpan performance: the face barely changes; the body acts (crouch before effort, held poses, the two-frame snap of a double take, hands on knees). Objects act too (a wobble before a fall, a ritardando to rest).",
+    "Keyframed, eased poses; only deliberate gags snap."
+   ],
+   "native_moves": [
+    {
+     "name": "The chain in one take",
+     "does": "A triggers B, B leaves the frame, the audience waits, B returns and hits C.",
+     "fits": "a supply chain gone wrong; how a rumour spreads; a Rube Goldberg invention."
+    },
+    {
+     "name": "The near-miss",
+     "does": "A hand closes exactly where the object was a frame ago.",
+     "fits": "catching a bus; a startup missing a deal; a goalkeeper."
+    },
+    {
+     "name": "The intertitle twist",
+     "does": "A card reframes the next shot in a few words.",
+     "fits": "\"Meanwhile, in the lab…\"; \"The machine had other ideas.\"; a statistic as a punchline."
+    },
+    {
+     "name": "Undercranked chaos",
+     "does": "Speed and damage rise together.",
+     "fits": "rush hour; a kitchen at dinner service; a stock crash."
+    },
+    {
+     "name": "Iris on the look",
+     "does": "An iris stops half-way so a character can glance at the audience.",
+     "fits": "a product winking; a cat that knows; a scientist's secret."
+    },
+    {
+     "name": "Redrawn footage",
+     "does": "Real video pushed through the ink pass becomes a period drawing.",
+     "fits": "a company's archive; a family film; a sports clip."
+    },
+    {
+     "name": "The echo gesture",
+     "does": "A gesture from the start repeated by someone else with a new meaning.",
+     "fits": "a teacher and a pupil; a handover; a tradition."
+    }
+   ]
+  },
+  "score": {
+   "genre": "hot-jazz",
+   "space": "tape",
+   "bpm": 120,
+   "pad": "upright",
+   "lead": "upright",
+   "bass": "upright",
+   "pulse": null,
+   "drums": "none",
+   "note": "an upright piano plays every event: stride left hand, mood sections",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "upright",
+      "gm": 32
+     },
+     "pad": {
+      "voice": "upright",
+      "gm": 32
+     },
+     "bass": {
+      "voice": "upright",
+      "gm": 32
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

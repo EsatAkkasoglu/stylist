@@ -1,0 +1,198 @@
+{
+ "slug": "visual-investigation",
+ "num": "05",
+ "en": "Visual Investigation",
+ "cn": "视觉调查",
+ "category_en": "Edit & Documentary",
+ "category_cn": "剪辑纪实",
+ "film": "The Hindenburg: Four Minutes, 32 Seconds",
+ "film_cn": "兴登堡号：四分钟与三十二秒",
+ "line": "Newsreel, photos, testimony and the 1937 inquiry on one clock: five sources point to the same spot.",
+ "line_cn": "新闻片、照片、证词和调查报告排上同一条时间轴，五路来源指向一处。",
+ "uses": [
+  "Reconstructions",
+  "Fact-checks",
+  "Incident reports"
+ ],
+ "frame_sec": 3.8,
+ "dur": 60.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "visual-investigation",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Görsel Soruşturma",
+ "category_tr": "Kurgu & Belgesel",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "AMBIENCE",
+    "query": "room"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "tick"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   },
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "shutter"
+   }
+  ],
+  "motion": {
+   "cuts": "camera-led cuts: slide or push-through on motion",
+   "rig": "editorial",
+   "move_frames": [
+    6,
+    10
+   ],
+   "ease": "accelExit",
+   "reveal": "wipe",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "cinematic-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Hard cut on the beat",
+     "expresses": "pace, one fact per shot",
+     "serves": "a list; a sequence of facts"
+    },
+    {
+     "move": "Slow push in on a detail",
+     "expresses": "attention, the thing that matters",
+     "serves": "a key number; a mechanism; the moment of change"
+    },
+    {
+     "move": "Pan and scan across material",
+     "expresses": "reading a document or a scene",
+     "serves": "evidence; a process in stages"
+    },
+    {
+     "move": "Split screen",
+     "expresses": "comparison, two states at once",
+     "serves": "before/after; cause and effect"
+    },
+    {
+     "move": "Match cut on shape",
+     "expresses": "continuity of an idea",
+     "serves": "a transformation; from one step to the next"
+    },
+    {
+     "move": "Pull back to the whole",
+     "expresses": "context, scale, the verdict",
+     "serves": "an ending; the result"
+    }
+   ],
+   "transitions": [
+    "camera-led cuts: slide or push-through on motion."
+   ],
+   "labels": [
+    "Chinese headings and findings: Noto Sans SC 700 (30–124 px). Tags, timecodes and ticks: IBM Plex Mono 400/600. Quotes: Source Serif 4 Italic for the original wording, Noto Serif SC 500 for a translation underneath in the secondary colour (only when the subtitles don't already say it). All OFL, subset to the words on screen.",
+    "Few words per frame. Each frame keeps only what this beat needs: the main readout or heading, the quoted original (the highlighted line), and one short source tag per piece of evidence. No eyebrow labels, no English twin under every Chinese label, no archive numbers, dates or \"estimate / schematic / not to scale\" footnotes unless the beat is about them, nothing the subtitle is saying at the same moment.",
+    "Source tag: a 6×12 chip + type · source in mono, ≤ about 12 characters (照片 · Pasquarella, FBI 电传 · 1937-05-08), sitting just above its frame. Full credits go on the end card, not on the panels.",
+    "Lower third: a red bar + place name (36 px bold) + one mono line (place code)."
+   ],
+   "motion": [
+    "30 fps. Elements cut in (≤ 0.1 s opacity) with a 3–4-frame white flash, as if pulled from the evidence locker; nothing flies, bounces or scale-pops.",
+    "Only things that are drawn are progressive: circles drawn clockwise in 0.5 s (ease-out cubic), leaders and links 0.4–0.8 s, plans stroke by stroke, highlights wiped, typewriter text for telegrams.",
+    "Inside a frame: a slow push (≤ 1.9× on a map, ≤ 1.06× on a photo) is allowed; the \"camera\" itself never moves. Layouts change on cuts.",
+    "The event clock (chart playhead, stopwatch) eases between keyframes and moves at constant speed inside a timed run (each tick = one real second)."
+   ],
+   "native_moves": [
+    {
+     "name": "Freeze, circle, magnify",
+     "does": "Freeze a frame with a white flash; draw a 2.5 px red circle clockwise; at 60 % a leader and a bold label appear; a ×2 loupe opens beside it, cropped from the same source pixels (never beyond 1 source px per screen px). Fits: a licence plate in CCTV; a crack in a weld.",
+     "fits": ""
+    },
+    {
+     "name": "Hard sync point",
+     "does": "Pick one instant every source can recognise (impact, flash, a public clock, a gunshot peak) and align each source to it. A source that starts late just appears late; if the gap matters, say it in the voice or a subtitle. Fits: which phone started filming first; when the launch camera lost the vehicle.",
+     "fits": ""
+    },
+    {
+     "name": "Three-column sync grid",
+     "does": "Document / photo / video side by side under one big stopwatch; each column cuts in (white flash) at the moment its source begins, so the grid fills left to right as the clock runs; freeze on the sync point with a red dashed line across the pictures. Fits: two dashcams and a police log.",
+     "fits": ""
+    },
+    {
+     "name": "Readouts change scale",
+     "does": "The time readout changes form at each section cut — card timestamps and a chart playhead (minutes), a T+ stopwatch (seconds), dates (days) — as the story narrows or widens. Optional: a bottom timeline band with tracks per source kind, only for a film that stays on one clock throughout; keep it free of labels and drop it when the clock stops. Fits: a market crash from the week to the minute.",
+     "fits": ""
+    },
+    {
+     "name": "Rewind cold open",
+     "does": "Start on the decisive frozen frame, slam the other sources into a grid, sweep a sync line, then rewind (footage playing backwards, scan lines) to the start. Fits: any reconstruction.",
+     "fits": ""
+    },
+    {
+     "name": "Telegrams on the clock",
+     "does": "Typeset radiograms / messages land at their timestamps with Morse and keystrokes; red dashed leaders tie each card to a pin at its time on the data chart's axis. Fits: chat logs, ATC calls, emails.",
+     "fits": ""
+    },
+    {
+     "name": "Data chart with a playhead",
+     "does": "A chart (wind, speed, temperature) across the lower part of the frame with a time axis, event bands (storm, outage) labelled with one word, the message pins, and a red playhead carrying the clock. Fits: power-grid load before a blackout.",
+     "fits": ""
+    },
+    {
+     "name": "Map → plan",
+     "does": "A real survey map pushes in to the site, then cuts to a measured plan with the subject's position, a bearing, a distance ring, a camera point and an inferred view cone; the map stays as a locator inset. Fits: where each witness stood.",
+     "fits": ""
+    },
+    {
+     "name": "Evidence → model links",
+     "does": "Every circle in every source sends a red dashed link to the same zone of one schematic; ✓ badges land 0.12 s apart with small mallet notes. Fits: which room a fire started in.",
+     "fits": ""
+    },
+    {
+     "name": "Then vs. record",
+     "does": "Play a period claim as original sound, then a fact-check card; strike through the wrong words in the claim. Fits: a press release against the filed numbers.",
+     "fits": ""
+    }
+   ]
+  },
+  "score": {
+   "genre": "cinematic-pulse",
+   "pad": "pad",
+   "lead": "sinebell",
+   "note": "investigation bed: pulse, low pad, a bell for each freeze",
+   "render": {
+    "engine": "synth",
+    "space": "neon",
+    "band": {
+     "lead": {
+      "voice": "sinebell",
+      "patch": "Plucks/Bell 1"
+     },
+     "pad": {
+      "voice": "pad",
+      "patch": "Polysynths/Juno-60 Strings"
+     },
+     "pulse": {
+      "voice": "saw",
+      "patch": "Leads/Moogy Saw"
+     },
+     "bass": {
+      "voice": "synthbass",
+      "patch": "Basses/Bass 1"
+     }
+    },
+    "drums": {
+     "kick": "Percussion/Kick Tech 1",
+     "snare": "Percussion/Snare Tight",
+     "tom": "Percussion/Synth Tom 1"
+    }
+   }
+  }
+ }
+}

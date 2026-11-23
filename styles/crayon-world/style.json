@@ -1,0 +1,189 @@
+{
+ "slug": "crayon-world",
+ "num": "85",
+ "en": "Crayon World 3D",
+ "cn": "蜡笔立体世界",
+ "category_en": "3D & Miniature",
+ "category_cn": "立体微缩",
+ "film": "The Butterfly",
+ "film_cn": "蝴蝶",
+ "line": "A first-person flight over a crayon village to one flower in an old man's garden; then his eyes, and what he says.",
+ "line_cn": "第一人称飞过蜡笔画的村子，落在老人花园里的一朵花上；最后换成他的眼睛，和他说的一句话。",
+ "uses": [
+  "Short stories",
+  "Tributes",
+  "Journeys"
+ ],
+ "frame_sec": 32.5,
+ "dur": 64.5,
+ "by": {
+  "name": "2nd1st",
+  "url": "https://github.com/2nd1st"
+ },
+ "source": "lemo-opuscar",
+ "lemo_slug": "crayon-world",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "3D Pastel Boya Dünyası",
+ "category_tr": "3D & Minyatür",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "metal-toothed"
+   },
+   {
+    "role": "AMBIENCE",
+    "query": "birds"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "crayon-scratch"
+   }
+  ],
+  "motion": {
+   "cuts": "camera moves through one set",
+   "rig": "calm",
+   "move_frames": [
+    12,
+    18
+   ],
+   "ease": "softLand",
+   "reveal": "rise",
+   "mblur": true
+  },
+  "three_d": "A+B",
+  "music": "folk-acoustic",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "First person, gaze leads",
+     "expresses": "We are someone; what they look at is what matters",
+     "serves": "a memory; a visit; a stranger arriving"
+    },
+    {
+     "move": "Gaze follows a moving person with a lag",
+     "expresses": "Watching, not tracking",
+     "serves": "longing; shyness; a child watching a parent"
+    },
+    {
+     "move": "A low skim over a surface (wheat, water, roofs)",
+     "expresses": "Speed and freedom",
+     "serves": "a journey; a return home; a chase"
+    },
+    {
+     "move": "Rising over a place",
+     "expresses": "Leaving, or seeing it whole",
+     "serves": "a farewell; a map of a life; an ending"
+    },
+    {
+     "move": "Riding something that sways (a flower, a boat, a branch)",
+     "expresses": "Being small and alive in the wind",
+     "serves": "waking; waiting; a rest"
+    },
+    {
+     "move": "Hard cut to another person's eyes",
+     "expresses": "The other side of the same moment",
+     "serves": "a reveal of who the camera was; a reply"
+    },
+    {
+     "move": "Narrow field of view, held",
+     "expresses": "Staring at one thing",
+     "serves": "recognition; grief; a decision"
+    }
+   ],
+   "transitions": [
+    "Transitions are cuts or camera moves;",
+    "never a dissolve, never a 3D-looking whip with motion blur."
+   ],
+   "labels": [
+    "Words are printed on the page: a handwriting face in the outline colour, written in a character at a time, sitting on blank paper. Never a speech bubble, a box or a plate.",
+    "Blank paper is made: leave part of the picture uncoloured (only a strip of sky) and put the words there, clear of what the eye follows. Thin the colour out just before the words arrive; blank paper held empty reads as a mistake.",
+    "Bilingual: the Chinese line, then the English line a size smaller underneath, written in after it. Example faces (OFL): Long Cang for Chinese at 110–140 px, Patrick Hand for Latin at 50–64 px.",
+    "A wordless film is native; a narrated one prints its lines the same way, at the bottom of the frame, on a paper patch the scene leaves free."
+   ],
+   "motion": [
+    "Drawings step at 12 per second; the film is rendered at 24 fps (each drawing held for two frames).",
+    "No boil on still things: an object keeps its strokes from drawing to drawing while it doesn't move; it changes only because the camera or the object moves.",
+    "Camera paths are smooth splines in time (continuous velocity), starting and ending at rest. Gaze is smoothed as a direction, with a lag, never as a look-at point.",
+    "Living things move in a child's way: two key drawings for a repeated action (wings, steps), simple poses, held."
+   ],
+   "native_moves": [
+    {
+     "name": "The camera is someone, never shown",
+     "does": "The viewer learns who from what the world does around them.",
+     "fits": "a pet coming home; a returning soldier's walk through a town; a seed carried by the wind."
+    },
+    {
+     "name": "Cut to the other's eyes",
+     "does": "The last shot swaps point of view and shows, small, what the first person was.",
+     "fits": "a parent seeing their child leave; a lighthouse keeper seeing the boat; a teacher seeing a former pupil."
+    },
+    {
+     "name": "Passing, not pointing",
+     "does": "Clues are flown past at the speed of the shot, never stopped at.",
+     "fits": "a house's history in its objects; a company's first office; an old route to school."
+    },
+    {
+     "name": "Blank paper for words",
+     "does": "Colour only part of the world and print the line where the crayon stops.",
+     "fits": "a dedication; a line of a letter; the name of a place."
+    },
+    {
+     "name": "Wind",
+     "does": "Sway, drift and flapping keep held frames alive without a cut.",
+     "fits": "a field at dawn; a waiting room by an open window; a harbour."
+    }
+   ]
+  },
+  "score": {
+   "genre": "folk-acoustic",
+   "pad": "pluck:nylon_guitar",
+   "lead": "recorder",
+   "counter": "clarinet",
+   "sparkle": "pluck:music_box",
+   "bass": "bassoon_stac",
+   "drums": "none",
+   "avoid": [
+    "violins",
+    "cellos",
+    "violas",
+    "piano"
+   ],
+   "note": "music box, nylon guitar, recorder as the singing voice",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "recorder",
+      "gm": 74
+     },
+     "counter": {
+      "voice": "clarinet",
+      "gm": 71
+     },
+     "pad": {
+      "voice": "pluck:nylon_guitar",
+      "gm": 24
+     },
+     "bass": {
+      "voice": "bassoon_stac",
+      "gm": 70
+     },
+     "sparkle": {
+      "voice": "pluck:music_box",
+      "gm": 10
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

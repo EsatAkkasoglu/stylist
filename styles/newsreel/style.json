@@ -1,0 +1,204 @@
+{
+ "slug": "newsreel",
+ "num": "02",
+ "en": "1920s Newsreel",
+ "cn": "1920s 新闻影片",
+ "category_en": "Edit & Documentary",
+ "category_cn": "剪辑纪实",
+ "film": "Knock-Knee Alert",
+ "film_cn": "膝盖警报",
+ "line": "1926: the papers say the Charleston will ruin America's knees; at Ford's own picnic the kids dance it anyway.",
+ "line_cn": "1926 年报纸说查尔斯顿会跳坏膝盖，福特工人野餐会上的孩子照跳不误。",
+ "uses": [
+  "History stories",
+  "Fads & eras",
+  "Anniversaries"
+ ],
+ "frame_sec": 8.19,
+ "dur": 54.6,
+ "source": "lemo-opuscar",
+ "lemo_slug": "newsreel",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "1920'ler Haber Filmi",
+ "category_tr": "Kurgu & Belgesel",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "UI/CLICK",
+    "query": "click"
+   },
+   {
+    "role": "WHOOSH/SWISH",
+    "query": "whoosh"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "thump"
+   }
+  ],
+  "motion": {
+   "cuts": "camera-led cuts: slide or push-through on motion",
+   "rig": "editorial",
+   "move_frames": [
+    6,
+    10
+   ],
+   "ease": "accelExit",
+   "reveal": "wipe",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "hot-jazz",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Spin-and-slam",
+     "expresses": "the paper arrives as news",
+     "serves": "a headline; a telegram; a poster"
+    },
+    {
+     "move": "Slow push then punch-in on a beat",
+     "expresses": "from the whole page to the one detail",
+     "serves": "a headline → a photo in it"
+    },
+    {
+     "move": "Pan across a wide print",
+     "expresses": "a crowd, a parade, a skyline",
+     "serves": "panoramas, group photos"
+    },
+    {
+     "move": "Tilt to reveal",
+     "expresses": "the landmark behind the subject",
+     "serves": "a building, a monument"
+    },
+    {
+     "move": "Map push",
+     "expresses": "from the country to one city, into the next story",
+     "serves": "travel, spread, campaigns"
+    },
+    {
+     "move": "Grid deal",
+     "expresses": "many related stills land one per beat",
+     "serves": "step-by-step, collections, \"all of them\""
+    },
+    {
+     "move": "Flip-book",
+     "expresses": "a series of stills played on the beat becomes motion",
+     "serves": "dance steps, assembly stages, before/after"
+    },
+    {
+     "move": "Freeze + jolt",
+     "expresses": "stop the archive on the telling frame",
+     "serves": "the punchline, the evidence"
+    },
+    {
+     "move": "Split / quad",
+     "expresses": "two or four places at once, side by side",
+     "serves": "comparisons, \"everybody's doing it\""
+    }
+   ],
+   "transitions": [
+    "camera-led cuts: slide or push-through on motion."
+   ],
+   "labels": [
+    "Place card (the newsreel's segment title, instead of full-screen cards for every story): top left of the gate (gate x + 48, y 56), dark box with an inset 2 px cream frame, English \"PLACE · DATE\" over one Chinese line; it is pulled out left to right in 0.22 s and fades 0.15 s before it leaves. Hold ≥ CJK ÷ 4.5 + Latin ÷ 15 + 1.5 s from the moment it is complete (readcheck.mjs), so keep both lines short.",
+    "Item title card (one per film at most, to turn to a new story): black, a double Art Deco frame drawn in 0.35 s with quarter-fan corners, Limelight line + Chinese line, slow push; ≥ 2.5 s.",
+    "Labels inside split screens: one per panel, top centre, same box style, enter one beat apart.",
+    "Subtitle strip: the subtitles sit on a dark strip across the bottom of the gate (180 px, transparent at the top edge, ≈ 93–96 % #0a0908 below), on every shot, fading in 0.25 s before the first cue of a run and held through gaps under 1 s, so it never blinks; print and pale footage would otherwise swallow the letters (subBand())."
+   ],
+   "motion": [],
+   "native_moves": [
+    {
+     "name": "The ident ritual",
+     "does": "Searchlights snap on with a flash in the first 0.2 s, the globe grows and turns, the name lands with overshoot, the iris closes on the globe. Code: sceneLogo() — sunburst(), beams(), globe(), decoTitle(). Fits: the opening of any news-shaped film; the reprise is the sign-off.",
+     "fits": ""
+    },
+    {
+     "name": "The spinning paper",
+     "does": "Grows by u^2.3, rotation decays by (1−u)^1.25 over 2.5 turns, three ghost copies 18 ms apart as motion blur, a vertical jolt (damped sine, 16 px) and a 3 % bounce on the slam, then push and punch in on the next beat. Fits: a headline, a decree, a press release.",
+     "fits": ""
+    },
+    {
+     "name": "The map spread",
+     "does": "A projected outline (Natural Earth, Albers; maps follow DIRECTOR.md §13), dotted arcs from the source city drawn on the beat with telegraph clicks, star pulses on arrival, place labels in screen space, an odometer of years in a corner; push into the city of the next story. Fits: a craze, a product launch, a migration, a campaign.",
+     "fits": ""
+    },
+    {
+     "name": "Grid deal → flip-book",
+     "does": "Stills land one per beat (shutter click each), then the camera dives into the first cell and the series plays on the beat as stop motion. Fits: a how-to, the stages of a process, a collection.",
+     "fits": ""
+    },
+    {
+     "name": "Document underline",
+     "does": "Slam a book or letter, turn the page, push to the paragraph, draw soft-lead underlines word-exact (positions from the scan's OCR boxes, e.g. archive.org hOCR). Fits: a quote, a rule, a contract clause.",
+     "fits": ""
+    },
+    {
+     "name": "Grease-pencil freeze",
+     "does": "Freeze the telling frame, jolt it, ring the detail with a hand-drawn loop (pencil() + ring()), add an arrow. Fits: the evidence, the punchline, \"look here\".",
+     "fits": ""
+    },
+    {
+     "name": "Split-screen duel → push-over",
+     "does": "Two panels slide in, each labelled, each with its own music in its own channel trading bars; the winner pushes the loser out of frame. Fits: old vs new, rival products, two cities.",
+     "fits": ""
+    },
+    {
+     "name": "Needle drop",
+     "does": "The band cuts dead, a 78 spins in the corner, the period record plays under the archive and ends on its own chord at the freeze. Fits: any era that has public-domain recordings.",
+     "fits": ""
+    },
+    {
+     "name": "Band stop + button",
+     "does": "One stab, silence with only the projector, one short line from the announcer. Fits: the last word of any story.",
+     "fits": ""
+    }
+   ]
+  },
+  "score": {
+   "genre": "hot-jazz",
+   "space": "speaker",
+   "pulse": "pluck:banjo",
+   "counter": "clarinet",
+   "note": "tuba on 1 and 3, banjo four to the bar, muted then open trumpet",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "trumpet",
+      "gm": 56
+     },
+     "counter": {
+      "voice": "clarinet",
+      "gm": 71
+     },
+     "pad": {
+      "voice": "honky_tonk",
+      "gm": 3
+     },
+     "pulse": {
+      "voice": "pluck:banjo",
+      "gm": 105
+     },
+     "bass": {
+      "voice": "tuba_stac",
+      "gm": 58
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

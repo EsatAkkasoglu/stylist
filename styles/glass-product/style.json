@@ -1,0 +1,212 @@
+{
+ "slug": "glass-product",
+ "num": "82",
+ "en": "Glass Product Render",
+ "cn": "玻璃质感产品",
+ "category_en": "3D & Miniature",
+ "category_cn": "立体微缩",
+ "film": "Aura — Hear the Light",
+ "film_cn": "Aura：听见光",
+ "line": "Unboxing and close-ups of Aura, fictional glass earbuds, in strip-light sweeps and caustics.",
+ "line_cn": "虚构玻璃耳机 Aura 的开箱与特写。",
+ "uses": [
+  "Product launches",
+  "Consumer tech",
+  "Beauty"
+ ],
+ "frame_sec": 19.2,
+ "dur": 32.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "glass-product",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Cam Ürün Render",
+ "category_tr": "3D & Minyatür",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "bells"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "tick"
+   },
+   {
+    "role": "DESIGNED/RISER",
+    "query": "drone"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "hit"
+   }
+  ],
+  "motion": {
+   "cuts": "camera moves through one set",
+   "rig": "calm",
+   "move_frames": [
+    12,
+    18
+   ],
+   "ease": "softLand",
+   "reveal": "rise",
+   "mblur": true
+  },
+  "three_d": "A+B",
+  "music": "future-pop",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Sweep over a dark object, slow push",
+     "expresses": "Contour before content",
+     "serves": "an unknown thing; a before-state"
+    },
+    {
+     "move": "Slow high 3/4 orbit",
+     "expresses": "The whole object in one move",
+     "serves": "a mechanism opening; variants"
+    },
+    {
+     "move": "Macro, rack focus surface → part inside",
+     "expresses": "Nothing to hide",
+     "serves": "an ingredient; a sensor"
+    },
+    {
+     "move": "Side macro orbit",
+     "expresses": "Material contrast",
+     "serves": "layers; a seam"
+    },
+    {
+     "move": "Exploded view, axis ~40° to view, orbit",
+     "expresses": "Technical beauty, suspension",
+     "serves": "architecture; a pause before a turn"
+    },
+    {
+     "move": "Straight-on front, slight push",
+     "expresses": "Declaration",
+     "serves": "a single number; a name"
+    },
+    {
+     "move": "Top-down macro",
+     "expresses": "A pattern at full size",
+     "serves": "channels; a circuit"
+    },
+    {
+     "move": "Top-down on the floor",
+     "expresses": "The effect leaving the object",
+     "serves": "range; spreading energy"
+    },
+    {
+     "move": "Low orbit under the object",
+     "expresses": "Monument, weight",
+     "serves": "durability; a flagship"
+    },
+    {
+     "move": "Slow pull-back into negative space",
+     "expresses": "Room for type",
+     "serves": "a claim; a question"
+    }
+   ],
+   "transitions": [
+    "Cut only on beats (bar lines where possible).",
+    "Transitions are cuts on the beat or a sweep passing through black;",
+    "never dissolves or wipes."
+   ],
+   "labels": [
+    "Subtitles are a slab of frosted glass: a centred rounded bar filled with the live frame blurred (filter: blur() brightness() on the WebGL canvas, preserveDrawingBuffer: true), a little cool white, a thin highlight stroke and an accent line on top. A licence-free grotesk (e.g. Inter Tight), light weight, ~36–44 px, near-white. Hold ≥ max(1.8 s, speech + 0.6 s).",
+    "Titles: the same grotesk at an ultra-thin weight (200), very large (100–140 px) with very wide tracking, centred in the upper third; a diagonal glint sweeps across the letters in sync with the sweep light on the object. Small tracked caps (18–20 px) for kickers and credits.",
+    "The product name and slogan are title cards, not subtitle lines."
+   ],
+   "motion": [
+    "Everything moves on ones (24 fps), eased: ease-in-out for camera orbits, ease-out for parts decelerating into a float, ease-in for a snap back.",
+    "The camera always drifts: slow orbits or push-ins; never a locked-off frame, never handheld, except a couple of frames of micro-shake on an impact.",
+    "Exploded view: parts spread along the axis (~2× product size), each with a small deterministic tilt and a spin proportional to its offset; long ease-out apart → short drifting hover → very short ease-in snap on a downbeat.",
+    "Objects lift out of cradles tilted toward camera and settle upright; lids hinge at the back and stand behind the object as a backlit halo."
+   ],
+   "native_moves": [
+    {
+     "name": "Transparency",
+     "does": "The inside is the hero; rack focus from the shell to the part within.",
+     "fits": "a juicer's blades; a watch movement; a supplement capsule's layers."
+    },
+    {
+     "name": "Lensing",
+     "does": "A thick glass dome magnifies and bends what is behind it; macro through it feels like looking into a jewel.",
+     "fits": "a camera module; a magnifying tool; a water filter."
+    },
+    {
+     "name": "Dispersion",
+     "does": "A sweep crossing a thick edge becomes a moving spectrum.",
+     "fits": "a prism lamp; a display's colour range; a skincare bottle."
+    },
+    {
+     "name": "Light that travels inside",
+     "does": "Energy (charge, data, heat, sound) runs as light through channels.",
+     "fits": "a battery filling; a router's data threads; a kettle heating."
+    },
+    {
+     "name": "Caustics",
+     "does": "An internal pulse becomes a ring spreading over the floor.",
+     "fits": "a speaker's range; a perfume's trail; a wireless charger's field."
+    },
+    {
+     "name": "Exploded view and snap",
+     "does": "Parts float apart and snap back on a downbeat.",
+     "fits": "a modular backpack; a pen's refill system; a repairable phone."
+    },
+    {
+     "name": "Frost to clear",
+     "does": "A frosted shell clears (roughness and tint animate to zero) and the inside appears.",
+     "fits": "a privacy feature; a fridge's contents; an honest price breakdown."
+    }
+   ]
+  },
+  "score": {
+   "genre": "future-pop",
+   "pad": "pad",
+   "lead": "sinebell",
+   "sparkle": "glass",
+   "bass": "synthbass",
+   "drums": "machine",
+   "avoid": [
+    "piano",
+    "violins",
+    "cellos"
+   ],
+   "note": "minimal electronic, never piano-and-strings: glass bells, sub, soft kicks",
+   "render": {
+    "engine": "synth",
+    "space": "neon",
+    "band": {
+     "lead": {
+      "voice": "sinebell",
+      "patch": "Plucks/Bell 1"
+     },
+     "pad": {
+      "voice": "pad",
+      "patch": "Polysynths/Juno-60 Strings"
+     },
+     "bass": {
+      "voice": "synthbass",
+      "patch": "Basses/Bass 1"
+     },
+     "sparkle": {
+      "voice": "glass",
+      "patch": "Pads/Sparkly"
+     }
+    },
+    "drums": {
+     "kick": "Percussion/Kick Tech 1",
+     "snare": "Percussion/Snare Tight",
+     "tom": "Percussion/Synth Tom 1"
+    }
+   }
+  }
+ }
+}

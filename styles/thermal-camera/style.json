@@ -1,0 +1,181 @@
+{
+ "slug": "thermal-camera",
+ "num": "93",
+ "en": "Thermal Camera",
+ "cn": "热成像",
+ "category_en": "Instruments & Evidence",
+ "category_cn": "仪器实证",
+ "film": "A Building on a Winter Night",
+ "film_cn": "冬夜，一栋楼的体温",
+ "line": "A thermal camera circles an old apartment block on a snowy night: a leaking window, pipes inside the walls, a cat asleep on a warm bonnet, and the same block a year after its retrofit.",
+ "line_cn": "雪夜里，一台热像仪绕着一栋老居民楼转：漏风的窗、墙里的暖气管、睡在热车盖上的猫，还有一年后改造完的同一栋楼。",
+ "uses": [
+  "Building and energy inspection",
+  "Wildlife at night",
+  "Machines and electrics"
+ ],
+ "frame_sec": 1.3,
+ "dur": 49.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "thermal-camera",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Termal Kamera",
+ "category_tr": "Cihaz & Kanıt",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "DESIGNED/ALERT",
+    "query": "beep"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "ticks"
+   },
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "mechanical"
+   },
+   {
+    "role": "AMBIENCE",
+    "query": "wind"
+   }
+  ],
+  "motion": {
+   "cuts": "instrument sweeps, slide between readings",
+   "rig": "editorial",
+   "move_frames": [
+    10,
+    16
+   ],
+   "ease": "softLand",
+   "reveal": "wipe",
+   "mblur": true
+  },
+  "three_d": "A",
+  "music": "drone-sparse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Scan line across a locked or slowly pushing frame",
+     "expresses": "the invisible becomes visible",
+     "serves": "an opening; a reveal; a return to the ordinary picture"
+    },
+    {
+     "move": "Fixed split with the camera trucking past",
+     "expresses": "what the eye sees vs what the camera sees, side by side",
+     "serves": "hidden structure in walls, machines, bodies"
+    },
+    {
+     "move": "Zoom / push onto one reading",
+     "expresses": "inspection, suspicion",
+     "serves": "a defect; the hottest point; a single number"
+    },
+    {
+     "move": "Crane or tilt over an edge",
+     "expresses": "survey, extent",
+     "serves": "roofs, fields, an assembly line from above"
+    },
+    {
+     "move": "Low push onto a living thing",
+     "expresses": "warmth, life",
+     "serves": "an animal, a person's hands, a sleeping child (if people are allowed)"
+    },
+    {
+     "move": "Locked twin frame (same scale)",
+     "expresses": "judgement",
+     "serves": "before/after; this vs that; good vs faulty"
+    }
+   ],
+   "transitions": [
+    "Transitions: scan lines, splits, level/span changes, the shutter freeze of the detector;",
+    "cuts on beats.",
+    "No cross-dissolves between visible and thermal;",
+    "no wipes that are not a sensor action."
+   ],
+   "labels": [
+    "Roles: a monospace for readings, scale ends, time stamp and measurement names (IBM Plex Mono, 22–40 px); a sans for labels (Noto Sans SC for Chinese 24–40 px, Inter for English 20–32 px). OFL, self-hosted, CJK subset to the characters used.",
+    "Labels belong to the camera or to the world: a spot meter's value sits beside its crosshair; a label hangs on a leader line to the thing; the scale and the time stamp sit at the frame edges. No title bars, no centred captions.",
+    "Bilingual labels are two lines, one language each. Numbers keep one decimal and flicker in the last digit at the meter's refresh rate; the value registered for reading time is the measured median.",
+    "Nothing below 20 px at 1080p. Each label holds ≥ max(1.5 s, characters ÷ reading speed + 1.5 s) (CJK 4.5 chars/s, Latin 15 chars/s), measured from the moment it is fully on screen."
+   ],
+   "motion": [
+    "30 fps; sensor noise is new every frame, meter readouts refresh at ~6 Hz, overlays snap in with a short ease (crosshairs collapse onto their point, numbers roll up from the ambient value and land).",
+    "Heat moves the way heat moves: plumes rise and waver, breath and turbulence flicker, cooling is slow. Bodies breathe.",
+    "A scan line travels at a steady, mechanical pace (1–3 s across the frame) with a thin white edge and a faint warm glow on the thermal side.",
+    "Never moves: the scale bar and time stamp positions; a locked comparison frame."
+   ],
+   "native_moves": [
+    {
+     "name": "The scan line",
+     "does": "A line crosses the frame and everything behind it turns to heat (or back).",
+     "fits": "a server room at night; a kitchen before service; a forest edge at dusk."
+    },
+    {
+     "name": "The split that travels",
+     "does": "A fixed vertical split while the camera moves: the world slides from heat into plain sight.",
+     "fits": "pipes in a floor; wiring behind a panel; blood flow under skin after exercise."
+    },
+    {
+     "name": "Level and span",
+     "does": "Narrowing the scale until faint structure appears (veins, joists, wet patches).",
+     "fits": "underfloor heating; moisture in a ceiling; a cooling solder joint."
+    },
+    {
+     "name": "Isotherm alarm",
+     "does": "Everything above a threshold turns one colour.",
+     "fits": "overheating breakers; fever screening of a crowd of animals; leaking seals on a cold-store door."
+    },
+    {
+     "name": "The hot-spot tracker jumps",
+     "does": "A max marker goes to the hottest point and leaps when something new warms up; between leaps it holds still on that point.",
+     "fits": "a phone charger on a desk; an eye opening; a bearing starting to fail."
+    },
+    {
+     "name": "Same scale, two times",
+     "does": "Before and after side by side, locked, read, judged.",
+     "fits": "a repaired roof; a fever going down; a machine after maintenance."
+    },
+    {
+     "name": "Ghosts",
+     "does": "Heat left behind where something was: a car that drove off, a hand on a table, a body on a bed.",
+     "fits": "a crime-free mystery; who sat where; how long ago."
+    }
+   ]
+  },
+  "score": {
+   "genre": "drone-sparse",
+   "pulse": "harp",
+   "note": "sparse and cold: bowed vibraphone, glass, harp, low strings; a pulse that can become a heartbeat",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "vibraphone_bowed",
+      "gm": 11
+     },
+     "pad": {
+      "voice": "cellos",
+      "gm": 42
+     },
+     "pulse": {
+      "voice": "harp",
+      "gm": 46
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

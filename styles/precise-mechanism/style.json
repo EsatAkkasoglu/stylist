@@ -1,0 +1,194 @@
+{
+ "slug": "precise-mechanism",
+ "num": "48",
+ "en": "Color-Coded Mechanism",
+ "cn": "分色机械图解",
+ "category_en": "Line Diagrams",
+ "category_cn": "线稿图解",
+ "film": "Three Systems Keep the Time",
+ "film_cn": "三套系统走时",
+ "line": "A watch with no battery is cut open: its three systems are dyed one by one, the train races when the escapement is pulled out, and one slowed tick lets it all out again.",
+ "line_cn": "剖开一块不用电的表：三套系统按能量流向逐一染色，抽走擒纵后齿轮疯转，最后放慢到 1/40 等那一声滴答。",
+ "uses": [
+  "How machines work",
+  "Product and engineering explainers",
+  "Science teaching"
+ ],
+ "frame_sec": 21.0,
+ "dur": 52.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "precise-mechanism",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Renk Kodlu Mekanizma",
+ "category_tr": "Çizgi Diyagramlar",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "mechanism"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "ticks"
+   },
+   {
+    "role": "WHOOSH/SWISH",
+    "query": "swish"
+   }
+  ],
+  "motion": {
+   "cuts": "continuous camera over one sheet",
+   "rig": "calm",
+   "move_frames": [
+    10,
+    14
+   ],
+   "ease": "softLand",
+   "reveal": "draw",
+   "mblur": true
+  },
+  "three_d": "A",
+  "music": "minimal-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "fast pull-back from a detail to the whole object",
+     "expresses": "scale, a question",
+     "serves": "an opening hook; a reveal of context"
+    },
+    {
+     "move": "slow orbit around the object",
+     "expresses": "volume, that it is real",
+     "serves": "a cut opening; an exploded stack"
+    },
+    {
+     "move": "crane down through a cut",
+     "expresses": "entering the inside",
+     "serves": "the change from outside to mechanism"
+    },
+    {
+     "move": "low tracking shot skimming over the parts",
+     "expresses": "following the force or signal",
+     "serves": "a power path; a data path; a sequence"
+    },
+    {
+     "move": "locked overhead",
+     "expresses": "reading and comparing",
+     "serves": "a ratio; a parameter; a verdict frame"
+    },
+    {
+     "move": "side view of an exploded stack",
+     "expresses": "the systems as layers",
+     "serves": "a breakdown; what happens without one layer"
+    },
+    {
+     "move": "push-in to a contact point at slow speed",
+     "expresses": "the one interaction that matters",
+     "serves": "a ratchet pawl; a latch; a valve opening"
+    },
+    {
+     "move": "big pull-out to the whole object, cut still open",
+     "expresses": "the answer seen in context",
+     "serves": "an ending; a summary"
+    }
+   ],
+   "transitions": [
+    "Transitions are made inside the object: a cut opening, a lid lifting, layers exploding or landing, a match cut on a mechanical event.",
+    "No dissolves, page turns or slides."
+   ],
+   "labels": [
+    "Roles: a neutral grotesk for titles and labels (e.g. Inter, 600–650 weight, tight tracking); a monospace in caps with wide tracking for figure lines, readings and units (e.g. IBM Plex Mono); a CJK sans for Chinese (e.g. Noto Sans SC). All OFL, self-hosted.",
+    "Three levels only. Primary: a headline (60–64 px) or the label of the part being explained (name ~30 px ink + one 18 px line). Secondary: what was already explained, name ≥ 22 px mid grey, its line greys and lingers before it goes. Tertiary: the figure line (FIG. n · …, 13 px mono grey) and small data tags.",
+    "Labels grow out of the part: a leader draws from a dot on the part, a colour dot in the system hue pops, the text slides in. Re-project every frame; when a label would cover a part, pin it to empty space and keep the leader; when the part leaves the frame, the label goes with it.",
+    "Comparisons (ratios, before/after): the number is the primary (≥ 120 px), the two ends that produce it are secondary with leaders, all held in frame ≥ 2.5 s."
+   ],
+   "motion": [
+    "24 fps on ones, smooth camera; no stepping.",
+    "Motion is driven by one master clock: a smooth speed curve (real time, a fraction of it, deep slow motion, stopped) whose integral moves everything. Speed changes never jump.",
+    "Ratios are exact: every wheel's angle comes from the driver through tooth counts; meshing stays meshed (a free-run must end on a whole number of teeth).",
+    "Stepped motion (an escapement, a ratchet, an indexing table): the stepped part advances inside a short impulse window; the oscillator is a sine through its centre at each beat."
+   ],
+   "native_moves": [
+    {
+     "name": "Dye by system",
+     "does": "A grey machine takes its colours in the order energy flows.",
+     "fits": "the power path in a drone; the signal chain in a radio; the blood route in a pump."
+    },
+    {
+     "name": "Section with hatching",
+     "does": "A wedge or plane cuts the housing; the cut faces hatch in world space.",
+     "fits": "a valve body; a camera lens barrel; a lock cylinder."
+    },
+    {
+     "name": "Explode by system, remove one layer",
+     "does": "Layers lift apart; pulling one out shows what it was doing (a motor over-revs without its governor).",
+     "fits": "a brake without its caliper; a router without its clock; a dam without its gate."
+    },
+    {
+     "name": "Follow the force",
+     "does": "A low tracking shot from source to sink while the dye travels with it.",
+     "fits": "a bicycle drivetrain; a heat path in a laptop; water through a turbine."
+    },
+    {
+     "name": "True slow motion of one contact",
+     "does": "Speed curve down to deep slow motion into a single interaction, silence, then its sound.",
+     "fits": "a shutter curtain; a ratchet pawl; a relay closing."
+    },
+    {
+     "name": "Parameter drag",
+     "does": "A control in the accent changes one input; readouts and a small curve recompute from the model (style frame 3 in demo/).",
+     "fits": "aperture vs depth of field; gear ratio vs speed; tension vs amplitude."
+    },
+    {
+     "name": "Whole object, still cut open",
+     "does": "The housing returns with the cut kept, the coloured systems running inside.",
+     "fits": "an engine in its car; a heart in its chest; a server in its rack."
+    }
+   ]
+  },
+  "score": {
+   "genre": "minimal-pulse",
+   "bpm": 120,
+   "pad": "harp",
+   "lead": "marimba",
+   "pulse": "vibraphone",
+   "sparkle": "glockenspiel",
+   "bass": "cellos_pizz",
+   "note": "plucked and struck pitched percussion; the mechanism's beat on the grid",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "marimba",
+      "gm": 12
+     },
+     "pad": {
+      "voice": "harp",
+      "gm": 46
+     },
+     "pulse": {
+      "voice": "vibraphone",
+      "gm": 11
+     },
+     "bass": {
+      "voice": "cellos_pizz",
+      "gm": 45
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

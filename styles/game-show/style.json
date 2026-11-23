@@ -1,0 +1,206 @@
+{
+ "slug": "game-show",
+ "num": "61",
+ "en": "Rhythm Game Show",
+ "cn": "节奏综艺",
+ "aka": [
+  "Game Show Flat",
+  "综艺节奏扁平"
+ ],
+ "category_en": "Games",
+ "category_cn": "电子游戏",
+ "film": "Rhythm of AI, 1997 → 2026",
+ "film_cn": "AI 进化节拍",
+ "line": "The history of AI as a rhythm game: models take the stage on the beat, and a report card closes the show.",
+ "line_cn": "把 AI 发展史做成一局节奏游戏，模型踩着拍登场，最后发成绩单。",
+ "uses": [
+  "Tech timelines",
+  "Year in review",
+  "Variety shows"
+ ],
+ "frame_sec": 74.4,
+ "dur": 148.8,
+ "source": "lemo-opuscar",
+ "lemo_slug": "game-show",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Ritim Yarışma Programı",
+ "category_tr": "Oyun",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "bell"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "stamps"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "typewriter"
+   }
+  ],
+  "motion": {
+   "cuts": "snap zoom, stepped motion",
+   "rig": "punchy",
+   "move_frames": [
+    4,
+    8
+   ],
+   "ease": "snapSettle",
+   "reveal": "draw",
+   "mblur": false
+  },
+  "three_d": "none",
+  "music": "future-pop",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Beat punch (zoom 0.8–5 % around centre, decays in ~0.16 s)",
+     "expresses": "the hit, felt in the frame",
+     "serves": "any accent; a slam; a count-in"
+    },
+    {
+     "move": "Several punches in one bar",
+     "expresses": "the frame breathing with the music",
+     "serves": "a chorus; an escalating pattern"
+    },
+    {
+     "move": "Locked frontal wide",
+     "expresses": "the whole stage as a game board",
+     "serves": "a pattern being set up; a crowd; a scoreboard"
+    },
+    {
+     "move": "Hard cut on the bar line + flash",
+     "expresses": "a new round, a new set",
+     "serves": "chapter changes; a before/after"
+    },
+    {
+     "move": "Split stage (two halves, two sets)",
+     "expresses": "two sides answering each other",
+     "serves": "a rivalry; human vs machine; old vs new"
+    },
+    {
+     "move": "Shrink to thumbnail (a finished bit scales down into a slot)",
+     "expresses": "memory, accumulation",
+     "serves": "a recap; \"and then all of this happened\""
+    },
+    {
+     "move": "Vertical scroll of the set (floor to sky)",
+     "expresses": "rising stakes or scale",
+     "serves": "a leaderboard; growth; a tower of items"
+    },
+    {
+     "move": "Snap zoom onto one prop (hard cut to a 2× framing, back on the next bar)",
+     "expresses": "this detail is the joke",
+     "serves": "a price tag; a number; a face reacting"
+    }
+   ],
+   "transitions": [
+    "Hard cuts only;",
+    "no dissolves."
+   ],
+   "labels": [
+    "Display: a heavy rounded sans for Latin and numbers (e.g. Fredoka 700); a black-weight sans for CJK (e.g. Noto Sans SC 900); a hand-lettered face only for handwritten props (e.g. ZCOOL KuaiLe).",
+    "Telop text: white or yellow fill with an ink stroke ≈ 14 % of the font size painted under the fill (paint-order: stroke). Titles are built glyph by glyph so each character can pop in.",
+    "The telops are the subtitles. Round cards, corner banners, labels, prop text and judgement words carry the meaning; keep them short (≤ ~20 CJK characters on a banner line, ≤ ~12 on a plate; Latin runs ~1.6× wider). With narration, subtitles are telop plates at the bottom in the same outlined type, never a thin generic caption.",
+    "Hold every text ≥ max(1.8 s, speech + 0.6 s); a judgement word may be shorter because it is read at a glance."
+   ],
+   "motion": [
+    "Idle = hop on the beat: a parabola per beat (8–30 px); neighbours hop on the off-beat so a crowd ripples.",
+    "Hit = squash: a damped wobble (~30 rad/s, ~0.35 s) after each hit; a small squash on every downbeat.",
+    "Entrances drop from the sky with ease-in and land exactly on their beat, so the sound lands with them. Crowds drop in one per beat or half-beat.",
+    "Pops use back-ease for anything appearing (cards, stickers, stamps, words); ease-in for exits. Nothing fades in slowly: things are either on or popping."
+   ],
+   "native_moves": [
+    {
+     "name": "Rounds with a card",
+     "does": "A 1-bar card (round number + name + a tag such as a year or a step) flies in on a jingle, then play.",
+     "fits": "the steps of a recipe; the stages of a startup; the chapters of a museum tour."
+    },
+    {
+     "name": "Report card",
+     "does": "A typewritten recap with a grade stamp.",
+     "fits": "a quarterly review; a trip summary; a final score."
+    },
+    {
+     "name": "Call-and-response",
+     "does": "Anything with a turn becomes a rhythm pattern; speeding up the pattern (quarters → eighths) is the plot.",
+     "fits": "a teacher's question and the class answer; a customer order and the barista's reply; ping-pong between two negotiators."
+    },
+    {
+     "name": "Next-level tease",
+     "does": "Something hatches or unlocks.",
+     "fits": "a next version; next season; a next grade."
+    },
+    {
+     "name": "Judgement word",
+     "does": "A big outlined word pops at an angle on the round's last hit.",
+     "fits": "\"Delivered!\" on a logistics step; \"Approved!\" on a permit; \"Personal best!\" on a training plan."
+    },
+    {
+     "name": "Remix board",
+     "does": "One set with a timeline ribbon; each item gets a few bars centre stage, then shrinks into a slot along the bottom; at a climax all slots bounce together.",
+     "fits": "a year in review; a team's release list; a festival line-up."
+    },
+    {
+     "name": "Stats as game UI",
+     "does": "Numbers become podium scores, counters racing to a target, price tags getting hammered, bar charts that grow per beat.",
+     "fits": "fundraising progress; calories per dish; downloads of an app."
+    },
+    {
+     "name": "Crowd drop",
+     "does": "Many contestants drop in one per beat, each with a pitched pip.",
+     "fits": "every member of a club; the planets; the ingredients of a dish."
+    }
+   ]
+  },
+  "score": {
+   "genre": "future-pop",
+   "drums": "machine",
+   "lead": "square",
+   "pulse": "marimba",
+   "sparkle": "sinebell",
+   "bass": "electric_bass",
+   "note": "all synthesized: square lead, saw brass stabs, slap bass, bright major loop",
+   "render": {
+    "engine": "synth",
+    "space": "neon",
+    "band": {
+     "lead": {
+      "voice": "square",
+      "patch": "Leads/Square"
+     },
+     "pad": {
+      "voice": "supersaw",
+      "patch": "Polysynths/Super Jupiter"
+     },
+     "pulse": {
+      "voice": "marimba",
+      "patch": "Plucks/Woody"
+     },
+     "bass": {
+      "voice": "electric_bass",
+      "patch": "Basses/E-Bass"
+     },
+     "sparkle": {
+      "voice": "sinebell",
+      "patch": "Plucks/Bell 1"
+     }
+    },
+    "drums": {
+     "kick": "Percussion/Kick Tech 1",
+     "snare": "Percussion/Snare Tight",
+     "tom": "Percussion/Synth Tom 1"
+    }
+   }
+  }
+ }
+}

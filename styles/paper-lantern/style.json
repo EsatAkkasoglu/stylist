@@ -1,0 +1,205 @@
+{
+ "slug": "paper-lantern",
+ "num": "25",
+ "en": "Paper-cut Lightbox",
+ "cn": "纸雕灯影",
+ "category_en": "Traditional Crafts",
+ "category_cn": "传统工艺",
+ "film": "The Last Night Train",
+ "film_cn": "末班夜车",
+ "line": "An old night train makes its last run, from a snowy mountain halt through a long tunnel to the sea, its lit windows going out one by one at the end of the line.",
+ "line_cn": "一列老夜车跑最后一趟：从雪山小站穿过长隧道开到海边，到站后车窗一扇扇熄灭。",
+ "uses": [
+  "Journeys and travel",
+  "Farewells and anniversaries",
+  "Places and their stories"
+ ],
+ "frame_sec": 9.6,
+ "dur": 51.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "paper-lantern",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Kâğıt Kesme Işık Kutusu",
+ "category_tr": "Geleneksel Sanatlar",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "click"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "thud"
+   },
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "chimes"
+   }
+  ],
+  "motion": {
+   "cuts": "slow, staged, push-through",
+   "rig": "calm",
+   "move_frames": [
+    16,
+    24
+   ],
+   "ease": "softLand",
+   "reveal": "focus",
+   "mblur": true
+  },
+  "three_d": "B",
+  "music": "east-asian",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Slow dolly in, nearly frontal",
+     "expresses": "intimacy; being drawn into a place",
+     "serves": "a memory; a detail that matters; a lit window"
+    },
+    {
+     "move": "Slow dolly out",
+     "expresses": "context; loneliness; scale",
+     "serves": "a figure alone; before/after; the whole place at once"
+    },
+    {
+     "move": "Rack focus between layers",
+     "expresses": "attention moving in depth",
+     "serves": "two people near and far; a clue behind; now and then"
+    },
+    {
+     "move": "Lateral travel with depth parallax",
+     "expresses": "journey; time passing",
+     "serves": "a road trip; a process in stages; a timeline"
+    },
+    {
+     "move": "Top-down layer stack",
+     "expresses": "a made thing seen as a craftsman sees it",
+     "serves": "a recipe; a letter; a map; a product being assembled"
+    },
+    {
+     "move": "Pull out of / push into the box",
+     "expresses": "the frame as object; \"this is a story told\"",
+     "serves": "a keepsake; a framing device; returning to the present"
+    },
+    {
+     "move": "Locked frame with only light changing",
+     "expresses": "waiting; the passage of a day or a night",
+     "serves": "a vigil; seasons; a city going to sleep"
+    },
+    {
+     "move": "Tilt up/down the stack",
+     "expresses": "climbing; falling; sky vs ground",
+     "serves": "a mountain; a well; hope and weight"
+    },
+    {
+     "move": "Near-plane occluder wipe",
+     "expresses": "a curtain between scenes",
+     "serves": "chapter changes; dreams; a secret revealed"
+    },
+    {
+     "move": "Travelling alongside",
+     "expresses": "speed; being carried along (near layers rush past, far layers drift)",
+     "serves": "a journey by train or boat; a delivery; a migration"
+    }
+   ],
+   "transitions": [
+    "Transitions: dissolves (0.5–1.2 s), an iris, light off/on, a near-plane curtain whose halves meet exactly."
+   ],
+   "labels": [
+    "Text in the picture is paper: titles, letters, poems and captions are cut strips inside the box, revealed by growing from an anchor edge (scale the texture repeat with the mesh so glyphs aren't squashed), with an optional small seal.",
+    "Chinese: an OFL brush font (e.g. Ma Shan Zheng) for titles, a running script for handwriting, Noto Serif SC for subtitles. Latin: an OFL serif (e.g. Cormorant) at similar weight.",
+    "Subtitles are quiet and burned in: warm off-white serif, soft shadow, fading in just before the line. Where they sit depends on the framing:",
+    "box framing: under the box, on the dark of the room (serif 500, ~40 px CJK / ~38 px Latin, ~74 px from the bottom);"
+   ],
+   "motion": [
+    "Everything moves like paper on a stick: layers slide (x/y), rotate about a pivot, scale in from 0 along one axis (\"written out\"), or light up. No squash and stretch, no morphing, no bending.",
+    "Figures are optional. A film can tell its story with lit windows, vehicles, lamps and objects, and have no figure at all. When it has figures, they are jointed silhouettes: a body sheet + separate limb sheets anchored at the joint; animate rotation only.",
+    "Light cues are the big motion: the source, then each layer's translucency in a ~0.4 s stagger, then windows, then flicker (1 + .06·sin(7.3t)·sin(3.1t)).",
+    "Hard action lands on spoken words (use whisper word timings): an object slams, a character flashes, a light arc grows on its word."
+   ],
+   "native_moves": [
+    {
+     "name": "The lamp turns on",
+     "does": "Source, then far layers, then windows light up one by one.",
+     "fits": "a shop opening at dawn; a startup's first customer; a stadium before a match."
+    },
+    {
+     "name": "Two windows, one light",
+     "does": "Two lit places sharing one light source (a moon, a lighthouse, a satellite).",
+     "fits": "a long-distance friendship; two labs working on the same problem; a sister city pair."
+    },
+    {
+     "name": "Depth as distance",
+     "does": "A stack of ranges or streets makes \"far away\" visible; travel moves layers at speeds proportional to depth.",
+     "fits": "a migration route; shipping a parcel; the history of a river."
+    },
+    {
+     "name": "Paper that writes itself",
+     "does": "A strip grows from its edge on the spoken word.",
+     "fits": "a recipe; the terms of a treaty; a child's first word."
+    },
+    {
+     "name": "The box as keepsake",
+     "does": "The camera finds the real lamp in a room, real objects lit by its spill.",
+     "fits": "a wedding anniversary; a product unboxing; a museum object's story."
+    },
+    {
+     "name": "Light burst from an opened thing",
+     "does": "A lid lifts and analytic glow spills out.",
+     "fits": "a gift; a discovery; a new idea."
+    },
+    {
+     "name": "Silhouette in a window",
+     "does": "One figure inside a lit frame, or none: a lit window alone is enough.",
+     "fits": "someone working late; a portrait of a craftsperson; a patient waiting."
+    }
+   ]
+  },
+  "score": {
+   "genre": "east-asian",
+   "pad": "violins",
+   "lead": "flute",
+   "pulse": "pluck:koto",
+   "sparkle": "pluck:music_box",
+   "drums": "none",
+   "avoid": [
+    "drum_kit"
+   ],
+   "note": "instruments like light behind paper: zither, bamboo flute, music box; no drum kit",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "flute",
+      "gm": 73
+     },
+     "pad": {
+      "voice": "violins",
+      "gm": 48
+     },
+     "pulse": {
+      "voice": "pluck:koto",
+      "gm": 107
+     },
+     "sparkle": {
+      "voice": "pluck:music_box",
+      "gm": 10
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

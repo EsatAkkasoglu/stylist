@@ -1,0 +1,191 @@
+{
+ "slug": "ukiyoe",
+ "num": "23",
+ "en": "Ukiyo-e",
+ "cn": "浮世绘",
+ "category_en": "Traditional Crafts",
+ "category_cn": "传统工艺",
+ "film": "Toward the Mountain",
+ "film_cn": "走向远山",
+ "line": "A traveller walks toward a distant mountain; every shot is a woodblock print, a great wave at the climax, the mountain and the whole scroll at the end.",
+ "line_cn": "旅人走向远山，每个镜头都是一幅版画；巨浪是高潮，结尾是远山与整幅画轴拉远。",
+ "uses": [
+  "Travel",
+  "Japanese culture",
+  "Poetry"
+ ],
+ "frame_sec": 26.4,
+ "dur": 44.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "ukiyoe",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Ukiyo-e Gravür",
+ "category_tr": "Geleneksel Sanatlar",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "bell"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "thump"
+   },
+   {
+    "role": "AMBIENCE",
+    "query": "wind"
+   }
+  ],
+  "motion": {
+   "cuts": "slow, staged, push-through",
+   "rig": "calm",
+   "move_frames": [
+    16,
+    24
+   ],
+   "ease": "softLand",
+   "reveal": "focus",
+   "mblur": true
+  },
+  "three_d": "B",
+  "music": "east-asian",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Locked frame on one sheet",
+     "expresses": "Reading a print on a wall",
+     "serves": "a place; a portrait; a still moment"
+    },
+    {
+     "move": "Handscroll slide, right → left through the mounting gap (shorter slides = urgency)",
+     "expresses": "Travel, the next station",
+     "serves": "a journey; a sequence of steps; a race"
+    },
+    {
+     "move": "Very slow push toward a framing device (a window, a fan, a gate)",
+     "expresses": "Attention narrowing",
+     "serves": "discovery; longing; a detail that matters"
+    },
+    {
+     "move": "Tilt past the border into the mount",
+     "expresses": "Something larger than the print",
+     "serves": "a flood; a rumour; a giant"
+    },
+    {
+     "move": "Pull-back from one sheet to many",
+     "expresses": "The series seen whole",
+     "serves": "a summary; a timeline; a collection"
+    },
+    {
+     "move": "Crash-zoom into the texture (grain, specks, fibres)",
+     "expresses": "The medium itself becomes the image",
+     "serves": "a dream; a breakdown; a memory dissolving"
+    },
+    {
+     "move": "Pan across a triptych (three sheets side by side)",
+     "expresses": "One scene too wide for one sheet",
+     "serves": "a procession; a battle; a festival"
+    },
+    {
+     "move": "Hard cut to a blank sheet",
+     "expresses": "Ma (間), a held breath",
+     "serves": "aftermath; a pause before a decision"
+    }
+   ],
+   "transitions": [
+    "Allowed transitions: scroll slides, printing reveals, a wash back to paper, a cut to blank.",
+    "No cross-dissolves, no 3D flips."
+   ],
+   "labels": [
+    "Subtitle = a horizontal cartouche: a cream slip with a thick + thin ink border and a small red seal at the left; Shippori Mincho (500) in sumi, centred near the bottom. It \"prints\" in with the reveal mask and fades out. Hold ≥ max(1.8 s, speech + 0.6 s). It covers the bottom ~150 px: keep ground lines and figures above it.",
+    "View cartouche: vertical cream slip, thick + thin border, a pale tab with the series title, the view title below in a brush font (e.g. Yuji Syuku), a seal beside: the \"full stop\" of each view. Titles live on the print as cartouches and seals, never as floating type."
+   ],
+   "motion": [
+    "Prints are still. Most of the frame does not move; each view has one or two small actions (steam, rain, a lantern, a falling leaf).",
+    "Figures and nature step at 8 fps; rain and fast water at 12 fps; the camera moves on ones (24 fps). A stepped camera judders.",
+    "Printing reveal: each block appears over ~0.3 s with a diagonal baren sweep with a noisy edge, sliding 5–6 px into registration as it lands (pure noise looks like mould).",
+    "Cartouches drop in (fade + a short slide); a seal stamps (scale ~1.35 → 1 in 0.2 s)."
+   ],
+   "native_moves": [
+    {
+     "name": "A series of views",
+     "does": "One constant subject in different compositions; the story is told by where it sits in the frame each time.",
+     "fits": "one building through a century; a product in five homes; the same street in four seasons."
+    },
+    {
+     "name": "The handscroll",
+     "does": "Scenes don't cut; the camera slides right to left and the next print arrives.",
+     "fits": "a supply chain; the stations of a pilgrimage; the steps of a recipe."
+    },
+    {
+     "name": "Printing, block by block",
+     "does": "Key line first, then each colour lands slightly off and snaps into register.",
+     "fits": "a building going up; an idea taking shape; a character being \"made\" for the story."
+    },
+    {
+     "name": "Paper is the white",
+     "does": "Foam, snow, mist and blank sky are unprinted paper; white can flood the frame and wash the print back to a blank sheet.",
+     "fits": "a snowfall that erases a town; forgetting; a clean start."
+    },
+    {
+     "name": "The frame is an object",
+     "does": "Border, cartouche and seal are physical; something big enough breaks out of the border into the mount.",
+     "fits": "a festival that can't be contained; a legend; a runaway success."
+    },
+    {
+     "name": "Alternate impressions",
+     "does": "The same key block reprinted with different colour blocks (day → night, spring → winter).",
+     "fits": "before and after; a city lit at night; two lives in one house."
+    },
+    {
+     "name": "The triptych",
+     "does": "A scene split across three sheets that join.",
+     "fits": "three generations; a panorama of a harbour; a debate between three voices."
+    }
+   ]
+  },
+  "score": {
+   "genre": "east-asian",
+   "mode": "in",
+   "pad": null,
+   "lead": "flute",
+   "pulse": "pluck:shamisen",
+   "drums": "taiko",
+   "avoid": [
+    "piano",
+    "violins",
+    "cellos",
+    "supersaw"
+   ],
+   "note": "shamisen, shakuhachi-like flute, taiko; miyako-bushi scale, silence as ma",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "flute",
+      "gm": 73
+     },
+     "pulse": {
+      "voice": "pluck:shamisen",
+      "gm": 106
+     }
+    },
+    "drums": {
+     "taiko": 116
+    }
+   }
+  }
+ }
+}

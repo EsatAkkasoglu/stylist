@@ -1,0 +1,175 @@
+{
+ "slug": "microscope",
+ "num": "89",
+ "en": "Under the Microscope",
+ "cn": "显微镜下",
+ "aka": [
+  "Microscope Story",
+  "显微叙事"
+ ],
+ "category_en": "Instruments & Evidence",
+ "category_cn": "仪器实证",
+ "film": "Measured Blue",
+ "film_cn": "量出来的蓝",
+ "line": "One continuous move from a liver slide to a single nucleus; two circles, counted pixel by pixel, differ 2.4 times in blue.",
+ "line_cn": "一镜从肝组织玻片推到单个细胞核，两个圆逐像素数出 2.4 倍的蓝。",
+ "uses": [
+  "Biomedicine",
+  "Materials science",
+  "Skincare science"
+ ],
+ "frame_sec": 6.5,
+ "dur": 39.5,
+ "source": "lemo-opuscar",
+ "lemo_slug": "microscope",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Mikroskop Altında",
+ "category_tr": "Cihaz & Kanıt",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "UI/CLICK",
+    "query": "click"
+   },
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "metal"
+   }
+  ],
+  "motion": {
+   "cuts": "instrument sweeps, slide between readings",
+   "rig": "editorial",
+   "move_frames": [
+    10,
+    16
+   ],
+   "ease": "softLand",
+   "reveal": "wipe",
+   "mblur": true
+  },
+  "three_d": "A",
+  "music": "minimal-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "The dive (log zoom with roll)",
+     "expresses": "going to look for yourself",
+     "serves": "an opening; from the slide to the cell"
+    },
+    {
+     "move": "Locked frame, slow creep",
+     "expresses": "evidence, a measurement",
+     "serves": "a reading; a comparison"
+    },
+    {
+     "move": "Truck at one magnification",
+     "expresses": "a second sample of the same thing",
+     "serves": "the counter-example; \"meanwhile, nearby\""
+    },
+    {
+     "move": "Pull back to frame two marks",
+     "expresses": "comparison",
+     "serves": "the verdict"
+    },
+    {
+     "move": "Focal-plane sweep",
+     "expresses": "arriving; depth",
+     "serves": "a landing; a reveal inside one frame"
+    },
+    {
+     "move": "The climb (reverse dive, scale bar jumping back)",
+     "expresses": "consequence, scale",
+     "serves": "an ending; a return to the eye's scale"
+    }
+   ],
+   "transitions": [
+    "Transitions are scale changes, trucks and focus, never cuts or crossfades between samples."
+   ],
+   "labels": [
+    "Roles: a light condensed grotesk for readings and the scale bar (40–72 px, e.g. Barlow Condensed); a monospace for instruments and pixel counts (20 px, e.g. IBM Plex Mono); a sans in the film's language for labels (20–34 px, e.g. Noto Sans SC); a serif only for the title. OFL, self-hosted, CJK subset.",
+    "Instruments live in one frosted panel in a corner: scale bar with its value, field of view, magnification with a small nosepiece glyph that turns a quarter on every change. The source credit in a small panel in the opposite corner.",
+    "Readings sit in a frosted panel beside what they measure, joined by a leader: a small label above (\"collagen share of tissue area\"), the number large in the accent, the method or the raw counts below.",
+    "Subtitles: a frosted strip at the bottom; if the film is bilingual, one line per language with the film's language on top, never wrapped. Measure each line with the real font and split long lines into two cues."
+   ],
+   "motion": [
+    "The camera is a similarity transform (zoom, roll, position) interpolated as a log spiral between keys (M^u about the fixed point of the two frames), so every push is a true dive towards one point and the roll is part of it. Ease the moves, creep 2–5 % during holds; never a frozen frame longer than a second.",
+    "Magnification changes happen where the plates actually change, each with a breath of focus, a turret click and the new magnification said once, large.",
+    "Marks arrive by being made: a dimension line grows from its centre, a circle is drawn as an arc, a scan front counts pixels while the reading rolls, the reading lands with a small spring.",
+    "Never moves: the specimen under its marks, the instrument positions."
+   ],
+   "native_moves": [
+    {
+     "name": "The dive",
+     "does": "From the slide in the hand to a cell in one camera, the turret clicking at each real change of level.",
+     "fits": "a biopsy to its cells; a coated surface to its crystals; a hair or skin section to its layers."
+    },
+    {
+     "name": "Counting the colour",
+     "does": "Draw a circle, let a scan front cross it, light up every counted pixel and roll the share up to its landing value; show the raw counts underneath.",
+     "fits": "collagen in tissue; porosity in a ceramic; coverage of a coating; pigment in a sample."
+    },
+    {
+     "name": "Two circles, one verdict",
+     "does": "Measure one place, truck to another at the same scale, then frame both and say what differs.",
+     "fits": "treated against untreated; edge against centre; before against after."
+    },
+    {
+     "name": "The focal sweep and the ring",
+     "does": "Land, sweep the focal plane across the frame, ring one structure and give its size.",
+     "fits": "a nucleus; a grain; a fibre's diameter."
+    },
+    {
+     "name": "The climb back",
+     "does": "Pull out to the eye's scale with the scale bar jumping backwards; a title card written on the glass.",
+     "fits": ""
+    }
+   ]
+  },
+  "score": {
+   "genre": "minimal-pulse",
+   "pad": "vibraphone_hard",
+   "pulse": "marimba",
+   "lead": "glass",
+   "sparkle": "glockenspiel",
+   "bass": "synthbass",
+   "drums": "orch",
+   "note": "hard-mallet vibraphone in 8ths and 16ths, water glasses for the motif",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "glass",
+      "gm": 92
+     },
+     "pad": {
+      "voice": "vibraphone_hard",
+      "gm": 11
+     },
+     "pulse": {
+      "voice": "marimba",
+      "gm": 12
+     },
+     "bass": {
+      "voice": "synthbass",
+      "gm": 38
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {
+     "timpani": 47
+    }
+   }
+  }
+ }
+}

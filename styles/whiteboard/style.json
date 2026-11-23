@@ -1,0 +1,194 @@
+{
+ "slug": "whiteboard",
+ "num": "15",
+ "en": "Whiteboard Explainer",
+ "cn": "白板讲解",
+ "category_en": "Sketch & Board",
+ "category_cn": "速写板书",
+ "film": "Einstein in Your Pocket",
+ "film_cn": "口袋里的爱因斯坦",
+ "line": "How your phone knows where you are: GPS, atomic clocks, and the 38 microseconds relativity adds every day.",
+ "line_cn": "手机怎么知道你在哪：GPS、原子钟，和相对论每天多出的 38 微秒。",
+ "uses": [
+  "Explainers",
+  "Online courses",
+  "Science"
+ ],
+ "frame_sec": 55.5,
+ "dur": 111.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "whiteboard",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Beyaz Tahta Anlatım",
+ "category_tr": "Eskiz & Tahta",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "UI/CLICK",
+    "query": "tick"
+   },
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "metal"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "thump"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "marker"
+   }
+  ],
+  "motion": {
+   "cuts": "draw-on, camera reframes",
+   "rig": "editorial",
+   "move_frames": [
+    8,
+    12
+   ],
+   "ease": "softLand",
+   "reveal": "draw",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "minimal-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Pull back from a tiny drawing",
+     "expresses": "scale",
+     "serves": "a surprising size; context"
+    },
+    {
+     "move": "Ride the line the pen is drawing",
+     "expresses": "one idea leads to the next",
+     "serves": "a transition; a process; a path"
+    },
+    {
+     "move": "Hold still",
+     "expresses": "read now",
+     "serves": "an equation; a definition; a list"
+    },
+    {
+     "move": "Whip to a new region",
+     "expresses": "a new idea after a pause",
+     "serves": "a twist; a \"but\""
+    },
+    {
+     "move": "Return to an earlier region",
+     "expresses": "a callback, for free",
+     "serves": "reusing a result; a comparison"
+    },
+    {
+     "move": "Split view of two regions (zoomed out enough for both)",
+     "expresses": "two things at once",
+     "serves": "a duet; before/after"
+    },
+    {
+     "move": "Slow push into one symbol",
+     "expresses": "this term is the point",
+     "serves": "a unit; a variable; a name"
+    },
+    {
+     "move": "Track along a long diagram",
+     "expresses": "sequence, time",
+     "serves": "a timeline; a pipeline; a journey"
+    },
+    {
+     "move": "Pull back past the board edge to the wall",
+     "expresses": "the whole lesson as one picture",
+     "serves": "a summary; a scale jump"
+    }
+   ],
+   "transitions": [
+    "No cuts on the board;",
+    "if a cut is needed, it is a whip."
+   ],
+   "labels": [
+    "Handwriting only: a single-line hand (e.g. EMS Tech, OFL) for all board text; titles large (~120–200 px cap height), labels 30–70 px.",
+    "Title and end card are written on the board in the same hand.",
+    "Burned subtitles: an off-white rounded label (~90 %), a handwriting-like face (e.g. Architects Daughter ~44 px), dark text, a short accent-colour marker dash. Split at clauses, ≤ 44 characters per line, bottom ~12 % of the frame kept free for them in every shot. Hold ≥ max(1.8 s, speech + 0.6 s).",
+    "Writing finishes on the word: a term appears exactly when the narrator says it."
+   ],
+   "motion": [
+    "Hand speed: every stroke follows a slow-fast-slow curve (u − sin(2πu)/2π × 0.8). Strokes are scheduled into a time window and the engine solves the speed, so writing always finishes on time.",
+    "Pen hops between strokes lift in proportion to distance (shadow slides and blurs); long gaps send the pen off-frame to park and back shortly before its next stroke.",
+    "Magnet: drop with a shrinking shadow; slide with a small lift; lift-off and sink possible.",
+    "Eraser: constant speed along a path, a wide band at ~90 % strength (a ghost always remains)."
+   ],
+   "native_moves": [
+    {
+     "name": "Writing in stroke order",
+     "does": "The reveal is the explanation: a formula term by term as it is spoken.",
+     "fits": "compound interest; the Drake equation; a recipe's ratios."
+    },
+    {
+     "name": "The pen leads the camera",
+     "does": "Transitions are drawn lines the camera rides.",
+     "fits": "a nerve signal; a supply chain; the water cycle."
+    },
+    {
+     "name": "Magnets",
+     "does": "The only things allowed to move on a board: give the hero to a magnet; slide, lift, drop, sink it.",
+     "fits": "a delivery truck on a route; a cell in a bloodstream; a player on a pitch."
+    },
+    {
+     "name": "The eraser rewinds",
+     "does": "Wiping a trail backwards reads as undoing time.",
+     "fits": "an undo in software; reversing a chemical reaction; \"what if we hadn't…\"."
+    },
+    {
+     "name": "Two pens at once",
+     "does": "A live duet comparing two quantities.",
+     "fits": "two savings plans; two runners; a population vs its food supply."
+    },
+    {
+     "name": "Ghosts of the old lesson",
+     "does": "A faint previous drawing becomes relevant.",
+     "fits": "a theory replaced; last year's forecast; a first draft."
+    },
+    {
+     "name": "The full-board view",
+     "does": "Every region seen at once as one picture.",
+     "fits": "a system diagram; a history; a map of a field."
+    }
+   ]
+  },
+  "score": {
+   "genre": "minimal-pulse",
+   "pulse": "violins_pizz",
+   "note": "clockwork minimalism: marimba, pizzicato, woodblock, glockenspiel",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "vibraphone",
+      "gm": 11
+     },
+     "pad": {
+      "voice": "marimba",
+      "gm": 12
+     },
+     "pulse": {
+      "voice": "violins_pizz",
+      "gm": 45
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

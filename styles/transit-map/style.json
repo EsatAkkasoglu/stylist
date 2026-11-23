@@ -1,0 +1,205 @@
+{
+ "slug": "transit-map",
+ "num": "97",
+ "en": "Transit Map",
+ "cn": "地铁线路图",
+ "category_en": "Data & Maps",
+ "category_cn": "数据地图",
+ "film": "6 Kilometres",
+ "film_cn": "6 公里",
+ "line": "A printed metro map grows from one 6 km line in 1993 to 21 lines and 906 km.",
+ "line_cn": "一张纸上的线路图，从 1993 年的 6 公里长到 21 条线、906 公里。",
+ "uses": [
+  "Transport",
+  "Growth over time",
+  "Networks"
+ ],
+ "frame_sec": 36.2,
+ "dur": 47.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "transit-map",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Metro Haritası",
+ "category_tr": "Veri & Harita",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "IMPACT/HIT",
+    "query": "thump"
+   },
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "chime"
+   },
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "ratchet"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "ticks"
+   }
+  ],
+  "motion": {
+   "cuts": "continuous camera, chart builds",
+   "rig": "editorial",
+   "move_frames": [
+    10,
+    14
+   ],
+   "ease": "softLand",
+   "reveal": "wipe",
+   "mblur": true
+  },
+  "three_d": "A",
+  "music": "minimal-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "ride the pen tip, aim about 1.5 G ahead of it",
+     "expresses": "tilt 15–30°, heading within ±15°, 130–260 px/G for a tip at 1–3 G/s, aperture 16",
+     "serves": "building, one step at a time"
+    },
+    {
+     "move": "drop low where a line meets water",
+     "expresses": "tilt ~60°, 185 px/G, aperture 26, eased in and out over ~0.5 s",
+     "serves": "crossing, risk, a threshold"
+    },
+    {
+     "move": "continuous pull-back with level-of-detail changes",
+     "expresses": "tilt 12° → 0°, 80 → 50 px/G, aperture 6 → 0",
+     "serves": "growth, scale arriving"
+    },
+    {
+     "move": "low oblique sweep with shallow focus",
+     "expresses": "tilt 57–62°, heading swinging about 40°, ~100 px/G, aperture 24, inked depth extended",
+     "serves": "density, life, the present tense"
+    },
+    {
+     "move": "glide across the sheet to another panel",
+     "expresses": "tilt rises to ~25° mid-move and back to 0°, aperture up to 8",
+     "serves": "changing the question, same object"
+    },
+    {
+     "move": "rise until the sheet edge and the table show",
+     "expresses": "tilt ~30°, ~40 px/G",
+     "serves": "the whole, the object"
+    },
+    {
+     "move": "push in to one segment under a paper veil",
+     "expresses": "tilt 4° → 0°, 60 → 140 px/G, aperture 3 → 0",
+     "serves": "memory, origin"
+    },
+    {
+     "move": "locked frame",
+     "expresses": "tilt 0°, aperture 0",
+     "serves": "reading, judging"
+    }
+   ],
+   "transitions": [
+    "Transitions: match cuts on round shapes (a headlight, a lamp, a coin becomes a station dot), glides across the sheet, hard cuts to a new panel."
+   ],
+   "labels": [
+    "Faces: a neutral grotesk for Latin and figures (Inter in the demo) and a CJK sans of matching weight (Noto Sans SC, subset to the characters used). OFL, self-hosted. Native language above, second language below, one line each, never wrapped.",
+    "Sizes on the sheet, in G (native / second language): hub label 0.30 / 0.17 bold; interchange 0.23 / 0.14 semibold; named stop 0.20 / 0.14 semibold; the second line in warm grey, 0.03 G below. Callout: date figures 0.58 heavy, native line 0.34, second line 0.24. Printed panel titles 0.58–0.60 / 0.36–0.38. Cartouche title 0.64 / 0.30, its note 0.24 in grey. Water names 0.22 / 0.17, set along the band.",
+    "Labels: a paper-coloured halo (0.05 G stroke at 92 %) under every label. Placement is automatic: eight candidates around the station's edge (in order of preference: east, west, north-east and south-east, north and south, north-west and south-west), each scored against every line of the finished network and against labels already placed, hubs and interchanges first. It runs once, before the first frame, so a label never jumps while lines are drawn and lines that arrive later never cross it. A hand preference may override the score for a few stations.",
+    "Levels of detail by zoom: minor stops fade in between 55 and 85 px per G, interchange names between 62 and 90, named-stop names between 100 and 130; hubs keep their names at every scale and grow when pulled out (× (85 / zoom)^0.6, at most 1.75), anchored to the station edge so they grow away from it without changing side. Which names show may also be chosen by shot, never flashed by time. While the camera rides a tip, names leave the frame before they can be read: show them in the held shots that follow, not during the ride."
+   ],
+   "motion": [
+    "30 fps. Pen tips move on monotone keyframes; a tip may slow on a station and accelerate between them, never stop dead mid-segment.",
+    "Stops pop from 0.6× with a small overshoot in about 0.28 s and a ring in the line colour that spreads from 0.10 to 0.42 G and fades in 0.6 s. Minor stops pop the same way at a smaller size.",
+    "Interchanges scale down from 2× in 0.22 s with an ink ring spreading to 0.64 G. A major interchange falls from above in about 0.4 s (from 3.4× its size, its shadow offset and blurred, sharpening as it lands), then rings in ink and in the colours of the lines that met spread to 1.4–2.6 G in 0.9 s.",
+    "Line bullets spring in with a back ease and carry the opening year; they fade when the story moves past their chapter."
+   ],
+   "native_moves": [
+    {
+     "name": "The pen tip",
+     "does": "A glowing tip draws a line at the camera's pace; stops light behind it.",
+     "fits": "a product roadmap; a migration route; a career, job by job."
+    },
+    {
+     "name": "The interchange that falls",
+     "does": "When two lines meet for the first time (a second line arriving, or leaving from a station already drawn) the capsule drops onto the paper with its shadow, then shock rings in both colours.",
+     "fits": "two teams merging; a treaty; two rivers joining."
+    },
+    {
+     "name": "The tunnel under the water",
+     "does": "Inside the water band a line turns dashed with a casing; the camera drops low to watch it cross.",
+     "fits": "a cable under the sea; a deadline crossed; going public."
+    },
+    {
+     "name": "Time lines",
+     "does": "Two networks drawn as two lines over one year axis, stops at sourced milestones, brackets for the spans.",
+     "fits": "two companies' growth; two countries' rollouts; a project against its plan."
+    },
+    {
+     "name": "Levels of detail",
+     "does": "Pulling back, minor stops and their names fade first, interchange names next, hubs stay.",
+     "fits": "zooming from a street to a city; from a team to a company; from a gene to a genome map."
+    },
+    {
+     "name": "You are here",
+     "does": "The network fades under a paper veil, one segment stays lit, a red dot pulses.",
+     "fits": "an origin story; a recap; a call to visit."
+    },
+    {
+     "name": "The odometer",
+     "does": "Rolling drums that land only on true values: a year, a running total, a time of day, a count. Each landed value must hold for its reading time (about 1.8 s for five characters), so plan about one landing per 2 s of film; more values than that go into printed callouts.",
+     "fits": "kilometres, users, stores, sensors."
+    },
+    {
+     "name": "The plate by the lens",
+     "does": "A station name plate stands on the sheet near the camera, out of focus, as the low sweep passes it.",
+     "fits": "a place that matters; a stop someone uses every day; a product's home."
+    }
+   ]
+  },
+  "score": {
+   "genre": "minimal-pulse",
+   "pad": "marimba",
+   "lead": "flute",
+   "counter": "xylophone",
+   "pulse": "violins_spic",
+   "sparkle": "glockenspiel",
+   "note": "each new line adds one voice to a running ostinato",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "flute",
+      "gm": 73
+     },
+     "counter": {
+      "voice": "xylophone",
+      "gm": 13
+     },
+     "pad": {
+      "voice": "marimba",
+      "gm": 12
+     },
+     "pulse": {
+      "voice": "violins_spic",
+      "gm": 48
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

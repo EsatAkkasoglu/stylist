@@ -1,0 +1,1702 @@
+[
+ {
+  "slug": "archive-lighttable",
+  "name_en": "Archive Light Table",
+  "name_tr": "Arşiv Işık Masası",
+  "name_cn": "档案看片台",
+  "category_en": "Instruments & Evidence",
+  "category_tr": "Cihaz & Kanıt",
+  "pitch": "The telegram said 57 seconds; under a loupe, the Wrights' glass negatives and the archive say 59.",
+  "uses": [
+   "Brand history",
+   "Archive stories",
+   "Museums"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "art-deco",
+  "name_en": "Art Deco",
+  "name_tr": "Art Deco",
+  "name_cn": "装饰艺术",
+  "category_en": "Graphic & Type",
+  "category_tr": "Grafik & Tipografi",
+  "pitch": "A grand hotel, 1930: a bellboy races lifts and revolving doors to deliver one letter before midnight.",
+  "uses": [
+   "Luxury & hospitality",
+   "Galas",
+   "Invitations"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "ascii-crt",
+  "name_en": "CRT ASCII Terminal",
+  "name_tr": "CRT ASCII Terminal",
+  "name_cn": "CRT 字符终端",
+  "category_en": "Film & Tape",
+  "category_tr": "Film & Kaset",
+  "pitch": "A moon-base AI wakes after forty years to a signal from Earth, and replies by drawing “home” in characters.",
+  "uses": [
+   "Developer tools",
+   "Sci-fi",
+   "Tech brands"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "assembly-line-diagram",
+  "name_en": "Assembly-Line Diagram",
+  "name_tr": "Montaj Hattı Diyagramı",
+  "name_cn": "流水线图解",
+  "category_en": "Line Diagrams",
+  "category_tr": "Çizgi Diyagramlar",
+  "pitch": "A body cut open as a factory that runs backwards: a 12:30 sandwich is taken apart station by station, and six hours later it runs for the bus.",
+  "uses": [
+   "How a process works",
+   "Biology and medicine",
+   "Supply chains and pipelines"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "backrooms",
+  "name_en": "Liminal Found Footage",
+  "name_tr": "Liminal Buluntu Kayıt",
+  "name_cn": "后室录像带",
+  "category_en": "Film & Tape",
+  "category_tr": "Film & Kaset",
+  "pitch": "A new night-shift hire films their first night in an endless yellow office, following the rules on the wall.",
+  "uses": [
+   "Horror",
+   "Mystery & ARG",
+   "Game teasers"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "bauhaus-shapes",
+  "name_en": "Bauhaus Shapes",
+  "name_tr": "Bauhaus Formlar",
+  "name_cn": "包豪斯几何",
+  "category_en": "Graphic & Type",
+  "category_tr": "Grafik & Tipografi",
+  "pitch": "One dot doubles every ten years: 128 after seventy, 6.02 without compounding, and the last ten years are worth all the rest.",
+  "uses": [
+   "Finance and economics explainers",
+   "Mechanisms and principles",
+   "Titles and chapter cards"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "blueprint",
+  "name_en": "Blueprint",
+  "name_tr": "Mühendislik Planı",
+  "name_cn": "工程蓝图",
+  "category_en": "Line Diagrams",
+  "category_tr": "Çizgi Diyagramlar",
+  "pitch": "An inventor's blueprint draws, explodes and assembles a cloud-catching machine, and its revision cloud starts to rain.",
+  "uses": [
+   "Engineering",
+   "Hardware launches",
+   "Tech explainers"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "brick-toy",
+  "name_en": "Brick Toy",
+  "name_tr": "Yapı Oyuncağı",
+  "name_cn": "积木玩具",
+  "category_en": "3D & Miniature",
+  "category_tr": "3D & Minyatür",
+  "pitch": "A brick astronaut builds a rocket from spare parts and flies to a brick moon.",
+  "uses": [
+   "Toys & kids",
+   "Product builds",
+   "Space"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A+B"
+ },
+ {
+  "slug": "briefing-board",
+  "name_en": "Engineering Briefing Board",
+  "name_tr": "Mühendislik Brifing Panosu",
+  "name_cn": "工程简报板",
+  "category_en": "Instruments & Evidence",
+  "category_tr": "Cihaz & Kanıt",
+  "pitch": "Four bridge types are tested on one briefing wall, and the ship that must pass under picks the winner.",
+  "uses": [
+   "Engineering",
+   "Option comparisons",
+   "Briefings"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "caption-news",
+  "name_en": "Caption News",
+  "name_tr": "Altyazılı Haber",
+  "name_cn": "字幕新闻",
+  "category_en": "Edit & Documentary",
+  "category_tr": "Kurgu & Belgesel",
+  "pitch": "America lost 1.3 million bee colonies, yet the count rose 6 %: a news short that works with the sound off.",
+  "uses": [
+   "Social news",
+   "Report explainers",
+   "Data shorts"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "cel-anime-80s",
+  "name_en": "80s Cel Anime",
+  "name_tr": "80'ler Cel Anime",
+  "name_cn": "80 年代赛璐璐动画",
+  "category_en": "Cartoons",
+  "category_tr": "Çizgi Film",
+  "pitch": "A courier girl rides through a rain-soaked neon city to deliver a tape before the dawn launch.",
+  "uses": [
+   "Music videos",
+   "Game trailers",
+   "Nostalgia"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "B"
+ },
+ {
+  "slug": "chalkboard",
+  "name_en": "Chalkboard",
+  "name_tr": "Kara Tahta Tebeşir",
+  "name_cn": "黑板粉笔",
+  "category_en": "Sketch & Board",
+  "category_tr": "Eskiz & Tahta",
+  "pitch": "Chalk writes a popular claim about two characters, wipes it, and traces 射 back three thousand years.",
+  "uses": [
+   "Word origins",
+   "Myth-busting",
+   "Lessons"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "circuit-board",
+  "name_en": "Circuit Board",
+  "name_tr": "Devre Kartı",
+  "name_cn": "电路板",
+  "category_en": "Light & Lines",
+  "category_tr": "Işık & Çizgi",
+  "pitch": "Rivers become copper traces as current runs 2,080 km from a dam to a phone charger.",
+  "uses": [
+   "Energy",
+   "Supply chains",
+   "Devices"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "city-symphony",
+  "name_en": "City Symphony",
+  "name_tr": "Şehir Senfonisi",
+  "name_cn": "城市交响曲",
+  "category_en": "Edit & Documentary",
+  "category_tr": "Kurgu & Belgesel",
+  "pitch": "One day in New York in time-lapse: rivers of light, a grid on the sixteenths, 1899 beside today.",
+  "uses": [
+   "City films",
+   "Music montages",
+   "Openers"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "colored-pencil",
+  "name_en": "Colored-Pencil Science Illustration",
+  "name_tr": "Kuru Boya Bilim İllüstrasyonu",
+  "name_cn": "彩铅科普插画",
+  "category_en": "Painting & Illustration",
+  "category_tr": "Resim & İllüstrasyon",
+  "pitch": "Do trees feed each other? A pencil drawing sinks below the grass, follows one grain of sugar along a fungal thread to the next tree, and pulls back over a whole wood joined underground.",
+  "uses": [
+   "Natural-science cutaways",
+   "Picture-book explainers",
+   "Hidden structures and processes"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "comic-history",
+  "name_en": "Comic History Cartoon",
+  "name_tr": "Komik Tarih Çizgi Filmi",
+  "name_cn": "搞笑历史卡通",
+  "category_en": "Cartoons",
+  "category_tr": "Çizgi Film",
+  "pitch": "Alsace-Lorraine changed hands four times between 1871 and 1945: each time someone tore off the paper and pasted a new piece, and the woman living on it never moved.",
+  "uses": [
+   "Territorial changes in history",
+   "Light explainers on geopolitics",
+   "Market share and turf-war stories"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": true,
+  "three_d": "B"
+ },
+ {
+  "slug": "comic-teardown",
+  "name_en": "Comic Teardown",
+  "name_tr": "Çizgi Roman Söküm",
+  "name_cn": "漫画拆解",
+  "category_en": "Line Diagrams",
+  "category_tr": "Çizgi Diyagramlar",
+  "pitch": "A graphics card is unscrewed on a workbench, its chip dived into layer by layer, and behind it stand a machine the size of a bus and twenty years of software.",
+  "uses": [
+   "Hardware explainers",
+   "Why-is-it-hard stories",
+   "Tech shorts (9:16)"
+  ],
+  "source": "stylist",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "countdown",
+  "name_en": "Live Countdown Split-screen",
+  "name_tr": "Canlı Geri Sayım Bölünmüş Ekran",
+  "name_cn": "实时倒计时分屏",
+  "category_en": "Edit & Documentary",
+  "category_tr": "Kurgu & Belgesel",
+  "pitch": "The last minute of the Artemis II launch, uncut: one cell opens to nine, and they merge into one at ignition.",
+  "uses": [
+   "Launches",
+   "Countdowns",
+   "Live events"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "crayon-book",
+  "name_en": "Crayon Picture Book",
+  "name_tr": "Pastel Boya Resimli Kitap",
+  "name_cn": "蜡笔儿童绘本",
+  "category_en": "Painting & Illustration",
+  "category_tr": "Resim & İllüstrasyon",
+  "pitch": "The moon can't sleep, so a little girl climbs onto the roof to sing it a lullaby.",
+  "uses": [
+   "Picture books",
+   "Bedtime stories",
+   "Kids' learning"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "crayon-world",
+  "name_en": "Crayon World 3D",
+  "name_tr": "3D Pastel Boya Dünyası",
+  "name_cn": "蜡笔立体世界",
+  "category_en": "3D & Miniature",
+  "category_tr": "3D & Minyatür",
+  "pitch": "A first-person flight over a crayon village to one flower in an old man's garden; then his eyes, and what he says.",
+  "uses": [
+   "Short stories",
+   "Tributes",
+   "Journeys"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A+B"
+ },
+ {
+  "slug": "dark-documentary",
+  "name_en": "Radar Sweep Documentary",
+  "name_tr": "Radar Taraması Belgeseli",
+  "name_cn": "雷达扫描纪录片",
+  "category_en": "Instruments & Evidence",
+  "category_tr": "Cihaz & Kanıt",
+  "pitch": "A storm at Parkes, 21 July 1969: a 64-metre dish tipped to its limit holds on and catches the moonwalk for the world.",
+  "uses": [
+   "History of science and engineering",
+   "Archaeology, sites and reconstructions",
+   "Astronomy, deep space and survey"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "dark-keynote",
+  "name_en": "Dark Tech Keynote",
+  "name_tr": "Karanlık Teknoloji Lansmanı",
+  "name_cn": "暗色科技发布",
+  "category_en": "Screens & Interfaces",
+  "category_tr": "Ekran & Arayüz",
+  "pitch": "Launch film for Tidy, a fictional app: one buried cursor snaps hundreds of windows back into place.",
+  "uses": [
+   "Product launches",
+   "SaaS",
+   "Keynotes"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "data-physical",
+  "name_en": "Data Physicalization",
+  "name_tr": "Verinin Nesneleşmesi",
+  "name_cn": "数据实物化",
+  "category_en": "Data & Maps",
+  "category_tr": "Veri & Harita",
+  "pitch": "Twelve years of wind and solar stacked as real plates, spiralling round a walnut dial until solar overtakes.",
+  "uses": [
+   "Annual reports",
+   "Investor decks",
+   "Energy data"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "dataviz",
+  "name_en": "Data Storytelling",
+  "name_tr": "Veri Hikâyeciliği",
+  "name_cn": "数据叙事",
+  "category_en": "Data & Maps",
+  "category_tr": "Veri & Harita",
+  "pitch": "A hundred years of summer temperatures, where the chart itself tells the story.",
+  "uses": [
+   "Data journalism",
+   "Reports",
+   "Climate & science"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "desktop-flythrough",
+  "name_en": "Tabletop App Flythrough",
+  "name_tr": "Masaüstü Uygulama Turu",
+  "name_cn": "桌面卡片穿梭",
+  "category_en": "Screens & Interfaces",
+  "category_tr": "Ekran & Arayüz",
+  "pitch": "A cat photo hops across app cards on a sunlit desk, from one phone to a friend's.",
+  "uses": [
+   "App explainers",
+   "Workflows",
+   "Products"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "double-exposure",
+  "name_en": "Double Exposure",
+  "name_tr": "Çift Pozlama",
+  "name_cn": "双重曝光",
+  "category_en": "Film & Tape",
+  "category_tr": "Film & Kaset",
+  "pitch": "From the mountains to the sea as night falls: a stag, a wolf, an eagle, a salmon and a whale, each carrying its own place inside its silhouette, until the whale's harbour lands on the real shore.",
+  "uses": [
+   "Brand and city films",
+   "Documentary and series openings",
+   "Music video intros"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "engraving",
+  "name_en": "Copperplate Engraving",
+  "name_tr": "Bakır Gravür",
+  "name_cn": "铜版画",
+  "category_en": "Print & Printmaking",
+  "category_tr": "Baskı & Gravür",
+  "pitch": "A natural-history plate engraves itself: the burin cuts the copper, the bee builds up line by line, and a watercolour wash brings it to life.",
+  "uses": [
+   "Museum labels",
+   "Science explainers",
+   "Brand heritage"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "firefly-pointillism",
+  "name_en": "Firefly Pointillism",
+  "name_tr": "Ateşböceği Noktacılık",
+  "name_cn": "萤火光点",
+  "category_en": "Light & Lines",
+  "category_tr": "Işık & Çizgi",
+  "pitch": "A firefly's blink is a question: a girl gets her answer as a deer, loses every light in a storm, and asks the whole dark with the last one.",
+  "uses": [
+   "Picture-book stories",
+   "Many becoming one",
+   "Night and nature lyric"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "flat-space-explainer",
+  "name_en": "Scale Zoom Explainer",
+  "name_tr": "Ölçek Yakınlaştırma Anlatım",
+  "name_cn": "扁平尺度漫游",
+  "category_en": "Graphic & Type",
+  "category_tr": "Grafik & Tipografi",
+  "pitch": "A little probe whose eye is a zoom lens fires a dotted sight line at each next stop and takes us from the Milky Way down to a virus.",
+  "uses": [
+   "Science explainers",
+   "Scale and size",
+   "Classroom"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "flow-field",
+  "name_en": "Flow-field Wind Lines",
+  "name_tr": "Akış Alanı Rüzgâr Çizgileri",
+  "name_cn": "流场风线",
+  "category_en": "Light & Lines",
+  "category_tr": "Işık & Çizgi",
+  "pitch": "Thousands of ink wind lines, computed from the best track, draw Super Typhoon Yagi: the eye opening over the South China Sea, the landfall on Hainan, the spiral coming apart in Vietnam, and a whole week folded into one last line.",
+  "uses": [
+   "Storms, monsoons and other weather",
+   "Ocean currents and river floods",
+   "Any flow measured against a threshold"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "game-show",
+  "name_en": "Rhythm Game Show",
+  "name_tr": "Ritim Yarışma Programı",
+  "name_cn": "节奏综艺",
+  "category_en": "Games",
+  "category_tr": "Oyun",
+  "pitch": "The history of AI as a rhythm game: models take the stage on the beat, and a report card closes the show.",
+  "uses": [
+   "Tech timelines",
+   "Year in review",
+   "Variety shows"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "gilded-illumination",
+  "name_en": "Gilded Illumination",
+  "name_tr": "Altın Varaklı Tezhip",
+  "name_cn": "金箔彩绘",
+  "category_en": "Traditional Crafts",
+  "category_tr": "Geleneksel Sanatlar",
+  "pitch": "In a painted world where only gold shines, the sun goes out; a girl carries the last lamp up the mountain and gives it its light back.",
+  "uses": [
+   "Fables and picture-book stories",
+   "Holiday and festival shorts",
+   "Brand and origin stories"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "B"
+ },
+ {
+  "slug": "glass-product",
+  "name_en": "Glass Product Render",
+  "name_tr": "Cam Ürün Render",
+  "name_cn": "玻璃质感产品",
+  "category_en": "3D & Miniature",
+  "category_tr": "3D & Minyatür",
+  "pitch": "Unboxing and close-ups of Aura, fictional glass earbuds, in strip-light sweeps and caustics.",
+  "uses": [
+   "Product launches",
+   "Consumer tech",
+   "Beauty"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A+B"
+ },
+ {
+  "slug": "halftone-dossier",
+  "name_en": "Halftone Dossier",
+  "name_tr": "Raster Dosya",
+  "name_cn": "网点档案",
+  "category_en": "Print & Printmaking",
+  "category_tr": "Baskı & Gravür",
+  "pitch": "A chubby orange cat stands trial for testing gravity and 4 a.m. parkour, and walks free.",
+  "uses": [
+   "Humour",
+   "Pet content",
+   "Social shorts"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "hardcore-info",
+  "name_en": "Line-Art Cutaway",
+  "name_tr": "Çizgi Kesit Görünüş",
+  "name_cn": "线稿剖面图解",
+  "category_en": "Line Diagrams",
+  "category_tr": "Çizgi Diyagramlar",
+  "pitch": "A phone loses signal when held by the corner; taken apart, its metal frame turns out to be the antenna, cut into pieces your hand can bridge.",
+  "uses": [
+   "Hardware explainers",
+   "Product engineering",
+   "Science education"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "hd-2d",
+  "name_en": "2.5D Pixel Art",
+  "name_tr": "2.5D Piksel Sanat",
+  "name_cn": "2.5D 像素",
+  "category_en": "Games",
+  "category_tr": "Oyun",
+  "pitch": "The lighthouse goes dark; a girl carries the last flame through a night forest and up the storm cliffs.",
+  "uses": [
+   "Game trailers",
+   "Fantasy",
+   "Story films"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "hologram-hud",
+  "name_en": "Sci-fi Hologram HUD",
+  "name_tr": "Bilimkurgu Hologram HUD",
+  "name_cn": "科幻全息界面",
+  "category_en": "Screens & Interfaces",
+  "category_tr": "Ekran & Arayüz",
+  "pitch": "An e-bike is scanned into a hologram; target boxes lock onto the battery, motor and brakes.",
+  "uses": [
+   "Spec walkthroughs",
+   "Launch videos",
+   "Trade shows"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "impasto",
+  "name_en": "Impasto Oil Painting",
+  "name_tr": "Kalın Yağlıboya",
+  "name_cn": "油画厚涂",
+  "category_en": "Painting & Illustration",
+  "category_tr": "Resim & İllüstrasyon",
+  "pitch": "In a grey, rainy square one red umbrella opens, and a waltz paints the whole plaza in colour.",
+  "uses": [
+   "Music videos",
+   "Art & culture",
+   "Emotional ads"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "ink-wash",
+  "name_en": "Chinese Ink Wash",
+  "name_tr": "Çin Mürekkep Resmi",
+  "name_cn": "中国水墨",
+  "category_en": "Traditional Crafts",
+  "category_tr": "Geleneksel Sanatlar",
+  "pitch": "A swordsman crosses the river on the water and splits the current with a single stroke.",
+  "uses": [
+   "Wuxia",
+   "Cultural brands",
+   "Poetry"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "B"
+ },
+ {
+  "slug": "instruction-manual",
+  "name_en": "Instruction Manual Art",
+  "name_tr": "Kullanım Kılavuzu Çizimi",
+  "name_cn": "说明书插画",
+  "category_en": "Line Diagrams",
+  "category_tr": "Çizgi Diyagramlar",
+  "pitch": "Two first-timers build a crib from a flat-pack manual, ten steps on one 45° page; step ten was never in the manual.",
+  "uses": [
+   "Assembly and set-up guides",
+   "Safety instructions",
+   "Product onboarding"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "ipad-sketch",
+  "name_en": "Tablet Sketch Explainer",
+  "name_tr": "Tablet Eskiz Anlatım",
+  "name_cn": "平板速写讲解",
+  "category_en": "Sketch & Board",
+  "category_tr": "Eskiz & Tahta",
+  "pitch": "The coffee in your cup turns into a red cherry, then walks back to the cup: ripening, drying, roasting and grinding, one colour change at a time on a single pencil page.",
+  "uses": [
+   "Food & drink explainers",
+   "Craft and how-to",
+   "Lifestyle science"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "iso-infographic",
+  "name_en": "Isometric Infographic",
+  "name_tr": "İzometrik İnfografik",
+  "name_cn": "等距信息图",
+  "category_en": "Line Diagrams",
+  "category_tr": "Çizgi Diyagramlar",
+  "pitch": "A coffee's journey from the plantation to your hands, across one isometric world.",
+  "uses": [
+   "Process explainers",
+   "Supply chains",
+   "Annual reports"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "isometric-picture-book",
+  "name_en": "Isometric People Scene",
+  "name_tr": "İzometrik İnsan Sahnesi",
+  "name_cn": "等距小人场景",
+  "category_en": "3D & Miniature",
+  "category_tr": "3D & Minyatür",
+  "pitch": "Travellers board an isometric plane, and the order shows why one way is nearly twice as fast.",
+  "uses": [
+   "Everyday rules",
+   "Queues",
+   "Comparisons"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A+B"
+ },
+ {
+  "slug": "kino-montage",
+  "name_en": "Constructivist Montage",
+  "name_tr": "Konstrüktivist Montaj",
+  "name_cn": "构成主义蒙太奇",
+  "category_en": "Edit & Documentary",
+  "category_tr": "Kurgu & Belgesel",
+  "pitch": "The Empire State's 1931 brochure credits its builders; the site film and Hine's photos answer: 2,500 a day.",
+  "uses": [
+   "Industry histories",
+   "Milestones",
+   "Collective effort"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "lidar-survey",
+  "name_en": "LiDAR Survey",
+  "name_tr": "LiDAR Tarama",
+  "name_cn": "点云测绘",
+  "category_en": "Instruments & Evidence",
+  "category_tr": "Cihaz & Kanıt",
+  "pitch": "A laser survey strips the canopy off a Connecticut forest and finds 3.4 km of old farm walls.",
+  "uses": [
+   "Heritage",
+   "Environment",
+   "Site surveys"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "living-screencast",
+  "name_en": "Mascot Screencast",
+  "name_tr": "Maskotlu Ekran Kaydı",
+  "name_cn": "像素小人录屏",
+  "category_en": "Screens & Interfaces",
+  "category_tr": "Ekran & Arayüz",
+  "pitch": "Clawd hops out of the terminal into the Claude app and acts out plan mode and self-checks in one take.",
+  "uses": [
+   "Product tutorials",
+   "Feature launches",
+   "Onboarding"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "lowpoly-island",
+  "name_en": "Low-poly Isometric Island",
+  "name_tr": "Low-poly İzometrik Ada",
+  "name_cn": "低多边形等距",
+  "category_en": "3D & Miniature",
+  "category_tr": "3D & Minyatür",
+  "pitch": "An island and its village grow tile by tile from an empty sea, each tile a note, into a starry night.",
+  "uses": [
+   "Game trailers",
+   "World building",
+   "Calm content"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A+B"
+ },
+ {
+  "slug": "manga-panels",
+  "name_en": "Manga Panels",
+  "name_tr": "Manga Kareleri",
+  "name_cn": "黑白漫画分格",
+  "category_en": "Cartoons",
+  "category_tr": "Çizgi Film",
+  "pitch": "A street photographer chases a running light to the moment the pigeons rise; her pocket camera splits that second into thirty panels.",
+  "uses": [
+   "Music videos",
+   "Product launches",
+   "Anime openings"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": true,
+  "three_d": "B"
+ },
+ {
+  "slug": "map-explainer",
+  "name_en": "3D Map Explainer",
+  "name_tr": "3D Harita Anlatım",
+  "name_cn": "立体地图解说",
+  "category_en": "Data & Maps",
+  "category_tr": "Veri & Harita",
+  "pitch": "From the globe down into the strait a fifth of the world's oil squeezes through: two lanes, a cut through the sea floor, and pipelines that can carry only a fraction of it around.",
+  "uses": [
+   "News and geopolitics",
+   "Energy, trade and shipping",
+   "Rivers, borders and terrain"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "marker-paper",
+  "name_en": "Marker on Paper",
+  "name_tr": "Kâğıda Keçeli Kalem",
+  "name_cn": "马克笔白纸速写",
+  "category_en": "Sketch & Board",
+  "category_tr": "Eskiz & Tahta",
+  "pitch": "A felt-tip marker works out how far the horizon is from a beach, then shows that climbing a hundred times higher only lets you see ten times farther.",
+  "uses": [
+   "Worked problems",
+   "Science explainers",
+   "Lessons"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "memphis-diorama",
+  "name_en": "Memphis Diorama",
+  "name_tr": "Memphis Diorama",
+  "name_cn": "孟菲斯微缩景观",
+  "category_en": "3D & Miniature",
+  "category_tr": "3D & Minyatür",
+  "pitch": "One river bend, four seasons, one take; each turns when the big tree squats and springs back.",
+  "uses": [
+   "Web heroes",
+   "Ambient loops",
+   "Seasons"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A+B"
+ },
+ {
+  "slug": "microgame",
+  "name_en": "Microgame Frenzy",
+  "name_tr": "Mikro Oyun Çılgınlığı",
+  "name_cn": "微游戏快闪",
+  "category_en": "Games",
+  "category_tr": "Oyun",
+  "pitch": "A clumsy cadet survives a five-second boot camp, faster and faster, until the boss: landing home.",
+  "uses": [
+   "Game trailers",
+   "Onboarding",
+   "Social shorts"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "microscope",
+  "name_en": "Under the Microscope",
+  "name_tr": "Mikroskop Altında",
+  "name_cn": "显微镜下",
+  "category_en": "Instruments & Evidence",
+  "category_tr": "Cihaz & Kanıt",
+  "pitch": "One continuous move from a liver slide to a single nucleus; two circles, counted pixel by pixel, differ 2.4 times in blue.",
+  "uses": [
+   "Biomedicine",
+   "Materials science",
+   "Skincare science"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "midcentury-toon",
+  "name_en": "Mid-century Cartoon",
+  "name_tr": "Yüzyıl Ortası Çizgi Film",
+  "name_cn": "50s 扁平卡通",
+  "category_en": "Cartoons",
+  "category_tr": "Çizgi Film",
+  "pitch": "A robot vacuum set up in three steps, told like a 1950s classroom film.",
+  "uses": [
+   "Set-up guides",
+   "Help centres",
+   "How-to"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "B"
+ },
+ {
+  "slug": "neon-tubes",
+  "name_en": "Neon Tubes",
+  "name_tr": "Neon Tüpler",
+  "name_cn": "霓虹灯管",
+  "category_en": "Light & Lines",
+  "category_tr": "Işık & Çizgi",
+  "pitch": "A neon cat goes out for the goldfish on the sign at the end of the street, cracks its bowl, and runs the fading fish home through the rain to the goblet on its own sign.",
+  "uses": [
+   "Shop openings and mascot stories",
+   "Nightlife and city-pop music videos",
+   "City and festival night idents"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "news-package",
+  "name_en": "Broadcast News Package",
+  "name_tr": "TV Haber Paketi",
+  "name_cn": "电视新闻包装",
+  "category_en": "Edit & Documentary",
+  "category_tr": "Kurgu & Belgesel",
+  "pitch": "Four AI stories from one week in a full on-air package: rundown, headline strap, price board, spec card.",
+  "uses": [
+   "News round-ups",
+   "Bulletins",
+   "Market updates"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "newsreel",
+  "name_en": "1920s Newsreel",
+  "name_tr": "1920'ler Haber Filmi",
+  "name_cn": "1920s 新闻影片",
+  "category_en": "Edit & Documentary",
+  "category_tr": "Kurgu & Belgesel",
+  "pitch": "1926: the papers say the Charleston will ruin America's knees; at Ford's own picnic the kids dance it anyway.",
+  "uses": [
+   "History stories",
+   "Fads & eras",
+   "Anniversaries"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "one-bit-dither",
+  "name_en": "1-bit Dither",
+  "name_tr": "1-bit Dither",
+  "name_cn": "1-bit 点阵",
+  "category_en": "Screens & Interfaces",
+  "category_tr": "Ekran & Arayüz",
+  "pitch": "February 1966: the first close-up of the Moon arrives at an English radio telescope as a newspaper fax, printed one line at a time in two inks, a day early and stretched too tall.",
+  "uses": [
+   "History told through a chain of media",
+   "Printing, scanning and signals",
+   "Night scenes and space"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "one-line",
+  "name_en": "One-line Drawing",
+  "name_tr": "Tek Çizgi Çizim",
+  "name_cn": "一笔画",
+  "category_en": "Sketch & Board",
+  "category_tr": "Eskiz & Tahta",
+  "pitch": "One unbroken line draws a whole life, then the pen passes to a child.",
+  "uses": [
+   "Brand stories",
+   "Life milestones",
+   "Minimal ads"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "oscilloscope-math",
+  "name_en": "Oscilloscope Math",
+  "name_tr": "Osiloskop Matematiği",
+  "name_cn": "示波器数学",
+  "category_en": "Light & Lines",
+  "category_tr": "Işık & Çizgi",
+  "pitch": "How do you roll a square out of circles? Spinning circles stack into a square wave, until a dive into one corner finds the 9% spike that never goes away.",
+  "uses": [
+   "Maths and physics lessons",
+   "Signals and electronics",
+   "Science explainers"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "paper-lantern",
+  "name_en": "Paper-cut Lightbox",
+  "name_tr": "Kâğıt Kesme Işık Kutusu",
+  "name_cn": "纸雕灯影",
+  "category_en": "Traditional Crafts",
+  "category_tr": "Geleneksel Sanatlar",
+  "pitch": "An old night train makes its last run, from a snowy mountain halt through a long tunnel to the sea, its lit windows going out one by one at the end of the line.",
+  "uses": [
+   "Journeys and travel",
+   "Farewells and anniversaries",
+   "Places and their stories"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "B"
+ },
+ {
+  "slug": "paper-popup",
+  "name_en": "Paper Pop-up Book",
+  "name_tr": "Kâğıt Pop-up Kitap",
+  "name_cn": "纸片立体书",
+  "category_en": "3D & Miniature",
+  "category_tr": "3D & Minyatür",
+  "pitch": "A pop-up book opens on a desk; a sprite named Pip adventures through paper worlds and jumps out into ours.",
+  "uses": [
+   "Children's books",
+   "Game trailers",
+   "Story films"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A+B"
+ },
+ {
+  "slug": "papercut-red",
+  "name_en": "Red Paper-cut",
+  "name_tr": "Kırmızı Kâğıt Kesme",
+  "name_cn": "红色窗花剪纸",
+  "category_en": "Traditional Crafts",
+  "category_tr": "Geleneksel Sanatlar",
+  "pitch": "On New Year's Eve the beast Nian comes to town, and one girl's giant paper-cut lights up the village to scare it off.",
+  "uses": [
+   "Lunar New Year",
+   "Festive greetings",
+   "Folk tales"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "B"
+ },
+ {
+  "slug": "pen-plotter",
+  "name_en": "Pen Plotter",
+  "name_tr": "Kalem Çizici (Plotter)",
+  "name_cn": "笔式绘图仪",
+  "category_en": "Line Diagrams",
+  "category_tr": "Çizgi Diyagramlar",
+  "pitch": "At night under a desk lamp, a pen plotter draws Mount Qomolangma from real elevation data with four pens, and writes its height last.",
+  "uses": [
+   "Maps and terrain",
+   "Measurements and records",
+   "Generative and data drawings"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "pictogram-motion",
+  "name_en": "Pictogram Motion",
+  "name_tr": "Piktogram Animasyon",
+  "name_cn": "象形运动图形",
+  "category_en": "Graphic & Type",
+  "category_tr": "Grafik & Tipografi",
+  "pitch": "A yellow umbrella left on a bus waits out a sunny day on the lost-property shelf, then opens with 312 others when the storm comes back: objects, vehicles, weather and signs as beat-locked geometric pictograms.",
+  "uses": [
+   "Public services and city stories",
+   "Brand and event identity films",
+   "Explainers told through signs and objects"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "pip-simulation",
+  "name_en": "Blob Simulation",
+  "name_tr": "Figür Simülasyonu",
+  "name_cn": "小人模拟实验",
+  "category_en": "Data & Maps",
+  "category_tr": "Veri & Harita",
+  "pitch": "160 flocked Pips race for beans: the fast ones eat first and run dry first, and after 20 generations the board turns blue.",
+  "uses": [
+   "Evolution and natural selection",
+   "Game theory and agent-based models",
+   "Epidemics, queues and markets"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "pixel-rpg",
+  "name_en": "16-bit Pixel RPG",
+  "name_tr": "16-bit Piksel RPG",
+  "name_cn": "16-bit 像素 RPG",
+  "category_en": "Games",
+  "category_tr": "Oyun",
+  "pitch": "At the final boss door a hero saves the game, and the save screen replays the whole journey.",
+  "uses": [
+   "Game trailers",
+   "Recaps",
+   "Nostalgia"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "pop-art",
+  "name_en": "Pop Art",
+  "name_tr": "Pop Art",
+  "name_cn": "波普艺术",
+  "category_en": "Print & Printmaking",
+  "category_tr": "Baskı & Gravür",
+  "pitch": "Almost every banana in the shops is one plant, copied: a wall of identical prints, an old banana eaten black by dots, and a wave of colour that turns into many bananas.",
+  "uses": [
+   "Everyday-object explainers",
+   "Brand and product posters",
+   "Small data stories"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "precise-mechanism",
+  "name_en": "Color-Coded Mechanism",
+  "name_tr": "Renk Kodlu Mekanizma",
+  "name_cn": "分色机械图解",
+  "category_en": "Line Diagrams",
+  "category_tr": "Çizgi Diyagramlar",
+  "pitch": "A watch with no battery is cut open: its three systems are dyed one by one, the train races when the escapement is pulled out, and one slowed tick lets it all out again.",
+  "uses": [
+   "How machines work",
+   "Product and engineering explainers",
+   "Science teaching"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "printed-long-take",
+  "name_en": "Scratchboard Long Take",
+  "name_tr": "Kazıma Pano Uzun Plan",
+  "name_cn": "刮版画长镜头",
+  "category_en": "Print & Printmaking",
+  "category_tr": "Baskı & Gravür",
+  "pitch": "Red-crowned cranes in a Hokkaido valley, one scratchboard take, counted back from 33 to 1,927.",
+  "uses": [
+   "Journeys",
+   "Wildlife",
+   "Landscapes"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "risograph",
+  "name_en": "Risograph Print",
+  "name_tr": "Risograf Baskı",
+  "name_cn": "孔版印刷",
+  "category_en": "Print & Printmaking",
+  "category_tr": "Baskı & Gravür",
+  "pitch": "A Sunday-morning bike ride through the city — bakery, park, riverside — each stop adding an ink until three misregistered plates overprint.",
+  "uses": [
+   "Indie brands",
+   "Zines",
+   "Lifestyle"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "rubber-hose",
+  "name_en": "1930s Rubber Hose Cartoon",
+  "name_tr": "1930'lar Lastik Hortum Çizgi Film",
+  "name_cn": "1930s 橡皮管卡通",
+  "category_en": "Cartoons",
+  "category_tr": "Çizgi Film",
+  "pitch": "A coffee cup chases a runaway sugar cube around the kitchen, 1930s-cartoon style.",
+  "uses": [
+   "Food & drink",
+   "Retro ads",
+   "Kids"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "B"
+ },
+ {
+  "slug": "satellite-briefing",
+  "name_en": "Satellite Briefing",
+  "name_tr": "Uydu Brifingi",
+  "name_cn": "卫星简报",
+  "category_en": "Instruments & Evidence",
+  "category_tr": "Cihaz & Kanıt",
+  "pitch": "A satellite follows the map to the Aral Sea and finds a desert; only the part someone dammed came back.",
+  "uses": [
+   "Climate",
+   "News explainers",
+   "Geography"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "scifi-toon",
+  "name_en": "Sci-Fi Sitcom Toon",
+  "name_tr": "Bilimkurgu Sitkom Çizgi Film",
+  "name_cn": "科幻情景喜剧卡通",
+  "category_en": "Cartoons",
+  "category_tr": "Çizgi Film",
+  "pitch": "A jaded genius opens a portal just to buy coffee and tumbles through ever-stranger universes.",
+  "uses": [
+   "Comedy",
+   "Tech brands",
+   "Social shorts"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "B"
+ },
+ {
+  "slug": "scratch-film",
+  "name_en": "Scratch Film",
+  "name_tr": "Film Üstü Kazıma",
+  "name_cn": "胶片直刻",
+  "category_en": "Film & Tape",
+  "category_tr": "Film & Kaset",
+  "pitch": "A finger-long lanternfish climbs half a kilometre in the dark, hides its shadow with its own lights, and turns out to be one of countless animals rising every night.",
+  "uses": [
+   "Things that happen in the dark",
+   "One mark to a whole system",
+   "Small adventures told in light and shadow"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "security-xray",
+  "name_en": "Security X-ray",
+  "name_tr": "Güvenlik Röntgeni",
+  "name_cn": "安检 X 光",
+  "category_en": "Instruments & Evidence",
+  "category_tr": "Cihaz & Kanıt",
+  "pitch": "One night at an airport screening console: a power bank, a bottle of water, and six live crabs that move in the CT.",
+  "uses": [
+   "Airport and customs screening",
+   "Parcel and cargo inspection",
+   "Product internals"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "shadow-puppet",
+  "name_en": "Shadow Puppetry",
+  "name_tr": "Gölge Oyunu",
+  "name_cn": "皮影戏",
+  "category_en": "Traditional Crafts",
+  "category_tr": "Geleneksel Sanatlar",
+  "pitch": "Ten suns scorch the earth until the archer Hou Yi draws his bow, told with leather puppets on a lit screen.",
+  "uses": [
+   "Myths & folklore",
+   "Heritage",
+   "Festivals"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "B"
+ },
+ {
+  "slug": "silent-film",
+  "name_en": "1920s Silent Film",
+  "name_tr": "1920'ler Sessiz Film",
+  "name_cn": "1920s 默片",
+  "category_en": "Film & Tape",
+  "category_tr": "Film & Kaset",
+  "pitch": "A baker's boy chases a runaway loaf downhill, then breaks it in half for a hungry girl.",
+  "uses": [
+   "Comedy",
+   "Retro brands",
+   "Silent storytelling"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "silhouette-rhythm",
+  "name_en": "Silhouette Rhythm",
+  "name_tr": "Siluet Ritim",
+  "name_cn": "剪影律动",
+  "category_en": "Graphic & Type",
+  "category_tr": "Grafik & Tipografi",
+  "pitch": "A flock of flamingos moves on every beat, and one young bird is always half a beat late; the ripples the others left on the water teach it the beat.",
+  "uses": [
+   "Music videos",
+   "Sports and team films",
+   "Nature and festival openers"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "silkscreen-poster",
+  "name_en": "Silkscreen Travel Poster",
+  "name_tr": "Serigrafi Seyahat Afişi",
+  "name_cn": "丝印旅行海报",
+  "category_en": "Print & Printmaking",
+  "category_tr": "Baskı & Gravür",
+  "pitch": "A traveller crosses the world one full-bleed screen print at a time, a ticket stub counting the distance from home, until the far side turns into the way back.",
+  "uses": [
+   "Destination guides",
+   "Tourism",
+   "Event posters"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "sketchnote",
+  "name_en": "Sketchnote",
+  "name_tr": "Görsel Not",
+  "name_cn": "视觉笔记",
+  "category_en": "Sketch & Board",
+  "category_tr": "Eskiz & Tahta",
+  "pitch": "One bee makes 1/12 of a teaspoon of honey in her life; the pen follows one yellow drop from flower to jar until the whole page is a poster.",
+  "uses": [
+   "Lecture notes",
+   "Science explainers",
+   "One-page summaries"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "spreadsheet",
+  "name_en": "Spreadsheet Film",
+  "name_tr": "Tablo Filmi",
+  "name_cn": "表格动画",
+  "category_en": "Screens & Interfaces",
+  "category_tr": "Ekran & Arayüz",
+  "pitch": "The total says treatment B; unhide the stone-size columns and A wins every group. Simpson's paradox told in one sheet, 1 cell = 1 patient.",
+  "uses": [
+   "Data literacy",
+   "Finance & costs",
+   "Analytics explainers"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "spy-titles",
+  "name_en": "60s Spy Title Sequence",
+  "name_tr": "60'lar Casus Jeneriği",
+  "name_cn": "60s 间谍片头",
+  "category_en": "Graphic & Type",
+  "category_tr": "Grafik & Tipografi",
+  "pitch": "Opening titles for an imaginary 1964 spy film: a chase for a stolen key until the shapes lock into the title.",
+  "uses": [
+   "Title sequences",
+   "Event openers",
+   "Trailers"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "stained-glass",
+  "name_en": "Stained Glass",
+  "name_tr": "Vitray",
+  "name_cn": "彩色玻璃窗",
+  "category_en": "Traditional Crafts",
+  "category_tr": "Geleneksel Sanatlar",
+  "pitch": "Sunlight crosses a cathedral window from dawn to dusk, waking each pane of a knight-and-dragon tale.",
+  "uses": [
+   "Legends",
+   "Heritage",
+   "Holiday stories"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "B"
+ },
+ {
+  "slug": "stick-explainer",
+  "name_en": "Stick-figure Explainer",
+  "name_tr": "Çöp Adam Anlatım",
+  "name_cn": "火柴人讲解",
+  "category_en": "Sketch & Board",
+  "category_tr": "Eskiz & Tahta",
+  "pitch": "A chain of hands from you to a stranger: tested with letters in 1967, explained by rings that outgrow the Earth, closed around the globe.",
+  "uses": [
+   "Science explainers",
+   "Networks & social ideas",
+   "Data comparisons"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "swiss-motion",
+  "name_en": "Swiss Motion Graphics",
+  "name_tr": "İsviçre Hareketli Grafik",
+  "name_cn": "瑞士动态排版",
+  "category_en": "Graphic & Type",
+  "category_tr": "Grafik & Tipografi",
+  "pitch": "A concert poster lays itself out by five Swiss design rules; the fifth is to break just one.",
+  "uses": [
+   "Brand identity",
+   "Events",
+   "Design education"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "teardown",
+  "name_en": "Exploded Teardown",
+  "name_tr": "Patlatılmış Parça Görünüşü",
+  "name_cn": "产品拆解",
+  "category_en": "Line Diagrams",
+  "category_tr": "Çizgi Diyagramlar",
+  "pitch": "Half an open-source keyboard comes apart in one orbit, down to the chip, then closes with its real dimensions.",
+  "uses": [
+   "Hardware launches",
+   "Product pages",
+   "Spec explainers"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "telestrator",
+  "name_en": "Sports Telestrator",
+  "name_tr": "Spor Taktik Tahtası",
+  "name_cn": "体育战术板",
+  "category_en": "Edit & Documentary",
+  "category_tr": "Kurgu & Belgesel",
+  "pitch": "Down 3–0 at half-time, Fenerbahçe scored three in 12 minutes: freeze, draw, split screen, shot map.",
+  "uses": [
+   "Sports analysis",
+   "Match recaps",
+   "Coaching"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "text-flash-cuts",
+  "name_en": "Text Flash Cuts",
+  "name_tr": "Hızlı Metin Kesmeleri",
+  "name_cn": "文字闪切",
+  "category_en": "Graphic & Type",
+  "category_tr": "Grafik & Tipografi",
+  "pitch": "A letter, a phone call, a wall of windows, thirteen steps: the girl who told him not to look back is always one step closer, until she turns her head.",
+  "uses": [
+   "Suspense & drama trailers",
+   "Title sequences",
+   "Manifesto films"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": true,
+  "three_d": "none"
+ },
+ {
+  "slug": "thermal-camera",
+  "name_en": "Thermal Camera",
+  "name_tr": "Termal Kamera",
+  "name_cn": "热成像",
+  "category_en": "Instruments & Evidence",
+  "category_tr": "Cihaz & Kanıt",
+  "pitch": "A thermal camera circles an old apartment block on a snowy night: a leaking window, pipes inside the walls, a cat asleep on a warm bonnet, and the same block a year after its retrofit.",
+  "uses": [
+   "Building and energy inspection",
+   "Wildlife at night",
+   "Machines and electrics"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "tilt-shift",
+  "name_en": "Tilt-Shift Miniature",
+  "name_tr": "Tilt-Shift Minyatür",
+  "name_cn": "移轴微缩",
+  "category_en": "3D & Miniature",
+  "category_tr": "3D & Minyatür",
+  "pitch": "Morning rush hour in a town that looks like a model: traffic, trains and tiny people.",
+  "uses": [
+   "City promos",
+   "Real estate",
+   "Transport"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A+B"
+ },
+ {
+  "slug": "transit-map",
+  "name_en": "Transit Map",
+  "name_tr": "Metro Haritası",
+  "name_cn": "地铁线路图",
+  "category_en": "Data & Maps",
+  "category_tr": "Veri & Harita",
+  "pitch": "A printed metro map grows from one 6 km line in 1993 to 21 lines and 906 km.",
+  "uses": [
+   "Transport",
+   "Growth over time",
+   "Networks"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "ukiyoe",
+  "name_en": "Ukiyo-e",
+  "name_tr": "Ukiyo-e Gravür",
+  "name_cn": "浮世绘",
+  "category_en": "Traditional Crafts",
+  "category_tr": "Geleneksel Sanatlar",
+  "pitch": "A traveller walks toward a distant mountain; every shot is a woodblock print, a great wave at the climax, the mountain and the whole scroll at the end.",
+  "uses": [
+   "Travel",
+   "Japanese culture",
+   "Poetry"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "B"
+ },
+ {
+  "slug": "urban-sketch",
+  "name_en": "Urban Sketch · Pen & Wash",
+  "name_tr": "Kent Eskizi · Kalem & Lavi",
+  "name_cn": "钢笔淡彩",
+  "category_en": "Painting & Illustration",
+  "category_tr": "Resim & İllüstrasyon",
+  "pitch": "A park that is only a pen sketch; wherever the wind carries her straw hat, colour follows.",
+  "uses": [
+   "City & travel",
+   "Architecture",
+   "Lifestyle brands"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "vintage-collage",
+  "name_en": "Vintage Engraving Collage",
+  "name_tr": "Eski Gravür Kolaj",
+  "name_cn": "复古版画拼贴",
+  "category_en": "Print & Printmaking",
+  "category_tr": "Baskı & Gravür",
+  "pitch": "A 1918 airmail sheet printed with its plane upside down: bought for $24, cut up and scattered, and number 66 is still missing.",
+  "uses": [
+   "The history of an object",
+   "Magazine-style explainers on ideas and society",
+   "Archive and collecting stories"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "visual-investigation",
+  "name_en": "Visual Investigation",
+  "name_tr": "Görsel Soruşturma",
+  "name_cn": "视觉调查",
+  "category_en": "Edit & Documentary",
+  "category_tr": "Kurgu & Belgesel",
+  "pitch": "Newsreel, photos, testimony and the 1937 inquiry on one clock: five sources point to the same spot.",
+  "uses": [
+   "Reconstructions",
+   "Fact-checks",
+   "Incident reports"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "watercolor",
+  "name_en": "Watercolor Brush",
+  "name_tr": "Suluboya Fırça",
+  "name_cn": "水彩笔刷",
+  "category_en": "Painting & Illustration",
+  "category_tr": "Resim & İllüstrasyon",
+  "pitch": "Follow the rain from Australia's red desert heart to its green coast in one unbroken painted walk.",
+  "uses": [
+   "Nature documentary",
+   "Travel",
+   "Science explainers"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "white-model",
+  "name_en": "Projection-Mapped Model",
+  "name_tr": "Projeksiyonlu Maket",
+  "name_cn": "白模投影",
+  "category_en": "Data & Maps",
+  "category_tr": "Veri & Harita",
+  "pitch": "A projector paints Rotterdam's white model layer by layer, from the 1940 gap to today's towers.",
+  "uses": [
+   "Urban planning",
+   "Exhibitions",
+   "City data"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "A"
+ },
+ {
+  "slug": "whiteboard",
+  "name_en": "Whiteboard Explainer",
+  "name_tr": "Beyaz Tahta Anlatım",
+  "name_cn": "白板讲解",
+  "category_en": "Sketch & Board",
+  "category_tr": "Eskiz & Tahta",
+  "pitch": "How your phone knows where you are: GPS, atomic clocks, and the 38 microseconds relativity adds every day.",
+  "uses": [
+   "Explainers",
+   "Online courses",
+   "Science"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ },
+ {
+  "slug": "woodcut",
+  "name_en": "Woodcut Print",
+  "name_tr": "Ağaç Baskı",
+  "name_cn": "木刻版画",
+  "category_en": "Print & Printmaking",
+  "category_tr": "Baskı & Gravür",
+  "pitch": "A village spends a whole winter casting one bell; the first time it rings, the snow stops.",
+  "uses": [
+   "Folk tales",
+   "Craft brands",
+   "Book trailers"
+  ],
+  "source": "lemo-opuscar",
+  "needs_images": false,
+  "three_d": "none"
+ }
+]

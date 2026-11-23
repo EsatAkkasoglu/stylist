@@ -1,0 +1,185 @@
+{
+ "slug": "impasto",
+ "num": "11",
+ "en": "Impasto Oil Painting",
+ "cn": "油画厚涂",
+ "category_en": "Painting & Illustration",
+ "category_cn": "绘画插画",
+ "film": "The Colour of Rain",
+ "film_cn": "雨的颜色",
+ "line": "In a grey, rainy square one red umbrella opens, and a waltz paints the whole plaza in colour.",
+ "line_cn": "灰色雨中广场，第一把红伞撑开，圆舞曲把整个广场刷上颜色。",
+ "uses": [
+  "Music videos",
+  "Art & culture",
+  "Emotional ads"
+ ],
+ "frame_sec": 28.58,
+ "dur": 39.7,
+ "source": "lemo-opuscar",
+ "lemo_slug": "impasto",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Kalın Yağlıboya",
+ "category_tr": "Resim & İllüstrasyon",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "AMBIENCE",
+    "query": "ambience"
+   }
+  ],
+  "motion": {
+   "cuts": "slow drift, push-through with a focus pull",
+   "rig": "calm",
+   "move_frames": [
+    14,
+    24
+   ],
+   "ease": "softLand",
+   "reveal": "focus",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "folk-acoustic",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Slow truck + push on a wide",
+     "expresses": "a world observed; patience",
+     "serves": "a place; a routine; a crowd"
+    },
+    {
+     "move": "Push-in through a silence",
+     "expresses": "inner pressure",
+     "serves": "a doubt; a decision; giving up"
+    },
+    {
+     "move": "Tilt-up from the ground or a reflection",
+     "expresses": "discovery from below",
+     "serves": "a small character entering; a first sight"
+    },
+    {
+     "move": "Pull-back from a close-up",
+     "expresses": "reaction; the world answering",
+     "serves": "consequence; a reveal of who is watching"
+    },
+    {
+     "move": "Rotating crane-out, overhead",
+     "expresses": "pattern emerging from many",
+     "serves": "choreography; traffic; a gathering"
+    },
+    {
+     "move": "Same wide, repeated",
+     "expresses": "before/after",
+     "serves": "change of colour, season or time"
+    },
+    {
+     "move": "Locked frame, light moves",
+     "expresses": "time and weather as the actor",
+     "serves": "a day passing; a storm arriving"
+    },
+    {
+     "move": "Macro slide along the paint surface",
+     "expresses": "the matter itself",
+     "serves": "a texture; a crafted object; a map"
+    },
+    {
+     "move": "Whip-pan into a new painted plate",
+     "expresses": "energy, a jump",
+     "serves": "a list; montage; travel"
+    }
+   ],
+   "transitions": [
+    "Transitions: paint-over sweeps and scrapes, hard cuts on beats;",
+    "no dissolves (two layers of knife ridges turn to mud)."
+   ],
+   "labels": [
+    "Titles are laid in with the knife (a stroke-by-stroke appear sweep of about a second) and can be taken off by the world (washed by rain, scraped, painted over). They move with the world.",
+    "Small text (credits, data, captions) stays crisp DOM text over the painting: knife strokes can't carry small letters.",
+    "A serif display face (e.g. Cormorant, OFL). Subtitles, if there is a voice: plain serif, ≤ 2 lines, in a calm plane; hold ≥ max(1.8 s, speech + 0.6 s)."
+   ],
+   "motion": [
+    "Static paint is static. Only the things the story moves move (weather, figures, props, ribbons, light). Smooth 24 fps, no stepping: clarity is the brief.",
+    "Moving figures are procedural strokes rebuilt each frame from fixed seeds, so their paint doesn't boil (walk cycles, IK arms, props that open and close).",
+    "Actions sit on the music grid: a change of direction, a pop, a swell lands on a beat.",
+    "Anticipation → action → follow-through on every gesture (lift before the strike, dip before the snap, swing after the stop)."
+   ],
+   "native_moves": [
+    {
+     "name": "Colour re-laid by the knife",
+     "does": "Every stroke keeps a grey and a colour version; a reveal wave re-paints them stroke by stroke (reveal, revC).",
+     "fits": "a town waking up; a patient recovering; a brand relaunch; a season turning."
+    },
+    {
+     "name": "The one coloured thing",
+     "does": "The world drawn with grey: 1, one object with grey: 0.",
+     "fits": "one person in a crowd; the fruit that ripened; a warning light."
+    },
+    {
+     "name": "Motion paints the picture",
+     "does": "Moving objects drip their colour as knife dabs; seen from above, their paths leave a painted pattern.",
+     "fits": "a dance; delivery routes across a city; a football play; migration."
+    },
+    {
+     "name": "Raking light",
+     "does": "At the peak, drop the light to a grazing angle so every ridge catches it, then let it settle.",
+     "fits": "a sunrise; a moment of recognition; unveiling a sculpture."
+    },
+    {
+     "name": "Paint-over transition",
+     "does": "The next shot's strokes are laid over the previous one in a sweep (appear), with a scrape on the soundtrack.",
+     "fits": "a renovation; memory replacing the present; a timeline of versions."
+    },
+    {
+     "name": "Sound made visible",
+     "does": "A note or a voice becomes a paint ribbon that carries colour to what it touches.",
+     "fits": "a song reaching listeners; a radio broadcast; a rumour spreading."
+    }
+   ]
+  },
+  "score": {
+   "genre": "folk-acoustic",
+   "pad": "accordion",
+   "lead": "violin",
+   "pulse": "harp",
+   "sparkle": "glockenspiel",
+   "bass": "contrabass_pizz",
+   "drums": "none",
+   "note": "acoustic with hand-made grain: solo strings, accordion, harp arpeggios",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "violin",
+      "gm": 40
+     },
+     "pad": {
+      "voice": "accordion",
+      "gm": 21
+     },
+     "pulse": {
+      "voice": "harp",
+      "gm": 46
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

@@ -1,0 +1,193 @@
+{
+ "slug": "comic-history",
+ "num": "56",
+ "en": "Comic History Cartoon",
+ "cn": "搞笑历史卡通",
+ "category_en": "Cartoons",
+ "category_cn": "卡通动画",
+ "film": "One Piece of Paper",
+ "film_cn": "一块纸",
+ "line": "Alsace-Lorraine changed hands four times between 1871 and 1945: each time someone tore off the paper and pasted a new piece, and the woman living on it never moved.",
+ "line_cn": "阿尔萨斯-洛林在 1871 到 1945 年间四次换主人：每次都有人撕下那块纸、贴上新的，住在上面的她一步没挪。",
+ "uses": [
+  "Territorial changes in history",
+  "Light explainers on geopolitics",
+  "Market share and turf-war stories"
+ ],
+ "needs": [
+  "image-generation"
+ ],
+ "frame_sec": 9.9,
+ "dur": 51.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "comic-history",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Komik Tarih Çizgi Filmi",
+ "category_tr": "Çizgi Film",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "thump"
+   },
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "metal"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "clicks"
+   }
+  ],
+  "motion": {
+   "cuts": "snap zoom, squash and stretch",
+   "rig": "punchy",
+   "move_frames": [
+    6,
+    10
+   ],
+   "ease": "snapSettle",
+   "reveal": "rise",
+   "mblur": true
+  },
+  "three_d": "B",
+  "music": "hot-jazz",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Slow push inside a panel",
+     "expresses": "attention gathering on the map",
+     "serves": "a claim; a build-up before a cut"
+    },
+    {
+     "move": "Shake (small / large)",
+     "expresses": "weight of paper landing",
+     "serves": "a stamp; a slap; the heaviest blow of the film"
+    },
+    {
+     "move": "Pull back to the whole page",
+     "expresses": "\"this is a comic page\"",
+     "serves": "a reveal; a change of place; an ending"
+    },
+    {
+     "move": "Lateral slide into the next panel",
+     "expresses": "the same moment elsewhere",
+     "serves": "a parallel scene; a quiet aside"
+    },
+    {
+     "move": "Whip across a gutter with speed lines",
+     "expresses": "a jump in time",
+     "serves": "decades passing; a punchline"
+    },
+    {
+     "move": "Diagonal drop down the page",
+     "expresses": "the next row of the story",
+     "serves": "returning to the light after a dark panel"
+    },
+    {
+     "move": "Tilt down and push in until the map becomes a tabletop",
+     "expresses": "the thickness of the paper",
+     "serves": "layers of history; what is left underneath"
+    }
+   ],
+   "transitions": [
+    "Transitions are page moves only (slide, whip, drop, pull back);",
+    "no dissolves or flips between panels."
+   ],
+   "labels": [
+    "Place names: an engraved small-caps serif (e.g. IM FELL English SC), tracked out, pure ink. No outline, glow or shadow.",
+    "Small print (tag captions, treaty slips, title card): the same family in roman and italic.",
+    "Every number (rule): a serif with lining figures (e.g. Old Standard TT). Old-style figures turn 1975 into \"I975\" and drop the 7 below the baseline. Year tags are bold lining figures with a thin printed rule under them; numbers inside other text switch to the lining face at the surrounding weight, on the same baseline, at about 0.9 of the surrounding size.",
+    "Shouts in speech bubbles: a round heavy display face (e.g. Lilita One), one English line; the Chinese line under it in a rounded hand-drawn face (e.g. ZCOOL KuaiLe) in the accent red."
+   ],
+   "motion": [
+    "Puppets on twos (12 poses a second); camera and shadows move every frame.",
+    "Keyframes with spring overshoot: hop (legs swing, squat on landing), wind-up (lean back, tremble), strike (lunge, every joint rebounds), settle (arms crossed with overshoot). A head swap pops the head 1.07–1.10× for a frame or two.",
+    "One in-between drawing carries a big strike: the pose at the top holds and trembles, then a single frame with ink motion arcs lands it.",
+    "Impact spreads: the camera shakes, paper scraps fly, ink lines burst, the other puppet's hat jumps off and lands back."
+   ],
+   "native_moves": [
+    {
+     "name": "Cut along the dotted line",
+     "does": "A dashed cut line prints along the border, scissors snip along it, the cut land greys and hatches, a new patch drops with a big shadow and slaps down.",
+     "fits": "a company buying a rival's market; a district redrawn for an election; a river changing course and moving a border."
+    },
+    {
+     "name": "Tear it back",
+     "does": "A patch is torn off with ragged fibres and leftover shreds underneath, and flung at the other puppet.",
+     "fits": "a treaty revoked; a franchise reclaimed; a merger undone."
+    },
+    {
+     "name": "It won't lie flat",
+     "does": "A patch pressed on by force keeps a peeled corner; someone tugs it and it will not come off.",
+     "fits": "an occupation; a policy nobody accepts; a rebrand that doesn't stick."
+    },
+    {
+     "name": "Layer on layer",
+     "does": "Instead of tearing, a new patch is pasted over the old ones, until the tilt-down shows a stack.",
+     "fits": "a city's successive names; layers of regulation; a product's version history."
+    },
+    {
+     "name": "Stamp the papers",
+     "does": "A small civilian holds a document; a stamp drops in front of their face and changes one word.",
+     "fits": "a citizenship change; a visa rule; a currency switch."
+    },
+    {
+     "name": "Pin on the map",
+     "does": "A labelled pin drops onto the real location to end a thread.",
+     "fits": "where a headquarters moved; where a battle ended; where a person still lives."
+    }
+   ]
+  },
+  "score": {
+   "genre": "hot-jazz",
+   "bpm": 150,
+   "pad": "accordion",
+   "lead": "xylophone",
+   "counter": "trombone",
+   "bass": "tuba_stac",
+   "drums": "orch",
+   "note": "one instrument family per side: oom-pah tuba, accordion, xylophone steps",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "xylophone",
+      "gm": 13
+     },
+     "counter": {
+      "voice": "trombone",
+      "gm": 57
+     },
+     "pad": {
+      "voice": "accordion",
+      "gm": 21
+     },
+     "pulse": {
+      "voice": "pluck:banjo",
+      "gm": 105
+     },
+     "bass": {
+      "voice": "tuba_stac",
+      "gm": 58
+     }
+    },
+    "drums": {
+     "timpani": 47
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,192 @@
+{
+ "slug": "security-xray",
+ "num": "91",
+ "en": "Security X-ray",
+ "cn": "安检 X 光",
+ "category_en": "Instruments & Evidence",
+ "category_cn": "仪器实证",
+ "film": "Night Shift at Lane 3",
+ "film_cn": "安检口的夜班",
+ "line": "One night at an airport screening console: a power bank, a bottle of water, and six live crabs that move in the CT.",
+ "line_cn": "机场安检机屏幕上的一个夜班：一个充电宝、一瓶水，还有在 CT 里动了一下腿的六只活蟹。",
+ "uses": [
+  "Airport and customs screening",
+  "Parcel and cargo inspection",
+  "Product internals"
+ ],
+ "frame_sec": 16.6,
+ "dur": 51.9,
+ "source": "lemo-opuscar",
+ "lemo_slug": "security-xray",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Güvenlik Röntgeni",
+ "category_tr": "Cihaz & Kanıt",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "DESIGNED/ALERT",
+    "query": "alarm"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "clicks"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "thump"
+   }
+  ],
+  "motion": {
+   "cuts": "instrument sweeps, slide between readings",
+   "rig": "editorial",
+   "move_frames": [
+    10,
+    16
+   ],
+   "ease": "softLand",
+   "reveal": "wipe",
+   "mblur": true
+  },
+  "three_d": "A",
+  "music": "cinematic-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Wide booth, window behind",
+     "expresses": "place, time of day",
+     "serves": "an opening; the hour changing; an ending"
+    },
+    {
+     "move": "Push from booth into the screen",
+     "expresses": "attention narrowing",
+     "serves": "the next bag; a shift starting"
+    },
+    {
+     "move": "Tight crop on part of the console",
+     "expresses": "one object, one reading",
+     "serves": "a montage; a counter or clock"
+    },
+    {
+     "move": "Operator zoom inside the image",
+     "expresses": "suspicion",
+     "serves": "a flagged object"
+    },
+    {
+     "move": "Locked frame with a panel",
+     "expresses": "judging",
+     "serves": "a rule, a measurement, a verdict"
+    },
+    {
+     "move": "CT orbit with push",
+     "expresses": "seeing in 3D what the flat image hid",
+     "serves": "a reveal; a hidden mechanism; a living thing"
+    },
+    {
+     "move": "Pull back to the window",
+     "expresses": "consequence, time passing",
+     "serves": "dawn; the end of a run"
+    }
+   ],
+   "transitions": [
+    "Transitions come from the machine, never a hard jump in brightness: - Between bags: the scan sweep.",
+    "Filters and rescans are wipes of the same kind inside the image.",
+    "Wide ↔ close at the booth is a camera move, not a cut: push into the screen, pull back to the window."
+   ],
+   "labels": [
+    "Machine voice: a monospace (e.g. IBM Plex Mono, OFL), 15–22 px for chrome, 56–64 px for the clock and counter, about 32 px for the status word. English only, upper case for states and keys, as a real console would print it: legend (ORGANIC / MIXED / METAL / OPAQUE), status (SCANNING, REVIEW, CLEAR, BAG CHECK, UNCLEAR, STANDBY), view labels, the CT header.",
+    "Operator voice (labels, rules, verdicts): a CJK sans (e.g. Noto Sans SC, OFL, subset to the characters used) at 34–44 px on screen, bold, with the English line under it in the monospace at 17–22 px. One line per language. A label that cannot hold 34 px Chinese is written in the machine voice instead (English only).",
+    "Labels attach to the object with a leader line or sit in a panel beside the image; verdicts are stamps (tick or cross, word, English line) that land after the hold.",
+    "Every image carries its stamp (bag number, time): it keeps the clock visible in tight shots."
+   ],
+   "motion": [
+    "The belt moves at constant speed with short decelerations to a stop (a real belt has inertia), and a small settle.",
+    "Operator actions are fast and precise: boxes are dragged open from a corner in 0.25–0.3 s, zoom eases in/out, measurement lines grow and tick.",
+    "Counters and clocks jump on cuts to compress hours; within a shot they run in real time.",
+    "Material filters and rescans are wipes; the CT appears through a short digital tear."
+   ],
+   "native_moves": [
+    {
+     "name": "The scan curtain",
+     "does": "A bag crosses a line; behind it the grey preview turns into colour column by column.",
+     "fits": "revealing the contents of anything sealed; a product's insides at launch; a parcel at a sorting hub."
+    },
+    {
+     "name": "Box, zoom, read",
+     "does": "The operator drags a box, the image zooms, a panel with the reading slides in, a verdict stamps.",
+     "fits": "a compliance rule; a defect found on an assembly line; a counterfeit check."
+    },
+    {
+     "name": "Measure against a rule",
+     "does": "Rulers on the image give a size; a same-scale outline of the limit sits beside the object.",
+     "fits": "cabin-bag sizes; a part tolerance; a dose or volume."
+    },
+    {
+     "name": "Material filter",
+     "does": "Organic strip or metal strip wipes away one class to show what remains.",
+     "fits": "finding the battery in a toy; wiring inside a wall; the metal frame of a shoe."
+    },
+    {
+     "name": "Into CT",
+     "does": "The flat image cannot tell; a tear into a rotating 3D volume shows what it is, and something moves.",
+     "fits": "an animal hidden in a box; the mechanism of a watch; a component stack in a phone."
+    },
+    {
+     "name": "Rescan",
+     "does": "The same bag again, without the removed item; a dashed outline marks where it was.",
+     "fits": "before/after; a fix verified; a recall."
+    },
+    {
+     "name": "The shift",
+     "does": "Clock, counter and the sky behind the glass carry hours in seconds; a summary table closes it.",
+     "fits": "a night at a sorting centre; a year of shipments; a launch day."
+    }
+   ]
+  },
+  "score": {
+   "genre": "cinematic-pulse",
+   "pad": "violins_trem",
+   "pulse": "violins_pizz",
+   "lead": "vibraphone",
+   "sparkle": "glockenspiel",
+   "bass": "cellos_pizz",
+   "drums": "orch",
+   "note": "pizzicato and spiccato for the flow, tremolo and timpani for a judgment",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "vibraphone",
+      "gm": 11
+     },
+     "pad": {
+      "voice": "violins_trem",
+      "gm": 44
+     },
+     "pulse": {
+      "voice": "violins_pizz",
+      "gm": 45
+     },
+     "bass": {
+      "voice": "cellos_pizz",
+      "gm": 45
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {
+     "timpani": 47
+    }
+   }
+  }
+ }
+}

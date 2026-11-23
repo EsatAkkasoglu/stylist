@@ -1,0 +1,205 @@
+{
+ "slug": "kino-montage",
+ "num": "06",
+ "en": "Constructivist Montage",
+ "cn": "构成主义蒙太奇",
+ "category_en": "Edit & Documentary",
+ "category_cn": "剪辑纪实",
+ "film": "410 Days",
+ "film_cn": "410 天",
+ "line": "The Empire State's 1931 brochure credits its builders; the site film and Hine's photos answer: 2,500 a day.",
+ "line_cn": "帝国大厦的小册子写着建造者，工地实拍和老照片给出答案：每天 2,500 人。",
+ "uses": [
+  "Industry histories",
+  "Milestones",
+  "Collective effort"
+ ],
+ "frame_sec": 2.5,
+ "dur": 60.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "kino-montage",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Konstrüktivist Montaj",
+ "category_tr": "Kurgu & Belgesel",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "IMPACT/HIT",
+    "query": "hit"
+   },
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "clank"
+   },
+   {
+    "role": "WHOOSH/SWISH",
+    "query": "whoosh"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "marker"
+   }
+  ],
+  "motion": {
+   "cuts": "camera-led cuts: slide or push-through on motion",
+   "rig": "editorial",
+   "move_frames": [
+    6,
+    10
+   ],
+   "ease": "accelExit",
+   "reveal": "wipe",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "chamber-march",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Grid",
+     "expresses": "one tempo for picture and score (120 BPM: beat 0.5 s, bar 2 s). Every cut, slam, wipe and count lands on a beat, half-beat or sixteenth. The page exports these times as window.EV; the mix reads the sa",
+     "serves": ""
+    },
+    {
+     "move": "Shot length",
+     "expresses": "0.5–2 s for footage; one idea per shot. A section may accelerate by halving: 0.5 → 0.25 → 0.125 s (never shorter than 3 frames). Holds are reserved for reading: a text block, a freeze, a comparison.",
+     "serves": ""
+    },
+    {
+     "move": "Cut rule",
+     "expresses": "adjacent shots conflict in at least one of direction (left slam / right slam), value (paper / ink ground), or geometry (diagonal band / upright window). Never two paper documents in a row.",
+     "serves": ""
+    },
+    {
+     "move": "Nothing static for more than a second",
+     "expresses": "inside a hold something moves (film in its window, a counter, a slow push, a frame-within-the-frame). Planned exceptions only: the comparison hold, one silence beat, the end card.",
+     "serves": ""
+    },
+    {
+     "move": "Transitions inside the medium (pick per cut, don't fade)",
+     "expresses": "",
+     "serves": ""
+    },
+    {
+     "move": "red wipe",
+     "expresses": "a 260 px red band at 72° (perpendicular to the axis) sweeps the frame in 0.25 s, the next scene revealed behind it; it lands on the downbeat;",
+     "serves": ""
+    },
+    {
+     "move": "iris",
+     "expresses": "a red marker circle drawn on a map or photo becomes an aperture and opens onto footage;",
+     "serves": ""
+    },
+    {
+     "move": "slam",
+     "expresses": "the next element arrives from outside along the axis in 0.08–0.2 s, ease-out, hard stop, frame shake (amplitude 3–18 px, exp(−14·Δt));",
+     "serves": ""
+    },
+    {
+     "move": "flash cut",
+     "expresses": "one frame of 50–80 % paper over a window at a cut or freeze;",
+     "serves": ""
+    },
+    {
+     "move": "hard cut on the beat between grounds of opposite value;",
+     "expresses": "",
+     "serves": ""
+    },
+    {
+     "move": "jump-in",
+     "expresses": "inside a freeze, a cut to a 1.2× crop of the same frame, the annotation scaling with it.",
+     "serves": ""
+    },
+    {
+     "move": "Two silences",
+     "expresses": "one where the orchestra stops and only an original recording remains, and one true half-bar of nothing (ink frame, one red dot) before the heaviest hit.",
+     "serves": ""
+    }
+   ],
+   "transitions": [
+    "Every cut, slam, wipe and count lands on a beat, half-beat or sixteenth.",
+    "Cut rule: adjacent shots conflict in at least one of direction (left slam / right slam), value (paper / ink ground), or geometry (diagonal band / upright window).",
+    "Transitions inside the medium (pick per cut, don't fade): - red wipe: a 260 px red band at 72° (perpendicular to the axis) sweeps the frame in 0.25 s, the next scene revealed behind it;",
+    "flash cut: one frame of 50–80 % paper over a window at a cut or freeze;"
+   ],
+   "labels": [
+    "Bilingual pairs: Chinese block, then one English line in Oswald directly under it (or on the neighbouring band). Each language one line, measured.",
+    "Placement: along the −18° axis on a band, or as an ink / red block; never centred on the frame, never a header. Numbers can be bigger than the words that explain them.",
+    "Tags: every archive window carries its footage tag (FILM · <TITLE> · <PLACE> <YEAR>, PHOTO · <AUTHOR> <YEAR>), every fact a source tag (来源 · <PUBLISHER> <YEAR>). If the footage is not of the subject itself, the tag says what it really is.",
+    "Subtitles stay bottom-left in a 960–1056 px strip; key type keeps above y 930 while narration runs. Subtitles hold ≥ max(1.8 s, speech + 0.6 s). On-screen text follows readcheck.mjs (CJK ÷ 4.5 + other ÷ 15 + 1.5 s, fully in frame); a comparison holds every item ≥ 2.5 s before its verdict."
+   ],
+   "motion": [],
+   "native_moves": [
+    {
+     "name": "The document is marked, not quoted",
+     "does": "the actual sentence on the scan gets a red bar; the number then becomes a red block.",
+     "fits": ""
+    },
+    {
+     "name": "The document becomes the chart",
+     "does": "drawings printed on a page are lifted off, turned and stood on a ground line to scale.",
+     "fits": ""
+    },
+    {
+     "name": "A + B → idea",
+     "does": "two kinds of image alternate faster and faster (the machine / the hands; a heading / the people it leaves out) until a card or a number states what the collision meant.",
+     "fits": ""
+    },
+    {
+     "name": "Count the many",
+     "does": "a counter driven by the cuts, a grid that fills cell by cell, a tower floor by floor.",
+     "fits": ""
+    },
+    {
+     "name": "People build the structure",
+     "does": "cut-out figures stacked into the thing they made (photomontage).",
+     "fits": ""
+    },
+    {
+     "name": "Silence, then the heaviest hit",
+     "does": "into the result.",
+     "fits": ""
+    }
+   ]
+  },
+  "score": {
+   "genre": "chamber-march",
+   "counter": "horn",
+   "note": "machine ostinato in spiccato cellos and bassoon, staccato tuba, snare, xylophone",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "xylophone",
+      "gm": 13
+     },
+     "counter": {
+      "voice": "horn",
+      "gm": 60
+     },
+     "pad": {
+      "voice": "cellos_spic",
+      "gm": 48
+     },
+     "pulse": {
+      "voice": "bassoon_stac",
+      "gm": 70
+     },
+     "bass": {
+      "voice": "tuba_stac",
+      "gm": 58
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

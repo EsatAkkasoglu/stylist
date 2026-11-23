@@ -1,0 +1,200 @@
+{
+ "slug": "midcentury-toon",
+ "num": "55",
+ "en": "Mid-century Cartoon",
+ "cn": "50s 扁平卡通",
+ "category_en": "Cartoons",
+ "category_cn": "卡通动画",
+ "film": "Meet Pip",
+ "film_cn": "认识一下 Pip",
+ "line": "A robot vacuum set up in three steps, told like a 1950s classroom film.",
+ "line_cn": "用 50 年代教育片的口吻，三步教你装好一台扫地机。",
+ "uses": [
+  "Set-up guides",
+  "Help centres",
+  "How-to"
+ ],
+ "frame_sec": 3.2,
+ "dur": 40.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "midcentury-toon",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Yüzyıl Ortası Çizgi Film",
+ "category_tr": "Çizgi Film",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "AMBIENCE",
+    "query": "ambience"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "click"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "thumps"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   }
+  ],
+  "motion": {
+   "cuts": "snap zoom, squash and stretch",
+   "rig": "punchy",
+   "move_frames": [
+    6,
+    10
+   ],
+   "ease": "snapSettle",
+   "reveal": "rise",
+   "mblur": true
+  },
+  "three_d": "B",
+  "music": "jazz-combo",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Slow push (a few %)",
+     "expresses": "Collecting the eye",
+     "serves": "a product on its stage; a result settling"
+    },
+    {
+     "move": "Iris through a medallion",
+     "expresses": "The number is the door",
+     "serves": "a change of step; a change of rule"
+    },
+    {
+     "move": "Round call-out with a leader line",
+     "expresses": "Context and detail at once",
+     "serves": "a hand action; a screen; a small part"
+    },
+    {
+     "move": "Tilt with a pointing finger",
+     "expresses": "The finger leads the frame",
+     "serves": "the one action that matters most"
+    },
+    {
+     "move": "Push into a device, pan along signal rings",
+     "expresses": "Person → interface → device",
+     "serves": "pairing; connecting"
+    },
+    {
+     "move": "Iris from a round object into a top view",
+     "expresses": "Circle to circle, function to plan",
+     "serves": "a button starting a job; a lid opening; a dial"
+    },
+    {
+     "move": "Pull-back with counter-rotation from a detail to a plan",
+     "expresses": "One lane becomes a pattern",
+     "serves": "a route, a schedule, a garden, a floor plan"
+    },
+    {
+     "move": "Colour-block wipe (side, bottom-up)",
+     "expresses": "Turning the manual's page",
+     "serves": "a tip; a summary; a new card"
+    },
+    {
+     "move": "Split frame in two colour blocks",
+     "expresses": "Right vs wrong, before vs after",
+     "serves": "a safety rule; an upgrade"
+    },
+    {
+     "move": "Dead still ≥ 3 s",
+     "expresses": "\"This is the frame to screenshot\"",
+     "serves": "a summary; a CTA; a QR code"
+    },
+    {
+     "move": "Iris-out onto one object",
+     "expresses": "The last circle",
+     "serves": "a closing on the product, the logo, the result"
+    }
+   ],
+   "transitions": [
+    "Transitions are circles, colour-block wipes and cuts on a beat;",
+    "no dissolves."
+   ],
+   "labels": [
+    "Roles: a 1950s script for a kicker (Oleo Script Bold); a slab serif (Alfa Slab One) for titles, numerals and headers, in ink over an offset colour plate; a geometric sans (Jost 500/600) for body, details, labels and captions.",
+    "Caption card: a paper-coloured rounded slab with a thin ink border (its colour cel offset too), small turning stars at the ends, ~40 px sans, bottom-centre. Fades in quickly with a small rise. Hold ≥ max(1.8 s, speech + 0.6 s, chars/12 + 1 s).",
+    "Step header: an ink disc with a paper numeral, a small letter-spaced \"STEP n OF N\", and the step title with a cream plate; it slides in on twos.",
+    "Detail tags: a paper card with a star bullet, popping on the action beat next to the call-out. Data lands on the picture, never as a slide."
+   ],
+   "motion": [
+    "On twos: poses, hand shapes and the cel jitter change at 12 fps. The camera, iris wipes, arrows, plan routes and rays move at 24 fps.",
+    "Held body, moving hands: switch poses with a single in-between. A hand action has anticipation (pull back or lift), a fast action (0.15–0.25 s, eased out), a follow-through (recoil, settle, lift away) and lands exactly on a beat.",
+    "Pop-ins: medallions, tags, labels and titles scale in with a back-ease (~0.25 s, strong overshoot).",
+    "Reaching the floor: a kneel pose with 2-bone IK keeps the hands on the object while it moves; never stretch standing arms."
+   ],
+   "native_moves": [
+    {
+     "name": "Off-register colour",
+     "does": "makes an info card hand-made and warm.",
+     "fits": "museum rules; a bank app screen; hotel check-in."
+    },
+    {
+     "name": "Limited animation points the eye",
+     "does": "the still body leaves the hand as the only mover, and the hand is the step (one hand action per step, on a beat).",
+     "fits": "threading a sewing machine; changing a bike tyre; setting a thermostat."
+    },
+    {
+     "name": "The round call-out",
+     "does": "is the close-up; the step's data lands inside or on it on the action beat.",
+     "fits": "a dosage on a measuring cup; a torque value on a bolt; a PIN on a keypad."
+    },
+    {
+     "name": "The numbered medallion",
+     "does": "marks hierarchy and opens the next step; it stamps onto the outgoing subject and the camera goes through it.",
+     "fits": "a pool's five rules; a checklist for a flight; stages of a recycling sort."
+    },
+    {
+     "name": "The payoff turns function into ornament",
+     "does": "a real process (a route, a watering schedule, a seating plan) draws itself region by region and, seen whole, reads as an atomic-age textile.",
+     "fits": "a sprinkler's coverage; a delivery round; a week of medication."
+    }
+   ]
+  },
+  "score": {
+   "genre": "jazz-combo",
+   "counter": "trumpet_mute",
+   "sparkle": "glockenspiel",
+   "drums": "brushes",
+   "note": "West-Coast cool-jazz combo: flute, vibraphone, walking bass, brushes",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "flute",
+      "gm": 73
+     },
+     "counter": {
+      "voice": "trumpet_mute",
+      "gm": 59
+     },
+     "pad": {
+      "voice": "vibraphone",
+      "gm": 11
+     },
+     "bass": {
+      "voice": "jazz_bass",
+      "gm": 32
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

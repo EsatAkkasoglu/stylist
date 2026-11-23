@@ -1,0 +1,202 @@
+{
+ "slug": "stained-glass",
+ "num": "26",
+ "en": "Stained Glass",
+ "cn": "彩色玻璃窗",
+ "category_en": "Traditional Crafts",
+ "category_cn": "传统工艺",
+ "film": "The Dragon of the East Window",
+ "film_cn": "东窗之龙",
+ "line": "Sunlight crosses a cathedral window from dawn to dusk, waking each pane of a knight-and-dragon tale.",
+ "line_cn": "阳光从清晨移到黄昏，照到哪一格花窗，哪一格的故事就动起来。",
+ "uses": [
+  "Legends",
+  "Heritage",
+  "Holiday stories"
+ ],
+ "frame_sec": 40.68,
+ "dur": 56.5,
+ "source": "lemo-opuscar",
+ "lemo_slug": "stained-glass",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Vitray",
+ "category_tr": "Geleneksel Sanatlar",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "DESIGNED/RISER",
+    "query": "drone"
+   },
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "chimes"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "thump"
+   },
+   {
+    "role": "AMBIENCE",
+    "query": "rain"
+   }
+  ],
+  "motion": {
+   "cuts": "slow, staged, push-through",
+   "rig": "calm",
+   "move_frames": [
+    16,
+    24
+   ],
+   "ease": "softLand",
+   "reveal": "focus",
+   "mblur": true
+  },
+  "three_d": "B",
+  "music": "ambient-wonder",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Truck sideways with the band of light",
+     "expresses": "Time passing, the story moving on",
+     "serves": "a sequence of steps; a day; chapters"
+    },
+    {
+     "move": "Locked close-up on one pane",
+     "expresses": "This panel is \"now\"",
+     "serves": "a line being read; a character's decision; a detail"
+    },
+    {
+     "move": "Pull back to the whole window",
+     "expresses": "The rule, or the whole story at once",
+     "serves": "learning the system; a summary; aftermath"
+    },
+    {
+     "move": "Tilt down the shafts to the floor, then top-down",
+     "expresses": "The picture leaves the glass and becomes light",
+     "serves": "an event too big for its frame; a dream; a memory"
+    },
+    {
+     "move": "Hold through a crack, no cut",
+     "expresses": "The event is the medium breaking",
+     "serves": "a turning point; a loss; a revelation"
+    },
+    {
+     "move": "Slow push toward a small light",
+     "expresses": "Attention narrowing to one source",
+     "serves": "a discovery; a secret; hope"
+    },
+    {
+     "move": "Tilt up to a rose or tracery",
+     "expresses": "Something above the panels governs them",
+     "serves": "a clock; a cycle; an overview"
+    },
+    {
+     "move": "Rack between two panes, one lit, one dark",
+     "expresses": "Past and present side by side",
+     "serves": "before/after; two lives; cause and effect"
+    },
+    {
+     "move": "Low angle along the embrasure, glass raking",
+     "expresses": "The window as architecture, scale",
+     "serves": "awe; an institution; a long history"
+    },
+    {
+     "move": "Return to an earlier framing under new light",
+     "expresses": "The rhyme shows what changed",
+     "serves": "growth; nightfall; repair"
+    }
+   ],
+   "transitions": [
+    "Transitions: moving light, shafts, a crack, darkness;",
+    "never a dissolve, wipe or flip."
+   ],
+   "labels": [
+    "Subtitles: a parchment banderole near the bottom (curled ends, gentle sag, thin rule), IM Fell English ~44 px in dark ink. It unfurls from the centre; text fades in only once it is ≥ 75 % open; pad the ribbon well past the text. Hold ≥ max(1.8 s, speech + 0.6 s).",
+    "Titles: incised Roman capitals (Cinzel 600) in the stone, dark cut, light lower lip, gilding, revealed by a moving band of light; small lines ≥ 30 px on screen. In the glass, text only as grisaille on a white-glass scroll."
+   ],
+   "motion": [
+    "Figures step at 8 fps; light, camera, shafts and dust move on ones (24 fps): stepped light reads as flicker.",
+    "Rigid pieces on 2D FK (setTransform(base · T(part)), free draw order); long bodies are spine chains of banded pieces.",
+    "Freeze rule: a pane's figures use min(t, tlightLeft). Actions land on the beat.",
+    "Crack: jagged lines race from the impact in ~¼ s, bright with light, a short white flash and a 2-frame shake."
+   ],
+   "native_moves": [
+    {
+     "name": "Light is time, and the camera",
+     "does": "Only the lit pane is alive; figures freeze when the light leaves.",
+     "fits": "the steps of a recipe; a factory's shifts; four seasons of one farm."
+    },
+    {
+     "name": "Glass projects onto stone",
+     "does": "A key scene plays in the floor patch, which stretches as the sun sinks.",
+     "fits": "a memory seen larger than life; a sports play replayed as shadows; a data trend drawn by lengthening light."
+    },
+    {
+     "name": "Glass cracks, lead mends",
+     "does": "Pieces slide along the leads into a new picture, leaving scars.",
+     "fits": "a company's reinvention; an injury and recovery; an old building restored."
+    },
+    {
+     "name": "A window holds its own light",
+     "does": "At night one pane glows from a source inside the story.",
+     "fits": "a lighthouse keeper; a night-shift nurse; a server that never sleeps."
+    },
+    {
+     "name": "The window as a diagram",
+     "does": "Lancets as columns, a rose as a wheel or dial, the border as a timeline.",
+     "fits": "a product lineup; the parts of a cycle; a family tree."
+    }
+   ]
+  },
+  "score": {
+   "genre": "ambient-wonder",
+   "mode": "dorian",
+   "pad": "organ_soft",
+   "lead": "recorder",
+   "pulse": "harp",
+   "sparkle": "hand_chimes",
+   "bass": "organ_pedal",
+   "drums": "none",
+   "avoid": [
+    "piano",
+    "violins",
+    "cellos"
+   ],
+   "note": "organ drones, harp, chimes, recorder; church modes, no piano or strings",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "recorder",
+      "gm": 74
+     },
+     "pad": {
+      "voice": "organ_soft",
+      "gm": 19
+     },
+     "pulse": {
+      "voice": "harp",
+      "gm": 46
+     },
+     "bass": {
+      "voice": "organ_pedal",
+      "gm": 19
+     },
+     "sparkle": {
+      "voice": "hand_chimes",
+      "gm": 14
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

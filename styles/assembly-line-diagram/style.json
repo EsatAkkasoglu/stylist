@@ -1,0 +1,201 @@
+{
+ "slug": "assembly-line-diagram",
+ "num": "51",
+ "en": "Assembly-Line Diagram",
+ "cn": "流水线图解",
+ "category_en": "Line Diagrams",
+ "category_cn": "线稿图解",
+ "film": "The Disassembly Line",
+ "film_cn": "拆解流水线",
+ "line": "A body cut open as a factory that runs backwards: a 12:30 sandwich is taken apart station by station, and six hours later it runs for the bus.",
+ "line_cn": "把人体剖成一座倒着开的工厂：12:30 的一份三明治被一站一站拆开，六小时后变成追公交车的力气。",
+ "uses": [
+  "How a process works",
+  "Biology and medicine",
+  "Supply chains and pipelines"
+ ],
+ "frame_sec": 8.24,
+ "dur": 54.9,
+ "source": "lemo-opuscar",
+ "lemo_slug": "assembly-line-diagram",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Montaj Hattı Diyagramı",
+ "category_tr": "Çizgi Diyagramlar",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "IMPACT/HIT",
+    "query": "stamps"
+   },
+   {
+    "role": "DESIGNED/ALERT",
+    "query": "alarm"
+   },
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "shutters"
+   },
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "bells"
+   }
+  ],
+  "motion": {
+   "cuts": "continuous camera over one sheet",
+   "rig": "calm",
+   "move_frames": [
+    10,
+    14
+   ],
+   "ease": "softLand",
+   "reveal": "draw",
+   "mblur": true
+  },
+  "three_d": "A",
+  "music": "chamber-march",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Truck with the cargo",
+     "expresses": "the flow, one piece followed",
+     "serves": "an opening; moving between stations on one floor"
+    },
+    {
+     "move": "Push through a door shape",
+     "expresses": "entering the system",
+     "serves": "the intake; going inside a part"
+    },
+    {
+     "move": "Tilt down a chute, slabs wiping past",
+     "expresses": "going down a level",
+     "serves": "the next stage below"
+    },
+    {
+     "move": "Pull back from a part to the whole floor",
+     "expresses": "the parts working together",
+     "serves": "a sorting or splitting station; a held comparison"
+    },
+    {
+     "move": "Follow one colour",
+     "expresses": "one output's path",
+     "serves": "where one product goes while the others leave frame"
+    },
+    {
+     "move": "Porthole POV (circular mask)",
+     "expresses": "the outside world reaching in",
+     "serves": "a trigger, an alarm, a customer, an event"
+    },
+    {
+     "move": "Whip down a pipe",
+     "expresses": "urgency",
+     "serves": "a demand that must be met now"
+    },
+    {
+     "move": "The great pull-back",
+     "expresses": "the whole line at once",
+     "serves": "the ending: the full silhouette with every station lit"
+    }
+   ],
+   "transitions": [
+    "Transitions happen inside the drawing: passing through a shape, floor slabs wiping the frame, a match cut on the same piece of cargo, a colour follow, a circular porthole mask, a whip along a pipe (directional motion blur from the camera's speed plus speed lines, rendered once, never stacked ghosts)."
+   ],
+   "labels": [
+    "Three faces, three jobs (all OFL): a condensed industrial display face for plaques, legend tags and the title (Big Shoulders Display 800–900, like letters painted on a factory wall); a grotesque for small labels, subtitles and credits (Archivo 600–800); a CJK sans for the one short Chinese line on each sign (Noto Sans SC 700, at least 34 px).",
+    "Plaques: cream board, 2.6 px ink frame, 3 px corners, flat shadow; [number circle] [ENGLISH METAPHOR | 中文名], stuck on the room's top edge or on the machine, never on a leader line.",
+    "Legend tags hang above their line: a colour chip, then the English and Chinese name (GLASS 玻璃).",
+    "Leaders (Holmes): dot → vertical → right angle → bold words, only for a moving hero, at most one per frame."
+   ],
+   "motion": [
+    "The belt never stops moving; cargo travels at constant speed and eases into stations.",
+    "A station starts on arrival. Its machine starts on the beat the cargo lands (rollers turn, sprays fall, a press stamps), its worker does a two-frame action, its number circle fills and pops (scale 0.9 → 1 with overshoot).",
+    "Signs drop on chains and bounce once; a second-language sign swings in half a beat later.",
+    "Repetition is the joke. A gatekeeper raises STOP, lets one portion through, raises STOP again; machines repeat their cycle on the music's grid."
+   ],
+   "native_moves": [
+    {
+     "name": "Station starts",
+     "does": "Cargo lands, the machine starts, the worker acts, the number fills.",
+     "fits": "each step of a manufacturing process; each stage of a data pipeline; each department a request passes through."
+    },
+    {
+     "name": "Taking it apart into colours",
+     "does": "One lump enters a sorting floor and leaves as three streams of differently coloured parts, each into its own pipe, with legend tags dropping over them.",
+     "fits": "a mail sack into postcodes; crude oil into fractions; revenue into costs; ore into metals."
+    },
+    {
+     "name": "Gatekeeper",
+     "does": "A worker with a STOP sign lets one portion through at a time.",
+     "fits": "a valve, a rate limit, a queue, a customs desk, a dam."
+    },
+    {
+     "name": "Warehouse and clock",
+     "does": "Goods are shelved; the clock spins; the lights dim; workers doze until an alarm.",
+     "fits": "energy storage, inventory, a battery, savings."
+    },
+    {
+     "name": "Porthole alarm",
+     "does": "A circular POV on the outside world shows the event that sets the line running.",
+     "fits": "demand arriving, an order, a sensor trigger."
+    },
+    {
+     "name": "Follow the colour",
+     "does": "The camera picks one pipe by colour and rides it to its destination while the others turn away.",
+     "fits": "where one product goes; one signal's route; one customer's journey."
+    },
+    {
+     "name": "Light the whole line",
+     "does": "The great pull-back to the full silhouette; a glow runs from intake to output and the numbers pop in order.",
+     "fits": "the summary of any process; a product's whole life; an ending."
+    }
+   ]
+  },
+  "score": {
+   "genre": "chamber-march",
+   "lead": "clarinet",
+   "counter": "flute",
+   "sparkle": "glockenspiel",
+   "drums": "orch",
+   "note": "a march the stations add voices to; woodblock and bass drum on presses",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "clarinet",
+      "gm": 71
+     },
+     "counter": {
+      "voice": "flute",
+      "gm": 73
+     },
+     "pad": {
+      "voice": "cellos_spic",
+      "gm": 48
+     },
+     "pulse": {
+      "voice": "bassoon_stac",
+      "gm": 70
+     },
+     "bass": {
+      "voice": "tuba_stac",
+      "gm": 58
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {
+     "timpani": 47
+    }
+   }
+  }
+ }
+}

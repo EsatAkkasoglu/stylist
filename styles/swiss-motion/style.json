@@ -1,0 +1,198 @@
+{
+ "slug": "swiss-motion",
+ "num": "36",
+ "en": "Swiss Motion Graphics",
+ "cn": "瑞士动态排版",
+ "category_en": "Graphic & Type",
+ "category_cn": "平面排版",
+ "film": "Five Rules for a Poster",
+ "film_cn": "海报的五条规则",
+ "line": "A concert poster lays itself out by five Swiss design rules; the fifth is to break just one.",
+ "line_cn": "一张音乐会海报按瑞士设计的五条规则自己排版，第五条是只打破一条。",
+ "uses": [
+  "Brand identity",
+  "Events",
+  "Design education"
+ ],
+ "frame_sec": 31.68,
+ "dur": 44.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "swiss-motion",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "İsviçre Hareketli Grafik",
+ "category_tr": "Grafik & Tipografi",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "mechanical"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "thump"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "typewriter"
+   }
+  ],
+  "motion": {
+   "cuts": "snap zoom on the beat",
+   "rig": "punchy",
+   "move_frames": [
+    4,
+    8
+   ],
+   "ease": "snapSettle",
+   "reveal": "track",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "minimal-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Locked spread",
+     "expresses": "cause (left) → effect (right)",
+     "serves": "a rule applied; a before/after; a comparison"
+    },
+    {
+     "move": "Hard pan by one page or column",
+     "expresses": "the next step in a system",
+     "serves": "a sequence; a catalogue; a timeline"
+    },
+    {
+     "move": "Rotate 90° and stop",
+     "expresses": "the same thing read another way",
+     "serves": "a poster as a score; a chart as a map"
+    },
+    {
+     "move": "Pull out to a wall of artifacts",
+     "expresses": "one programme, many outputs",
+     "serves": "a brand system; a product range; a series"
+    },
+    {
+     "move": "Push into one module",
+     "expresses": "detail; the unit of the system",
+     "serves": "a pixel; a letter; a single data point"
+    },
+    {
+     "move": "Grid extends past the page",
+     "expresses": "the system is bigger than the artifact",
+     "serves": "scale; ambition; a break from constraints"
+    },
+    {
+     "move": "Split frame into equal cells",
+     "expresses": "parallel cases",
+     "serves": "options; variants; team members"
+    },
+    {
+     "move": "Vertical scroll through a column",
+     "expresses": "reading; a list",
+     "serves": "a manifesto; a spec sheet; a timetable"
+    }
+   ],
+   "transitions": [
+    "Transitions are wipes, knife cuts, camera moves and re-flows;",
+    "never dissolves."
+   ],
+   "labels": [
+    "One family for the whole film, an OFL neo-grotesque (Archivo, Inter, Schibsted Grotesk, Instrument Sans…), several weights. Letter-spacing ~−2 % at ≥ 90 px. Headlines can be lowercase. Load every weight with document.fonts.load before drawing.",
+    "Flush left, ragged right; everything on a grid line; big white space is part of the layout. Giant numerals are optically flush left (subtract the glyph's left bearing).",
+    "Subtitles are part of the layout, not a bar at the bottom: each line sits at a column start in the current composition (a small grey lead-in + a large bold statement, or a caption like a museum label), each word clip-revealed on its whisper timestamp. Hold ≥ max(1.8 s, speech + 0.6 s); assert it in code.",
+    "Caption rows: small (~19 px) medium-weight notes with a 1 px rule above; technical notes in a corner (module sizes, counts, a bar counter)."
+   ],
+   "motion": [
+    "Two curves only: a precise ease cubic-bezier(.7,0,.2,1) for snaps; linear for lines being drawn, playheads and the exception. No overshoot, no spring, no bounce.",
+    "Durations are note values at the film's tempo. A snap starts one note value early and lands on the beat.",
+    "Entrances are wipes or clip-reveals, never fades: words rise out of a clip rect from below the baseline and leave upward; lines grow along their length; paper appears by a wipe; big numerals climb in eased steps (\"one module at a time\").",
+    "Deletions are knife cuts: a thin line crosses the element, then the element collapses to its midline."
+   ],
+   "native_moves": [
+    {
+     "name": "The grid means something",
+     "does": "Columns and rows become a quantity (notes, hours, floors, years).",
+     "fits": "a building's floors and rooms; a week's timetable; a city's districts."
+    },
+    {
+     "name": "Snap = beat",
+     "does": "Every arrival is a percussion hit.",
+     "fits": "a product's feature list; the steps of a recipe; a countdown."
+    },
+    {
+     "name": "Programme",
+     "does": "Rules applied one by one to one artifact, then the same programme generating many.",
+     "fits": "a brand identity; a typeface family; a set of stamps."
+    },
+    {
+     "name": "Extreme scale contrast",
+     "does": "A giant element as chapter card beside tiny notes.",
+     "fits": "a record statistic; a year; a price."
+    },
+    {
+     "name": "The exception",
+     "does": "One element breaks the grid, linear and unsnapped.",
+     "fits": "an inventor; an outlier in the data; a rebel employee."
+    },
+    {
+     "name": "Knife cut",
+     "does": "An element deleted by a line.",
+     "fits": "budget cuts; editing a text; removing a feature."
+    },
+    {
+     "name": "Re-flow",
+     "does": "Everything else rearranges around a change, nearest first.",
+     "fits": "a team reorganised; traffic after a road closes; a layout adapting to a phone."
+    }
+   ]
+  },
+  "score": {
+   "genre": "minimal-pulse",
+   "bpm": 120,
+   "pad": "marimba",
+   "lead": "vibraphone",
+   "sparkle": "glockenspiel",
+   "bass": "electric_bass",
+   "drums": "kit",
+   "note": "a grid of its own: motorik kit and bass, marimba and vibraphone patterns",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "vibraphone",
+      "gm": 11
+     },
+     "pad": {
+      "voice": "marimba",
+      "gm": 12
+     },
+     "pulse": {
+      "voice": "glockenspiel",
+      "gm": 9
+     },
+     "bass": {
+      "voice": "electric_bass",
+      "gm": 33
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

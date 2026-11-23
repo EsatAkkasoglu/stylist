@@ -1,0 +1,208 @@
+{
+ "slug": "blueprint",
+ "num": "44",
+ "en": "Blueprint",
+ "cn": "工程蓝图",
+ "aka": [
+  "蓝图 / 工程制图"
+ ],
+ "category_en": "Line Diagrams",
+ "category_cn": "线稿图解",
+ "film": "Patent Pending: The Cloud Catcher",
+ "film_cn": "专利申请中：接云机",
+ "line": "An inventor's blueprint draws, explodes and assembles a cloud-catching machine, and its revision cloud starts to rain.",
+ "line_cn": "发明家的蓝图自己画出一台接云机器，修订云线变成了真的雨云。",
+ "uses": [
+  "Engineering",
+  "Hardware launches",
+  "Tech explainers"
+ ],
+ "frame_sec": 33.3,
+ "dur": 46.7,
+ "source": "lemo-opuscar",
+ "lemo_slug": "blueprint",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Mühendislik Planı",
+ "category_tr": "Çizgi Diyagramlar",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "mechanical"
+   },
+   {
+    "role": "AMBIENCE",
+    "query": "wind"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "clicks"
+   }
+  ],
+  "motion": {
+   "cuts": "continuous camera over one sheet",
+   "rig": "calm",
+   "move_frames": [
+    10,
+    14
+   ],
+   "ease": "softLand",
+   "reveal": "draw",
+   "mblur": true
+  },
+  "three_d": "A",
+  "music": "baroque-motor",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Whole sheet on the table",
+     "expresses": "scale, the document as an object",
+     "serves": "establishing; a verdict; a series of sheets"
+    },
+    {
+     "move": "Medium on a figure, subject ~80 % of height, sky on one side",
+     "expresses": "the design being drawn",
+     "serves": "drafting; explaining a part"
+    },
+    {
+     "move": "Track along a path of force (chain, pipe, wire, beam)",
+     "expresses": "cause and effect",
+     "serves": "how it works; a sequence of operations"
+    },
+    {
+     "move": "2× close-up cut on a downbeat",
+     "expresses": "the mechanism's heart",
+     "serves": "gears meshing; a valve; a joint"
+    },
+    {
+     "move": "Locked-off, hold a beat",
+     "expresses": "deliberation",
+     "serves": "a hand revising; a decision"
+    },
+    {
+     "move": "Oblique depth factor 0 → 0.5",
+     "expresses": "the flat drawing \"turns\" and gains thickness",
+     "serves": "from plan to object; a reveal of depth"
+    },
+    {
+     "move": "Section line sweeping across",
+     "expresses": "inside vs outside",
+     "serves": "a cutaway; hidden structure"
+    },
+    {
+     "move": "Lateral pan across Fig. 1 → Fig. 2 → Fig. 3",
+     "expresses": "versions, steps, time",
+     "serves": "revisions; stages of construction"
+    },
+    {
+     "move": "Slow push-in, no voice",
+     "expresses": "wonder",
+     "serves": "the one real thing"
+    }
+   ],
+   "transitions": [
+    "Transitions: cuts on downbeats, or fig-number rewrites on the sheet;",
+    "no dissolves."
+   ],
+   "labels": [
+    "Hand lettering for header, labels, notes and subtitles (e.g. Architects Daughter); a technical sans for title-block fields (e.g. B612); a script only for the signature (e.g. Allura). All OFL.",
+    "Text is written on left to right with a glowing nib, like everything else.",
+    "Subtitles are drawing notes: a light translucent box with double white rules, a \"NOTE / n\" cell, the text lettered on in ~0.35 s, a small leader tick. Placed per shot in empty sky, never fixed to the bottom (the bottom of a drawing is ground line, base and title block). Wrap at ~880 px. Hold ≥ max(1.8 s, speech + 0.6 s).",
+    "Every subtitle is also lettered into the sheet's GENERAL NOTES column, so the final wide shows the whole voiceover as drawing notes."
+   ],
+   "motion": [
+    "Camera and draw-on on ones (24 fps). Continuous moves within a section, hard cuts on downbeats between sections; tiny camera bumps only for physical impacts (paper slap, stamp).",
+    "Draw-on truncated by arc length with a glowing nib at the head; items staggered within a layer; each layer starts on a beat.",
+    "Drafting order: centre lines → outlines → detail → hatching → dimensions → balloons → labels.",
+    "Exploded views: parts leave in sequence on subdivisions of the beat, eased, and return one per beat-group with a click."
+   ],
+   "native_moves": [
+    {
+     "name": "Drafting order",
+     "does": "The object draws itself as an engineer would, a layer per beat.",
+     "fits": "a bridge; a violin; a kitchen renovation."
+    },
+    {
+     "name": "Live annotations",
+     "does": "Dimensions measure moving parts and the numbers change; balloons fly with parts; a section line reveals the inside.",
+     "fits": "a heart valve; a folding bicycle; a rocket stage separating."
+    },
+    {
+     "name": "Fig. numbers as transitions",
+     "does": "\"FIG. 1\" struck through and rewritten \"FIG. 2 · EXPLODED VIEW\".",
+     "fits": "versions of a product; phases of a construction; a recipe's stages."
+    },
+    {
+     "name": "Projection as camera",
+     "does": "The oblique factor animates; exploded parts fly along the depth axis.",
+     "fits": "a floor plan becoming a building; a circuit board; flat-pack furniture."
+    },
+    {
+     "name": "A symbol made real",
+     "does": "(once, if at all). A convention leaves the drawing language: a dimension arrow flies, a hatch becomes rain, a centre line becomes a road, a weld symbol sparks.",
+     "fits": "an invention finally working; a city plan becoming a street; a dream becoming a plan."
+    },
+    {
+     "name": "Cyanotype and water",
+     "does": "Drops bloom and soften lines.",
+     "fits": "a flood-defence design; grief; a harbour wall."
+    },
+    {
+     "name": "The title block as story",
+     "does": "Status field = the verdict; revision rows = history.",
+     "fits": "a rejected permit; REV. 1–5 of a city; an approval after years."
+    }
+   ]
+  },
+  "score": {
+   "genre": "baroque-motor",
+   "lead": "bassoon",
+   "counter": "pluck:music_box",
+   "pulse": "cellos_spic",
+   "sparkle": "glockenspiel",
+   "note": "contrapuntal, mechanical: harpsichord, bassoon, spiccato, imitative lines",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "bassoon",
+      "gm": 70
+     },
+     "counter": {
+      "voice": "pluck:music_box",
+      "gm": 10
+     },
+     "pad": {
+      "voice": "harpsichord",
+      "gm": 6
+     },
+     "pulse": {
+      "voice": "cellos_spic",
+      "gm": 48
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

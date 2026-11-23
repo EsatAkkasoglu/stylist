@@ -1,0 +1,177 @@
+{
+ "slug": "marker-paper",
+ "num": "20",
+ "en": "Marker on Paper",
+ "cn": "马克笔白纸速写",
+ "category_en": "Sketch & Board",
+ "category_cn": "速写板书",
+ "film": "How Far Can You See?",
+ "film_cn": "你能看多远？",
+ "line": "A felt-tip marker works out how far the horizon is from a beach, then shows that climbing a hundred times higher only lets you see ten times farther.",
+ "line_cn": "一支马克笔在白纸上算出海边能看多远，再告诉你：爬高 100 倍，只能多看远 10 倍。",
+ "uses": [
+  "Worked problems",
+  "Science explainers",
+  "Lessons"
+ ],
+ "frame_sec": 6.9,
+ "dur": 52.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "marker-paper",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Kâğıda Keçeli Kalem",
+ "category_tr": "Eskiz & Tahta",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "click"
+   }
+  ],
+  "motion": {
+   "cuts": "draw-on, camera reframes",
+   "rig": "editorial",
+   "move_frames": [
+    8,
+    12
+   ],
+   "ease": "softLand",
+   "reveal": "draw",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "jazz-combo",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "follow the pen",
+     "expresses": "the line being made is the subject",
+     "serves": "a long arc; a row of algebra; a timeline being drawn"
+    },
+    {
+     "move": "lean in (≤ 2×)",
+     "expresses": "this is the part that matters",
+     "serves": "the red answer; a given being labelled; a final rule"
+    },
+    {
+     "move": "pull back",
+     "expresses": "the whole picture, or a comparison read at once",
+     "serves": "a scale reveal; a summary sheet; holding a verdict"
+    },
+    {
+     "move": "push through a drawn shape",
+     "expresses": "\"look closer\" as a transition",
+     "serves": "a right angle; a small circle on a map; a decimal point"
+    },
+    {
+     "move": "peel",
+     "expresses": "a new question",
+     "serves": "the turn of an argument; a new case"
+    }
+   ],
+   "transitions": [
+    "Framing rules: a text is either wholly in frame or wholly out, never cut;",
+    "Transitions are only the push-through match cut and the peel.",
+    "No fades, no wipes, no slides, no page-flip graphics."
+   ],
+   "labels": [
+    "Latin: Kalam (OFL) — Bold for questions, labels, answers; Regular for small notes. Chinese: LXGW Marker Gothic 霞鹜漫黑 (OFL), one short line under an English question.",
+    "Sizes at full frame: question 92–112 px; answer 100–120 px; labels 40–60 px; notes 30–40 px; Chinese on the sheet ≥ 34 px. Each glyph gets a fixed tiny tilt, baseline and size drift (±1.3°, ±1.7 %, ±2 %); no stroke, outline, shadow or double print.",
+    "Letters are written, not faded: questions ≈ 12 characters/s, labels 8–10/s. Written letters never boil.",
+    "Algebra is written in the drawing's colours, piece by piece (v = d ÷ t): the colour tells the viewer which line in the picture each term is."
+   ],
+   "motion": [
+    "Drawings change on twos: 12 drawings a second at 24 fps. The camera moves smoothly at 24 fps.",
+    "Three boil drawings per sheet, built with the same seeds and differing only by a boil term (≤ 1 px along the normal), cycled on twos. Letters do not boil; random numbers are consumed independently of progress, so a half-written sheet and a finished one agree.",
+    "Speeds: a long arc is one sweep of 0.4–0.6 s; a hatch is a run of ~10 ms flicks; dashes are drawn one by one; an arrow is a shaft then two head strokes.",
+    "Black, then blue, then red. Structure first, the givens, then the unknown/answer. The red stroke lands on a beat and is held ≥ 1.5 s."
+   ],
+   "native_moves": [
+    {
+     "name": "The unknown in red",
+     "does": "Draw the situation in black, label the givens in blue, then one red arrow and d = ?.",
+     "fits": "how long a shadow is at noon; how much a loan costs in total; how fast a falling key hits the ground."
+    },
+    {
+     "name": "Same colour, same quantity",
+     "does": "Carry each colour from the drawing into the equation, so algebra reads as a re-drawing.",
+     "fits": "splitting a bill with tip and tax; Ohm's law on a sketched circuit; area of a garden bed."
+    },
+    {
+     "name": "Scribble it out",
+     "does": "A black back-and-forth scribble over a term or a wrong guess, with a small \"tiny\" or \"no\" note.",
+     "fits": "a negligible term; a myth corrected; an option ruled out."
+    },
+    {
+     "name": "Push through a shape",
+     "does": "Push into a small drawn mark until it fills the frame; cut to a new sheet where the same mark sits at the same place, size and line weight; pull out.",
+     "fits": "a dot on a map becoming a city plan; a decimal point becoming a ruler; one cell becoming a table."
+    },
+    {
+     "name": "Bars to scale, even when one is a dot",
+     "does": "Draw quantities as red strokes at true scale; the tiny one stays tiny.",
+     "fits": "a country's water use against agriculture; a lifetime against geological time; one person's emissions against a flight."
+    },
+    {
+     "name": "The peel",
+     "does": "The corner lifts, a fold line sweeps from bottom-right to top-left, the sheet is pulled off, a fresh sheet below.",
+     "fits": "the next case; the second half of a proof; \"now what if…\"."
+    },
+    {
+     "name": "The last red circle",
+     "does": "The film's final stroke circles a rule or a number on the whole sheet.",
+     "fits": "the formula worth remembering; a deadline; the one figure to quote."
+    }
+   ]
+  },
+  "score": {
+   "genre": "jazz-combo",
+   "pad": "harp",
+   "lead": "clarinet_stac",
+   "counter": "bassoon_stac",
+   "bass": "contrabass_pizz",
+   "drums": "hand",
+   "avoid": [
+    "piano",
+    "violins"
+   ],
+   "note": "a small ensemble that thinks: walking pizzicato bass, staccato clarinet and bassoon",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "clarinet_stac",
+      "gm": 71
+     },
+     "counter": {
+      "voice": "bassoon_stac",
+      "gm": 70
+     },
+     "pad": {
+      "voice": "harp",
+      "gm": 46
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     }
+    },
+    "drums": {
+     "woodblock": 115
+    }
+   }
+  }
+ }
+}

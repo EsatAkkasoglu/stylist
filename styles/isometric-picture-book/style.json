@@ -1,0 +1,200 @@
+{
+ "slug": "isometric-picture-book",
+ "num": "84",
+ "en": "Isometric People Scene",
+ "cn": "等距小人场景",
+ "aka": [
+  "Isometric Picture Book",
+  "等距绘本"
+ ],
+ "category_en": "3D & Miniature",
+ "category_cn": "立体微缩",
+ "film": "Seventy-Two Seats",
+ "film_cn": "七十二个座位",
+ "line": "Travellers board an isometric plane, and the order shows why one way is nearly twice as fast.",
+ "line_cn": "等距的登机口和机舱里，小人按顺序登机，讲清哪种叫法快将近一半。",
+ "uses": [
+  "Everyday rules",
+  "Queues",
+  "Comparisons"
+ ],
+ "frame_sec": 37.5,
+ "dur": 59.8,
+ "source": "lemo-opuscar",
+ "lemo_slug": "isometric-picture-book",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "İzometrik İnsan Sahnesi",
+ "category_tr": "3D & Minyatür",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "chime"
+   },
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "metal"
+   }
+  ],
+  "motion": {
+   "cuts": "camera moves through one set",
+   "rig": "calm",
+   "move_frames": [
+    12,
+    18
+   ],
+   "ease": "softLand",
+   "reveal": "rise",
+   "mblur": true
+  },
+  "three_d": "A+B",
+  "music": "minimal-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "slow drift and push (≈ 6–8 % zoom)",
+     "expresses": "calm attention on one rule",
+     "serves": "a call, a waiting room, a hold to read"
+    },
+    {
+     "move": "follow the head of a line",
+     "expresses": "the order of things",
+     "serves": "a corridor, a boarding, a procession"
+    },
+    {
+     "move": "travel along the ground at the subject's pace",
+     "expresses": "one place after another on the same road",
+     "serves": "a delivery, a parade route, a line of workshops"
+    },
+    {
+     "move": "rise to wide while a lid opens",
+     "expresses": "revealing a space whole",
+     "serves": "an interior, a capacity, a grid of places"
+    },
+    {
+     "move": "locked frame",
+     "expresses": "judging, reading",
+     "serves": "a verdict, a comparison, the last frame"
+    },
+    {
+     "move": "step back to frame one whole incident",
+     "expresses": "cause and effect in one view",
+     "serves": "one person blocking, one door jamming"
+    },
+    {
+     "move": "tilt down from outside to the people",
+     "expresses": "arrival, cause → people",
+     "serves": "an opening, a change of place"
+    },
+    {
+     "move": "scale jump (room → building → site)",
+     "expresses": "the result in context",
+     "serves": "a verdict, an ending"
+    }
+   ],
+   "transitions": [
+    "Transitions: a continuous move, a lid opening, a run back along the same path, or a cut on the beat at the same angle.",
+    "No page turns, wipes, black or blank frames;"
+   ],
+   "labels": [
+    "Chinese: a serif (Noto Serif SC, 700 for keywords, 500 for particles); Latin and numerals: a book serif (Newsreader). Open-licence fonts only, subset to the characters used.",
+    "Floor type: big ≈ 1.5 m on the ground, small ≈ 0.8 m; read along the up-right axis (coordinates in §10). One phrase per beat; one line where the frame is tight. One accent character or number per phrase, never a single thin stroke (一 in the accent reads as a line, not a character). Characters land ≈ 0.14 s apart: fade and scale 1.22 → 1, pale ghost → ink. A painted title or a pair of numbers may scale up to ×1.6.",
+    "Type sits on clear ground: nothing stands on it, nothing raised stands in front of it (see §9), at least 5 % from every frame edge, and clear of the subtitle bar.",
+    "Signs in the world (gate signs, group signs, screens) face the camera side of the room at the iso angle, never a flat card facing the lens."
+   ],
+   "motion": [
+    "30 fps, on ones (pass --fps 30 to the render and to mux.sh): crowds and walks are judged frame by frame (§9), and the check assumes this rate.",
+    "People move only when the rule says so, in order; the order is the point. Walk ≈ 1.5 m/s; nobody moves faster than about 3 m/s on screen, even in a time-lapse: when a process must be compressed, show it as places filling (people settling into their seats) rather than people zipping past.",
+    "Everything eases; nothing pops. A beat = one floor phrase + one diagram mark (an outline traced, an arrow grown ahead of the walkers, a light run along a path) + one action.",
+    "A rewind runs the same motion backwards, faster, with a counter running down."
+   ],
+   "native_moves": [
+    {
+     "name": "Floor type",
+     "does": "The key word lands on the ground beside the action.",
+     "fits": "a hospital triage rule; a polling-station step; a library's quiet zone."
+    },
+    {
+     "name": "Domino stand-up",
+     "does": "The group called sits together and rises one by one from the near end into a painted lane.",
+     "fits": "an exam hall emptying by row; a ferry deck released lane by lane; a classroom drill."
+    },
+    {
+     "name": "Lid off",
+     "does": "A roof flips open on its far hinge, paper side up, and glides away; the camera rises to see the whole inside.",
+     "fits": "a bus at a depot; a lecture hall; a container being packed."
+    },
+    {
+     "name": "Order lighting",
+     "does": "Places light up one by one in the order they will be used, before anyone moves.",
+     "fits": "seat assignments; a parking plan; a vaccination queue by number."
+    },
+    {
+     "name": "Order arrows",
+     "does": "A flat accent arrow grows ahead of the walkers and branches where each one turns.",
+     "fits": "escalator lanes; recycling bins by type; a one-way museum route."
+    },
+    {
+     "name": "Weave fill",
+     "does": "Places fill in a pattern (every other, window first) so the room becomes a woven grid in four colours.",
+     "fits": "a stadium by sections; a cinema with assigned seats; a car park by level."
+    },
+    {
+     "name": "Bars on the ground",
+     "does": "Two quantities painted as strips on the floor in proportion, the difference marked by a dashed bracket after a still hold.",
+     "fits": "two queue times; two routes' lengths; before and after a change."
+    },
+    {
+     "name": "People as the sample",
+     "does": "The people of a study stand on the ground in the shape of the thing they tested.",
+     "fits": "a 72-person boarding test; a class of 30 in their desk plan; a jury in their box."
+    },
+    {
+     "name": "Stand here",
+     "does": "An accent outline or a lit stretch of floor marks the spot that matters.",
+     "fits": "where to wait for a lift; the jammed stretch of an aisle; the right queue at a counter."
+    }
+   ]
+  },
+  "score": {
+   "genre": "minimal-pulse",
+   "lead": "marimba",
+   "sparkle": "glockenspiel",
+   "note": "picture-book mallets, one sparkle per landed word",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "marimba",
+      "gm": 12
+     },
+     "pad": {
+      "voice": "marimba",
+      "gm": 12
+     },
+     "pulse": {
+      "voice": "glockenspiel",
+      "gm": 9
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

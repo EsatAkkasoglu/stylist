@@ -1,0 +1,180 @@
+{
+ "slug": "flow-field",
+ "num": "75",
+ "en": "Flow-field Wind Lines",
+ "cn": "流场风线",
+ "category_en": "Light & Lines",
+ "category_cn": "发光线条",
+ "film": "Typhoon Yagi over Qiongzhou",
+ "film_cn": "摩羯过琼州",
+ "line": "Thousands of ink wind lines, computed from the best track, draw Super Typhoon Yagi: the eye opening over the South China Sea, the landfall on Hainan, the spiral coming apart in Vietnam, and a whole week folded into one last line.",
+ "line_cn": "几千条从最佳路径算出来的墨色风线，画出超强台风摩羯的一生：在南海睁开风眼，在文昌登陆，在越南散开，一整周最后收成一条线。",
+ "uses": [
+  "Storms, monsoons and other weather",
+  "Ocean currents and river floods",
+  "Any flow measured against a threshold"
+ ],
+ "frame_sec": 24.9,
+ "dur": 52.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "flow-field",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Akış Alanı Rüzgâr Çizgileri",
+ "category_tr": "Işık & Çizgi",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "IMPACT/HIT",
+    "query": "boom"
+   },
+   {
+    "role": "WHOOSH/SWISH",
+    "query": "whooshes"
+   },
+   {
+    "role": "AMBIENCE",
+    "query": "wind"
+   }
+  ],
+  "motion": {
+   "cuts": "continuous, slow builds",
+   "rig": "calm",
+   "move_frames": [
+    12,
+    20
+   ],
+   "ease": "softLand",
+   "reveal": "draw",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "drone-sparse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "High oblique push over a calm field",
+     "expresses": "scale, the quiet before",
+     "serves": "an opening; a season; a baseline"
+    },
+    {
+     "move": "Orbit round a centre while descending",
+     "expresses": "something organising itself",
+     "serves": "a vortex forming; a crowd gathering; a whirlpool"
+    },
+    {
+     "move": "Pull-up to the whole map, north up",
+     "expresses": "the path, the context",
+     "serves": "a track; a route; a spread"
+    },
+    {
+     "move": "Near-nadir lock with creep",
+     "expresses": "reading, judging",
+     "serves": "a legend; a comparison; a threshold"
+    },
+    {
+     "move": "Dive to a grazing pass over the surface",
+     "expresses": "force, contact",
+     "serves": "a landfall; a breach; a current hitting a pier"
+    },
+    {
+     "move": "Top-down follow of the moving feature",
+     "expresses": "travel, squeeze",
+     "serves": "a strait; a pass; a bottleneck"
+    },
+    {
+     "move": "Long pull-back with a hold",
+     "expresses": "aftermath, the whole story",
+     "serves": "an ending; a summary; a record"
+    }
+   ],
+   "transitions": [
+    "Transitions are camera moves only: blended shot functions, no cuts to black, no dissolves between places, no page turns."
+   ],
+   "labels": [
+    "Roles: a CJK serif for names and headings (e.g. Noto Serif SC, 600–700); a book serif with a true italic for English and water names (e.g. Newsreader); a monospace for readings, dates and units (e.g. IBM Plex Mono Medium). All OFL, self-hosted, CJK subset to the characters used.",
+    "Text lives in the world: names of seas and regions are printed on the ground plane (italic, letter-spaced); places are pinned with a small ring and a label; readings sit at the end of a leader from the thing measured; legends, curves and the title block are printed cartouches (paper fill, double rule).",
+    "Bilingual: one language per line, Chinese above English. Chinese printed on screen is at least 34 px at 1080p, Latin at least 20 px; printed text is sized in world units for the shot where it is read. A crowded table loses a column before its type shrinks.",
+    "Subtitles (when there is narration) are printed at the foot of the chart on a soft paper wash, an elliptical fade rather than a box, no outline or shadow: Chinese (CJK serif 600, ~38 px) over English (book italic, ~29 px), centred. Compose every shot so cartouches, readings and labels end above ~900 px and the wash never covers the subject."
+   ],
+   "motion": [
+    "30 fps on ones. Lines never pop, flicker or reorder: every change is continuous in time (field, level weights, fades, the camera).",
+    "Strokes run at 60–300 px/s; compress the speed so the fastest stroke moves less than its own length per frame.",
+    "Time in the story may run at any rate but never backwards, and is mapped through a monotone curve (no kinks).",
+    "Readings roll through real records and land with a sound; legends print row by row; tracks draw on with beads."
+   ],
+   "native_moves": [
+    {
+     "name": "The field organises",
+     "does": "A centre spins up; lines tighten into a spiral and, as the magnitude crosses a threshold, an empty core opens.",
+     "fits": "a whirlpool at a bridge pier; a crowd circling a plaza; a market panic converging on one stock."
+    },
+    {
+     "name": "The coast twists the lines",
+     "does": "A moving feature meets fixed ground; lines kink at the shore, slow and turn over land, part round high ground.",
+     "fits": "a river in flood meeting a levee; wind round a skyscraper; traffic meeting a closed junction."
+    },
+    {
+     "name": "The ramp crosses a threshold",
+     "does": "Lines change colour exactly where the magnitude enters the next category, and the legend uses the same colours.",
+     "fits": "air-quality bands; speed limits on a road network; heat stress levels."
+    },
+    {
+     "name": "Beads on a track",
+     "does": "A dashed path draws on with one bead per record in the category colour and a date every day.",
+     "fits": "a migrating bird; a drifting buoy; a ship's voyage."
+    },
+    {
+     "name": "The printed verdict",
+     "does": "A cartouche prints row by row, everything holds, then a pointer climbs and stops on a row that inks in.",
+     "fits": "a building code against measured load; a forecast against what happened; a rating scale."
+    },
+    {
+     "name": "The grazing pass",
+     "does": "The camera skims the surface and the strongest lines stream past in the foreground.",
+     "fits": "a tidal race; a ski slope's wind; a jet stream crossing an ocean."
+    },
+    {
+     "name": "The field relaxes",
+     "does": "As the driver weakens, spirals open, the core fills, the colour drains back to ink.",
+     "fits": "a storm's decay; a crowd dispersing; a current slackening at the turn of the tide."
+    }
+   ]
+  },
+  "score": {
+   "genre": "drone-sparse",
+   "lead": "harp",
+   "pulse": "marimba",
+   "note": "low sustained strings, a single long harmonic, sparse plucks",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "harp",
+      "gm": 46
+     },
+     "pad": {
+      "voice": "cellos",
+      "gm": 42
+     },
+     "pulse": {
+      "voice": "marimba",
+      "gm": 12
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

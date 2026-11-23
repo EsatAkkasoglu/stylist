@@ -1,0 +1,195 @@
+{
+ "slug": "papercut-red",
+ "num": "24",
+ "en": "Red Paper-cut",
+ "cn": "红色窗花剪纸",
+ "category_en": "Traditional Crafts",
+ "category_cn": "传统工艺",
+ "film": "Nian Comes to Town",
+ "film_cn": "年兽进村",
+ "line": "On New Year's Eve the beast Nian comes to town, and one girl's giant paper-cut lights up the village to scare it off.",
+ "line_cn": "除夕年兽进村，小女孩剪出的大窗花照亮全村，把它吓跑。",
+ "uses": [
+  "Lunar New Year",
+  "Festive greetings",
+  "Folk tales"
+ ],
+ "frame_sec": 35.28,
+ "dur": 49.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "papercut-red",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Kırmızı Kâğıt Kesme",
+ "category_tr": "Geleneksel Sanatlar",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "metallic"
+   },
+   {
+    "role": "WHOOSH/SWISH",
+    "query": "swish"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "thud"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   }
+  ],
+  "motion": {
+   "cuts": "slow, staged, push-through",
+   "rig": "calm",
+   "move_frames": [
+    16,
+    24
+   ],
+   "ease": "softLand",
+   "reveal": "focus",
+   "mblur": true
+  },
+  "three_d": "B",
+  "music": "east-asian",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Extreme close-up tracking the scissor tip",
+     "expresses": "making; attention to craft",
+     "serves": "a beginning of work; a precise act; a signature"
+    },
+    {
+     "move": "Flat front view, locked",
+     "expresses": "the cut-out as an emblem",
+     "serves": "a title; a statement; a family portrait"
+    },
+    {
+     "move": "Slow pan across paper layers (parallax)",
+     "expresses": "a world laid out",
+     "serves": "a village, a route, a timeline"
+    },
+    {
+     "move": "Low wide, a shape standing up from the ground layer",
+     "expresses": "scale, threat",
+     "serves": "a storm; a rival; a deadline arriving"
+    },
+    {
+     "move": "Top-down tabletop",
+     "expresses": "the craft as plot",
+     "serves": "folding, cutting, assembling, sorting"
+    },
+    {
+     "move": "Push toward a lit piece, pull back to many",
+     "expresses": "one act spreading",
+     "serves": "influence; a network lighting up"
+    },
+    {
+     "move": "Page turn / sheet peel",
+     "expresses": "time or place changing",
+     "serves": "day to night; before and after; chapters"
+    },
+    {
+     "move": "Pull back to an object in a room",
+     "expresses": "the film was a thing someone made",
+     "serves": "memory; a gift; a tradition"
+    },
+    {
+     "move": "Rotation around a rosette's centre",
+     "expresses": "order, repetition",
+     "serves": "a cycle; a team"
+    }
+   ],
+   "transitions": [
+    "Transitions are paper actions (fold, page turn, peel, a sheet flying off, a cut through the frame);",
+    "no dissolves."
+   ],
+   "labels": [
+    "Subtitles are a paper strip in the world, e.g. a red banner (横批) darker than the picture's reds so cream text holds, serrated edges, swallow-tail ends; a sturdy OFL serif (e.g. Fraunces SemiBold) around 44 px, low, with a paper shadow. It drops in on two 12 fps steps, like a couplet being pasted. Hold ≥ max(1.8 s, speech + 0.7 s); never overlap.",
+    "Titles are cut-out letters (yang-cut, counters are real holes) popping in letter by letter on 12 fps steps, with sawtooth border strips and a seal cut by code.",
+    "Small credits may be printed ink on paper."
+   ],
+   "motion": [
+    "Characters step at 12 fps (pose sampled at floor(t·12)/12); camera, light, weather, flames and flying pieces move on ones at 24 fps.",
+    "Rigs pin pieces at rivets (neck, shoulders, elbows, hips, knees, jaws, tails). Hard poses, tiny eases, 1-frame overshoots (\"pop\" = 1.15× for one step). Weight comes from size and camera shake.",
+    "In profile, a raised near arm crosses the face: keep hands forward of the face or let a prop cover them.",
+    "Folding: the flap is split into ~16 strips; each is compressed by cosθ and enlarged along the fold by 1 + 0.28·height (fake perspective), darkened as it stands up, in a lighter back colour past 90°, with a growing shadow and a crease after. About half a second per fold, each on a hit."
+   ],
+   "native_moves": [
+    {
+     "name": "Fold – cut – unfold",
+     "does": "Fold a sheet 2/4/8 times; one cut becomes many. Put the unfold on a strong beat.",
+     "fits": "one teacher, many students; a single design mass-produced; one seed becoming a field."
+    },
+    {
+     "name": "Holes are light",
+     "does": "A cut-out lit from behind glows deep red, every hole glows, and the pattern is projected onto the world.",
+     "fits": "an idea shining through a person; a lighthouse; a window at night in a story about home."
+    },
+    {
+     "name": "Symmetry replicates",
+     "does": "A mirrored motif peels off and multiplies (rosette → window flowers → fireworks).",
+     "fits": "a franchise; cell division; a song spreading through a crowd."
+    },
+    {
+     "name": "Scraps have a future",
+     "does": "The bits that fall while cutting come back later (as snow, confetti, stars).",
+     "fits": "recycling; leftover time; small failures that add up."
+    },
+    {
+     "name": "Everything is one flat sheet",
+     "does": "Things share the same cuts, so a ridge can stand up and be a creature, or a wave become a road.",
+     "fits": "a landscape that becomes a map; a factory that turns out to be one machine; a zoom out to the made object."
+    },
+    {
+     "name": "Mirrored pair",
+     "does": "Two figures cut from one folded sheet.",
+     "fits": "twins; a partnership; before/after of the same person."
+    }
+   ]
+  },
+  "score": {
+   "genre": "east-asian",
+   "pad": null,
+   "lead": "pluck:pipa",
+   "counter": "erhu",
+   "pulse": "dan_tranh",
+   "drums": "taiko",
+   "avoid": [
+    "piano",
+    "violins",
+    "cellos"
+   ],
+   "note": "bright Chinese chamber ensemble: pipa, zheng, erhu, dizi",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "pluck:pipa",
+      "gm": 107
+     },
+     "counter": {
+      "voice": "erhu",
+      "gm": 110
+     },
+     "pulse": {
+      "voice": "dan_tranh",
+      "gm": 107
+     }
+    },
+    "drums": {
+     "taiko": 116
+    }
+   }
+  }
+ }
+}

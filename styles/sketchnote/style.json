@@ -1,0 +1,188 @@
+{
+ "slug": "sketchnote",
+ "num": "17",
+ "en": "Sketchnote",
+ "cn": "视觉笔记",
+ "category_en": "Sketch & Board",
+ "category_cn": "速写板书",
+ "film": "How Bees Make Honey",
+ "film_cn": "蜜蜂怎样酿蜜",
+ "line": "One bee makes 1/12 of a teaspoon of honey in her life; the pen follows one yellow drop from flower to jar until the whole page is a poster.",
+ "line_cn": "一只蜜蜂一辈子只酿 1/12 茶匙蜜；笔跟着一滴黄从花走到罐子，最后整页成了一张海报。",
+ "uses": [
+  "Lecture notes",
+  "Science explainers",
+  "One-page summaries"
+ ],
+ "frame_sec": 48.7,
+ "dur": 51.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "sketchnote",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Görsel Not",
+ "category_tr": "Eskiz & Tahta",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "FOLEY/PAPER",
+    "query": "scratch"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "tick"
+   },
+   {
+    "role": "WHOOSH/SWISH",
+    "query": "whooshes"
+   }
+  ],
+  "motion": {
+   "cuts": "draw-on, camera reframes",
+   "rig": "editorial",
+   "move_frames": [
+    8,
+    12
+   ],
+   "ease": "softLand",
+   "reveal": "draw",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "minimal-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Ride the pen (centre trails the pen tip slightly)",
+     "expresses": "being there while it is made",
+     "serves": "a long outline; a path; a diagram growing"
+    },
+    {
+     "move": "Slow push while words are written",
+     "expresses": "attention, reading time",
+     "serves": "a definition; a key number"
+    },
+    {
+     "move": "Pan along the page between blocks",
+     "expresses": "the next idea follows from this one",
+     "serves": "a sequence; cause and effect"
+    },
+    {
+     "move": "Whip across empty dots (quintic ease)",
+     "expresses": "a jump in thought, a question",
+     "serves": "a question; a change of topic"
+    },
+    {
+     "move": "Dive (10–15×) into an icon",
+     "expresses": "the detail inside the thing",
+     "serves": "a mechanism; a hidden part; a micro note"
+    },
+    {
+     "move": "Shape match cut (one round shape to another of the same screen size)",
+     "expresses": "this becomes that",
+     "serves": "a transformation; one thing carried elsewhere"
+    },
+    {
+     "move": "Pull back to the whole page",
+     "expresses": "the parts add up",
+     "serves": "a summary; a scale reveal"
+    }
+   ],
+   "transitions": [
+    "Transitions are camera moves over the same page.",
+    "No cuts to other pages, no fades, no page turns."
+   ],
+   "labels": [
+    "Hand lettering only, licence-free and self-hosted: a bold casual hand for titles, banners and keywords (e.g. Kalam Bold, 34–84 px), a thin upright hand for notes (e.g. Patrick Hand, 26–32 px), a hand-written Chinese face for Chinese (e.g. ZCOOL KuaiLe, subset to the characters used). Avoid regular kai or sans faces: next to hand lettering they read as system fonts.",
+    "Hierarchy is part of the page: title on a banner with a yellow swash; keywords bold; notes thin and grey; numbers that matter get a yellow swash or a loop. At most four sizes on a page.",
+    "Each letter has a little tilt and bob (fixed seed), never perfectly aligned.",
+    "Micro notes (≈ 3 px on the page) may live inside an icon, readable only when the camera dives in; on the full page they read as texture."
+   ],
+   "motion": [
+    "24 fps. The camera is smooth on every frame; only the line wobble boils on twos.",
+    "Speed is the pen's speed: outlines in a quarter to half a second per element, words about as fast as a person writes them. Later sections may use several pens at once to build energy, never instant appearance.",
+    "Order inside one element: outline → paper fill → marker → shadow → label.",
+    "Marker bars in charts grow from the base with an ease-out; liquid fills rise from the bottom."
+   ],
+   "native_moves": [
+    {
+     "name": "The page writes itself",
+     "does": "Outline, marker, words, in that order, timed to the voice.",
+     "fits": "a recipe's steps; a meeting's decisions; how a law gets passed."
+    },
+    {
+     "name": "One colour as the thread",
+     "does": "The single accent follows one thing through every block, so the page can be read by colour alone.",
+     "fits": "one euro through a supply chain; one signal through a nervous system; one idea through a book."
+    },
+    {
+     "name": "Shape match cut",
+     "does": "Push into a round shape until it fills a set screen size, cut to another shape of the same size elsewhere on the page, pull back and draw the new context around it.",
+     "fits": "a seed becomes a tree; a coin becomes a bank vault; a cell becomes an organ."
+    },
+    {
+     "name": "Dive into an icon",
+     "does": "A micro note written inside a drawing, readable only at 10× and more.",
+     "fits": "a chip's transistors; the ingredients inside a pill; a clause inside a contract."
+    },
+    {
+     "name": "Ride the pen",
+     "does": "The camera follows the pen tip around an outline while a second pen fills nearby.",
+     "fits": "drawing a route on a map; tracing a timeline; outlining a building plan."
+    },
+    {
+     "name": "The pull-back poster",
+     "does": "The last strokes are made in parallel while the camera pulls back; the final frame is a page you could print.",
+     "fits": "a lecture summary; a product one-pager; a year in review."
+    }
+   ]
+  },
+  "score": {
+   "genre": "minimal-pulse",
+   "pad": "marimba",
+   "lead": "kalimba",
+   "pulse": "violins_pizz",
+   "sparkle": "glockenspiel",
+   "drums": "none",
+   "avoid": [
+    "drum_kit",
+    "supersaw",
+    "pad"
+   ],
+   "note": "small, wooden and plucked; no pads, no drums",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "kalimba",
+      "gm": 108
+     },
+     "pad": {
+      "voice": "marimba",
+      "gm": 12
+     },
+     "pulse": {
+      "voice": "violins_pizz",
+      "gm": 45
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

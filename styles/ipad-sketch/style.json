@@ -1,0 +1,190 @@
+{
+ "slug": "ipad-sketch",
+ "num": "19",
+ "en": "Tablet Sketch Explainer",
+ "cn": "平板速写讲解",
+ "category_en": "Sketch & Board",
+ "category_cn": "速写板书",
+ "film": "From Cherry to Cup",
+ "film_cn": "一杯咖啡，从一颗果子开始",
+ "line": "The coffee in your cup turns into a red cherry, then walks back to the cup: ripening, drying, roasting and grinding, one colour change at a time on a single pencil page.",
+ "line_cn": "杯里的咖啡变成一颗红果子，再一路走回杯子：成熟、晒干、烘焙、磨粉，一张铅笔速写页上一次换一种颜色。",
+ "uses": [
+  "Food & drink explainers",
+  "Craft and how-to",
+  "Lifestyle science"
+ ],
+ "frame_sec": 46.45,
+ "dur": 51.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "ipad-sketch",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Tablet Eskiz Anlatım",
+ "category_tr": "Eskiz & Tahta",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "FOLEY/PAPER",
+    "query": "pencil"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "tick"
+   }
+  ],
+  "motion": {
+   "cuts": "draw-on, camera reframes",
+   "rig": "editorial",
+   "move_frames": [
+    8,
+    12
+   ],
+   "ease": "softLand",
+   "reveal": "draw",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "folk-acoustic",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Extreme push on a line (2.5×)",
+     "expresses": "the material: grain, pressure, a line being made",
+     "serves": "a hook; a detail that needs attention; the first stroke"
+    },
+    {
+     "move": "Pinch out",
+     "expresses": "\"now see what it was\"",
+     "serves": "a reveal; changing scale; closing a section"
+    },
+    {
+     "move": "Two-finger turn",
+     "expresses": "the artist settling into the next drawing",
+     "serves": "a new section; a long curve being drawn"
+    },
+    {
+     "move": "Pan / tilt along the page",
+     "expresses": "moving to the next idea on the same sheet",
+     "serves": "a sequence; a journey; cause → effect"
+    },
+    {
+     "move": "Follow the stylus",
+     "expresses": "being led",
+     "serves": "a branch, a road, a timeline drawn in one stroke"
+    },
+    {
+     "move": "Match cut between a small and a magnified copy of a drawing",
+     "expresses": "zooming in without leaving the page",
+     "serves": "a close look at a process; data inside an object"
+    },
+    {
+     "move": "Punch-in (≈0.15 s) and settle",
+     "expresses": "an event",
+     "serves": "a crack, a click, a threshold"
+    },
+    {
+     "move": "Whole page",
+     "expresses": "the answer",
+     "serves": "an ending; a summary; a map of everything said"
+    }
+   ],
+   "transitions": [
+    "Transitions are made from the medium (a gesture, a colour flood, a match cut);",
+    "no fades, no wipes, no hard cuts except a match cut."
+   ],
+   "labels": [
+    "Lettering on the page is handwriting written stroke by stroke along each glyph's skeleton, then put through the pencil threshold. A casual marker-hand Latin (e.g. Caveat Bold for titles, Medium for notes) and a pen-hand Chinese (e.g. Long Cang) for one short line; all OFL.",
+    "Roles: a title (≈100 canvas px) with a mustard block under one word and a coral underline; chapter capsules (circled number + word on an offset block) when a film has chapters; notes 32–50 px with a short pencil leader to what they name. Chinese on the page ≥ 34 px on screen.",
+    "Notes are placed in the empty space next to their object, never centred stacks, never a header bar.",
+    "Subtitles live outside the canvas, as a small paper chip: a light cream rounded strip over a darker paper block offset down-right (the colour-block grammar), Chinese on top in a readable text face (e.g. LXGW WenKai, 40 px), English below in the handwriting face (40 px), left aligned, one line each. The chip wipes in left to right like a colour block (≈0.2 s), the words fade in after; bottom left by default, bottom right when the subject sits there. Hold ≥ max(1.8 s, speech + 0.6 s)."
+   ],
+   "motion": [
+    "Marks appear at the speed of a sped-up drawing: a long line 0.3–1.4 s (slow only when the camera is close), small strokes 0.03–0.1 s, a block 0.05–0.4 s. One stylus: marks are mostly sequential; the stylus lifts and travels in an arc between them, and leaves the frame in pauses longer than a second.",
+    "24 fps on ones; no boiling, no paper shake. What moves: the camera, the stylus, the mark being made, and anything the story animates in screen space (particles, a colour flood).",
+    "Construction lines come first and fast; outlines next; colour last. A group is drawn white, then coloured as a group."
+   ],
+   "native_moves": [
+    {
+     "name": "Line, then colour",
+     "does": "A group is drawn white; a new \"pencil\" colours it as a pass.",
+     "fits": "a plant part by part; a dish's ingredients; a city block before it is zoned."
+    },
+    {
+     "name": "Re-register a block",
+     "does": "The line stays, the colour block is replaced; record every state on a swatch strip.",
+     "fits": "bread browning in an oven; leaves through autumn; a bruise healing; paint mixing."
+    },
+    {
+     "name": "Holes as layers",
+     "does": "Cut holes in stacked blocks to show a cross-section (shell, white, yolk).",
+     "fits": "a geological core; a cake's layers; an onion; a cable's insulation."
+    },
+    {
+     "name": "Colour flood into the next shape",
+     "does": "Push into a block until it fills the frame, sweep a new colour over it, shrink it into the next object.",
+     "fits": "a snowfield becoming a sheet of paper; a sunset becoming an orange; a stop sign becoming a tomato."
+    },
+    {
+     "name": "Shatter a block",
+     "does": "The colour of an object breaks into hundreds of small offset chips that fly elsewhere, leaving the empty line.",
+     "fits": "a window breaking; seeds scattering; salt dissolving; a budget split into spending."
+    },
+    {
+     "name": "Match cut to the magnified copy",
+     "does": "Push into a small drawing, cut to a large copy elsewhere on the page with the same screen size and angle, then draw the magnifier circle around it.",
+     "fits": "a cell inside a leaf; a gear inside a watch; a word inside a page."
+    },
+    {
+     "name": "Still drawing",
+     "does": "End a section with something unfinished (half a block, a line-only object, construction lines).",
+     "fits": "any explainer that should feel live rather than finished."
+    }
+   ]
+  },
+  "score": {
+   "genre": "folk-acoustic",
+   "pad": "pluck:nylon_guitar",
+   "lead": "vibraphone",
+   "sparkle": "kalimba",
+   "bass": "contrabass_pizz",
+   "drums": "hand",
+   "avoid": [
+    "piano",
+    "violins"
+   ],
+   "note": "warm, small, acoustic: nylon guitar, double bass, soft vibraphone",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "vibraphone",
+      "gm": 11
+     },
+     "pad": {
+      "voice": "pluck:nylon_guitar",
+      "gm": 24
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     },
+     "sparkle": {
+      "voice": "kalimba",
+      "gm": 108
+     }
+    },
+    "drums": {
+     "woodblock": 115
+    }
+   }
+  }
+ }
+}

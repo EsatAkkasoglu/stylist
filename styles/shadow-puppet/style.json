@@ -1,0 +1,205 @@
+{
+ "slug": "shadow-puppet",
+ "num": "22",
+ "en": "Shadow Puppetry",
+ "cn": "皮影戏",
+ "category_en": "Traditional Crafts",
+ "category_cn": "传统工艺",
+ "film": "Hou Yi Shoots the Suns",
+ "film_cn": "后羿射日",
+ "line": "Ten suns scorch the earth until the archer Hou Yi draws his bow, told with leather puppets on a lit screen.",
+ "line_cn": "十日炙烤大地，后羿张弓射日。",
+ "uses": [
+  "Myths & folklore",
+  "Heritage",
+  "Festivals"
+ ],
+ "frame_sec": 21.76,
+ "dur": 54.4,
+ "source": "lemo-opuscar",
+ "lemo_slug": "shadow-puppet",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Gölge Oyunu",
+ "category_tr": "Geleneksel Sanatlar",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "IMPACT/HIT",
+    "query": "hit"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "rustle"
+   },
+   {
+    "role": "AMBIENCE",
+    "query": "room"
+   }
+  ],
+  "motion": {
+   "cuts": "slow, staged, push-through",
+   "rig": "calm",
+   "move_frames": [
+    16,
+    24
+   ],
+   "ease": "softLand",
+   "reveal": "focus",
+   "mblur": true
+  },
+  "three_d": "B",
+  "music": "east-asian",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Audience seat (whole stage, heads below)",
+     "expresses": "\"This is a show\"",
+     "serves": "a legend; a lesson; a framed memory"
+    },
+    {
+     "move": "Push through the frame onto the cloth",
+     "expresses": "Entering the tale",
+     "serves": "a story within a story; focus"
+    },
+    {
+     "move": "Lateral pan across a wide cloth",
+     "expresses": "Extent, a place laid out",
+     "serves": "a journey; a disaster's reach; a procession"
+    },
+    {
+     "move": "Follow a puppet, slight zoom",
+     "expresses": "Being with one figure",
+     "serves": "a pursuit; a working day"
+    },
+    {
+     "move": "Crash zoom of a few frames on a percussion hit",
+     "expresses": "The drum becomes the camera",
+     "serves": "an entrance; a pose; a reveal"
+    },
+    {
+     "move": "Whip pan along a moving piece",
+     "expresses": "Cause to effect",
+     "serves": "a message sent; a strike"
+    },
+    {
+     "move": "Locked wide",
+     "expresses": "Every step of a change is seen",
+     "serves": "counting; repetition; stages"
+    },
+    {
+     "move": "Medium-close, empty cloth between two pieces",
+     "expresses": "Distance, hesitation",
+     "serves": "a choice; a parting"
+    },
+    {
+     "move": "Close on a carved detail",
+     "expresses": "Craft as meaning",
+     "serves": "a vow; a tool; a clue"
+    },
+    {
+     "move": "Tilt from ground strip to top of cloth",
+     "expresses": "Height, hierarchy",
+     "serves": "a tower; heaven and earth"
+    },
+    {
+     "move": "Truck round to the back (mirror view)",
+     "expresses": "The trick revealed",
+     "serves": "behind the scenes; who pulls the strings"
+    },
+    {
+     "move": "Pull back from cloth into the dark room",
+     "expresses": "The tale becomes an object",
+     "serves": "aftermath; a story ending for the night"
+    }
+   ],
+   "transitions": [
+    "Transitions: lamps dimming, a blurred foreground pillar wipe, a piece lifting off in light, a flash to warm white;",
+    "never a generic crossfade or digital wipe."
+   ],
+   "labels": [
+    "Subtitles belong to the theatre: a storyteller's placard (narrow dark-lacquer board, thin gold line, small carved seal), a label on a rod, or letters carved into hide. Classical OFL serif (e.g. Cormorant Garamond 600), 40–50 px, cream on dark, short slide in. Hold ≥ max(1.8 s, speech + 0.6 s).",
+    "Titles are puppets: dark hide plaques with letters cut out (fillText + destination-out, so words glow), a carved border, carried on rods, pressed on to enter, lifted off to exit."
+   ],
+   "motion": [
+    "24 fps continuous for puppets and camera; only swapped effect pieces (fire, water) step at 12 fps.",
+    "Hand tremor on every puppet (a few px, ~0.02 rad, low-frequency), stronger under tension.",
+    "Body glides with the main rod; legs, plumes, tassels are simulated (damped pendulums / spring chains driven by body acceleration, pre-simulated at a fixed rate for determinism).",
+    "Operatic phrasing: shuffling run → hop → crouch → freeze pose on a percussion accent (~1 s, only loose parts quiver) → head turn."
+   ],
+   "native_moves": [
+    {
+     "name": "The light is the world",
+     "does": "Lamp count drives heat and colour.",
+     "fits": "city lights spreading at night; a fever rising and falling; servers switching on one by one."
+    },
+    {
+     "name": "Off the screen = big and blurry",
+     "does": "A piece pulled toward the lamp grows and blurs.",
+     "fits": "a rumour growing; a memory fading; a deadline pressing onto the cloth and snapping sharp."
+    },
+    {
+     "name": "Go behind the screen",
+     "does": "Lamp, hands, rods.",
+     "fits": "how a product is really made; who controls a market; a teacher revealing the method."
+    },
+    {
+     "name": "Carved and translucent",
+     "does": "Holes glow, overlaps darken, open faces vs solid.",
+     "fits": "an x-ray of a system; good and bad actors in a fable; layers of a city."
+    },
+    {
+     "name": "Hand-held",
+     "does": "Tremor and swinging parts.",
+     "fits": "a nervous interview; a tightrope; a toddler's first steps."
+    },
+    {
+     "name": "Piece swap",
+     "does": "One carved piece on a rod replaced by another.",
+     "fits": "seasons; a machine's states; weather over a harvest."
+    },
+    {
+     "name": "Strip lift-off",
+     "does": "A band of scenery lifted to reveal another.",
+     "fits": "geological layers; before/after a flood; an old town under a new one."
+    }
+   ]
+  },
+  "score": {
+   "genre": "east-asian",
+   "pad": null,
+   "lead": "erhu",
+   "pulse": "pluck:pipa",
+   "drums": "taiko",
+   "avoid": [
+    "piano",
+    "violins",
+    "cellos"
+   ],
+   "note": "percussion first: barrel drum, clapper, gongs; erhu line",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "erhu",
+      "gm": 110
+     },
+     "pulse": {
+      "voice": "pluck:pipa",
+      "gm": 107
+     }
+    },
+    "drums": {
+     "taiko": 116
+    }
+   }
+  }
+ }
+}

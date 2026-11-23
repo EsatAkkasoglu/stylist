@@ -1,0 +1,209 @@
+{
+ "slug": "telestrator",
+ "num": "07",
+ "en": "Sports Telestrator",
+ "cn": "体育战术板",
+ "category_en": "Edit & Documentary",
+ "category_cn": "剪辑纪实",
+ "film": "Freeze Frame",
+ "film_cn": "定格",
+ "line": "Down 3–0 at half-time, Fenerbahçe scored three in 12 minutes: freeze, draw, split screen, shot map.",
+ "line_cn": "半场 0–3，费内巴切 12 分钟连进三球：冻住画面、画线、分屏、射门图。",
+ "uses": [
+  "Sports analysis",
+  "Match recaps",
+  "Coaching"
+ ],
+ "frame_sec": 13.6,
+ "dur": 54.4,
+ "source": "lemo-opuscar",
+ "lemo_slug": "telestrator",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Spor Taktik Tahtası",
+ "category_tr": "Kurgu & Belgesel",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "IMPACT/HIT",
+    "query": "thump"
+   },
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "shutter"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "marker"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "tick"
+   }
+  ],
+  "motion": {
+   "cuts": "camera-led cuts: slide or push-through on motion",
+   "rig": "editorial",
+   "move_frames": [
+    6,
+    10
+   ],
+   "ease": "accelExit",
+   "reveal": "wipe",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "cinematic-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Order inside one piece of action",
+     "expresses": "live at 1× (original sound) → rewind (0.6 s, reversed with tracking bars and ◀◀) → freeze ① → slow play (0.6–0.85×, frame-blended) → freeze ② → slow play with a stopwatch → freeze ③ → ball flight with",
+     "serves": ""
+    },
+    {
+     "move": "Lighter variants for secondary pieces of action, so the deep breakdown stays spe",
+     "expresses": "",
+     "serves": ""
+    },
+    {
+     "move": "Freeze-in-play",
+     "expresses": "no rewind; play at 1× up to the decisive pass, freeze, draw, then play on to the goal.",
+     "serves": ""
+    },
+    {
+     "move": "Dual-angle freeze",
+     "expresses": "both angles play side by side and each arrives at the same instant (each at its own speed) where both freeze together; the same player is ringed in both.",
+     "serves": ""
+    },
+    {
+     "move": "Freeze length 1",
+     "expresses": "8–2.4 s; a freeze longer than ~2.5 s needs a second action inside it. Two to four freezes per piece of action; more than four, split with a replay.",
+     "serves": ""
+    },
+    {
+     "move": "Cuts between segments",
+     "expresses": "only the packaging wipe — a yellow slanted band with dark edges crossing the frame in 0.34 s. Inside a segment, hard cuts. No dissolves, no page turns.",
+     "serves": ""
+    },
+    {
+     "move": "Comparison frames (the shot map, the data card) are fully drawn early and held ≥",
+     "expresses": "5 s before the next cut.",
+     "serves": ""
+    }
+   ],
+   "transitions": [
+    "Cuts between segments: only the packaging wipe — a yellow slanted band with dark edges crossing the frame in 0.34 s.",
+    "Inside a segment, hard cuts.",
+    "No dissolves, no page turns.",
+    "Comparison frames (the shot map, the data card) are fully drawn early and held ≥ 2.5 s before the next cut."
+   ],
+   "labels": [
+    "Labels: Noto Sans SC 900, 40 px (30 px for a name), English line Barlow Condensed 600, 21 px, letter-spacing 2 px, in the role colour.",
+    "Packaging numbers (score, minute, stopwatch, big data): Barlow Condensed 800 Italic.",
+    "Clock / frame numbers: IBM Plex Mono 500, 24 px.",
+    "Board pages: title Noto Sans SC 900 60–64 px, rows Noto Sans SC 700 34–42 px with a grey note under each, numbers Barlow Condensed 800 Italic 64–150 px in yellow; text appears left to right with a clip reveal."
+   ],
+   "motion": [
+    "Freeze entry: white flash 0.1 s (0.55) + punch 1.035 → 1.0 in 0.35 s (ease-out) + desaturate 42 % + a cool cast + heavier vignette; then a slow 1.2 % creep. Overlays use the same transform as the picture, or they slide off the players.",
+    "Spotlight: everything outside a focus ellipse darkens to 0.42 (even-odd hole), 0.3 s fade.",
+    "Marker line: dark outline (w + 6, black 0.55) + coloured core with glow 18 + thin white highlight (w × 0.28); drawn along its length; an arrowhead pops in over the last 10 %; deterministic small wobble at the vertices so it feels hand-drawn. Dashed for intended or future paths (a cross, a run), solid for what happened.",
+    "Ring: perspective ellipse (ry = 0.36 r) under the feet, drawn clockwise, outer dashed ring rotating at 60 px/s; a vertical light beam while the player moves."
+   ],
+   "native_moves": [
+    {
+     "name": "Freeze and draw",
+     "does": "a freeze segment = one source frame + flash + punch + desaturate + spotlight; overlays drawn by progress (overlayAnalysis(), overlayG1() in demo/index.html).",
+     "fits": ""
+    },
+    {
+     "name": "Tracked ring",
+     "does": "hand keyframes of the feet point in source pixels every ~3–6 frames, linearly interpolated (TRK, at()); check them with ?dbg=1, which paints every tracked point in magenta.",
+     "fits": ""
+    },
+    {
+     "name": "Frame-counting stopwatch",
+     "does": "starts at the receiving frame and counts source frames ÷ fps; stops and turns yellow on the strike (stopwatch()).",
+     "fits": ""
+    },
+    {
+     "name": "Score-bar flip on the goal frame",
+     "does": ", one entry per goal (GOALS, scoreAt(), bugScore()).",
+     "fits": ""
+    },
+    {
+     "name": "Packaging over watermarks",
+     "does": "corner bug and score bar positioned from the logo and URL coordinates, drawn from frame 1 (bugTop(), bugScore()).",
+     "fits": ""
+    },
+    {
+     "name": "Dual-angle freeze",
+     "does": "two windows, each its own clip and frame range, both reaching their freeze frame on the same beat; overlays drawn in each window's source coordinates (splitView(), overlayG2()).",
+     "fits": ""
+    },
+    {
+     "name": "Perspective flatten into a shot map",
+     "does": "for each shot, mark 6–8 known pitch points in its own frame (box and six-yard corners, where the penalty arc meets the box line; FIFA dimensions) and fit a ground-plane homography by least squares (demo/tools/homography.py reads tools/pitch.json, writes assets/pitch.json; residuals ≤ 6 px are fine). The strike frame is then drawn as a mesh of triangles in pitch coordinates (1.5 m cells), each vertex moving from its image position to its board position, each triangle affine-mapped (drawTri()); the picture fades out as the chalk board takes over, and the other shots' feet points, converted with their own frames' matrices, drop onto the same board (shotMap()). The broadcaster's URL is painted out of the source frame first, because the flatten drags it into the middle of the screen.",
+     "fits": ""
+    },
+    {
+     "name": "Data card",
+     "does": "the counted numbers re-stated on a board page: label left, big yellow number right, red marker circle on the key one (notes()).",
+     "fits": ""
+    },
+    {
+     "name": "Commentary transcript",
+     "does": "original-language words with timecodes and a translation, in a small box during live play; inaudible words become an ellipsis, never a guess (transcript()).",
+     "fits": ""
+    }
+   ]
+  },
+  "score": {
+   "genre": "cinematic-pulse",
+   "bpm": 120,
+   "lead": "trumpet_stac",
+   "counter": "horn",
+   "sparkle": "glockenspiel",
+   "bass": "electric_bass",
+   "drums": "kit",
+   "note": "sampled band: kit, electric bass, staccato brass, timpani; drums stop on a freeze",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "trumpet_stac",
+      "gm": 56
+     },
+     "counter": {
+      "voice": "horn",
+      "gm": 60
+     },
+     "pad": {
+      "voice": "violins",
+      "gm": 48
+     },
+     "pulse": {
+      "voice": "saw",
+      "gm": 81
+     },
+     "bass": {
+      "voice": "electric_bass",
+      "gm": 33
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

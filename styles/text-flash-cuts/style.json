@@ -1,0 +1,217 @@
+{
+ "slug": "text-flash-cuts",
+ "num": "42",
+ "en": "Text Flash Cuts",
+ "cn": "文字闪切",
+ "category_en": "Graphic & Type",
+ "category_cn": "平面排版",
+ "film": "Behind You",
+ "film_cn": "身后",
+ "line": "A letter, a phone call, a wall of windows, thirteen steps: the girl who told him not to look back is always one step closer, until she turns her head.",
+ "line_cn": "一封信、一通电话、一面窗墙、十三级台阶：叫他别回头的她每一话都更近一步，直到她自己猛地回头。",
+ "uses": [
+  "Suspense & drama trailers",
+  "Title sequences",
+  "Manifesto films"
+ ],
+ "needs": [
+  "image-generation"
+ ],
+ "frame_sec": 38.3,
+ "dur": 46.2,
+ "source": "lemo-opuscar",
+ "lemo_slug": "text-flash-cuts",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Hızlı Metin Kesmeleri",
+ "category_tr": "Grafik & Tipografi",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "bells"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "hit"
+   },
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "metallic"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   }
+  ],
+  "motion": {
+   "cuts": "snap zoom on the beat",
+   "rig": "punchy",
+   "move_frames": [
+    4,
+    8
+   ],
+   "ease": "snapSettle",
+   "reveal": "track",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "baroque-motor",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Fast push into a one-point corridor, stairs or street, perfectly symmetric",
+     "expresses": "inevitability, being drawn in",
+     "serves": "a summons; a chase; a countdown"
+    },
+    {
+     "move": "Extreme offset: subject at one edge, half the frame empty",
+     "expresses": "isolation, something missing",
+     "serves": "a back turned; waiting; absence"
+    },
+    {
+     "move": "Hard push into one element of a grid (a locker, a window)",
+     "expresses": "this one, out of many",
+     "serves": "a choice; a clue; a name on a list"
+    },
+    {
+     "move": "Lateral track along an orthogonal wall",
+     "expresses": "searching, passing time",
+     "serves": "a corridor; a facade; an archive"
+    },
+    {
+     "move": "Beat-locked step push (the camera jumps one step per beat)",
+     "expresses": "effort, climbing",
+     "serves": "ascent; levels; progress"
+    },
+    {
+     "move": "Low angle from below a figure at the top of a space",
+     "expresses": "power, the end of a path",
+     "serves": "a confrontation; a destination"
+    },
+    {
+     "move": "Insert at 1:1 scale (an eye, a hand, a letter) held under a slow push",
+     "expresses": "intimacy, threat",
+     "serves": "a reveal; a touch; a message"
+    },
+    {
+     "move": "Multi-panel grid of one face cropped many ways",
+     "expresses": "obsession, surveillance",
+     "serves": "a stalker; a crowd of selves; memory"
+    },
+    {
+     "move": "Split frame: picture on one side, a speaker's rail on the other",
+     "expresses": "dialogue without lips",
+     "serves": "a phone call; an interrogation; a confession"
+    }
+   ],
+   "transitions": [
+    "Cut on beats.",
+    "Transitions are cuts, 1–6 frames of inversion, a one-point tunnel rush, or a red slit opening on black.",
+    "Never dissolves, wipes or page turns, and never a fully black frame between shots (use the slit)."
+   ],
+   "labels": [
+    "Cards and titles: Noto Serif SC 900 (heavy Mincho feel, OFL). Single glyphs 700–1100 px, allowed to bleed off the frame on flash cards; dialogue columns 120–170 px, never bleeding.",
+    "Small vertical notes (episode numbers, speaker tags, counters): Noto Sans SC 900, 40–64 px.",
+    "English: one line of Cormorant Garamond Italic 600, about a quarter of the Chinese size, grey on black or white, black on red.",
+    "Vertical punctuation: 。and ，move to the top right of their cell; ？stays upright."
+   ],
+   "motion": [
+    "Editing is the animation: flash cards 2–9 frames at 30 fps; architecture shots 0.3–1.6 s; nothing static for more than a second. Lock cuts to a beat grid (150 BPM = 12 frames a beat works well at 30 fps; 8th = 6 frames, 16th = 3 frames).",
+    "Card slam: frame 0 at 1.08×, frame 1 at 1.02×, then 1.0; jitter 10–14 px on the first two frames, 1–3 px after (whole-pixel random per frame, no motion blur).",
+    "Rails slam in from the frame edge in 3 frames and are counted as on screen only when complete.",
+    "Characters move by layers and steps, not tweens: a head layer rotated about the neck, a figure that jumps closer once per beat, a silhouette that bobs once per step."
+   ],
+   "native_moves": [
+    {
+     "name": "Flash card",
+     "does": "(shotCard): a solid field, one giant glyph (bleed allowed), slam + jitter, 2–9 frames; cards alternate with 3–6-frame picture cuts in a \"type–image–type\" saw-tooth.",
+     "fits": "a countdown; a list of demands; a word that interrupts."
+    },
+    {
+     "name": "Speaker rail",
+     "does": "(rail): a full-height column at the left or right edge in the speaker's colour, vertical type plus one English line and a one-glyph speaker tag; the picture beside it keeps cutting while the line holds.",
+     "fits": "a phone call; a confession; a two-hander argument."
+    },
+    {
+     "name": "Chapter card",
+     "does": "(shotChapter): one enormous glyph, a vertical episode number, an English line, a colour bar cutting in; four layouts so no two chapters look alike.",
+     "fits": "a series trailer; a manifesto in parts; a product in four promises."
+    },
+    {
+     "name": "The head tilt",
+     "does": "(shotTurn): the character art split into head and body layers (head polygon + neck pivot + a black collar patch that hides the seam). Back-turned (head −35°) → 60 ms wind-up → 120 ms whip to +0.1 rad with overshoot → 0.1·e^(−9t)·cos(26t) settle. The whip happens in full silhouette with three ghost heads; the frame it settles cuts hard to colour with 2 frames of red-black inversion.",
+     "fits": "a reveal; a challenge; a brand mascot's \"look\"."
+    },
+    {
+     "name": "Symbolic architecture",
+     "does": "geometric stairs (treads scaled by r^k, red light climbing the risers), window tunnel (nested rectangles k = 1/(z·0.32+0.08)), one-point street with lamps scaled by depth, locker wall, window wall.",
+     "fits": "a school; an office tower; a city at night."
+    },
+    {
+     "name": "Stepping approach",
+     "does": "a figure that is redrawn larger once per beat, never tweened.",
+     "fits": "a deadline; a rival; an incoming storm."
+    },
+    {
+     "name": "Fragment insert",
+     "does": "eye, hand, mouth corner or object at frame-filling scale for 6–24 frames, slammed and jittered. A reflection drawn into the iris ties two characters together.",
+     "fits": "a clue; a touch; a lie."
+    },
+    {
+     "name": "Multi-panel faces",
+     "does": "one portrait cropped nine ways in a 3×3 grid (full, eye, mouth, upside down, silhouette), appearing on 16ths, then all heads tilt together with staggered springs.",
+     "fits": "surveillance; a split personality; many fans."
+    },
+    {
+     "name": "Count-up acceleration",
+     "does": "numerals as flash cards alternating with ever-shorter architecture shots.",
+     "fits": "a launch; floors of a building; days until."
+    },
+    {
+     "name": "Object on a solid field",
+     "does": "a key, a cracked watch, a ticket, drawn flat in red, black and white.",
+     "fits": "a product; a clue; a keepsake."
+    }
+   ]
+  },
+  "score": {
+   "genre": "baroque-motor",
+   "lead": "glockenspiel",
+   "counter": "trombone",
+   "drums": "orch",
+   "note": "harpsichord ostinato in 16ths, pizzicato low strings, woodblock clock, lullaby glockenspiel",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "glockenspiel",
+      "gm": 9
+     },
+     "counter": {
+      "voice": "trombone",
+      "gm": 57
+     },
+     "pad": {
+      "voice": "harpsichord",
+      "gm": 6
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     }
+    },
+    "drums": {
+     "timpani": 47
+    }
+   }
+  }
+ }
+}

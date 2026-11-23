@@ -1,0 +1,202 @@
+{
+ "slug": "hardcore-info",
+ "num": "47",
+ "en": "Line-Art Cutaway",
+ "cn": "线稿剖面图解",
+ "category_en": "Line Diagrams",
+ "category_cn": "线稿图解",
+ "film": "Where Is Your Phone's Antenna?",
+ "film_cn": "你手机的天线在哪",
+ "line": "A phone loses signal when held by the corner; taken apart, its metal frame turns out to be the antenna, cut into pieces your hand can bridge.",
+ "line_cn": "一部手机握住底角就掉信号；拆开才发现金属边框就是天线，被切成几段，手一握就把缝连上了。",
+ "uses": [
+  "Hardware explainers",
+  "Product engineering",
+  "Science education"
+ ],
+ "frame_sec": 14.5,
+ "dur": 52.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "hardcore-info",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Çizgi Kesit Görünüş",
+ "category_tr": "Çizgi Diyagramlar",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "UI/CLICK",
+    "query": "tick"
+   },
+   {
+    "role": "DESIGNED/RISER",
+    "query": "swells"
+   },
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "mechanics"
+   },
+   {
+    "role": "WHOOSH/SWISH",
+    "query": "whooshes"
+   }
+  ],
+  "motion": {
+   "cuts": "continuous camera over one sheet",
+   "rig": "calm",
+   "move_frames": [
+    10,
+    14
+   ],
+   "ease": "softLand",
+   "reveal": "draw",
+   "mblur": true
+  },
+  "three_d": "A",
+  "music": "minimal-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Section sweep reveal",
+     "expresses": "the object built from a cut",
+     "serves": "an opening; introducing a new part"
+    },
+    {
+     "move": "Slow push to a detail",
+     "expresses": "attention, a symptom",
+     "serves": "where something goes wrong; the one part that matters"
+    },
+    {
+     "move": "Orbit under or around",
+     "expresses": "the hidden side",
+     "serves": "revealing what the path ends in"
+    },
+    {
+     "move": "Tip-over plus crane up while layers lift",
+     "expresses": "the whole, its order",
+     "serves": "explaining an inside; a structure overview"
+    },
+    {
+     "move": "Tracking the accent's head",
+     "expresses": "following a process",
+     "serves": "a signal, a current, a flow"
+    },
+    {
+     "move": "Dive into a gap until a material fills the frame",
+     "expresses": "scale change, \"inside\"",
+     "serves": "a slit, a vent, a seam, a channel"
+    },
+    {
+     "move": "Locked top-down with a magnifier inset",
+     "expresses": "measuring, comparing",
+     "serves": "dimensions, counts, a cross-section"
+    },
+    {
+     "move": "Pull back with a slow orbit",
+     "expresses": "the conclusion",
+     "serves": "a last statement; an end card"
+    }
+   ],
+   "transitions": [
+    "When a cut is needed, it happens through a shape: push into a part until its material fills the frame, then open a circle at the same point in the next shot;",
+    "Cuts and transitions fall between narration sentences or on a natural pause, never in the middle of a word.",
+    "No fades, no wipes from outside the medium, no hard cuts between unrelated angles."
+   ],
+   "labels": [
+    "Two families, both licence-free: a technical grotesque for names and titles (IBM Plex Sans SemiBold in our demo, uppercase names with +1.4 px tracking) and its monospaced sibling for specs, units and footnotes (IBM Plex Mono). Chinese in a matching sans (Noto Sans SC), on screen at ≥ 34 px.",
+    "Roles: titles 54–64 px with one accent word; part names 21 px; spec lines 15 px mono; footnotes 12 px mono with wide tracking; data labels on rulers 20–26 px mono.",
+    "Label anatomy: anchor dot on the part → a straight leader → the name → at most one spec line in mono (drop the spec when the label cannot stay long enough to read it). A label appears only when its part is the subject and wipes out before the camera leaves it.",
+    "Appearance: text only ever writes on left to right and wipes off left to right, like a plotter. No fades, no bounces, no shadows or outlines on type."
+   ],
+   "motion": [
+    "24 fps on ones, everything deterministic. The camera and parts move smoothly; nothing boils.",
+    "Explosion: layers lift one by one on the beat, fast start and a long settle with a tiny overshoot (about 2.5 %); assembly guides (dashed grey lines) grow while they lift. Closing reverses it, bottom first, each layer landing with a small click.",
+    "The accent travels along the path at a steady speed, with a slightly lighter head, then floods the end part outward from its feed point; turning it off drains it back the same way.",
+    "Labels and dimension lines draw in over 0.3–0.6 s; dimension lines grow from their middle, then arrowheads land, then the number."
+   ],
+   "native_moves": [
+    {
+     "name": "Section sweep",
+     "does": "A clipping plane travels along the object, the cut face hatched, while the camera turns it in.",
+     "fits": "revealing an engine block; showing the layers of a road; opening a heart valve model."
+    },
+    {
+     "name": "Lift on the beat",
+     "does": "Layers separate one per eighth note with growing dashed guides, labels landing as each settles.",
+     "fits": "a laptop's internals; the strata of a glacier core; a building's floors."
+    },
+    {
+     "name": "The one-colour path",
+     "does": "A pulse at the source, the accent travels along the real route and floods its end; later it can drain and relight elsewhere.",
+     "fits": "power from a socket to a motor; air through a heat pump; a nerve signal to a muscle."
+    },
+    {
+     "name": "Dive through a gap",
+     "does": "The camera pushes into a slit or vent until the hatched material fills the frame, then a circle opens into the next view.",
+     "fits": "the grille of a speaker; a crack in a dam; the gap of a disk brake."
+    },
+    {
+     "name": "Magnifier cross-section",
+     "does": "A circle inset re-renders the same model from a new camera with a cut through it, linked to its spot by a dashed line.",
+     "fits": "a weld seam; the layers of a solar cell; the gasket in a tap."
+    },
+    {
+     "name": "Ruler at model scale",
+     "does": "A measurement (a wavelength, a tolerance, a speed per second) is drawn as a ruler projected in the model's own millimetres beside the part, so the comparison is literal.",
+     "fits": "a raindrop against a sensor pixel; tyre tread against a legal minimum; a cable bend radius."
+    },
+    {
+     "name": "Title block",
+     "does": "An engineering drawing's title block, ruled cell by cell, carries the title and credits.",
+     "fits": "an end card; a chapter card; a spec summary."
+    }
+   ]
+  },
+  "score": {
+   "genre": "minimal-pulse",
+   "pad": "harp",
+   "lead": "vibraphone",
+   "sparkle": "glockenspiel",
+   "bass": "jazz_bass",
+   "drums": "none",
+   "avoid": [
+    "drum_kit",
+    "violins"
+   ],
+   "note": "tuned mallets and plucks, never orchestral swells or drums",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "vibraphone",
+      "gm": 11
+     },
+     "pad": {
+      "voice": "harp",
+      "gm": 46
+     },
+     "pulse": {
+      "voice": "glockenspiel",
+      "gm": 9
+     },
+     "bass": {
+      "voice": "jazz_bass",
+      "gm": 32
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

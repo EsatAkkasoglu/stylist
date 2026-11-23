@@ -1,0 +1,182 @@
+{
+ "slug": "archive-lighttable",
+ "num": "90",
+ "en": "Archive Light Table",
+ "cn": "档案看片台",
+ "aka": [
+  "档案灯台"
+ ],
+ "category_en": "Instruments & Evidence",
+ "category_cn": "仪器实证",
+ "film": "Two Seconds Short",
+ "film_cn": "差两秒",
+ "line": "The telegram said 57 seconds; under a loupe, the Wrights' glass negatives and the archive say 59.",
+ "line_cn": "电报说最长飞了 57 秒；放大镜下，莱特兄弟的底片和档案说是 59 秒。",
+ "uses": [
+  "Brand history",
+  "Archive stories",
+  "Museums"
+ ],
+ "frame_sec": 22.3,
+ "dur": 40.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "archive-lighttable",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Arşiv Işık Masası",
+ "category_tr": "Cihaz & Kanıt",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "AMBIENCE",
+    "query": "ambience"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "clicks"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   },
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "metal"
+   }
+  ],
+  "motion": {
+   "cuts": "instrument sweeps, slide between readings",
+   "rig": "editorial",
+   "move_frames": [
+    10,
+    16
+   ],
+   "ease": "softLand",
+   "reveal": "wipe",
+   "mblur": true
+  },
+  "three_d": "A",
+  "music": "drone-sparse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "table glide (pan and roll)",
+     "expresses": "surveying; moving to the next piece of evidence",
+     "serves": "a timeline of documents; a product family; an album"
+    },
+    {
+     "move": "loupe landing + push into the lens",
+     "expresses": "choosing one object; \"look closer\"",
+     "serves": "the claim; the key photograph; a signature"
+    },
+    {
+     "move": "inside the lens: tracking along a line",
+     "expresses": "reading",
+     "serves": "a letter, a ledger line, a caption, a spec"
+    },
+    {
+     "move": "photograph space: dolly + parallax",
+     "expresses": "being there",
+     "serves": "the event itself; the founding moment; the place"
+    },
+    {
+     "move": "rise out of the lens",
+     "expresses": "stepping back, the evidence noted",
+     "serves": "a transition; a summary"
+    },
+    {
+     "move": "pull back to the whole table",
+     "expresses": "scale; everything at once",
+     "serves": "an index, a timeline, a closing"
+    }
+   ],
+   "transitions": [
+    "Transitions are made by the loupe (land, push, rise, lift) and the glide;",
+    "no cuts, fades to black or page turns between objects."
+   ],
+   "labels": [
+    "Roles: a monospace for identifiers, dates and readings (e.g. IBM Plex Mono, 17–34 px; readings 74–120 px); a sans for labels in the film's language (e.g. Noto Sans SC or Inter, 21–36 px); a serif only for titles and the one name a photograph carries (60–76 px). OFL, self-hosted, CJK subset when needed.",
+    "Labels attach to objects: an anchor dot and ring, a vertical leader, then the text. A reading sits in a dark caption plate with a small label above and the source (the catalogue number or the original wording) below.",
+    "Subtitles are a caption strip at the bottom centre, on a dark plate with a 3 px signal-coloured edge. If the film is bilingual, the film's language goes on top. Hold ≥ max(1.8 s, speech + 0.6 s).",
+    "Quote the source when you can: a crop of the actual line, or the record's wording in quotation marks, beats a paraphrase."
+   ],
+   "motion": [
+    "24 fps on ones; every camera parameter on smooth monotone curves through keys (no overshoot, no stepping).",
+    "The camera glides across the table, slows to let the loupe land, then pushes. Speed lives in the glides and pushes; holds are for reading.",
+    "The loupe lands with a fast ease-out (≈ 0.4 s), lifts the same way. Lines draw on in 0.3–0.6 s; text wipes in from its leader side; numbers count up and land with the voice.",
+    "What never moves: the archive's own content outside a photograph space, and the table itself."
+   ],
+   "native_moves": [
+    {
+     "name": "Negative to positive under the loupe",
+     "does": "A develop front spreads from the lens centre with a thin warm edge, turning the glass negative into its positive only inside the lens.",
+     "fits": "a founder's portrait plate; a factory on a lantern slide; an X-ray film becoming the product inside."
+    },
+    {
+     "name": "The line lights up",
+     "does": "On paper inside the lens one line of type brightens while the rest dims, an underline draws under it, and one word or number lifts out into a reading card.",
+     "fits": "a ledger entry; a patent claim; the first order on an invoice."
+    },
+    {
+     "name": "Into the photograph",
+     "does": "The lens rim grows past the frame while the view inside widens; the photograph gains layered depth and a subject drifts.",
+     "fits": "the first shop front; a launch day crowd; an expedition camp."
+    },
+    {
+     "name": "Measuring on the photograph",
+     "does": "A ruler laid on the ground plane in perspective, with ticks that crowd toward the horizon and a counter that lands on the recorded figure, marked as a schematic when it is one.",
+     "fits": "a race distance; a bridge span; a building's height."
+    },
+    {
+     "name": "Two records, held side by side",
+     "does": "Two caption cards, each with a crop of its source, held still until both are read before one is struck.",
+     "fits": "a misprinted date; two versions of a founding story; specification against delivery."
+    },
+    {
+     "name": "The table becomes the index",
+     "does": "Pull back to the whole table; each object's tag flies into one list with its identifier and its reading.",
+     "fits": "a company timeline; a collection catalogue; a product family."
+    }
+   ]
+  },
+  "score": {
+   "genre": "drone-sparse",
+   "lead": "piano",
+   "sparkle": "glass",
+   "drums": "none",
+   "avoid": [
+    "drum_kit"
+   ],
+   "note": "restrained: felt piano, a few strings, glass for seeing",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "piano",
+      "gm": 0
+     },
+     "pad": {
+      "voice": "cellos",
+      "gm": 42
+     },
+     "pulse": {
+      "voice": "vibraphone",
+      "gm": 11
+     },
+     "sparkle": {
+      "voice": "glass",
+      "gm": 92
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

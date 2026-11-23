@@ -1,0 +1,194 @@
+{
+ "slug": "watercolor",
+ "num": "10",
+ "en": "Watercolor Brush",
+ "cn": "水彩笔刷",
+ "category_en": "Painting & Illustration",
+ "category_cn": "绘画插画",
+ "film": "Follow the Rain",
+ "film_cn": "跟着雨走",
+ "line": "Follow the rain from Australia's red desert heart to its green coast in one unbroken painted walk.",
+ "line_cn": "跟着降雨从澳洲红色腹地一路画到绿色海岸，一镜到底。",
+ "uses": [
+  "Nature documentary",
+  "Travel",
+  "Science explainers"
+ ],
+ "frame_sec": 68.0,
+ "dur": 113.6,
+ "source": "lemo-opuscar",
+ "lemo_slug": "watercolor",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Suluboya Fırça",
+ "category_tr": "Resim & İllüstrasyon",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "thump"
+   },
+   {
+    "role": "AMBIENCE",
+    "query": "birds"
+   }
+  ],
+  "motion": {
+   "cuts": "slow drift, push-through with a focus pull",
+   "rig": "calm",
+   "move_frames": [
+    14,
+    24
+   ],
+   "ease": "softLand",
+   "reveal": "focus",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "ambient-wonder",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Long lateral dolly over a continuous world",
+     "expresses": "a gradient; a journey; cause and consequence",
+     "serves": "a transect; a route; a timeline"
+    },
+    {
+     "move": "Vertical tilt along one object",
+     "expresses": "scale; measurement",
+     "serves": "a tall tree; a building; a depth"
+    },
+    {
+     "move": "Locked sheet, things painted in",
+     "expresses": "study; attention",
+     "serves": "a specimen plate; a recipe; a diagram"
+    },
+    {
+     "move": "Slow push into a detail",
+     "expresses": "the observer leaning in",
+     "serves": "a seed; an insect; a hand-written note"
+    },
+    {
+     "move": "Pull-back to a map or diagram",
+     "expresses": "the whole re-framed",
+     "serves": "where it all happened; a system"
+    },
+    {
+     "move": "Mist wash to blank paper",
+     "expresses": "chapter end; time passing",
+     "serves": "a season; forgetting; a new place"
+    },
+    {
+     "move": "Page turn / new sheet slides over",
+     "expresses": "a new entry in the journal",
+     "serves": "a new day; a new species; a new case"
+    },
+    {
+     "move": "Change in time on a locked view",
+     "expresses": "growth; decay; history",
+     "serves": "a season cycle; before/after; deep time"
+    }
+   ],
+   "transitions": [
+    "cutting is rare.",
+    "Transitions: brush-edge wipes, mist, a page turn, or a continuous camera move;",
+    "no hard video cuts, no dissolves between unrelated pictures."
+   ],
+   "labels": [
+    "An elegant serif (e.g. Cormorant Garamond) for titles and subtitles, a handwriting face (e.g. Caveat) for notes, a small mono (e.g. IBM Plex Mono, wide tracking) for measured labels, Noto Serif SC for Chinese (subset to the characters used).",
+    "Hand notes are drawn twice over a paper-coloured halo, revealed left to right like writing, with a pen leader line that grows to its specimen.",
+    "Subtitles sit on the paper, not in a box: centred at the bottom, serif italic ~36 px (2 balanced lines max), a second-language line beneath at ~2/3 size, ink at ~78 % over a paper-coloured halo. Hold ≥ max(1.8 s, speech + 0.6 s).",
+    "Numbers are spelled out in the TTS text and written as digits on screen."
+   ],
+   "motion": [
+    "Painting-in is the main motion: an object's progress is a function of where it sits on screen or of a cue; strokes in a list each take a slice of that progress, so structure appears first.",
+    "Sway only after an object is finished: a small horizontal skew (sin(1.15t+φ) + .4 sin(2.7t+2φ)), ~0.006 for trees, 0.01–0.03 for grass.",
+    "Brush-edge wipes: a wavy vertical clip reveals a whole scene; lines grow by stroke progress; labels open with a left-to-right clip.",
+    "Mist erases: paper-coloured layers with a wavy rising edge."
+   ],
+   "native_moves": [
+    {
+     "name": "Painting-in as reveal",
+     "does": "A new thing appears stroke by stroke as it enters.",
+     "fits": "the stages of a building; the ingredients of a dish; the organs of a body."
+    },
+    {
+     "name": "Burst",
+     "does": "A whole group paints in at once (≤ 1 s) for a peak.",
+     "fits": "a festival crowd; a field in bloom; a city lighting up."
+    },
+    {
+     "name": "Palette as data",
+     "does": "Sky, ground and background blend by a measured value.",
+     "fits": "pollution along a river; temperature by altitude; noise across a city."
+    },
+    {
+     "name": "Specimen + note",
+     "does": "One hero object with a hand-written label and leader line.",
+     "fits": "a tool kit; a wine region's grapes; parts of a bicycle."
+    },
+    {
+     "name": "Mist erase",
+     "does": "The world washes back to paper.",
+     "fits": "forgetting; a dream ending; a site demolished."
+    },
+    {
+     "name": "Map in time",
+     "does": "A painted map whose fills change continuously through years.",
+     "fits": "a language spreading; a coastline eroding; a railway network growing."
+    },
+    {
+     "name": "Painted transformation",
+     "does": "Objects cross-fade to a burnt, wet or aged sprite and regrow.",
+     "fits": "a wildfire and recovery; a flood; a restoration."
+    }
+   ]
+  },
+  "score": {
+   "genre": "ambient-wonder",
+   "lead": "piano",
+   "counter": "flute",
+   "pulse": "pluck:nylon_guitar",
+   "sparkle": "kalimba",
+   "drums": "none",
+   "note": "acoustic and gentle: felt piano, fingerpicked guitar, woodwinds, light strings",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "piano",
+      "gm": 0
+     },
+     "counter": {
+      "voice": "flute",
+      "gm": 73
+     },
+     "pad": {
+      "voice": "violins",
+      "gm": 48
+     },
+     "pulse": {
+      "voice": "pluck:nylon_guitar",
+      "gm": 24
+     },
+     "sparkle": {
+      "voice": "kalimba",
+      "gm": 108
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

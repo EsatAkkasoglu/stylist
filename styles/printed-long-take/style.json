@@ -1,0 +1,196 @@
+{
+ "slug": "printed-long-take",
+ "num": "33",
+ "en": "Scratchboard Long Take",
+ "cn": "刮版画长镜头",
+ "aka": [
+  "Printed Long Take",
+  "印刷长镜头"
+ ],
+ "category_en": "Print & Printmaking",
+ "category_cn": "印刷版画",
+ "film": "Thirty-Three Cranes",
+ "film_cn": "三十三只",
+ "line": "Red-crowned cranes in a Hokkaido valley, one scratchboard take, counted back from 33 to 1,927.",
+ "line_cn": "刮版画的北海道河谷一镜到底，丹顶鹤从 33 只数回到 1,927 只。",
+ "uses": [
+  "Journeys",
+  "Wildlife",
+  "Landscapes"
+ ],
+ "frame_sec": 16.1,
+ "dur": 60.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "printed-long-take",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Kazıma Pano Uzun Plan",
+ "category_tr": "Baskı & Gravür",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "AMBIENCE",
+    "query": "wind"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "thump"
+   }
+  ],
+  "motion": {
+   "cuts": "print-registration jumps with a slide",
+   "rig": "editorial",
+   "move_frames": [
+    10,
+    14
+   ],
+   "ease": "snapSettle",
+   "reveal": "rise",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "ambient-wonder",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "High wide establishing frame, sinking and pushing",
+     "expresses": "the whole place at once; the layers separate as it moves",
+     "serves": "a valley; a coastline; a city seen from its hills"
+    },
+    {
+     "move": "Low glide over water or snow",
+     "expresses": "speed, intimacy with the ground; foreground marks rush past",
+     "serves": "a river journey; a road; a migration"
+    },
+    {
+     "move": "Hold on a prop with words, long lens",
+     "expresses": "reading time inside the take",
+     "serves": "a sign; a plaque; a gauge; a date"
+    },
+    {
+     "move": "Pass through a structure (bridge, gate, arch, tunnel)",
+     "expresses": "a threshold, a change of time or light",
+     "serves": "night to day; outside to inside; then to now"
+    },
+    {
+     "move": "Locked frame",
+     "expresses": "a document, a comparison, a count",
+     "serves": "the same place in four years; before and after"
+    },
+    {
+     "move": "Rise and pull back to the opening angle",
+     "expresses": "the place again, changed",
+     "serves": "a return; a conclusion; an epilogue"
+    },
+    {
+     "move": "Follow a flying or falling subject",
+     "expresses": "the subject leads the camera to the next place",
+     "serves": "birds, a kite, a leaf, a paper plane"
+    }
+   ],
+   "transitions": [
+    "Allowed transitions: through a structure, through steam or snow (under half a second of white paper), a match on a falling or rising subject, a sheet peeled from the corner, a seal.",
+    "Forbidden: fades to black, cross-dissolves, slides, page flips, zoom cuts.",
+    "break a far plane that fills the frame (a sea, a plain) into bands with headlands, islands, boats or tiers of cut density."
+   ],
+   "labels": [
+    "One serif typeface, bold (e.g. Noto Serif SC, OFL), subset to the characters used. Chinese and English each on their own line.",
+    "Type lives in the world: carved into a board, cast on a plate, printed on a pasted notice, or cut as a plate of type into the sky. Words in the world carry only keywords and numbers; no centred title cards, no headers.",
+    "Sizes at 1080p: at most three sizes per frame; nothing smaller than 28 px for Chinese or 22 px for Latin; every word at least 5% inside the frame. Left-aligned blocks, aligned by optical edge.",
+    "Words appear the way the medium makes them: cut left to right with chips at the knife, pressed by a seal, revealed under a peeled sheet."
+   ],
+   "motion": [
+    "Output 30 fps (--fps 30 for video.mjs and mux.sh). The camera and the world move on every output frame. Separately, the print pass steps its paper flicker and blotches at 12 Hz inside the shader (floor(t12)/12), whatever the output rate, so the image breathes like a worn sheet.",
+    "Easing: long monotone curves; the camera keeps momentum through key positions and decelerates into every hold. No bounce, no shake except one frame for an impact.",
+    "Animals are flat silhouettes with three or four poses per action (sleep, wake, call, peck, walk, run, three wing frames, land, leap, bow). Wings cycle on fixed frames; never morph between poses.",
+    "Steam, snow and splashes are paper marks: horizontal cut wisps, square stabs, short arcs."
+   ],
+   "native_moves": [
+    {
+     "name": "The sky carved open",
+     "does": "The sky is cut from the horizon up, one row at a time, the newest row still running across; dawn as a carving, not a gradient.",
+     "fits": "a factory's first shift; the first day after a war; a city's lights coming on in reverse at dawn."
+    },
+    {
+     "name": "One red waking",
+     "does": "In a field of ink and paper, the single red appears point by point (heads lifting, windows lighting, flags raised) across the frame.",
+     "fits": "poppies opening on a hillside; lanterns along a river; the first lit windows of a rebuilt street."
+    },
+    {
+     "name": "Through the steam",
+     "does": "The take passes through a cloud of paper cuts that eats the frame for under half a second; the world on the other side is a different scale or place.",
+     "fits": "a ship into fog and out at a harbour; a train through a tunnel's smoke; a balloon through cloud."
+    },
+    {
+     "name": "The same place printed again",
+     "does": "A locked frame of one place; the top sheet peels from the corner to show the next year's print beneath, with ink that has not quite taken.",
+     "fits": "a coastline retreating; a forest replanted; a village growing into a town."
+    },
+    {
+     "name": "Words cut into the world",
+     "does": "A count or a date carved into a board, cast in a plate or stamped by a seal while the camera holds.",
+     "fits": "a flood mark on a wall; a ship's name on the hull; a record on a mountain hut."
+    },
+    {
+     "name": "A plate of type in the sky",
+     "does": "The title or the sign-off is cut into the sky as an ink block with paper letters, part of the same direction-space sky.",
+     "fits": "a title over a skyline; chapter names over a sea; a dedication over a valley."
+    }
+   ]
+  },
+  "score": {
+   "genre": "ambient-wonder",
+   "pad": "vibraphone_bowed",
+   "lead": "horn",
+   "pulse": "harp",
+   "sparkle": "xylophone",
+   "bass": "contrabass_pizz",
+   "drums": "orch",
+   "avoid": [
+    "supersaw",
+    "pad",
+    "drum_kit"
+   ],
+   "note": "bowed vibraphone, harp, horn, low strings; no synth pads or kits",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "horn",
+      "gm": 60
+     },
+     "pad": {
+      "voice": "vibraphone_bowed",
+      "gm": 11
+     },
+     "pulse": {
+      "voice": "harp",
+      "gm": 46
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     },
+     "sparkle": {
+      "voice": "xylophone",
+      "gm": 13
+     }
+    },
+    "drums": {
+     "timpani": 47
+    }
+   }
+  }
+ }
+}

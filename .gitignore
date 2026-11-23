@@ -1,0 +1,28 @@
+# dependencies and local environments
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# personal / machine-specific config (paths, permissions, keys)
+.mcp.json
+.claude/settings.local.json
+.env
+.env.*
+*.pem
+*.key
+
+# demo films and render output (large, and include personal voice recordings)
+demo/
+out/
+*.mp4
+*.mov
+*.wav
+*.blend
+*.blend1
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

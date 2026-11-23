@@ -1,0 +1,201 @@
+{
+ "slug": "halftone-dossier",
+ "num": "29",
+ "en": "Halftone Dossier",
+ "cn": "网点档案",
+ "aka": [
+  "复古半调案卷"
+ ],
+ "category_en": "Print & Printmaking",
+ "category_cn": "印刷版画",
+ "film": "Case File: Chubby",
+ "film_cn": "胖橘案卷",
+ "line": "A chubby orange cat stands trial for testing gravity and 4 a.m. parkour, and walks free.",
+ "line_cn": "橘猫胖橘被立案审查：测试重力、凌晨跑酷，最后无罪释放。",
+ "uses": [
+  "Humour",
+  "Pet content",
+  "Social shorts"
+ ],
+ "frame_sec": 9.0,
+ "dur": 30.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "halftone-dossier",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Raster Dosya",
+ "category_tr": "Baskı & Gravür",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "bell"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "stamp"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "click"
+   },
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "shutter"
+   }
+  ],
+  "motion": {
+   "cuts": "print-registration jumps with a slide",
+   "rig": "editorial",
+   "move_frames": [
+    10,
+    14
+   ],
+   "ease": "snapSettle",
+   "reveal": "rise",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "future-pop",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Locked frontal with a small beat pulse (~0.6 %)",
+     "expresses": "the page as a poster, grooving",
+     "serves": "a title; a list; an accusation"
+    },
+    {
+     "move": "Slow push-in (1 → 1.05–1.08)",
+     "expresses": "scrutiny, rising tension",
+     "serves": "a profile; a summary before a verdict"
+    },
+    {
+     "move": "Shake with quadratic decay (5–26 px)",
+     "expresses": "impact",
+     "serves": "a stamp; a crash; a landing"
+    },
+    {
+     "move": "Flash frames (white overlay ≤ 0.95 → 0, capped at 0.5 for big hits)",
+     "expresses": "being photographed, a revelation",
+     "serves": "a mugshot; a verdict; evidence found"
+    },
+    {
+     "move": "Pan across a pinned board",
+     "expresses": "connection between exhibits",
+     "serves": "a timeline; suspects; a chain of events"
+    },
+    {
+     "move": "Snap zoom into a halftone detail until dots are huge",
+     "expresses": "\"look closer\"",
+     "serves": "a fingerprint; a signature; a number"
+    },
+    {
+     "move": "Page turn / folder slide",
+     "expresses": "next file, next chapter",
+     "serves": "a second case; a flashback"
+    },
+    {
+     "move": "Pull back to reveal the whole desk",
+     "expresses": "the file is one among many",
+     "serves": "scale; \"this happens every day\""
+    }
+   ],
+   "transitions": [
+    "Transitions: dot wipe or hard cut;",
+    "no dissolves."
+   ],
+   "labels": [
+    "Headlines: a black-weight serif (e.g. Noto Serif SC 900 for CJK; a black slab for Latin), 100–230 px, left-aligned near the margin, with a misregistration shadow (+8/+8 px in the overprint ink, multiplied).",
+    "Display / numerals: a fat rounded display face (e.g. Bagel Fat One) for names, big numbers, times.",
+    "Interjections: a playful hand face (e.g. ZCOOL KuaiLe), paper fill with a thick ink stroke and an offset shadow.",
+    "Data / HUD: a heavy monospace (e.g. JetBrains Mono 800) for case numbers, dates, rulers, file names."
+   ],
+   "motion": [
+    "30 fps transforms; line boil at ~10 fps on characters, so the drawing breathes while positions stay smooth.",
+    "Everything enters with overshoot (back ease, 0.3–0.45 s): rising from below the frame or scaling from 0. Nothing fades in.",
+    "Per-character pop for headlines: each glyph drops 30–100 px and squashes in, stagger 0.05–0.08 s (0.02 s for small text).",
+    "Stamp slam: ~0.09 s from ~2.6× to 1× (ease-in), then a small damped bounce; camera shake, flash and stamp sound on the same frame."
+   ],
+   "native_moves": [
+    {
+     "name": "The accusation frame",
+     "does": "A topic becomes \"the case of X\": list its counts.",
+     "fits": "a cognitive bias on trial; a city's traffic problem; a plant that won't stop growing."
+    },
+    {
+     "name": "Numbered exhibits",
+     "does": "Each beat gets a giant halftone numeral behind it.",
+     "fits": "five causes of a blackout; three clauses of a contract; the stages of a recall."
+    },
+    {
+     "name": "The stamp",
+     "does": "A verdict is a physical slam.",
+     "fits": "APPROVED on a grant; EXPIRED on a policy; VERIFIED on a rumour check."
+    },
+    {
+     "name": "The mugshot",
+     "does": "Frontal subject, height chart, name plate, flash.",
+     "fits": "a new species; a product teardown; the \"suspect\" in a bug report."
+    },
+    {
+     "name": "Evidence board",
+     "does": "Exhibits pinned and linked with string, then shaken.",
+     "fits": "a supply chain; a family tree; a heist's timeline."
+    },
+    {
+     "name": "Dot density = emotion",
+     "does": "Dots swell into a halo, crowd the edges for tension, bloom radially for joy.",
+     "fits": "a record broken; a deadline closing in; a reunion."
+    },
+    {
+     "name": "Redaction",
+     "does": "Black bars print over words and lift one by one.",
+     "fits": "a leaked memo; a surprise party plan; spoilers."
+    }
+   ]
+  },
+  "score": {
+   "genre": "future-pop",
+   "pad": "pad",
+   "lead": "marimba",
+   "counter": "violins_pizz",
+   "sparkle": "pluck:music_box",
+   "bass": "synthbass",
+   "drums": "machine",
+   "note": "synth pop-print: marimba-like pluck melody, square bass, snaps for sneaking",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "marimba",
+      "gm": 12
+     },
+     "counter": {
+      "voice": "violins_pizz",
+      "gm": 45
+     },
+     "pad": {
+      "voice": "pad",
+      "gm": 89
+     },
+     "bass": {
+      "voice": "synthbass",
+      "gm": 38
+     },
+     "sparkle": {
+      "voice": "pluck:music_box",
+      "gm": 10
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

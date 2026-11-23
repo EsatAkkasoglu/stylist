@@ -1,0 +1,188 @@
+{
+ "slug": "silhouette-rhythm",
+ "num": "43",
+ "en": "Silhouette Rhythm",
+ "cn": "剪影律动",
+ "category_en": "Graphic & Type",
+ "category_cn": "平面排版",
+ "film": "Half a Beat",
+ "film_cn": "慢半拍",
+ "line": "A flock of flamingos moves on every beat, and one young bird is always half a beat late; the ripples the others left on the water teach it the beat.",
+ "line_cn": "一群踩着拍子的火烈鸟里，只有一只小火烈鸟总慢半拍；鸟群留在水面上的涟漪，教会了它拍子。",
+ "uses": [
+  "Music videos",
+  "Sports and team films",
+  "Nature and festival openers"
+ ],
+ "frame_sec": 37.0,
+ "dur": 49.0,
+ "source": "lemo-opuscar",
+ "lemo_slug": "silhouette-rhythm",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Siluet Ritim",
+ "category_tr": "Grafik & Tipografi",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "FOLEY/MECHANICAL",
+    "query": "metal"
+   },
+   {
+    "role": "AMBIENCE",
+    "query": "wind"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "hit"
+   }
+  ],
+  "motion": {
+   "cuts": "snap zoom on the beat",
+   "rig": "punchy",
+   "move_frames": [
+    4,
+    8
+   ],
+   "ease": "snapSettle",
+   "reveal": "track",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "minimal-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Telephoto, sun filling half the frame",
+     "expresses": "intimacy, a single gesture at its clearest",
+     "serves": "an introduction; a decision; a held breath"
+    },
+    {
+     "move": "Low lateral track at water level",
+     "expresses": "a group moving together, legs and splashes",
+     "serves": "a march; a chase; a procession"
+    },
+    {
+     "move": "Side view, slow pan",
+     "expresses": "a sequence happening in order",
+     "serves": "a cascade; a departure; a relay"
+    },
+    {
+     "move": "Whip pan with directional blur",
+     "expresses": "a sudden change of attention",
+     "serves": "\"meanwhile\"; a reveal of who was left behind"
+    },
+    {
+     "move": "High wide, slow pull back",
+     "expresses": "scale and solitude",
+     "serves": "aftermath; loneliness; a pause with no beat"
+    },
+    {
+     "move": "Locked medium",
+     "expresses": "the beat itself, counted",
+     "serves": "a count-in; a ritual; a joke landing"
+    },
+    {
+     "move": "Orbit inside a freeze",
+     "expresses": "the moment that matters, seen from around it",
+     "serves": "a climax; a record; a memory"
+    }
+   ],
+   "transitions": [
+    "Transitions belong to the medium: a near silhouette walking across the lens (a black wipe), a match cut on the same pose, a whip pan, a cut straight into a freeze.",
+    "No dissolves, no page turns."
+   ],
+   "labels": [
+    "Roles: a heavy condensed sans for the title (120–150 px, e.g. Anton), a condensed sans for small lines (30–40 px, e.g. Barlow Condensed), a bold CJK sans for Chinese (≥ 34 px, e.g. Noto Sans SC). OFL, self-hosted, subset to the characters used.",
+    "Cream on the dark lower water, left-aligned in the lower third, never inside the sun, never centred, no shadow or stroke.",
+    "Type lands on the beat: one word per beat, each landing with a small ripple on the water under it. One word may land late or early on purpose.",
+    "Subtitles, when the film speaks: one line per language on the water at the bottom left, the same cream, clear of the figures; hold ≥ max(1.8 s, speech + 0.6 s)."
+   ],
+   "motion": [
+    "30 fps, everything on ones. Poses snap into place in ~0.13 s with a small overshoot (ease-out-back) and hold until the next beat.",
+    "Feet stay planted in the world while walking or running (two-bone IK); never slide a standing figure.",
+    "Wings, steps and head turns are scheduled on the beat grid: the top of a wingbeat, a footfall, a head flag on the beat; double-time subdivision for running.",
+    "The freeze stops subject time and the shader's noise time together; only the sky phase and the sun height continue. A camera may move inside a frozen moment."
+   ],
+   "native_moves": [
+    {
+     "name": "The beat in unison",
+     "does": "A row or a flock changes pose on the same beat; one member doesn't.",
+     "fits": "a team where one player finds their timing; a choir; a production line with one machine out of step."
+    },
+    {
+     "name": "The cascade",
+     "does": "The same action passes along a line, one figure per beat or half beat (take-off, a jump, a bow).",
+     "fits": "a relay; a domino of decisions; a crowd standing up for an anthem."
+    },
+    {
+     "name": "The beat written on the water",
+     "does": "Footfalls leave ripples evenly spaced in time and space; they light up one per beat.",
+     "fits": "a trail to follow; a training plan; a song's rhythm shown as a path."
+    },
+    {
+     "name": "The freeze with the sky still moving",
+     "does": "Everything stops on the hit, droplets in the air, while the colour keeps sinking; the camera may orbit.",
+     "fits": "a record jump; a goal; a wedding kiss; the last note of a show."
+    },
+    {
+     "name": "The comic freeze",
+     "does": "The same device on a fall or a mistake, with a record stop.",
+     "fits": "a blooper; a failed first attempt; a punchline."
+    },
+    {
+     "name": "The line across the sun",
+     "does": "A row of figures crosses the disc, doubled by its reflection.",
+     "fits": "a caravan; a migration; a team walking out."
+    },
+    {
+     "name": "The black wipe",
+     "does": "A near figure crosses the lens and becomes the cut.",
+     "fits": "a change of place; a jump in time; a reveal."
+    }
+   ]
+  },
+  "score": {
+   "genre": "minimal-pulse",
+   "pad": "marimba",
+   "lead": "kalimba",
+   "sparkle": "glockenspiel",
+   "bass": "contrabass_pizz",
+   "drums": "kit",
+   "note": "tuned wood and metal percussion, plucked bass, a dry kit",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "kalimba",
+      "gm": 108
+     },
+     "pad": {
+      "voice": "marimba",
+      "gm": 12
+     },
+     "pulse": {
+      "voice": "glockenspiel",
+      "gm": 9
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     },
+     "sparkle": {
+      "voice": "glockenspiel",
+      "gm": 9
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

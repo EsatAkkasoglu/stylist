@@ -1,0 +1,187 @@
+{
+ "slug": "one-line",
+ "num": "14",
+ "en": "One-line Drawing",
+ "cn": "一笔画",
+ "category_en": "Sketch & Board",
+ "category_cn": "速写板书",
+ "film": "The Line That Never Lifted",
+ "film_cn": "笔不离纸",
+ "line": "One unbroken line draws a whole life, then the pen passes to a child.",
+ "line_cn": "一根不离纸的线画完一个人的一生，再把笔交给孩子。",
+ "uses": [
+  "Brand stories",
+  "Life milestones",
+  "Minimal ads"
+ ],
+ "frame_sec": 47.2,
+ "dur": 47.5,
+ "source": "lemo-opuscar",
+ "lemo_slug": "one-line",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Tek Çizgi Çizim",
+ "category_tr": "Eskiz & Tahta",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "chime"
+   },
+   {
+    "role": "FOLEY/PAPER",
+    "query": "paper"
+   },
+   {
+    "role": "UI/CLICK",
+    "query": "ticks"
+   },
+   {
+    "role": "DESIGNED/RISER",
+    "query": "swell"
+   }
+  ],
+  "motion": {
+   "cuts": "draw-on, camera reframes",
+   "rig": "editorial",
+   "move_frames": [
+    8,
+    12
+   ],
+   "ease": "softLand",
+   "reveal": "draw",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "ambient-wonder",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Follow the nib (high follow weight)",
+     "expresses": "travel; momentum; a thread of time",
+     "serves": "a journey; a process; a timeline"
+    },
+    {
+     "move": "Composed frame, low follow weight",
+     "expresses": "a scene that must read as a whole",
+     "serves": "a vignette; a joke; a diagram"
+    },
+    {
+     "move": "Macro on the nib",
+     "expresses": "intimacy; the act of making",
+     "serves": "a first touch; a signature; a detail"
+    },
+    {
+     "move": "Hold with a slow push-in",
+     "expresses": "weight; a stop",
+     "serves": "a loss; a doubt; a decision"
+    },
+    {
+     "move": "Mirrored framing",
+     "expresses": "rhyme across time",
+     "serves": "parent and child; before/after"
+    },
+    {
+     "move": "Continuous pull-back",
+     "expresses": "everything was one picture",
+     "serves": "a reveal; a map; a word"
+    },
+    {
+     "move": "Lateral scroll with the line running ahead",
+     "expresses": "a horizon; a graph; a race",
+     "serves": "a stock chart; a heartbeat; a road"
+    },
+    {
+     "move": "Roll with the line",
+     "expresses": "vertigo; play",
+     "serves": "a loop-the-loop; a fall; a dance"
+    }
+   ],
+   "transitions": [
+    "No cuts.",
+    "Transitions are morphs: the last stroke of one image is the first stroke of the next."
+   ],
+   "labels": [
+    "Text is written, like the line: a handwriting face (e.g. Caveat) for subtitles, ink at ~84 %, no box, centred near the bottom, written on left to right (~0.2 s + ~17 ms per character) behind a soft paper-coloured halo so passing lines never cross the letters; fade out ~0.45 s. Hold ≥ max(1.8 s, speech + 0.6 s).",
+    "Titles in a monoline connected script (e.g. Sacramento: itself a one-line drawing), written on in empty paper away from the drawing, gone before the camera moves into them."
+   ],
+   "motion": [
+    "Everything on ones (24 fps): the appeal is the continuous act of drawing; stepping breaks it.",
+    "Timing = chapter windows + curvature: within a window, time per point is weighted by 1 + K·turn (sharp turns get more time, smoothed so speed never jumps). Pin musical beats with marks: by arc-length fraction or by position (\"the second time the pen passes here\"). A stop is two marks at the same place.",
+    "Corners (speed minima at high turn) can be exported to the soundtrack as candidate note onsets.",
+    "Speeds: ~300–700 units/s for travelling lines, ~50–150 for small details. The most important stroke is usually the slowest."
+   ],
+   "native_moves": [
+    {
+     "name": "The pen never lifts",
+     "does": "Anything that is one continuous thing.",
+     "fits": "a river from source to sea; a relay race; a production line."
+    },
+    {
+     "name": "The line is time",
+     "does": "The stroke's character changes with age, mood or strain.",
+     "fits": "a building aging; a runner tiring; a machine wearing out."
+    },
+    {
+     "name": "Transformation",
+     "does": "One image morphs into the next.",
+     "fits": "a seed becoming a tree becoming a table; a sketch becoming a product; a word becoming its object."
+    },
+    {
+     "name": "Stopping is an event",
+     "does": "The nib stops, ink pools, music cuts to silence (1.5–3 s).",
+     "fits": "a power cut; a pause for a minute's silence; a hesitation before a signature."
+    },
+    {
+     "name": "Reverse-designed scale reveal",
+     "does": "Every vignette is secretly part of one big picture seen at the end.",
+     "fits": "a city's landmarks forming its skyline; a company's milestones forming its logo; a recipe's steps forming the dish."
+    },
+    {
+     "name": "Handoff",
+     "does": "The pen passes to another hand (as a shadow) and a new line begins.",
+     "fits": "a teacher and a student; a founder and a successor; one generation to the next."
+    },
+    {
+     "name": "Line as graph",
+     "does": "The line becomes a chart while staying a drawing.",
+     "fits": "a heartbeat; a temperature record; a football match's momentum."
+    }
+   ]
+  },
+  "score": {
+   "genre": "ambient-wonder",
+   "pad": null,
+   "bass": null,
+   "pulse": null,
+   "drums": "none",
+   "lead": {
+    "inst": "cellos",
+    "octave": 4,
+    "min": 0.1
+   },
+   "note": "one solo instrument, one unbroken melodic line",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "cellos",
+      "gm": 42
+     },
+     "sparkle": {
+      "voice": "hand_chimes",
+      "gm": 14
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}

@@ -1,0 +1,193 @@
+{
+ "slug": "chalkboard",
+ "num": "16",
+ "en": "Chalkboard",
+ "cn": "黑板粉笔",
+ "category_en": "Sketch & Board",
+ "category_cn": "速写板书",
+ "film": "The Story of Chinese Characters",
+ "film_cn": "汉字的故事",
+ "line": "Chalk writes a popular claim about two characters, wipes it, and traces 射 back three thousand years.",
+ "line_cn": "粉笔写下网上的说法，再一擦，把「射」写回三千年前。",
+ "uses": [
+  "Word origins",
+  "Myth-busting",
+  "Lessons"
+ ],
+ "frame_sec": 44.2,
+ "dur": 49.3,
+ "source": "lemo-opuscar",
+ "lemo_slug": "chalkboard",
+ "license": "MIT (lemo-opuscar docs), Stylist layer ours",
+ "name_tr": "Kara Tahta Tebeşir",
+ "category_tr": "Eskiz & Tahta",
+ "stylist": {
+  "sfx_families": [
+   {
+    "role": "FOLEY/PAPER",
+    "query": "chalk"
+   },
+   {
+    "role": "IMPACT/HIT",
+    "query": "knock"
+   },
+   {
+    "role": "AMBIENCE",
+    "query": "room"
+   },
+   {
+    "role": "DESIGNED/CHIME",
+    "query": "bell"
+   }
+  ],
+  "motion": {
+   "cuts": "draw-on, camera reframes",
+   "rig": "editorial",
+   "move_frames": [
+    8,
+    12
+   ],
+   "ease": "softLand",
+   "reveal": "draw",
+   "mblur": true
+  },
+  "three_d": "none",
+  "music": "minimal-pulse",
+  "aspects": [
+   "16:9",
+   "9:16",
+   "1:1"
+  ],
+  "hidden": false,
+  "notes": "",
+  "edit": {
+   "camera": [
+    {
+     "move": "Close shot on the writing",
+     "expresses": "attention on how a character or line is built",
+     "serves": "a component; a step of a proof; a spelling"
+    },
+    {
+     "move": "Slow lateral pan along a line",
+     "expresses": "time or sequence",
+     "serves": "a timeline; a derivation; a list of cases"
+    },
+    {
+     "move": "Pull back to a fixed medium frame",
+     "expresses": "the whole question at once",
+     "serves": "a comparison; a claim and its counter-claim"
+    },
+    {
+     "move": "Same frame later",
+     "expresses": "judgement",
+     "serves": "a correction; a before / after"
+    },
+    {
+     "move": "Locked frame while a panel slides",
+     "expresses": "a page turned in the room's own way",
+     "serves": "a new chapter; a hidden board"
+    },
+    {
+     "move": "Whip with motion blur (≤ 0.5 s)",
+     "expresses": "a jump to another part of the wall",
+     "serves": "a change of board"
+    },
+    {
+     "move": "Cut on a line crossing a seam",
+     "expresses": "a connection",
+     "serves": "cause and effect; the same part in two places"
+    },
+    {
+     "move": "Wide shot of the whole wall",
+     "expresses": "summary",
+     "serves": "the map of what was learnt"
+    }
+   ],
+   "transitions": [
+    "text blocks are never cut by the frame edge while they are read;",
+    "Transitions are hard cuts, a sliding panel or a line across a seam;",
+    "no dissolves or page flips."
+   ],
+   "labels": [
+    "Chinese is hand-authored stroke data (centre lines + stroke type per stroke) drawn by the chalk engine, never a font's outline. Every character the topic needs is added to the data and checked against an OFL kai font behind it before shooting (how: §10, New characters).",
+    "English on the board is a single-line OFL handwriting font (EMS family) drawn by the same engine; symbols missing from the font (arrows, plus) are drawn as strokes.",
+    "On the board: keywords only, one line of Chinese, the next line English, a size smaller.",
+    "Sizes at 1080p: big characters 300–450 px; labels ≥ 55 px CJK and ≥ 30 px Latin cap height; small writing gets heavier chalk so no stroke is thinner than 3 px."
+   ],
+   "motion": [
+    "30 fps, continuous (render with --fps 30: core/render/video.mjs defaults to 24).",
+    "Chalk speed, measured on our demo: a big character takes about 0.1 s per stroke including the air between strokes (a ten-stroke character about 1 s), labels about 0.04 s per stroke. Writing speeds up rather than making the voice wait, but a big character written much faster than about 0.07 s per stroke stops looking like a hand.",
+    "When reading time and chalk speed pinch in a short film, change the words, not the hand. Ways that work (choose per film): fewer and shorter blocks on the board; big characters only for what the lesson tracks, everything else at label size; start a block while the voice is still on the previous line, so it is finished when it is named; write the next block while the last one is still being read in the same frame; hold the frame instead of moving on; make the film longer.",
+    "Camera eases in and out (cubic), never bounces except a whip landing."
+   ],
+   "native_moves": [
+    {
+     "name": "Write, wipe, rewrite in place",
+     "does": "The wrong reading is written under its object, wiped with one pass, and the right one written in the same spot from the same camera position.",
+     "fits": "a common misconception in physics; a misremembered date; a sum everybody gets wrong."
+    },
+    {
+     "name": "Tracked component in accent chalk",
+     "does": "One part keeps its colour and its height across several forms.",
+     "fits": "a root through a word family; a variable through an equation's rearrangements; a gene through generations."
+    },
+    {
+     "name": "Sliding panel reveal",
+     "does": "The front panel slides away to show a clean back board, and can slide back to close the lesson.",
+     "fits": "\"but before that…\"; the hidden proof; the answer kept back."
+    },
+    {
+     "name": "A line that sews two boards",
+     "does": "One accent line runs across the seam to join two places.",
+     "fits": "the same constant in two formulas; a quote and its source; cause and effect."
+    },
+    {
+     "name": "Drying wet streak",
+     "does": "The freshly wiped board dries back and reveals what was left untouched.",
+     "fits": "yesterday's question; a note left by a student; a reminder at the corner."
+    },
+    {
+     "name": "Second hand",
+     "does": "A different, childlike chalk colour and hand on the same board.",
+     "fits": "a pupil's question; a visitor's comment; a wrong attempt."
+    },
+    {
+     "name": "Chalk as a measuring tool",
+     "does": "An accent object laid along a white line and ticked off, so a comparison is shown, not told.",
+     "fits": "a unit's origin; a scale; how many of one thing fit another."
+    }
+   ]
+  },
+  "score": {
+   "genre": "minimal-pulse",
+   "pad": "marimba",
+   "lead": "pluck:nylon_guitar",
+   "bass": "contrabass_pizz",
+   "drums": "none",
+   "note": "sparse plucked strings with marimba and pizzicato bass",
+   "render": {
+    "engine": "notes",
+    "space": "hall",
+    "band": {
+     "lead": {
+      "voice": "pluck:nylon_guitar",
+      "gm": 24
+     },
+     "pad": {
+      "voice": "marimba",
+      "gm": 12
+     },
+     "pulse": {
+      "voice": "glockenspiel",
+      "gm": 9
+     },
+     "bass": {
+      "voice": "contrabass_pizz",
+      "gm": 32
+     }
+    },
+    "drums": {}
+   }
+  }
+ }
+}
