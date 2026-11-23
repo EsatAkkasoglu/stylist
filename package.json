@@ -15,7 +15,7 @@
   "private": true,
   "type": "module",
   "devDependencies": {
-    "three": "^0.170.0"
+    "three": "^0.187.0"
   },
   "license": "SEE LICENSE IN LICENSE"
 }
