@@ -32,6 +32,21 @@ def find_blender():
     return None
 
 
+def run_blender(script, *args, show=None, timeout=900):
+    """Run a bpy script headless. The script gets sys.argv[-(len(args)+1)] = this kit folder, then args (resolved paths).
+    show: line prefixes/fragments to print (None = all output). Returns Blender's exit code."""
+    b = find_blender()
+    if not b: sys.exit("Blender not found (set STYLIST_BLENDER)")
+    # clean env: a Python/conda on PATH or PYTHON* variables can hang Blender's bundled Python at start-up (seen on Windows)
+    env = {k: v for k, v in os.environ.items() if not k.upper().startswith(("PYTHON", "CONDA"))}
+    if os.name == "nt": env["PATH"] = os.path.expandvars(r"%SystemRoot%\system32;%SystemRoot%")
+    r = subprocess.run([b, "-b", "--factory-startup", "-P", str(Path(script).resolve()), "--", str(Path(__file__).parent.resolve()),
+                        *[str(Path(a).resolve()) for a in args]], capture_output=True, text=True, env=env, timeout=timeout)
+    out = (r.stdout + r.stderr).splitlines()
+    print("\n".join(l for l in out if show is None or any(k in l for k in show)))
+    return r.returncode
+
+
 # ------------------------------------------------------------------ inside Blender
 def part(obj, name, color):
     obj["part"] = name; obj["color"] = color
@@ -61,12 +76,5 @@ if __name__ == "__main__":
     if "--check" in sys.argv:
         print(b or "Blender not found (set STYLIST_BLENDER)"); sys.exit(0 if b else 2)
     if "--run" in sys.argv:
-        i = sys.argv.index("--run"); script, out = sys.argv[i + 1], sys.argv[i + 2]
-        if not b: sys.exit("Blender not found (set STYLIST_BLENDER)")
-        # clean env: a Python/conda on PATH or PYTHON* variables can hang Blender's bundled Python at start-up (seen on Windows)
-        env = {k: v for k, v in os.environ.items() if not k.upper().startswith(("PYTHON", "CONDA"))}
-        if os.name == "nt": env["PATH"] = os.path.expandvars(r"%SystemRoot%\system32;%SystemRoot%")
-        r = subprocess.run([b, "-b", "--factory-startup", "-P", str(Path(script).resolve()), "--", str(Path(__file__).parent.resolve()), str(Path(out).resolve())],
-                           capture_output=True, text=True, env=env, timeout=600)
-        print("\n".join(l for l in (r.stdout + r.stderr).splitlines() if "exported" in l or "Error" in l or "Traceback" in l or l.startswith("  File")))
-        sys.exit(r.returncode)
+        i = sys.argv.index("--run")
+        sys.exit(run_blender(sys.argv[i + 1], sys.argv[i + 2], show=("exported", "Error", "Traceback", "  File")))

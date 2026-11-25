@@ -39,6 +39,9 @@ assert.ok(quiet.t.includes("no music") && !quiet.t.includes("shamisen\"") , "cus
 assert.ok((await call("build_brief", { request: "neşeli bir film", style: "ukiyoe", mood: "playful" })).t.includes("pluck:shamisen"), "style band in the brief");
 
 assert.ok((await call("get_guide", { topic: "sound" })).t.includes("mean_volume − 15"));
+assert.ok((await call("get_guide", { topic: "blender" })).t.includes("character_check.py") && (await call("get_guide", { topic: "operator" })).t.includes("Gates"));
+assert.ok((await call("get_kit", { file: "blender/character_blockout.py" })).t.includes("def build("), "character proxy in the kit");
+assert.ok((await call("build_brief", { request: "bir robot karakterin hikayesi", style: "comic-teardown" })).t.includes("character_check.py"), "brief routes characters to the Blender guide");
 
 const w = JSON.parse((await call("search_sfx", { role: "WHOOSH/SWISH", limit: 3 })).t);
 assert.ok(w.length >= 1 && w.every(s => s.role === "WHOOSH/SWISH" && existsSync(s.path) && s.level_db_over_music === 4));

@@ -13,7 +13,7 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const STYLES = join(ROOT, "styles");            // our catalog, built by tools/import_styles.py
 const KIT = join(ROOT, "kit");
 const CATALOG = join(ROOT, "sfx_library", "sfx_catalog.json");
-const GUIDES = ["creative", "music", "sound", "motion", "3d"];
+const GUIDES = ["creative", "music", "sound", "motion", "3d", "blender", "operator"];
 const GENRES = ["auto", "none", "cinematic-pulse", "future-pop", "lofi-chill", "synthwave", "ambient-wonder", "chiptune", "jazz-combo", "hot-jazz",
   "minimal-pulse", "folk-acoustic", "chamber-march", "baroque-motor", "east-asian", "drone-sparse", "city-pop", "rock-opening"];   // kit/audio/score.py GENRES
 const MOODS = ["auto", "bright", "playful", "warm", "calm", "wonder", "tense", "dark", "epic"];                                   // kit/audio/score.py MOODS
@@ -138,13 +138,17 @@ STYLE.md wins on the look and the foley materials; its camera grammar runs on th
 0. **Clear the creative bar** (guide "creative"): three concepts, pick the most surprising; hook in frame 1; checks C1–C11 on the contact sheet. A plain literal walkthrough is not acceptable.
 0. **Content first, then the cut**: write the film as numbered beats (one plain voice line + what must be seen + a label each), call \`plan_edit\` with them to get the shot-by-shot edit in this style's own language, and show that table to the user for approval before recording voice or animating.
 0. **Build on the style's own engine**: after TREATMENT.md, \`setup.sh demo <slug>\`, read DEMO.md, copy its engine into the project.
-1. In the one round of questions, if the film needs 3D objects or characters, ask the 3D question from guide "3d" (this style's default: ${meta.stylist?.three_d ?? "none"}).
+1. In the one round of questions, if the film needs 3D objects or characters, ask the 3D question from guide "3d" (this style's default: ${meta.stylist?.three_d ?? "none"}).${/karakter|character|figür|figure|person|kişi|robot|hayvan|animal|maskot|mascot|blender/i.test(request) || (meta.stylist?.three_d && meta.stylist.three_d !== "none")
+  ? `
+   **3D in Blender** (characters or complex props): follow guide "blender": a spec in head heights, a rig-ready proxy from kit \`blender/character_blockout.py\` so animation starts at once, the real model on top (half + Mirror, quads, joint loops, .L/.R rig, IK with poles, Preserve Volume), and kit \`blender/character_check.py\` must PASS and its sheet must be looked at before animating. Measure, never assume.` : ""}
 2. Before the full render: one style frame + a 15–30 s demo, and pass gates G0–G6 (guide "motion", kit \`gates/gates.py\`). Never start a long render untested.
 3. Music first: write the cue as notes (cue.json: the style's band, the topic's mood, sections with an energy arc, a motif and its answer, one silence before the payoff) → kit ${engine} → check it with \`audio/audio_report.py\`; cut the picture on its bar grid.
 4. Sound: voice → word timings (kit \`audio/beats.py\`) → cue sheet → \`search_sfx\` per cue with the style's SFX families → kit \`audio/mix_pro.py\` (music ~10 dB under the voice, ~20 dB under speech; check \`measured\`) → kit \`audio/verify_mix.py\` and \`audio/audio_report.py\` → mux.sh (guides "music", "sound").
 5. Never ask the user for keys to outside 3D or stock sites. Everything is drawn in code.
 
-Call \`get_guide\` with "creative", "music", "sound", "motion" and "3d" (only if needed), and \`get_kit\` for each kit file you use (save it into the project's \`tools/\` folder), before production.`);
+Delivery: never overwrite a delivered file (each fix is a new version next to it); encode with the BT.709 tag; README with the checks that passed and an honest list of weak points (guide "operator" for the full gate routine).
+
+Call \`get_guide\` with "creative", "music", "sound", "motion", and "3d" + "blender" (only if needed), and \`get_kit\` for each kit file you use (save it into the project's \`tools/\` folder), before production.`);
 });
 
 // ---------- plan_edit: the same content steps, edited in each style's own language ----------
@@ -268,14 +272,14 @@ ${JSON.stringify(p.shots, null, 1)}
 
 server.registerTool("get_guide", {
   title: "Production guide",
-  description: "Router rules Claude follows while producing: 'creative' (concepts, hook, checks C1–C11 against simple films), 'music' (genres, energy arc, level against the voice), 'sound' (SFX choice, frame placement, ducking, loudness, checks), 'motion' (cinematic standard: camera rig, motion blur, idle life, depth layers, stagger, kinetic type; easing; gates G0–G6), '3d' (code-only 3D, skeletonless rigs, optional Blender).",
+  description: "Router rules Claude follows while producing: 'creative' (concepts, hook, checks C1–C11 against simple films), 'music' (genres, energy arc, level against the voice), 'sound' (SFX choice, frame placement, ducking, loudness, checks), 'motion' (cinematic standard: camera rig, motion blur, idle life, depth layers, stagger, kinetic type; easing; gates G0–G6), '3d' (code-only 3D, skeletonless rigs, optional Blender), 'blender' (Blender characters and props: spec, proxy, quads, mirror, .L/.R rig with IK, weights, measured checks; previews, render once, versions), 'operator' (run a film from brief to final with free tools: brief rules, music measured first, review gates, notes as tasks, making-of cut).",
   inputSchema: { topic: z.enum(GUIDES) },
   annotations: RO,
 }, async ({ topic }) => text(readFileSync(join(ROOT, "guides", `${topic}.md`), "utf8")));
 
 server.registerTool("get_kit", {
   title: "Production kit code",
-  description: "Ready, tested helper code Claude saves into the user's project and runs there: frame-locked SFX mix with ducking, word beats, mix verification, quality gates G0–G6, camera rig + motion blur + idle + stagger + kinetic type reveals + deterministic easing, skeletonless 3D rigs, optional Blender auto-weights. No file: lists them.",
+  description: "Ready, tested helper code Claude saves into the user's project and runs there: frame-locked SFX mix with ducking, word beats, mix verification, quality gates G0–G6, camera rig + motion blur + idle + stagger + kinetic type reveals + deterministic easing, skeletonless 3D rigs, optional Blender: prop export, rig-ready character proxy (character_blockout.py) and the character checker with a rest/posed sheet (character_check.py). No file: lists them.",
   inputSchema: { file: z.string().optional().describe("path from the list, e.g. 'audio/mix_pro.py'") },
   annotations: RO,
 }, async ({ file }) => {

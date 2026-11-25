@@ -45,6 +45,14 @@ Kullanıcı isteği + stil ──► build_brief ──► kullanıcının Claud
 Gizlemek için `{"stylist": {"hidden": true}}`. **Tamamen kendi stilimiz:** `styles/<yeni-slug>/` altına `STYLE.md` ve
 `"source": "stylist"` içeren bir `style.json` koy; içe aktarma ona dokunmaz, katalogda görünür.
 
+## Skill'ler
+
+`skills/` altında iki Claude skill'i var; ikisi de rehberi MCP'den (`get_guide`) yükler:
+- `stylist-operator`: kısa bir filmi baştan sona yönetir. Brief, önce müzik, ön izleme kapıları ve sürümlü düzeltmeler (yalnızca ücretsiz araçlar).
+- `stylist-character`: yerel Blender'da animasyona hazır karakter: taslak gövde, rig, ölçülü kontrol ve poz sayfası.
+
+Kurmak için klasörü `~/.claude/skills/` altına kopyala.
+
 ## Kurulum ve komutlar
 
 Gerekenler: Node 20+, Python 3.11+ ve [uv](https://docs.astral.sh/uv/), ffmpeg 7+.

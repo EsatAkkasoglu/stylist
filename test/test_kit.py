@@ -74,6 +74,16 @@ assert gates.run(tmp / "bad.mp4", holds=[(3.0, 6.0)], out=tmp / "g3")["G2"]["pas
 assert (tmp / "g2" / "contact_sheet.jpg").exists()
 
 assert blender_autoweight.check() in (0, 2)
+from mesh_export import find_blender
+if find_blender():   # proxy character -> checker must pass (skipped where Blender is missing, e.g. CI)
+    spec = tmp / "spec.json"; spec.write_text(json.dumps({"name": "t", "heads": 5}))
+    kb = ROOT / "kit" / "blender"
+    subprocess.run([sys.executable, str(kb / "character_blockout.py"), str(spec), str(tmp / "t.blend")], check=True, capture_output=True)
+    r = subprocess.run([sys.executable, str(kb / "character_check.py"), str(tmp / "t.blend"), str(tmp / "chk")], capture_output=True, text=True)
+    assert r.returncode == 0 and (tmp / "chk" / "sheet.png").exists(), r.stdout
+    print("ok: character proxy passes character_check")
+else:
+    print("skip: Blender not found, character proxy not tested")
 print("ok: mix_pro, verify_mix, beats, gates, blender check")
 
 # score: every genre renders on the picture's plan, balanced low end, true silence where asked, energy arc audible

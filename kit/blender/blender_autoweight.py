@@ -17,9 +17,11 @@ FIX = """Weights need a hand (Blender, 2 minutes):
 
 
 def check():
-    exe = shutil.which("blender")
+    sys.path.insert(0, __import__("os").path.dirname(__import__("os").path.abspath(__file__)))
+    from mesh_export import find_blender            # PATH, STYLIST_BLENDER, Program Files, Steam libraries
+    exe = find_blender()
     if not exe:
-        print("Blender not found on PATH: use Mode B (skeletonless) instead.")
+        print("Blender not found: use Mode B (skeletonless) instead.")
         return 2
     print(subprocess.run([exe, "--version"], capture_output=True, text=True).stdout.splitlines()[0])
     return 0
